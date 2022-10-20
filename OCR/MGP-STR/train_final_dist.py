@@ -105,8 +105,8 @@ def train(opt):
         optimizer = optim.Adadelta(filtered_parameters, lr=opt.lr, rho=opt.rho, eps=opt.eps)
 
     if opt.scheduler:
-        scheduler = CosineAnnealingLR(optimizer, T_max=int(opt.num_iter))
-        # scheduler = optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer, T_0=1000000)
+        # scheduler = CosineAnnealingLR(optimizer, T_max=int(opt.num_iter))
+        scheduler = optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer, T_0=1000000)
 
     """ final options """
     # print(opt)

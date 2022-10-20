@@ -235,7 +235,7 @@ CUDA_VISIBLE_DEVICES=0 python3 -m torch.distributed.launch --nproc_per_node=1 --
 --valid_data data/evaluation  --select_data MJ-ST  \
 --batch_ratio 0.5-0.5  --Transformer mgp-str \
 --TransformerModel=mgp_str_base_patch4_3_32_128 --imgH 32 --imgW 128 \
---manualSeed=226 --workers=12 --isrand_aug --scheduler --batch_size=96 --rgb \
+--manualSeed=226 --workers=12 --isrand_aug --scheduler --batch_size=100 --rgb \
 --saved_path <path/to/save/dir> --exp_name mgp_str_patch4_3_32_128 --valInterval 5000 --num_iter 2000000 --lr 1
 ```
 
@@ -243,14 +243,14 @@ CUDA_VISIBLE_DEVICES=0 python3 -m torch.distributed.launch --nproc_per_node=1 --
 
 MGP-STR-base on a 2-GPU machine
 
-It is recommended to train larger networks like MGP-STR-Small and MGP-STR-Base on a multi-GPU machine. To keep a fixed batch size at `96`, use the `--batch_size` option. Divide `96` by the number of GPUs. For example, to train MGP-STR-Small on a 2-GPU machine, this would be `--batch_size=48`.
+It is recommended to train larger networks like MGP-STR-Small and MGP-STR-Base on a multi-GPU machine. To keep a fixed batch size at `100`, use the `--batch_size` option. Divide `100` by the number of GPUs. For example, to train MGP-STR-Small on a 2-GPU machine, this would be `--batch_size=50`.
 
 ```
 CUDA_VISIBLE_DEVICES=0,1 python3 -m torch.distributed.launch --nproc_per_node=2 --nnodes=1 --master_port 29501 train_final_dist.py --train_data data/training \
 --valid_data data/evaluation  --select_data MJ-ST  \
 --batch_ratio 0.5-0.5  --Transformer mgp-str \
 --TransformerModel=mgp_str_base_patch4_3_32_128 --imgH 32 --imgW 128 \
---manualSeed=226 --workers=12 --isrand_aug --scheduler --batch_size=48 --rgb \
+--manualSeed=226 --workers=12 --isrand_aug --scheduler --batch_size=50 --rgb \
 --saved_path <path/to/save/dir> --exp_name mgp_str_patch4_3_32_128 --valInterval 5000 --num_iter 2000000 --lr 1
 ```
 
