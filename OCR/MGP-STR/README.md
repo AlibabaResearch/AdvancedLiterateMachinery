@@ -7,7 +7,7 @@ the model in an implicit way. With **NO** independent language model (LM), MGP-S
 
 
 ### Paper
-* [ECCV 2022]
+* [ECCV 2022](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136880336.pdf)
 * [Arxiv](https://arxiv.org/abs/2209.03592)
 
 
