@@ -284,12 +284,7 @@ def validation(model, criterion, evaluation_loader, converter, opt):
                 if out_pred == gt:
                     out_n_correct += 1
 
-                # calculate confidence score (= multiply of pred_max_prob)
-                try:
-                    confidence_score = char_preds_max_prob[index].cumprod(dim=0)[-1]
-                except:
-                    confidence_score = 0  # for empty pred case, when prune after "end of sentence" token ([s])
-                confidence_score_list.append(confidence_score)
+                confidence_score_list.append(char_confidence_score)
 
     char_accuracy = char_n_correct/float(length_of_data) * 100
     bpe_accuracy = bpe_n_correct / float(length_of_data) * 100
