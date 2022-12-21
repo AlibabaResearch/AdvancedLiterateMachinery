@@ -81,7 +81,7 @@ Available model weights:
 
 | Language | Vision  | LevOCR |
 | :---: | :---: | :---: |
-|[Pretrain-language-model](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/v1.0.3-LevOCR-model/pretrain-language-model.pth)|[Pretrain-vision-model](hhttps://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/v1.0.3-LevOCR-model/pretrain-vision-model.pth)|[LevOCR-model](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/v1.0.3-LevOCR-model/levocr_model.pth)|
+|[Pretrain-language-model](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/v1.0.3-LevOCR-model/pretrain-language-model.pth)|[Pretrain-vision-model](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/v1.0.3-LevOCR-model/pretrain-vision-model.pth)|[LevOCR-model](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/v1.0.3-LevOCR-model/levocr_model.pth)|
 
 
 ### Benchmarks (Top 1% accuracy)
