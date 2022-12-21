@@ -77,13 +77,13 @@ class BaseVision(nn.Module):
         super().__init__()
         self.loss_weight = 1.0
         self.out_channels = 512
-        self.max_length = config.batch_max_length + 1
+        self.max_length = config.batch_max_length
         self.charset = CharsetMapper(config.dataset_charset_path, max_length=self.max_length)
 
         self.backbone = ResTranformer()
         
         self.attention = PositionAttention(
-            max_length=config.batch_max_length + 1,  # additional stop token
+            max_length=config.batch_max_length,  # additional stop token
             mode='nearest',
         )
        

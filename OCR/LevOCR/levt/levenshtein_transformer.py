@@ -24,16 +24,13 @@ from levt.levenshtein_utils import (
     _skip_encoder_out,
 )
 from transformers.models.bert.modeling_bert import BertConfig, BertEmbeddings
+from timm.models.layers import trunc_normal_
 
 
 DecoderOut = namedtuple(
     "IterativeRefinementDecoderOut",
     ["output_tokens", "output_scores", "attn", "step", "max_step", "history"],
 )
-
-DEFAULT_MAX_SOURCE_POSITIONS = 1024
-DEFAULT_MAX_TARGET_POSITIONS = 1024
-DEFAULT_MIN_PARAMS_TO_WRAP = int(1e8)
 
 def init_weights(module):
     if isinstance(module, (nn.Linear, nn.Embedding)):
@@ -162,7 +159,6 @@ class LevenshteinTransformerModel(nn.Module):
         text_feature, _ = self.encoder.forward_feature(
             normalize=False,
             prev_output_tokens=rand_tokens,
-            encoder_out=None,
         )
         # generate training labels for insertion
         masked_tgt_masks, masked_tgt_tokens, mask_ins_targets = _get_ins_targets(
@@ -181,7 +177,6 @@ class LevenshteinTransformerModel(nn.Module):
         text_feature_maskin, _ = self.encoder.forward_feature(
             normalize=False,
             prev_output_tokens=masked_tgt_tokens,
-            encoder_out=None,
         )
         word_ins_out, _ = self.decoder.forward_word_ins(
             normalize=False,
@@ -205,7 +200,6 @@ class LevenshteinTransformerModel(nn.Module):
         text_feature_wordin, _ = self.encoder.forward_feature(
             normalize=False,
             prev_output_tokens=word_predictions,
-            encoder_out=None,
         )
 
         # generate training labels for deletion
@@ -217,75 +211,6 @@ class LevenshteinTransformerModel(nn.Module):
         )
         word_del_masks = word_predictions.ne(self.pad)
         word_del_out = word_del_out[:,:rand_tokens.size(1),:]           
-
-        return {
-            "mask_ins": {
-                "out": mask_ins_out,
-                "tgt": mask_ins_targets,
-                "mask": mask_ins_masks,
-                "ls": 0.01,
-            },
-            "word_ins": {
-                "out": word_ins_out,
-                "tgt": tgt_tokens,
-                "mask": masked_tgt_masks,
-                "ls": self.args.label_smoothing,
-                "nll_loss": True,
-            },
-            "word_del": {
-                "out": word_del_out,
-                "tgt": word_del_targets,
-                "mask": word_del_masks,
-            },
-        }
-      
-    def forward_text(
-        self, ctc_result, img_feature, src_lengths, prev_output_tokens, tgt_tokens, **kwargs
-    ):
-
-        assert tgt_tokens is not None, "forward function only supports training."
-        
-        text_levt_add = ctc_result[2].to(tgt_tokens.device)      
-        
-        # generate training labels for insertion
-        masked_tgt_masks, masked_tgt_tokens, mask_ins_targets = _get_ins_targets(
-            text_levt_add, tgt_tokens, self.pad, self.unk
-        )
-        mask_ins_targets = mask_ins_targets.clamp(min=0, max=255)  # for safe prediction
-        mask_ins_masks = text_levt_add[:, 1:].ne(self.pad)
-
-        mask_ins_out, _ = self.encoder.forward_mask_ins(
-            normalize=False,
-            prev_output_tokens=text_levt_add,
-            encoder_out=None,
-        )
-        # mask_ins_out = mask_ins_out[:,:prev_output_tokens.size(1)-1,:]
-
-        word_ins_out, _ = self.encoder.forward_word_ins(
-            normalize=False,
-            prev_output_tokens=masked_tgt_tokens,
-            encoder_out=None,
-        )
-        # make online prediction
-        if self.decoder.sampling_for_deletion:
-            word_predictions = torch.multinomial(
-                F.softmax(word_ins_out, -1).view(-1, word_ins_out.size(-1)), 1
-            ).view(word_ins_out.size(0), -1)
-        else:
-            word_predictions = F.log_softmax(word_ins_out, dim=-1).max(2)[1]
-
-        word_predictions.masked_scatter_(
-            ~masked_tgt_masks, tgt_tokens[~masked_tgt_masks]
-        )
-
-        # generate training labels for deletion
-        word_del_targets = _get_del_targets(word_predictions, tgt_tokens, self.pad)
-        word_del_out, _ = self.encoder.forward_word_del(
-            normalize=False,
-            prev_output_tokens=word_predictions,
-            encoder_out=None,
-        )
-        word_del_masks = word_predictions.ne(self.pad)
 
         return {
             "mask_ins": {
@@ -329,7 +254,6 @@ class LevenshteinTransformerModel(nn.Module):
         text_feature, _ = self.encoder.forward_feature(
             normalize=False,
             prev_output_tokens=output_tokens,
-            encoder_out=None,
         )
         can_del_word = output_tokens.ne(self.pad).sum(1) > 2
         if can_del_word.sum() != 0:  # we cannot delete, skip
@@ -366,7 +290,6 @@ class LevenshteinTransformerModel(nn.Module):
             text_feature_maskin, _ = self.encoder.forward_feature(
                 normalize=False,
                 prev_output_tokens=output_tokens,
-                encoder_out=None,
             )
         maskin_text = output_tokens
         can_ins_mask = output_tokens.ne(self.pad).sum(1) < max_lens
@@ -409,11 +332,10 @@ class LevenshteinTransformerModel(nn.Module):
             text_feature_wordin, _ = self.encoder.forward_feature(
                 normalize=False,
                 prev_output_tokens=output_tokens,
-                encoder_out=None,
             )
 
-        #can_ins_word = output_tokens.eq(self.unk).sum(1) > 0
-        can_ins_word = output_tokens.ne(self.pad).sum(1) > 2
+        can_ins_word = output_tokens.eq(self.unk).sum(1) > 0
+        # can_ins_word = output_tokens.ne(self.pad).sum(1) > 2
         if can_ins_word.sum() != 0:
             word_ins_score, word_ins_attn = self.decoder.forward_word_ins(
                 normalize=True,
@@ -457,7 +379,6 @@ class LevenshteinTransformerModel(nn.Module):
             history=[]
         )
 
-
 class LevenshteinTransformerEncoder(nn.Module):
     def __init__(self, args, dictionary, embed_tokens, no_encoder_attn=False):
         super().__init__()
@@ -466,47 +387,12 @@ class LevenshteinTransformerEncoder(nn.Module):
         self.output_embed_dim = args.decoder_output_dim
         self.args = args
         self.register_buffer("version", torch.Tensor([3]))
-        self._future_mask = torch.empty(0)
-
-        self.dropout_module = FairseqDropout(
-            args.dropout, module_name=self.__class__.__name__
-        )
-        self.decoder_layerdrop = args.decoder_layerdrop
-        self.share_input_output_embed = args.share_decoder_input_output_embed
-
-        input_embed_dim = embed_tokens.embedding_dim
         embed_dim = args.decoder_embed_dim
         self.embed_dim = embed_dim
         self.output_embed_dim = args.decoder_output_dim
 
         self.padding_idx = embed_tokens.padding_idx
-        self.max_target_positions = args.max_target_positions
-
         self.embed_tokens = embed_tokens
-
-        self.embed_scale = 1.0 if args.no_scale_embedding else math.sqrt(embed_dim)
-
-        self.quant_noise = None
-
-        self.project_in_dim = (
-            Linear(input_embed_dim, embed_dim, bias=False)
-            if embed_dim != input_embed_dim
-            else None
-        )
-        self.embed_positions = (
-            PositionalEmbedding(
-                self.max_target_positions,
-                embed_dim,
-                self.padding_idx,
-                learned=args.decoder_learned_pos,
-            )
-            if not args.no_token_positional_embeddings
-            else None
-        )
-
-        self.layernorm_embedding = None
-
-        self.cross_self_attention = getattr(args, "cross_self_attention", False)
 
         self.layers = nn.ModuleList([])
         self.layers.extend(
@@ -516,28 +402,12 @@ class LevenshteinTransformerEncoder(nn.Module):
             ]
         )
         self.num_layers = len(self.layers)
-        self.adaptive_softmax = None
         self.output_projection = None
-        if self.output_projection is None:
-            self.build_output_projection(args, dictionary, embed_tokens)
-
-        # call FairseqDecoder
-        self.dictionary = dictionary
-        self.onnx_trace = False
-        self.adaptive_softmax = None        
+        self.build_output_projection(args, dictionary, embed_tokens)
 
         self.dictionary = dictionary
-        self.sampling_for_deletion = getattr(args, "sampling_for_deletion", False)
         self.embed_mask_ins = Embedding(256, self.output_embed_dim * 2, None)
         self.embed_word_del = Embedding(2, self.output_embed_dim, None)
-
-        # del_word, ins_mask, ins_word
-        self.early_exit = [int(i) for i in args.early_exit.split(",")]
-        assert len(self.early_exit) == 3
-
-        # copy layers for mask-predict/deletion
-        self.layers_msk = None
-        self.layers_del = None
 
         bert_config = BertConfig(
             vocab_size=30522,
@@ -550,12 +420,7 @@ class LevenshteinTransformerEncoder(nn.Module):
             attention_probs_dropout_prob=0.1,
         )
         self.text_embeddings = BertEmbeddings(bert_config)
-        self.text_embeddings.apply(init_weights)
-        self.token_type_embeddings = nn.Embedding(2, 512)
-        self.token_type_embeddings.apply(init_weights)  
-        self.embed_dim = (
-            Linear(512, embed_dim, bias=False)
-        )          
+        self.text_embeddings.apply(init_weights)       
 
     def build_output_projection(self, args, dictionary, embed_tokens):
         self.output_projection = nn.Linear(
@@ -572,49 +437,26 @@ class LevenshteinTransformerEncoder(nn.Module):
     def extract_features(
         self,
         prev_output_tokens,
-        encoder_out=None,
-        early_exit=None,
         layers=None,
         **unused
     ):
-        """
-        Similar to *forward* but only return features.
-        Inputs:
-            prev_output_tokens: Tensor(B, T)
-            encoder_out: a dictionary of hidden states and masks
-
-        Returns:
-            tuple:
-                - the decoder's features of shape `(batch, tgt_len, embed_dim)`
-                - a dictionary with any model-specific outputs
-            the LevenshteinTransformer decoder has full-attention to all generated tokens
-        """
-
-        #print('prev_output_tokens[128, 35]:', prev_output_tokens.shape)
         text_embeds = self.text_embeddings(prev_output_tokens)
-        #print('text_embeds[128, 35, 512]:', text_embeds.shape)
-        text_embeds = text_embeds + self.token_type_embeddings(torch.zeros_like(prev_output_tokens))
-        x = text_embeds
         text_masks = prev_output_tokens.eq(self.padding_idx)
-        co_masks = text_masks
 
         # B x T x C -> T x B x C
-        x = x.transpose(0, 1)
+        x = text_embeds.transpose(0, 1)
         attn = None
         inner_states = [x]
 
         # decoder layers
         layers = self.layers if layers is None else layers
-        early_exit = len(layers) if early_exit is None else early_exit
-        for _, layer in enumerate(layers[:early_exit]):
+        for _, layer in enumerate(layers):
             x, attn, _ = layer(
                 x,
                 None,
                 None,
-                #x,
-                #co_masks,
                 self_attn_mask=None,
-                self_attn_padding_mask=co_masks,
+                self_attn_padding_mask=text_masks,
             )
             inner_states.append(x)
 
@@ -623,12 +465,10 @@ class LevenshteinTransformerEncoder(nn.Module):
 
         return x, {"attn": attn, "inner_states": inner_states}
 
-    def forward_mask_ins(self, normalize, encoder_out, prev_output_tokens, **unused):
+    def forward_mask_ins(self, normalize, prev_output_tokens, **unused):
         features, extra = self.extract_features(
             prev_output_tokens,
-            encoder_out=encoder_out,
-            early_exit=self.early_exit[1],
-            layers=self.layers_msk,
+            layers=self.layers,
             **unused
         )
         features_cat = torch.cat([features[:, :-1, :], features[:, 1:, :]], 2)
@@ -639,11 +479,9 @@ class LevenshteinTransformerEncoder(nn.Module):
             return F.log_softmax(decoder_out, -1), extra["attn"]
         return decoder_out, extra["attn"]
 
-    def forward_word_ins(self, normalize, encoder_out, prev_output_tokens, **unused):
+    def forward_word_ins(self, normalize, prev_output_tokens, **unused):
         features, extra = self.extract_features(
             prev_output_tokens,
-            encoder_out=encoder_out,
-            early_exit=self.early_exit[2],
             layers=self.layers,
             **unused
         )
@@ -653,96 +491,28 @@ class LevenshteinTransformerEncoder(nn.Module):
             return F.log_softmax(decoder_out, -1), extra["attn"]
         return decoder_out, extra["attn"]
 
-    def forward_feature(self, normalize, encoder_out, prev_output_tokens, **unused):
+    def forward_feature(self, normalize, prev_output_tokens, **unused):
         features, extra = self.extract_features(
             prev_output_tokens,
-            encoder_out=encoder_out,
-            early_exit=self.early_exit[2],
             layers=self.layers,
             **unused
         )
         return features, extra["attn"]
 
-    def forward_word_del(self, normalize, encoder_out, prev_output_tokens, **unused):
+    def forward_word_del(self, normalize, prev_output_tokens, **unused):
         features, extra = self.extract_features(
             prev_output_tokens,
-            encoder_out=encoder_out,
-            early_exit=self.early_exit[0],
-            layers=self.layers_del,
+            layers=self.layers,
             **unused
         )
         decoder_out = F.linear(features, self.embed_word_del.weight)
         if normalize:
-            print('normalize3:', normalize)
+            print('normalize:', normalize)
             return F.log_softmax(decoder_out, -1), extra["attn"]
         return decoder_out, extra["attn"]
 
     def output_layer(self, features):
         return self.output_projection(features)
-
-    @torch.jit.export
-    def reorder_encoder_out(self, encoder_out: Dict[str, List[Tensor]], new_order):
-        """
-        Reorder encoder output according to *new_order*.
-
-        Args:
-            encoder_out: output from the ``forward()`` method
-            new_order (LongTensor): desired order
-
-        Returns:
-            *encoder_out* rearranged according to *new_order*
-        """
-        if len(encoder_out["encoder_out"]) == 0:
-            print('len(encoder_out[encoder_out]) == 0')
-            new_encoder_out = []
-        else:
-            print('len(encoder_out[encoder_out]) != 0')
-            new_encoder_out = [encoder_out["encoder_out"][0].index_select(1, new_order)]
-        if not encoder_out["encoder_padding_mask"] or len(encoder_out["encoder_padding_mask"]) == 0:
-            print('not encoder_out[encoder_padding_mask] or len(encoder_out[encoder_padding_mask]) == 0')
-            new_encoder_padding_mask = []
-        else:
-            print('else: encoder_out[encoder_padding_mask] or len(encoder_out[encoder_padding_mask]) == 0')
-            new_encoder_padding_mask = [
-                encoder_out["encoder_padding_mask"][0].index_select(0, new_order)
-            ]
-        if not encoder_out["encoder_embedding"] or len(encoder_out["encoder_embedding"]) == 0:
-            print('not encoder_out[encoder_embedding]')
-            new_encoder_embedding = []
-        else:
-            print('else: not encoder_out[encoder_embedding]')
-            new_encoder_embedding = [
-                encoder_out["encoder_embedding"][0].index_select(0, new_order)
-            ]
-
-        if len(encoder_out["src_tokens"]) == 0:
-            print('len(encoder_out[src_tokens]) == 0')
-            src_tokens = []
-        else:
-            print('else: len(encoder_out[src_tokens]) == 0')
-            src_tokens = [(encoder_out["src_tokens"][0]).index_select(0, new_order)]
-
-        if len(encoder_out["src_lengths"]) == 0:
-            print('len(encoder_out[src_lengths]) == 0')
-            src_lengths = []
-        else:
-            print('else: len(encoder_out[src_lengths]) == 0')
-            src_lengths = [(encoder_out["src_lengths"][0]).index_select(0, new_order)]
-
-        encoder_states = encoder_out["encoder_states"]
-        if encoder_states and len(encoder_states) > 0:
-            print('encoder_states and len(encoder_states) > 0')
-            for idx, state in enumerate(encoder_states):
-                encoder_states[idx] = state.index_select(1, new_order)
-
-        return {
-            "encoder_out": new_encoder_out,  # T x B x C
-            "encoder_padding_mask": new_encoder_padding_mask,  # B x T
-            "encoder_embedding": new_encoder_embedding,  # B x T x C
-            "encoder_states": encoder_states,  # List[T x B x C]
-            "src_tokens": src_tokens,  # B x T
-            "src_lengths": src_lengths,  # B x 1
-        }
 
 
 class LevenshteinTransformerDecoder(nn.Module):
@@ -753,43 +523,13 @@ class LevenshteinTransformerDecoder(nn.Module):
         self.output_embed_dim = args.decoder_output_dim
         self.args = args
         self.register_buffer("version", torch.Tensor([3]))
-        self._future_mask = torch.empty(0)
 
-        self.dropout_module = FairseqDropout(
-            args.dropout, module_name=self.__class__.__name__
-        )
-        self.decoder_layerdrop = args.decoder_layerdrop
-        self.share_input_output_embed = args.share_decoder_input_output_embed
-
-        input_embed_dim = embed_tokens.embedding_dim
         embed_dim = args.decoder_embed_dim
         self.embed_dim = embed_dim
         self.output_embed_dim = args.decoder_output_dim
-
         self.padding_idx = embed_tokens.padding_idx
-        self.max_target_positions = args.max_target_positions
-
         self.embed_tokens = embed_tokens
 
-        self.embed_scale = 1.0 if args.no_scale_embedding else math.sqrt(embed_dim)
-
-        self.quant_noise = None
-
-        self.project_in_dim = None
-
-        self.embed_positions = (
-            PositionalEmbedding(
-                self.max_target_positions,
-                embed_dim,
-                self.padding_idx,
-                learned=args.decoder_learned_pos,
-            )
-            if not args.no_token_positional_embeddings
-            else None
-        )
-
-        self.layernorm_embedding = None
-        self.cross_self_attention = getattr(args, "cross_self_attention", False)
         self.layers = nn.ModuleList([])
         self.layers.extend(
             [
@@ -798,45 +538,23 @@ class LevenshteinTransformerDecoder(nn.Module):
             ]
         )
         self.num_layers = len(self.layers)
-        self.adaptive_softmax = None
         self.output_projection = None
-        if self.output_projection is None:
-            self.build_output_projection(args, dictionary, embed_tokens)
-
-        self.dictionary = dictionary
-        self.onnx_trace = False
-        self.adaptive_softmax = None        
+        self.build_output_projection(args, dictionary, embed_tokens)
 
         self.dictionary = dictionary
         self.sampling_for_deletion = getattr(args, "sampling_for_deletion", False)
         self.embed_mask_ins = Embedding(256, self.output_embed_dim * 2, None)
         self.embed_word_del = Embedding(2, self.output_embed_dim, None)
 
-        # del_word, ins_mask, ins_word
-        self.early_exit = [int(i) for i in args.early_exit.split(",")]
-        assert len(self.early_exit) == 3
-
-        # copy layers for mask-predict/deletion
-        self.layers_msk = None
-        self.layers_del = None
-
-        bert_config = BertConfig(
-            vocab_size=30522,
-            hidden_size=512,
-            num_hidden_layers=12,
-            num_attention_heads=12,
-            intermediate_size=512 * 4,
-            max_position_embeddings=len(self.dictionary),
-            hidden_dropout_prob=0.1,
-            attention_probs_dropout_prob=0.1,
-        )
-        self.text_embeddings = BertEmbeddings(bert_config)
-        self.text_embeddings.apply(init_weights)
         self.token_type_embeddings = nn.Embedding(2, 512)
-        self.token_type_embeddings.apply(init_weights)  
-        self.embed_dim = (
+        self.token_type_embeddings.apply(init_weights)
+        self.img_embed_dim = (
             Linear(512, embed_dim, bias=False)
-        )          
+        )
+        self.text_pos_emb = nn.Parameter(torch.randn(1, args.embed_len_text, embed_dim) * .02)
+        self.img_pos_emb = nn.Parameter(torch.randn(1, args.embed_len_img, embed_dim) * .02)
+        trunc_normal_(self.text_pos_emb, std=.02)
+        trunc_normal_(self.img_pos_emb, std=.02)
 
     def build_output_projection(self, args, dictionary, embed_tokens):
         self.output_projection = nn.Linear(
@@ -854,42 +572,25 @@ class LevenshteinTransformerDecoder(nn.Module):
         self,
         img_feature,
         text_feature,
-        early_exit=None,
         layers=None,
         **unused
     ):
-        """
-        Similar to *forward* but only return features.
-        Inputs:
-            prev_output_tokens: Tensor(B, T)
-            encoder_out: a dictionary of hidden states and masks
-
-        Returns:
-            tuple:
-                - the decoder's features of shape `(batch, tgt_len, embed_dim)`
-                - a dictionary with any model-specific outputs
-            the LevenshteinTransformer decoder has full-attention to all generated tokens
-        """
-
-        posi_token = torch.ones((text_feature.size(0), text_feature.size(1))).long().to(text_feature.device)
-        text_embeds = self.text_embeddings(posi_token)
-        
-        text_token_type_idx = 1
+        text_token_type_idx = 0
         text_masks = torch.LongTensor(text_feature.size()[:2]).fill_(0).to(text_feature.device)
-        text_embeds = text_feature + text_embeds + self.token_type_embeddings(torch.full_like(text_masks, text_token_type_idx))
+        text_embeds = text_feature + self.text_pos_emb + self.token_type_embeddings(torch.full_like(text_masks, text_token_type_idx))
+        
         if img_feature != None:
-            image_embeds = self.embed_dim(img_feature)
             image_token_type_idx = 1
-            image_masks = torch.LongTensor(img_feature.size()[:2]).fill_(0).to(text_feature.device)
-            image_embeds = image_embeds + self.token_type_embeddings(torch.full_like(image_masks, image_token_type_idx))
+            image_embeds = self.img_embed_dim(img_feature)
+            image_masks = torch.LongTensor(img_feature.size()[:2]).fill_(0).to(img_feature.device)
+            image_embeds = image_embeds + self.img_pos_emb + self.token_type_embeddings(torch.full_like(image_masks, image_token_type_idx))
 
             x = torch.cat([text_embeds, image_embeds], dim=1)
-            image_masks = image_masks.type(torch.BoolTensor).to(text_feature.device)
-            #text_masks = prev_output_tokens.eq(self.padding_idx)
+            image_masks = image_masks.type(torch.BoolTensor).to(img_feature.device)
             co_masks = torch.cat([text_masks, image_masks], dim=1).bool()
         else:
             x = text_embeds
-            co_masks = text_masks
+            co_masks = text_masks.bool()
 
         # B x T x C -> T x B x C
         x = x.transpose(0, 1)
@@ -898,14 +599,11 @@ class LevenshteinTransformerDecoder(nn.Module):
 
         # decoder layers
         layers = self.layers if layers is None else layers
-        early_exit = len(layers) if early_exit is None else early_exit
-        for _, layer in enumerate(layers[:early_exit]):
+        for _, layer in enumerate(layers):
             x, attn, _ = layer(
                 x,
                 None,
                 None,
-                #x,
-                #co_masks,
                 self_attn_mask=None,
                 self_attn_padding_mask=co_masks,
             )
@@ -921,8 +619,7 @@ class LevenshteinTransformerDecoder(nn.Module):
         features, extra = self.extract_features(
             img_feature,
             text_feature,
-            early_exit=self.early_exit[1],
-            layers=self.layers_msk,
+            layers=self.layers,
             **unused
         )
         features_cat = torch.cat([features[:, :-1, :], features[:, 1:, :]], 2)
@@ -938,7 +635,6 @@ class LevenshteinTransformerDecoder(nn.Module):
         features, extra = self.extract_features(
             img_feature,
             text_feature,
-            early_exit=self.early_exit[2],
             layers=self.layers,
             **unused
         )
@@ -953,8 +649,7 @@ class LevenshteinTransformerDecoder(nn.Module):
         features, extra = self.extract_features(
             img_feature,
             text_feature,
-            early_exit=self.early_exit[0],
-            layers=self.layers_del,
+            layers=self.layers,
             **unused
         )
         decoder_out = F.linear(features, self.embed_word_del.weight)

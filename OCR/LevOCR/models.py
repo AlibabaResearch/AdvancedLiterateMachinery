@@ -168,20 +168,18 @@ class LevOCRModel(nn.Module):
         x = x.permute(0, 2, 1)
         return x    
 
-    def forward(self, image, labels_add_del, text, tgt_tokens, device, criterion, seqlen=28):
-        batch_size = image.size(0)
-
-        vision_out = self.vision(image)
-        pred_logit = vision_out['logits']
-        features = vision_out['features']
-        preds_vision = pred_logit.log_softmax(2)
-        loss_vison = criterion(preds_vision.view(-1, preds_vision.shape[-1]), text.contiguous().view(-1))
-
-        img_feature_new = self.extract_img_feature(features)
-        if self.opt.img_feature:
+    def forward(self, image, labels_add_del, tgt_vision, tgt_tokens, criterion):
+        if image != None:
+            vision_out = self.vision(image)
+            pred_logit = vision_out['logits']
+            features = vision_out['features']
+            preds_vision = pred_logit.log_softmax(2)
+            loss_vison = criterion(preds_vision.view(-1, preds_vision.shape[-1]), tgt_vision.contiguous().view(-1))
             img_feature = self.extract_img_feature(features)
         else:
             img_feature = None
+            preds_vision = None
+            loss_vison = 0.0
 
         preds = self.levt(labels_add_del, img_feature, tgt_tokens)
 
@@ -216,13 +214,6 @@ class LevOCRModel(nn.Module):
                 if reduce
                 else l[["loss"]].data / l["factor"]
             )
-        
-        loss_tmp = None
-        # for param in self.levt.parameters():
-        #     if loss_tmp is None:
-        #         loss_tmp = torch.sum(param)
-        #     else:
-        #         loss_tmp = loss_tmp + torch.norm(param)
 
-        return [loss_levt, loss_vison, loss_tmp, preds_vision, preds, logging_output]
+        return [loss_levt, loss_vison, preds_vision, preds, logging_output]
 

@@ -43,7 +43,7 @@ def benchmark_all_eval(model, criterion, converter, src_dict, opt):
         print(eval_data_path)
         eval_data, eval_data_log = hierarchical_dataset(root=eval_data_path, opt=opt)
 
-        AlignCollate_evaluation = AlignCollate(imgH=opt.imgH, imgW=opt.imgW, keep_ratio_with_pad=opt.PAD)
+        AlignCollate_evaluation = AlignCollate(imgH=opt.imgH, imgW=opt.imgW)
         evaluation_loader = torch.utils.data.DataLoader(
             eval_data, batch_size=evaluation_batch_size,
             shuffle=False,
@@ -68,7 +68,7 @@ def benchmark_all_eval(model, criterion, converter, src_dict, opt):
     params_num = sum([np.prod(p.size()) for p in model.parameters()])
 
     evaluation_log = 'accuracy: ' + '\n'
-    evaluation_log += 'levocr_total_Acc:'+str(char_total_accuracy)+'\t' + 'vision_total_Acc:'+str(vision_total_accuracy)+'\n'
+    evaluation_log += 'levocr_total_Acc:'+str(char_total_accuracy)+'\t' + 'vision_total_Acc:'+str(vision_total_accuracy)+'\t'+'th:'+str(opt.th)+'\n'
     evaluation_log += f'averaged_infer_time: {averaged_forward_time:0.3f}\t# parameters: {params_num/1e6:0.3f}'
     print(evaluation_log)
     return [char_total_accuracy, vision_total_accuracy]
@@ -77,18 +77,17 @@ def validation(model, criterion, evaluation_loader, converter, src_dict, opt):
     """ validation or evaluation """
     char_n_correct = 0
     vision_n_correct = 0
-    char_preds_str = []
 
     length_of_data = 0
     infer_time = 0
     valid_loss_avg = Averager()
 
-    for i, (image_tensors, labels, _, _) in enumerate(evaluation_loader):
+    for i, (image_tensors, labels, _) in enumerate(evaluation_loader):
         batch_size = image_tensors.size(0)
         length_of_data = length_of_data + batch_size
         image = image_tensors.to(device)
         # For max length prediction
-        text, length = converter.encode(labels, batch_max_length=26, device=device)
+        text, length = converter.encode_vision(labels, batch_max_length=opt.batch_max_length, device=device)
         start_time = time.time()
         
         forward_time = time.time() - start_time
@@ -103,15 +102,13 @@ def validation(model, criterion, evaluation_loader, converter, src_dict, opt):
 
         vision_preds_size = torch.IntTensor([pred_logit.size(1)] * batch_size)
         vision_preds_str = converter.decode(pred_vision_max, vision_preds_size, ignore_spec_char=True)
-        vision_final_pred, _ = converter.encode_levt_tgt(vision_preds_str, src_dict, device=device, batch_max_length=pred_vision.size(1))
+        vision_final_pred, _ = converter.encode_levt(vision_preds_str, src_dict, device=device, batch_max_length=pred_vision.size(1))
 
-        if opt.img_feature:
-            img_feature_new = model.module.extract_img_feature(features)
-        else:
-            img_feature_new = None
+        img_feature_new = model.module.extract_img_feature(features)
         
         preds = generate(model, vision_final_pred, img_feature_new, batch_size, src_dict.pad(), max_iter=int(opt.max_iter))
 
+        char_preds_str = []
         for i in range(batch_size):
             vision_str = vision_preds_str[i]
             target_str = labels[i]
@@ -227,7 +224,7 @@ def generate(
 
 def test(opt):
     """ model configuration """
-    charset = CharsetMapper(opt.dataset_charset_path, max_length=opt.batch_max_length+1)
+    charset = CharsetMapper(opt.dataset_charset_path, max_length=opt.batch_max_length)
     opt.num_class = charset.num_classes
     print('num_class:', opt.num_class)
     
@@ -244,10 +241,10 @@ def test(opt):
 
     # load model
     print('loading pretrained model from %s' % opt.saved_model)
-    model.module.load_state_dict(torch.load(opt.saved_model, map_location=device))
+    model.load_state_dict(torch.load(opt.saved_model, map_location=device))
     
     opt.exp_name = '_'.join(opt.saved_model.split('/')[1:])
-    print(model)
+    # print(model)
 
     """ keep evaluation model and result logs """
     os.makedirs(f'./result/{opt.exp_name}', exist_ok=True)
@@ -296,5 +293,7 @@ if __name__ == '__main__':
         result = sorted(result, key=lambda x: x[0], reverse=True)
         print(tabulate(result, tab_title, numalign='right'))
     else:
-        opt.saved_model = opt.model_dir
-        test(opt)
+        for th in range(int(opt.th*100), 51, 1):
+            opt.th = th/100
+            opt.saved_model = opt.model_dir
+            test(opt)

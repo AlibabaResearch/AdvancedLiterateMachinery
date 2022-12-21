@@ -10,3 +10,4 @@ nltk==3.7
 natsort==8.2.0
 opencv-python==4.6.0.66
 transformers==4.23.1
+timm==0.6.12

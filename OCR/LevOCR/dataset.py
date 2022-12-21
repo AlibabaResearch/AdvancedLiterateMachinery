@@ -33,7 +33,7 @@ class Batch_Balanced_Dataset(object):
         log.write(f'dataset_root: {opt.train_data}\nopt.select_data: {opt.select_data}\nopt.batch_ratio: {opt.batch_ratio}\n')
         assert len(opt.select_data) == len(opt.batch_ratio)
 
-        _AlignCollate = AlignCollate(imgH=opt.imgH, imgW=opt.imgW, keep_ratio_with_pad=opt.PAD)
+        _AlignCollate = AlignCollate(imgH=opt.imgH, imgW=opt.imgW)
         self.data_loader_list = []
         self.dataloader_iter_list = []
         batch_size_list = []
@@ -84,27 +84,24 @@ class Batch_Balanced_Dataset(object):
     def get_batch(self):
         balanced_batch_images = []
         balanced_batch_texts = []
-        balanced_batch_texts_add = []
-        balanced_batch_texts_add2 = []
+        balanced_batch_texts_noise = []
         for i, data_loader_iter in enumerate(self.dataloader_iter_list):
             try:
-                image, text, text_add, text_add2 = data_loader_iter.next()
+                image, text, text_noise = data_loader_iter.next()
                 balanced_batch_images.append(image)
                 balanced_batch_texts += text
-                balanced_batch_texts_add += text_add
-                balanced_batch_texts_add2 += text_add2
+                balanced_batch_texts_noise += text_noise
             except StopIteration:
                 self.dataloader_iter_list[i] = iter(self.data_loader_list[i])
-                image, text, text_add, text_add2 = self.dataloader_iter_list[i].next()
+                image, text, text_noise = self.dataloader_iter_list[i].next()
                 balanced_batch_images.append(image)
                 balanced_batch_texts += text
-                balanced_batch_texts_add += text_add
-                balanced_batch_texts_add2 += text_add2
+                balanced_batch_texts_noise += text_noise
             except Exception as e:
                 print(e)
                 pass
         balanced_batch_images = torch.cat(balanced_batch_images, 0)
-        return balanced_batch_images, balanced_batch_texts, balanced_batch_texts_add, balanced_batch_texts_add2
+        return balanced_batch_images, balanced_batch_texts, balanced_batch_texts_noise
 
 def hierarchical_dataset(root, opt, select_data='/', test_flag=False):
     """ select_data='/' contains all sub-directory of root directory """
@@ -143,8 +140,7 @@ class LmdbDataset(Dataset):
                 CVColorJitter(brightness=0.5, contrast=0.5, saturation=0.5, hue=0.1, p=0.25)
             ])        
         self.env = lmdb.open(root, max_readers=32, readonly=True, lock=False, readahead=False, meminit=False)
-        self.disturb = SpellingMutation(pn0=0.05, pn1=0.25, pn2=0.7, pt0=0.4, pt1=0.7)
-        self.disturb_slight = SpellingMutation(pn0=0.1, pn1=0.7, pn2=0.95, pt0=0.6, pt1=0.8)
+        self.disturb = SpellingMutation(pn0=0.1, pn1=0.7, pn2=0.95, pt0=0.6, pt1=0.8)
         if not self.env:
             print('cannot create lmdb from %s' % (root))
             sys.exit(0)
@@ -213,12 +209,11 @@ class LmdbDataset(Dataset):
                 label = label.lower()
             
             if self.opt.eval: 
-                return (img, label, label, label)
+                return (img, label, label)
 
             img = self.augment_tfs(img)
-            label_noise = self.disturb(label)
-            label_noise_slight = self.disturb_slight(label)      
-        return (img, label, label_noise, label_noise_slight)
+            label_noise = self.disturb(label)      
+        return (img, label, label_noise)
 
 class RawDataset(Dataset):
     def __init__(self, root, opt):
@@ -256,10 +251,9 @@ class RawDataset(Dataset):
 
 class AlignCollateTest(object):
 
-    def __init__(self, imgH=32, imgW=100, keep_ratio_with_pad=False):
+    def __init__(self, imgH=32, imgW=100):
         self.imgH = imgH
         self.imgW = imgW
-        self.keep_ratio_with_pad = keep_ratio_with_pad
 
     def __call__(self, batch):
         batch = filter(lambda x: x is not None, batch)
@@ -315,14 +309,13 @@ def preprocess(img, width, height):
 
 class AlignCollate(object):
 
-    def __init__(self, imgH=32, imgW=100, keep_ratio_with_pad=False):
+    def __init__(self, imgH=32, imgW=100):
         self.imgH = imgH
         self.imgW = imgW
-        self.keep_ratio_with_pad = keep_ratio_with_pad
 
     def __call__(self, batch):
         batch = filter(lambda x: x is not None, batch)
-        images, labels, label_add, label_add2 = zip(*batch)
+        images, labels, label_noise = zip(*batch)
 
         resized_max_w = self.imgW
         input_channel = 3 if images[0].mode == 'RGB' else 1
@@ -334,7 +327,7 @@ class AlignCollate(object):
 
         image_tensors = torch.cat(resized_images, 0)
 
-        return image_tensors, labels, label_add, label_add2
+        return image_tensors, labels, label_noise
 
 
 def tensor2im(image_tensor, imtype=np.uint8):
@@ -355,7 +348,6 @@ class TextDataset(Dataset):
             content = f.readlines()
         self.data_list = [x.strip() for x in content]
         self.opt = opt
-        #self.sm = SpellingMutation_TEXT(pn0=0.7, pn1=0.85, pn2=0.95, pt0=0.7, pt1=0.85)
         self.sm = SpellingMutation_TEXT(pn0=0.2, pn1=0.6, pn2=0.95, pt0=0.5, pt1=0.75)
 
     def __len__(self): return len(self.data_list)
