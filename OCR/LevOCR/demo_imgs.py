@@ -121,7 +121,7 @@ def generate(
 def test(opt):
     opt.eval = True
     """ model configuration """
-    charset = CharsetMapper(opt.dataset_charset_path, max_length=opt.batch_max_length+1)
+    charset = CharsetMapper(opt.dataset_charset_path, max_length=opt.batch_max_length)
     opt.num_class = charset.num_classes
     print('num_class:', opt.num_class)
     
@@ -138,7 +138,7 @@ def test(opt):
 
     # load model
     print('loading pretrained model from %s' % opt.saved_model)
-    model.module.load_state_dict(torch.load(opt.saved_model, map_location=device))
+    model.load_state_dict(torch.load(opt.saved_model, map_location=device))
     
     opt.exp_name = '_'.join(opt.saved_model.split('/')[1:])
     # print(model)
@@ -147,7 +147,7 @@ def test(opt):
     os.makedirs(f'./result/{opt.exp_name}', exist_ok=True)
     os.system(f'cp {opt.saved_model} ./result/{opt.exp_name}/')
 
-    AlignCollate_demo = AlignCollateTest(imgH=opt.imgH, imgW=opt.imgW, keep_ratio_with_pad=opt.PAD)
+    AlignCollate_demo = AlignCollateTest(imgH=opt.imgH, imgW=opt.imgW)
     demo_data = RawDataset(root=opt.demo_imgs, opt=opt)  # use RawDataset
     demo_loader = torch.utils.data.DataLoader(
         demo_data, batch_size=opt.batch_size,
@@ -168,7 +168,7 @@ def test(opt):
             pred_vision_max = pred_vision.max(2)[1]
             vision_preds_size = torch.IntTensor([pred_logit.size(1)] * batch_size)
             vision_preds_str = converter.decode(pred_vision_max, vision_preds_size, ignore_spec_char=True)
-            vision_final_pred, _ = converter.encode_levt_tgt(vision_preds_str, src_dict, device=device, batch_max_length=pred_vision.size(1))
+            vision_final_pred, _ = converter.encode_levt(vision_preds_str, src_dict, device=device, batch_max_length=pred_vision.size(1))
 
             img_feature_new = model.module.extract_img_feature(features)
             preds = generate(model, vision_final_pred, img_feature_new, batch_size, src_dict.pad(), max_iter=int(opt.max_iter))
