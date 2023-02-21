@@ -1,0 +1,23 @@
+python demo.py ctdet \
+        --dataset table \
+        --demo ../demo_images \
+        --demo_name demo \
+        --debug 1 \
+        --arch dla_34 \
+        --K 3000 \
+        --MK 5000 \
+        --tsfm_layers 4 \
+        --stacking_layers 4 \
+        --gpus 0\
+        --wiz_4ps \
+        --wiz_detect \
+        --wiz_rev \
+        --wiz_stacking \
+        --convert_onnx 0 \
+        --vis_thresh_corner 0.3 \
+        --vis_thresh 0.20 \
+        --scores_thresh 0.2 \
+        --nms \
+        --demo_dir ../visualization/ \
+        --load_model ../exp/model_on_wtw/model_best.pth \
+        --load_processor ../exp/model_on_wtw/processor_best.pth 

@@ -1,0 +1,12 @@
+Cython==0.27.3
+imgaug==0.4.0
+matplotlib==3.5.2
+numba==0.55.2
+numpy==1.21.6
+opencv-python==4.6.0.66
+Pillow==9.2.0
+progress==1.6
+scipy==1.7.3
+Shapely==1.8.2
+torch==1.6.0+cu101
+torchvision==0.7.0
