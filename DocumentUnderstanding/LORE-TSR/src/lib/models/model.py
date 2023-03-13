@@ -7,25 +7,21 @@ import torch
 import torch.nn as nn
 import os
 
-from .networks.msra_resnet import get_pose_net
 from .networks.fpn_resnet import get_pose_net_fpn
-from .networks.fpn_mask_resnet import get_pose_net_fpn_mask
-from .networks.fpn_mask_resnet_half import get_pose_net_fpn_mask_half
-from .networks.fpn_mask_resnet_half_offset import get_pose_net_fpn_mask_half_offset
-from .networks.fpn_mask_resnet_half_offset_gc import get_pose_net_fpn_mask_half_offset_gc
-from .networks.pose_dla_dcn import get_pose_net as get_dla_dcn 
-from .networks.large_hourglass import get_large_hourglass_net
 from .networks.fpn_resnet_half import get_pose_net_fpn_half
 
+from .networks.fpn_mask_resnet import get_pose_net_fpn_mask
+from .networks.fpn_mask_resnet_half import get_pose_net_fpn_mask_half
+
+from .networks.pose_dla_dcn import get_pose_net as get_dla_dcn 
+
+
 _model_factory = {
-  'res': get_pose_net, 
   'dla': get_dla_dcn, 
-  'hourglass': get_large_hourglass_net,
   'resfpn':get_pose_net_fpn,
   'resfpnhalf': get_pose_net_fpn_half,
   'resfpnmask':get_pose_net_fpn_mask,
-  'resfpnmaskhalf':get_pose_net_fpn_mask_half,
-  'resfpnmaskhalfreg': get_pose_net_fpn_mask_half_offset,
+  'resfpnmaskhalf':get_pose_net_fpn_mask_half
 }
 
 def create_model(arch, heads, head_conv):

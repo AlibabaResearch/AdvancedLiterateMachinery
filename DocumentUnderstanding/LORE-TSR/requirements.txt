@@ -10,3 +10,4 @@ scipy==1.7.3
 Shapely==1.8.2
 torch==1.6.0+cu101
 torchvision==0.7.0
+tqdm

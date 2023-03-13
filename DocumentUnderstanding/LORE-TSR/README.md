@@ -2,35 +2,54 @@
 
 The official PyTorch implementation of LORE-TSR. LORE can perform table structure recognition (TSR) in the end-to-end way by modeling TSR as logical location regression. The model streamlines the TSR pipeline as a key-point based detector-like framework. LORE-TSR exhibits good efficiency and performance in the implemention, which could be useful for TSR models in the future.
 
-### Install requirements
-
+## Installation
+### Installing requirements
 
 ```
-#installing LORE
-conda create --name Lore 
+conda create --name Lore python=3.7
 conda activate Lore
-pip3 install -r requirements.txt
+pip install -r requirements.txt
+```
 
-#installing cocoapi
+### Installing cocoapi
+```
 git clone https://github.com/cocodataset/cocoapi.git
 cd cocoapi/PythonAPI
+pip install Cython
 make
 python setup.py install --user
 ```
 
-If you would like to using the DLA backbone, please run the following scripts:
+### Installing DCNv2 from Scratch
+If you would like to using the DLA backbone, an environment based on CUDA 10.1 is strongly recommended.
+
+Firstly, CUDA 10.1 (FROM https://developer.nvidia.com/cuda-toolkit-archive) should be installed. Take an example of Linux-x86_64-Ubuntu-18.04:
 ```
-#installing DCNv2
-conda install Cython
+wget https://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.243_418.87.00_linux.run
+sudo sh cuda_10.1.243_418.87.00_linux.run
+
+#Setting env variables
+export CUDA_HOME='your cuda-10.1 path'
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+```
+### Installing Torch
+```
+pip install torch==1.6.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+### Installing DCNv2
+```
+pip install Cython
 chmod +x  *.sh
 cd src/lib/models/network/DCNv2
 ./make.sh
 ```
 
-### Dataset
+## Dataset
 
 The labels are supposed to be transformed into COCO format, here the WTW dataset and a subset of PubTabNet dataset are taken as examples.
-Download images of WTW dataset from [WTW-Dataset](https://github.com/wangwen-whu/WTW-Dataset). It provide the original dataset along with tools for changing it into COCO format. The example of processed COCO-like label of WTW and a subset of PubTabNet are provided. The directory of dataset are organized as following:
+
+Download images of WTW dataset from [WTW-Dataset](https://github.com/wangwen-whu/WTW-Dataset). It provide the original dataset along with tools for changing it into COCO format. The example of processed COCO-like label of [WTW]() and a subset of [PubTabNet]() are provided. The directory of dataset are organized as following:
 
 ```
 data
@@ -48,21 +67,24 @@ data
     
 ```
 
-### Pretrained Models 
+## Pretrained Models 
 
 Available model weights (using dla-34 backbone):
 
-
+| Model Arc | Image Size | Checkpoint | 
 | :---: | :---: | :---: |
-| LORE-TSR |[Pretrained on WTW]|[Pretrained on PubTabNet]|
+| 4+4 | 1024 |[Trained on WTW]|
+| 3+3 | 512 | [Trained on PubTabNet]|
+
+
 
 The provided model on WTW wired table dataset is of 4-layer base and 4-layer stacking, which has a better trade-off between accuracy and efficiency. We are also working in progress to release a model for wireless table trained on Chinese tables.
 
-### Run demo with pretrained model
+## Run demo with pretrained model
 1. Download pretrained model (for wired table on WTW or for wireless table on PubTabNet)
 2. Add image files to test into `./input_imgs/`
 3. Change the parameters such as model architecture and output directory
-3. Run 
+3. Run:
 
 ```
 cd src
@@ -70,12 +92,12 @@ bash scripts/demo/demo.sh
 ```
 
 Notice: 
-LORE is incorporated with the parsing-and-grouping mechenism similar to Cycle-CenterNet. Setting `--wiz_rev` arguments to activate such process at inference stage. It provides accurate detection results on wired tables, but could slow the inference.
+LORE is incorporated with the parsing-and-grouping mechenism similar to Cycle-CenterNet for wired tables. Setting `--wiz_rev` arguments to activate such process at inference stage. It provides accurate detection results on wired tables, but could slow the inference.
 
-### Train
+## Train
 1. Organizing the dataset as mentioned before
 2. Changing the parameters such as model architecture, experiment ID and dataset path, etc.
-3. Run
+3. Run:
 
 ```
 cd src
@@ -86,7 +108,7 @@ We modified the original model to stabilize converging and make it easier to cha
 ### Test
 Taking the PubTabNet as an example:
 1. Find the path to `model_best.pth` checkpoint file (usually in `./exp/*/` folder)
-2. Run demo on the test dataset
+2. Run demo on the test dataset:
 ```
 cd src
 bash scripts/demo/demo_ptn.sh
@@ -97,16 +119,26 @@ bash eval.sh
 ```
 
 ## Acknowledgements
-This implementation has been based on the repository [CenterNet](https://github.com/xingyizhou/CenterNet).
+This implementation has been based on the repository [CenterNet](https://github.com/xingyizhou/CenterNet) and [DCNv2].
 
 ### Paper
 * [AAAI 2023]
-* [Arxiv]
+* [Arxiv](https://arxiv.org/abs/2303.03730)
 
 ## Citation
 If you find this work useful, please cite:
 
-<!-- ```
+LORE:
+```
+@article{Xing_2023_Lore,
+  author={Hangdi, Xing and Feiyu Gao and Rujiao Long and Jiajun Bu and Qi Zheng and Liangcheng Li and Cong Yao and Zhi Yu},
+  title={LORE: Logical Location Regression Network for Table Structure Recognition},
+  journal={arXiv preprint arXiv:2303.03730},
+  year={2023}
+}
+```
+Cycle-CenterNet:
+```
 @InProceedings{Long_2021_ICCV,
 	author = {Rujiao, Long and Wen, Wang and Nan, Xue and Feiyu, Gao and Zhibo, Yang and Yongpan, Wang and Gui-Song, Xia},
 	title = {Parsing Table Structures in the Wild},
@@ -115,7 +147,7 @@ If you find this work useful, please cite:
 	year = {2021}
 }
 
-``` -->
+```
 
 ## *License*
 
