@@ -405,6 +405,13 @@ class opts(object):
                    'ax': 256, 'cr': 256}
       if opt.reg_offset:
         opt.heads.update({'reg': 2})
+    elif opt.task == 'ctdet_mid':
+      # assert opt.dataset in ['pascal', 'coco']
+      opt.heads = {'hm': opt.num_classes,'st':8,
+                   'wh': 8 if not opt.cat_spec_wh else 8 * opt.num_classes,
+                   'ax': 256, 'cr': 256}
+      if opt.reg_offset:
+        opt.heads.update({'reg': 2})
     elif opt.task == 'ctdet_small':
       # assert opt.dataset in ['pascal', 'coco']
       opt.heads = {'hm': opt.num_classes,'st':8,
@@ -430,6 +437,9 @@ class opts(object):
   def init(self, args=''):
     default_dataset_info = {
       'ctdet': {'default_resolution': [1024, 1024], 'num_classes': 2, 
+                'mean': [0.408, 0.447, 0.470], 'std': [0.289, 0.274, 0.278],
+                'dataset': 'table'},
+      'ctdet_mid': {'default_resolution': [768, 768], 'num_classes': 2, 
                 'mean': [0.408, 0.447, 0.470], 'std': [0.289, 0.274, 0.278],
                 'dataset': 'table'},
       'ctdet_small': {'default_resolution': [512, 512], 'num_classes': 2, 

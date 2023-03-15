@@ -4,7 +4,7 @@ python main.py ctdet \
 	--dataset_name WTW \
 	--image_dir ./dir_of_images \
 	--wiz_4ps \
-    --wiz_stacking \
+	--wiz_stacking \
 	--wiz_pairloss \
 	--tsfm_layers 3 \
 	--stacking_layers 3 \
@@ -18,6 +18,4 @@ python main.py ctdet \
 	--lr_step '70, 90' \
 	--gpus 0,1,2,3 \
 	--num_workers 16 \
-	--val_intervals 10 \
-	--load_model ./dir_of_pretrained/model_best.pth \
-    --load_processor ./dir_of_pretrained/processor_best.pth 
+	--val_intervals 10 

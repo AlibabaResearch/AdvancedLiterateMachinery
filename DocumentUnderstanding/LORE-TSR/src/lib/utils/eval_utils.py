@@ -28,11 +28,13 @@ def coco_into_labels(annot_path, label_path):
         file_name = coco_data.loadImgs(ids=[img_id])[0]['file_name']
         #file_names.append(file_name)
 
-        center_file = '{}/gt_center/'.format(label_path) + file_name +'.txt'
-        logi_file = '{}/gt_logi/'.format(label_path) + file_name +'.txt'
+        # using this for your dataset
+        # center_file = '{}/gt_center/'.format(label_path) + file_name +'.txt'
+        # logi_file = '{}/gt_logi/'.format(label_path) + file_name +'.txt'
 
-        # center_file = gt_center_dir + file_name.replace('.jpg', '.png') +'.txt'
-        # logi_file = gt_logi_dir + file_name.replace('.jpg', '.png') +'.txt'
+        #TODO: revise the file names in the annotation of PubTabNet
+        center_file = gt_center_dir + file_name.replace('.jpg', '.png') +'.txt'
+        logi_file = gt_logi_dir + file_name.replace('.jpg', '.png') +'.txt'
         
         
         ann_ids = coco_data.getAnnIds(imgIds=[img_id])

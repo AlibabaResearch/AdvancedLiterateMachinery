@@ -151,21 +151,21 @@ class Debugger(object):
     if not logi is None:
       txt = '{:.0f},{:.0f},{:.0f},{:.0f}'.format(logi[0], logi[1], logi[2], logi[3])
     font = cv2.FONT_HERSHEY_SIMPLEX
-    cat_size = cv2.getTextSize(txt, font, 0.2, 2)[0]
+    cat_size = cv2.getTextSize(txt, font, 0.3, 2)[0]
     r = np.random.randint(0,255)
     g = np.random.randint(0,255)
     b = np.random.randint(0,255)
-    cv2.line(self.imgs[img_id],(bbox[0],bbox[1]),(bbox[2],bbox[3]),(0,0,255),1)
-    cv2.line(self.imgs[img_id],(bbox[2],bbox[3]),(bbox[4],bbox[5]),(0,0,255),1)
-    cv2.line(self.imgs[img_id],(bbox[4],bbox[5]),(bbox[6],bbox[7]),(0,0,255),1)
-    cv2.line(self.imgs[img_id],(bbox[6],bbox[7]),(bbox[0],bbox[1]),(0,0,255),1) # 1 - 5
+    cv2.line(self.imgs[img_id],(bbox[0],bbox[1]),(bbox[2],bbox[3]),(0,0,255),2)
+    cv2.line(self.imgs[img_id],(bbox[2],bbox[3]),(bbox[4],bbox[5]),(0,0,255),2)
+    cv2.line(self.imgs[img_id],(bbox[4],bbox[5]),(bbox[6],bbox[7]),(0,0,255),2)
+    cv2.line(self.imgs[img_id],(bbox[6],bbox[7]),(bbox[0],bbox[1]),(0,0,255),2) # 1 - 5
   
     if not logi is None:
       cv2.rectangle(self.imgs[img_id],
                     (bbox[0], bbox[1] - cat_size[1] - 2),
                     (bbox[0] + cat_size[0], bbox[1] - 2), c, -1)
       cv2.putText(self.imgs[img_id], txt, (bbox[0], bbox[1] - 2), 
-                  font, 0.20, (0, 0, 0), thickness=1, lineType=cv2.LINE_AA) #1 - 5 # 0.20 _ 0.60
+                  font, 0.30, (0, 0, 0), thickness=1, lineType=cv2.LINE_AA) #1 - 5 # 0.20 _ 0.60
 
 
   def add_coco_hp(self, points, img_id='default'): 

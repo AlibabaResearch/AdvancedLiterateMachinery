@@ -1,7 +1,7 @@
 python demo.py ctdet_small \
         --dataset table_small \
-        --demo ./dir_of_input_images/ \
-        --demo_name demo_on_ptn \
+        --demo ../data/PTN/images/ \
+        --demo_name demo_test \
         --debug 1 \
         --dataset_name PTN \
         --arch dla_34  \
@@ -18,7 +18,7 @@ python demo.py ctdet_small \
         --vis_thresh 0.35 \
         --scores_thresh 0.35 \
         --nms \
-        --demo_dir ./dir_of_visualization/ \
-        --anno_path ./dir_of_annotations/json/test.json \  #optional when the input image set contains only test images
-        --load_model ./dir_of_pretrained/model_160.pth \
-        --load_processor ./dir_of_pretrained/processor_160.pth 
+        --demo_dir ../dir_of_visualization_ptn/ \
+        --anno_path ../data/PTN/json/test.json \
+        --load_model ../dir_of_ckpt/ckpt_ptn/model_best.pth \
+        --load_processor ../dir_of_ckpt/ckpt_ptn/processor_best.pth

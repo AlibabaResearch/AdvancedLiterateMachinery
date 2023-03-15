@@ -6,5 +6,6 @@ from .ctdet import CtdetDetector
 
 detector_factory = {
   'ctdet': CtdetDetector,
+  'ctdet_mid': CtdetDetector,
   'ctdet_small': CtdetDetector
 }

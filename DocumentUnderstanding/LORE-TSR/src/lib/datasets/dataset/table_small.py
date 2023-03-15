@@ -15,8 +15,6 @@ class Table(data.Dataset):
   num_classes = 2
   table_size = 512
   default_resolution = [512, 512]
-  # table_size = 1024
-  # default_resolution = [1024, 1024]
   mean = np.array([0.40789654, 0.44719302, 0.47026115],
                    dtype=np.float32).reshape(1, 1, 3)
   std  = np.array([0.28863828, 0.27408164, 0.27809835],

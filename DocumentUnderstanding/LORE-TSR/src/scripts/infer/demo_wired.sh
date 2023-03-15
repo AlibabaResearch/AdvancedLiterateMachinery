@@ -1,7 +1,7 @@
 python demo.py ctdet \
         --dataset table \
-        --demo ../demo_images \
-        --demo_name demo \
+        --demo ../input_images/wired \
+        --demo_name demo_wired \
         --debug 1 \
         --arch dla_34 \
         --K 3000 \
@@ -18,6 +18,6 @@ python demo.py ctdet \
         --vis_thresh 0.20 \
         --scores_thresh 0.2 \
         --nms \
-        --demo_dir ../visualization/ \
-        --load_model ../exp/model_on_wtw/model_best.pth \
-        --load_processor ../exp/model_on_wtw/processor_best.pth 
+        --demo_dir ../visualization_wired/ \
+        --load_model ../dir_of_ckpt/ckpt_wtw/model_best.pth \
+        --load_processor ../dir_of_ckpt/ckpt_wtw/processor_best.pth

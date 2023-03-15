@@ -1,0 +1,20 @@
+python main.py ctdet_mid \
+	--dataset table_mid \
+	--exp_id train_wireless \
+	--dataset_name dataset_name \
+	--image_dir ./dir_of_images \
+	--wiz_2dpe \
+	--wiz_stacking \
+	--tsfm_layers 4 \
+	--stacking_layers 4 \
+	--batch_size 64 \
+	--master_batch 12 \
+	--arch dla_34 \
+	--lr 1e-4 \
+	--K 500 \
+	--MK 1000 \
+	--num_epochs 200 \
+	--lr_step '100, 160' \
+	--gpus 0,1,2,3\
+	--num_workers 16 \
+	--val_intervals 10 
