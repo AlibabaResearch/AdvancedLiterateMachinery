@@ -6,6 +6,7 @@ python demo.py ctdet_mid \
         --arch resfpnhalf_18  \
         --K 3000 \
         --MK 5000 \
+        --upper_left \
         --tsfm_layers 4\
         --stacking_layers 4 \
         --gpus 0\

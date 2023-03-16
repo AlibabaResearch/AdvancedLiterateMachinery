@@ -4,7 +4,7 @@ The official PyTorch implementation of LORE-TSR. LORE can perform table structur
 
 
 ## 1 Installation
-### 1.1 Installing requirements
+### 1.1 Installing Requirements
 
 ```
 conda create --name Lore python=3.7
@@ -12,7 +12,7 @@ conda activate Lore
 pip install -r requirements.txt
 ```
 
-### 1.2 Installing cocoapi
+### 1.2 Installing Cocoapi
 ```
 git clone https://github.com/cocodataset/cocoapi.git
 cd cocoapi/PythonAPI
@@ -46,7 +46,7 @@ cd src/lib/models/network/DCNv2
 ./make.sh
 ```
 
-## 2.Run demo with pretrained model
+## 2.Run Demo with Pretrained Model
 
 
 ### 2.1 Pretrained Models 
@@ -59,30 +59,30 @@ Available model weights (using dla-34 backbone):
 |ckpt_ptn| DLA-34 | 3+3 | 512 | [Trained on PubTabNet](https://drive.google.com/file/d/1hg5R42u_6xaoO-6Ft18Ctu86HB_N2Bzu/view?usp=sharing)|
 |ckpt_wireless| ResNet-18 | 4+4 | 768 | [Trained on Wireless Tables](https://drive.google.com/file/d/1cBaewRwlZF1tIZovT49HpJZ5wlb3nSCw/view?usp=sharing)*|
 
-*This model is pretrained on a combination of SciTSR, PubTabNet and a set of Chinese tables. 
+*This model is pretrained on a combination of SciTSR, PubTabNet and a set of Chinese tables. Remember to add `--upper_left` when running demo with this model, since it is trained on a different image preprocess pipeline.  
 
 Another implementation with pretrained checkpoint will be released at [ModelScope](https://www.modelscope.cn/models/damo/cv_resnet-transformer_table-structure-recognition_lore/summary), which is more convenient for inference and application.
 
 ### 2.2 Running Demo
 Following the steps to run LORE on wireless table images:
-1. Download pretrained model in 'ckpt_wireless'
+1. Download pretrained model in `ckpt_wireless`
 2. Add image files to test into `./input_imgs/wireless/`
 3. Change the parameters such as model architecture, model path and input/output directory
 3. Run the scripts
 
 ```
 cd src
-bash scripts/demo/demo_wireless.sh
+bash scripts/infer/demo_wireless.sh
 ```
 
 Following the steps to run LORE on wired table images:
-1. Download pretrained model in 'ckpt_wtw'
+1. Download pretrained model in `ckpt_wtw`
 2. Add image files to test into `./input_imgs/wired/`
 3. Change the parameters such as model architecture, model path and input/output directory
 3. Run the scripts
 ```
 cd src
-bash scripts/demo/demo_wired.sh
+bash scripts/infer/demo_wired.sh
 ```
 NOTICE: 
 LORE is incorporated with the parsing-and-grouping mechenism similar to Cycle-CenterNet for wired tables. Setting `--wiz_rev` arguments to activate such process at inference stage. It provides accurate detection results on wired tables, but could slow the inference.
@@ -110,10 +110,11 @@ data
 We provide samples of COCO-like labels for WTW ([COCO label link](https://drive.google.com/file/d/1Ad7NOnaLpn-uxIyotOebslF4CxqcoU0R/view?usp=sharing)) and a subset of PubTabNet ([COCO label link](https://drive.google.com/file/d/1xQ3t5Bg739rNz9AFAMmV7zLhvmTZ_E1n/view?usp=sharing)).
 
 Images of WTW dataset are at [WTW-Dataset](https://github.com/wangwen-whu/WTW-Dataset). It provide the original dataset along with tools for changing it into COCO format. Images of PubTabNet dataset are at [PubTabNet-Dataset](https://github.com/ibm-aur-nlp/PubTabNet).
+
 ### 3.2 Training Scripts
 
 Following the steps to train LORE on wireless table images:
-1. Organizing the dataset as mentioned before and put the label set at 'LORE-TSR/data/dataset_name/json/'
+1. Organizing the dataset as mentioned before and put the label set at `LORE-TSR/data/dataset_name/json/`
 2. Changing the parameters such as model architecture, dataset name and image directory etc.
 3. Run:
 ```
