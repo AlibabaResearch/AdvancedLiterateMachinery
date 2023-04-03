@@ -6,5 +6,6 @@ from .ctdet import CtdetTrainer
 
 train_factory = {
   'ctdet': CtdetTrainer,
+  'ctdet_mid': CtdetTrainer,
   'ctdet_small': CtdetTrainer
 }
