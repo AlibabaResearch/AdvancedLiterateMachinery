@@ -33,10 +33,25 @@ if __name__ == '__main__':
             table_dict.append({'file_name': file_name, 'pred_table': pred_table, 'gt_table': gt_table})
     
     acs = []
+    bbox_recalls = []
+    bbox_precisions = []
     for i in tqdm(range(len(table_dict))):
         pair = pairTab(table_dict[i]['pred_table'], table_dict[i]['gt_table'])
+        #Acc of Logical Locations
         ac = pair.evalAxis()
         if ac != 'null':
             acs.append(ac)
 
-    print(np.array(acs).mean())
+        #Recall of Cell Detection 
+        # recall = pair.evalBbox('recall')
+        # bbox_recalls.append(recall)
+        
+        # #Precision of Cell Detection 
+        # precision = pair.evalBbox('precision')
+        # bbox_precisions.append(precision)
+    
+    # det_precision =  np.array(bbox_precisions).mean()
+    # det_recall =  np.array(bbox_recalls).mean()
+    # f = 2 * det_precision * det_recall / (det_precision + det_recall)
+
+    print('Evaluation Results | Accuracy of Logical Location: {:.2f}.'.format(np.array(acs).mean()))

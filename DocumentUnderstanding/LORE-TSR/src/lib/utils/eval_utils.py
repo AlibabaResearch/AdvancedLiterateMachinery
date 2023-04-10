@@ -29,12 +29,12 @@ def coco_into_labels(annot_path, label_path):
         #file_names.append(file_name)
 
         # using this for your dataset
-        # center_file = '{}/gt_center/'.format(label_path) + file_name +'.txt'
-        # logi_file = '{}/gt_logi/'.format(label_path) + file_name +'.txt'
+        center_file = '{}/gt_center/'.format(label_path) + file_name +'.txt'
+        logi_file = '{}/gt_logi/'.format(label_path) + file_name +'.txt'
 
         #TODO: revise the file names in the annotation of PubTabNet
-        center_file = gt_center_dir + file_name.replace('.jpg', '.png') +'.txt'
-        logi_file = gt_logi_dir + file_name.replace('.jpg', '.png') +'.txt'
+        # center_file = gt_center_dir + file_name.replace('.jpg', '.png') +'.txt'
+        # logi_file = gt_logi_dir + file_name.replace('.jpg', '.png') +'.txt'
         
         
         ann_ids = coco_data.getAnnIds(imgIds=[img_id])
@@ -67,7 +67,9 @@ class pairTab():
         for tunit in self.gt_list:
             if_find = 0
             for sunit in self.pred_list:
-                if self.compute_IOU(tunit.bbox, sunit.bbox) >= 0.1:
+                #TODO: Adding Parameters for IOU threshold
+                #Using IOU=0.5 as Default
+                if self.compute_IOU(tunit.bbox, sunit.bbox) >= 0.5:
                     self.match_list.append(sunit)
                     if_find = 1
                     break
@@ -84,12 +86,12 @@ class pairTab():
         at = len(self.gt_list)
         if eval_type == 'recall':
             if at == 0:
-                return 1
+                return 'null'
             else:
                 return tp/at
         elif eval_type == 'precision':
             if ap == 0:
-                return 0
+                return 'null'
             else:
                 return tp/ap
 
@@ -145,45 +147,12 @@ class pairTab():
                 #return 0
                 return 'null'
             else:
-                return truep/tp #len(self.gt_list)
-
-#     def evalAxis(self):
-        
-#         tp = 0
-#         for u in self.match_list:
-#             if u != 'empty':
-#                 tp = tp + 1.0
-                
-#         truep = 0
-#         for i in range(len(self.gt_list)):
-#             sunit = self.match_list[i]
-#             if sunit != 'empty':
-#                 tunit = self.gt_list[i]
-                
-#                 saxis = sunit.axis
-#                 taxis= tunit.axis
-                
-#                 flag = 1
-#                 for j in range(4):
-#                     if saxis[j] != taxis[j]:
-#                         flag = 0
-#                         break
-#                 if flag == 1:
-#                     truep = truep + 1.0
-#         if len(self.gt_list) == 0:
-#             return 0
-#         else:
-#             if tp == 0:
-#                 return 0
-#             else:
-#                 return truep/tp #len(self.gt_list)
+                return truep/tp 
     
- 
-
 class Table():
     def __init__(self, bbox_path, axis_path, file_name):
-        self.bbox_dir = os.path.join(bbox_path, file_name) #'./det_bcb_tsfm_4ps/center/' + file_name 
-        self.axis_dir = os.path.join(axis_path, file_name) #'./det_bcb_tsfm_4ps/logi/' + file_name 
+        self.bbox_dir = os.path.join(bbox_path, file_name) 
+        self.axis_dir = os.path.join(axis_path, file_name) 
         
         self.ulist = []
         self.load_tabu(self.bbox_dir, self.axis_dir)
@@ -191,8 +160,6 @@ class Table():
     
     def load_tabu(self, bbox_dir, axis_dir):
         
-        #f_b = open(self.bbox_dir.replace('jpg', 'png'))
-        #f_a = open(self.axis_dir.replace('jpg', 'png'))
         f_b = open(self.bbox_dir)
         f_a = open(self.axis_dir)
         bboxs = f_b.readlines()
