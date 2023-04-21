@@ -1,0 +1,56 @@
+# For workspace name
+# The checkpoint file location to be saved: {workspace}/checkpoints/
+# The log file location to be saved: {workspace}/tensorboard_logs/
+workspace: path/to/workspace/funsd/
+
+dataset: funsd
+dataset_root_path: path/to/dataset/
+task: ee_el
+img_h: 768
+img_w: 768
+
+model:
+  backbone: alibaba-damo/geolayoutlm-large-uncased
+  config_json: ./configs/GeoLayoutLM/GeoLayoutLM_large_model_config.json
+  model_ckpt: path/to/geolayoutlm_large_pretrain.pt
+  head: vie
+  use_inner_id: true
+  max_prob_as_father: true
+  max_prob_as_father_upperbound: false
+
+train:
+  batch_size: 6
+  num_samples_per_epoch: 149
+  max_seq_length: 512
+  max_block_num: 150
+  max_epochs: 200
+  use_fp16: False
+  accelerator: gpu
+  strategy:
+    type: ""
+
+  clip_gradient_algorithm: norm
+  clip_gradient_value: 1.0
+  num_workers: 4
+
+  optimizer:
+    method: adamw
+    params:
+      lr: 2e-5
+      weight_decay: 0.01
+      eps: !!float 1e-8
+    lr_schedule:
+      method: linear
+      params:
+        warmup_steps: 200
+
+  val_interval: 1  # in epochs
+
+val:
+  batch_size: 8
+  num_workers: 4
+  limit_val_batches: 1.0
+  dump_dir: ./funsd_result/
+  pretrained_best_type: linking # labeling, linking
+
+pretrained_model_file: ~
