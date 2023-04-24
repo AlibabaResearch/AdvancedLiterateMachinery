@@ -1,9 +1,9 @@
 # GeoLayoutLM: Geometric Pre-training for Visual Information Extraction
 The official PyTorch implementation of GeoLayoutLM (CVPR 2023 highlight).
-<!-- 
+
 ## Paper
 - CVPR 2023
-- [arXiv]() -->
+- [arXiv](https://arxiv.org/abs/2304.10759)
 
 GeoLayoutLM is a multi-modal framework for Visual Information Extraction (VIE, including SER and RE), which incorporates the novel **geometric pre-training**.
 Additionally, novel **relation heads**, which are pre-trained by the geometric pre-training tasks and fine-tuned for RE, are designed to enrich and enhance the feature representation.
@@ -51,6 +51,17 @@ Refer to [modelscope](https://www.modelscope.cn/models/damo/multi-modal_convnext
 
 ## Acknowledgments
 We implemented the fine-tuning based on the code of [BROS](https://github.com/clovaai/bros).
+
+## Citation
+Please cite our paper if the work helps you.
+```
+@article{cvpr2023geolayoutlm,
+  title={GeoLayoutLM: Geometric Pre-training for Visual Information Extraction},
+  author={Chuwei Luo and Changxu Cheng and Qi Zheng and Cong Yao},
+  journal={2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2023}
+}
+```
 
 ## License
 ```
