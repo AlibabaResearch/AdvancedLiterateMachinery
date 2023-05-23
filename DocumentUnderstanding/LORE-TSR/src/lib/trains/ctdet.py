@@ -6,7 +6,7 @@ import torch
 import numpy as np
 
 from models.losses import FocalLoss
-from models.losses import RegL1Loss, RegLoss, NormRegL1Loss, RegWeightedL1Loss, PairLoss, AxisLoss, DistLoss, _axis_eval
+from models.losses import RegL1Loss, RegLoss, NormRegL1Loss, RegWeightedL1Loss, PairLoss, AxisLoss, _axis_eval
 from models.decode import ctdet_decode
 from models.decode import ctdet_decode
 from models.utils import _sigmoid
@@ -72,28 +72,27 @@ class CtdetLoss(torch.nn.Module):
 
       """LOSS FOR RECONSTRUCTION MODULE"""
      
-      ax_loss, sp_loss = self.crit_ax(output['ax'], batch['hm_mask'], batch['hm_ind'], batch['logic'], logi)
+      ax_loss = self.crit_ax(output['ax'], batch['hm_mask'], batch['hm_ind'], batch['logic'], logi)
      
       '''COMBINING LOSSES'''
       
       loss = opt.hm_weight * hm_loss + opt.wh_weight * wh_loss + \
-              opt.off_weight * off_loss + 2 * ax_loss + 2 * sp_loss #2*ax_loss #+ 2*sp_loss #+ sm_loss
+              opt.off_weight * off_loss + 2 * ax_loss 
       
       if self.opt.wiz_pairloss:
         loss = loss + st_loss
       
       if self.opt.wiz_stacking:
-        sax_loss, ss_sp_loss = self.crit_ax(output['ax'], batch['hm_mask'], batch['hm_ind'], batch['logic'], slogi)
+        sax_loss = self.crit_ax(output['ax'], batch['hm_mask'], batch['hm_ind'], batch['logic'], slogi)
         loss = loss + 2 * sax_loss
-        #sacc = _axis_eval(output['ax'], batch['hm_mask'], batch['hm_ind'], batch['logic'], slogi)
+        sacc = _axis_eval(output['ax'], batch['hm_mask'], batch['hm_ind'], batch['logic'], slogi)
     '''CONSTRUCTING LOSS STATUS'''
     
     #weather asking for grouping
     if self.opt.wiz_pairloss :
       loss_stats = {'loss': loss, 'hm_l': hm_loss,  'wh_l': wh_loss, "st_l": st_loss, "ax_l": ax_loss}
     else:
-      loss_stats = {'loss': loss, 'hm_l': hm_loss,  'wh_l': wh_loss, "ax_l": ax_loss}
-      #loss_stats = {'loss': loss, 'hm_l': hm_loss,  'wh_l': wh_loss, "ax_l": ax_loss, 'sacc': sacc} # span loss is easy
+      loss_stats = {'loss': loss, 'hm_l': hm_loss,  'wh_l': wh_loss, "ax_l": ax_loss} 
 
     #weather asking for stacking
     if self.opt.wiz_stacking:
@@ -114,7 +113,6 @@ class CtdetTrainer(BaseTrainer):
 
     if opt.wiz_stacking:
       loss_stats.append('sax_l')
-      #loss_stats.append('sacc')
 
     loss = CtdetLoss(opt)
     return loss_stats, loss

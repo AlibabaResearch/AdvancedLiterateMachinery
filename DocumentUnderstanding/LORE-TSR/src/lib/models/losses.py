@@ -63,42 +63,11 @@ class AxisLoss(nn.Module):
     else:
       pred = logi
 
-    #mask = mask.unsqueeze(2).expand_as(pred).float()
     mask = mask.unsqueeze(2).float()
     loss = F.l1_loss(pred * mask, target * mask, size_average=False)
-    #loss = F.mse_loss(2*pred * mask, 2*target * mask, size_average=False)
-    #loss = F.mse_loss(pred * mask, target * mask, size_average=False)
     loss = loss / (4*(mask.sum() + 1e-4))
-
-    #construct span data
-    target_width = target[:,:,1] - target[:,:,0]
-    target_height = target[:,:,3] - target[:,:,2]
-    width = pred[:,:,1] - pred[:,:,0]
-    height = pred[:,:,3] - pred[:,:,2]
-    target_span = torch.cat((target_width.unsqueeze(2), target_height.unsqueeze(2)), axis = 2)
-    span = torch.cat((width.unsqueeze(2), height.unsqueeze(2)), axis = 2)
-
-    # loss = F.l1_loss(pred * mask, target * mask, reduction='elementwise_mean')
-    
-    #solving unbalanced type in span data 
-    if span_type :
-      major_mask = (target_span == 0) * mask
-      minor_mask = (target_span != 0) * mask
-      
-      major_loss = F.l1_loss(span  * major_mask, target_span * major_mask, size_average=False)
-      major_loss = major_loss/ (major_mask.sum())
-
-      minor_loss = F.l1_loss(span  * minor_mask, target_span * minor_mask, size_average=False)
-      minor_loss = minor_loss/ (minor_mask.sum())
-    
-    else:  
-      span_w = torch.exp(torch.abs(span - target_span)/2)
-      loss_span = F.l1_loss(span * mask, target_span * mask, size_average=False)
-      #loss_span = F.mse_loss(2*span * mask, 2*target_span * mask, size_average=False)
-      #loss_span = F.mse_loss(span * mask, target_span * mask, size_average=False)
-      loss_span = loss_span / (2*(mask.sum() + 1e-4))
-    
-    return loss, loss_span
+ 
+    return loss
 
 class FocalLoss(nn.Module):
   '''nn.Module warpper for focal loss'''
@@ -176,33 +145,6 @@ class PairLoss(nn.Module):
     loss3 = loss3 / (mask.sum() + 1e-4)
 
     return loss1, 0.5 * loss2 + 0.2 * loss3
-
-class DistLoss(nn.Module):
-  def __init__(self):
-    super(DistLoss, self).__init__()
-  
-  def forward(self, h_pair_ind, v_pair_ind, logic, logi=None):
-    
-    # if logi is None:
-    #   pred = _tranpose_and_gather_feat(output, ind)
-    # else:
-    
-    pred = logi
-    pred_pair = _make_pair_feat(pred)
-
-    h_pred = _flatten_and_gather_feat(pred_pair, h_pair_ind)
-    v_pred = _flatten_and_gather_feat(pred_pair, v_pair_ind)
-
-    logic_pair = _make_pair_feat(logic)
-    h_pair = _flatten_and_gather_feat(logic_pair, h_pair_ind)
-    v_pair = _flatten_and_gather_feat(logic_pair, v_pair_ind)
-    
-    h_dist = rank_dist(h_pred, h_pair, h_pair_ind, rtype = 'horizontal').squeeze() 
-    v_dist = rank_dist(v_pred, v_pair, v_pair_ind, rtype = 'vertical').squeeze()
-  
-    loss = torch.max(torch.zeros(h_dist.shape).cuda(), (1-h_dist)*(h_pair_ind!=0)).sum()/((h_pair_ind!=0).sum().to(torch.float32) +1e-5) + \
-           torch.max(torch.zeros(v_dist.shape).cuda(), (1-v_dist)*(v_pair_ind!=0)).sum()/((v_pair_ind!=0).sum().to(torch.float32) +1e-5) 
-    return loss
     
 class NormRegL1Loss(nn.Module):
   def __init__(self):
