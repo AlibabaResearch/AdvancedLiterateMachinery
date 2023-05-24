@@ -2,7 +2,7 @@
 The official PyTorch implementation of GeoLayoutLM (CVPR 2023 highlight).
 
 ## Paper
-- CVPR 2023
+- [CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/papers/Luo_GeoLayoutLM_Geometric_Pre-Training_for_Visual_Information_Extraction_CVPR_2023_paper.pdf)
 - [arXiv](https://arxiv.org/abs/2304.10759)
 
 GeoLayoutLM is a multi-modal framework for Visual Information Extraction (VIE, including SER and RE), which incorporates the novel **geometric pre-training**.
