@@ -1,5 +1,5 @@
 # Introduction
-Lightweight OCR is committed to providing efficient OCR models with small parameters and high precision, which can be deployed offline on Mobile terminals or IOT devices. We provide open source models which can be finetuned with your own data. In addition, we provide demos deployed on multiple platforms, you can replace the old models with your own trained models for testing and depolying.
+LightWeight OCR is committed to providing efficient OCR models with small parameters and high precision, which can be deployed offline on Mobile terminals or IOT devices. We provide open source models which can be finetuned with your own data. In addition, we provide demos deployed on multiple platforms, you can replace the old models with your own trained models for testing and depolying.
 
 
 # Open Source Models
@@ -17,7 +17,7 @@ We provide a simple ios demo in DuGuang_LiteOCR_IOS_DEMO, which can take picture
 
 We provide 30 test images, the right character recall is 0.896, and the wrong character recall is 0.065. The accuracy is similar to the Apple Mobile OCR, but the emphasis is different. Apple Mobile OCR tends towards document recognition, while our open source model tends towards general scenarios. The average time-consuming for 30 pictures is 400ms on iPhone12。
 
-![avatar](resources/lightweight_ios_demo_rst.png)
+![avatar](figures/lightweight_ios_demo_rst.png)
 
 
 # Train/Test Your Own Model
