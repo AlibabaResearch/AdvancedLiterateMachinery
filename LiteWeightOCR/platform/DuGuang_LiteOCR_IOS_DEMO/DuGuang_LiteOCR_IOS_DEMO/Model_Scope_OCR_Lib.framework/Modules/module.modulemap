@@ -1,0 +1,6 @@
+framework module Model_Scope_OCR_Lib {
+  umbrella header "Model_Scope_OCR_Lib.h"
+
+  export *
+  module * { export * }
+}
