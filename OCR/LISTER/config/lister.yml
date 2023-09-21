@@ -1,0 +1,91 @@
+# random seed
+seed: 42
+# data
+train_data_path:
+  - path/to/MJ/MJ_train/
+  - path/to/MJ/MJ_test/
+  - path/to/MJ/MJ_valid/
+  - path/to/ST
+test_data_path:
+  - path/to/IIIT5k
+  - path/to/IC13_857
+  - path/to/SVT
+  - path/to/IC15_1811
+  - path/to/SVTP
+  - path/to/CUTE80
+  # - path/to/ArT
+  # - path/to/COCOv1.4
+  # - path/to/Uber
+  # - path/to/TUL
+img_h: 32
+img_w_max: 256
+# img_w_max: 400
+do_resize: False # direct resize to (img_w_max, img_h) as previous works
+in_c: 3
+batch_size: 512
+max_len: ~ # if cuda out of memory, set to a proper value, e.g. 32
+workers: 8
+
+# model
+model_type: lister
+# model_type: pat # parallel attn
+# model_type: ctc
+# model_type: rnn
+model_name: lister_base
+
+enc: focalnet
+# enc_version: tiny
+enc_version: base
+sa4enc: False # True to place the Transformer block to the end of the feature extractor
+
+h_fm: 1
+detach_grad: False
+
+### FEM cfg
+iters: 2
+nhead: 8
+window_size: 11
+num_sa_layers: 1 # number of Transformer layers
+num_mg_layers: 1 # number of convolution blocks in Feature Map Enhancer
+
+drop_path_rate: 0.1
+layer_scale_init_value: !!float 1e-6
+# checkpoint
+ckpt_path: /path/to/model/checkpoints
+ckpt_name:
+  - checkpoint.pth
+  - best_model.pth
+
+# for training stage only
+continue: False # to continue training under the same model_name
+pretrained_path: ~
+finetune: False
+# loss
+# training settings
+num_epochs: 10
+num_iters: 10000000000 # not used
+start_epoch: 0
+start_iter: 0
+show_interval: 50
+test_interval: 2000
+num_to_show: 5
+# optimizer
+lr: !!float 1e-3
+min_lr: !!float 5e-7
+opt_eps: !!float 1e-8
+weight_decay: 0.05 # somewhat important
+warmup_epochs: 0
+warmup_steps: 5000
+grad_clip: 20.0
+
+# tensorboard settings
+tb_dir: runs
+
+# for test stage only
+# debug
+debug: False
+# dump file
+obj_fn: data/ocr_res
+# 
+test_speed: False
+ret_probs: False # set to True if you wanna get prediction probabilities

@@ -1,0 +1,34 @@
+batch_size: 100
+num_workers: 8
+
+image_size: 512
+text_column_name: "caption"
+max_text_len: 30
+data_dir: "./data"
+
+vocab_size: 30522
+tokenizer: "bert-base-uncased"
+whole_word_masking: True
+mlm_prob: 0.15
+
+fpn: True
+embed_dim: 384
+num_heads: 6
+mlp_ratio: 4
+drop_rate: 0.1
+drop_path_rate: 0
+qkv_bias: True
+attn_drop_rate: 0.0
+
+optim_type: "adamw"
+learning_rate: 0.0001
+weight_decay: 0.01
+decay_power: 1
+end_lr: 0
+epoch: 1000
+max_steps: 180000
+warmup_steps: 2500
+
+image_transformer_depth: 1
+text_transformer_depth: 3
+co_transformer_depth: 4

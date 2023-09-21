@@ -1,0 +1,10 @@
+fastai==1.0.60
+timm==0.4.12
+bytecode==0.13.0
+tabulate
+Levenshtein
+lmdb
+opencv-python
+omegaconf==2.3.0
+# torch==1.12.1+cu113
+# torchvision==0.13.1+cu113

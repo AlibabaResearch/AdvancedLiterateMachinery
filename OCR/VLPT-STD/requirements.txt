@@ -1,0 +1,10 @@
+transformers==4.2.1
+Pillow==8.2.0
+tqdm==4.56.0
+ipdb==0.13.4
+numpy==1.19.5
+einops==0.3.0
+pyarrow==2.0.0
+sacred==0.8.2
+pandas==1.1.5
+timm
