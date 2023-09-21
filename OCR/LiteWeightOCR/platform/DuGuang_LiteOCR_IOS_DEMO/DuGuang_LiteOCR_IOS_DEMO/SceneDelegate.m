@@ -1,8 +1,9 @@
 //
 //  SceneDelegate.m
-//  DuGuang_LiteOCR_IOS_DEMO
+//  QiStackFrameLogger
 //
-//  Created by yixian on 2023/4/27.
+//  Created by liusiqi on 2020/4/24.
+//  Copyright © 2020 liusiqi. All rights reserved.
 //
 
 #import "SceneDelegate.h"

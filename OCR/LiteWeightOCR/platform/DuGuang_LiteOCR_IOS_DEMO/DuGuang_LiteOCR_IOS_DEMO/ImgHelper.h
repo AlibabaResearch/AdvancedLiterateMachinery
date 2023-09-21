@@ -13,8 +13,5 @@
 @interface ImgHelper : NSObject
 
 + (unsigned char *)convertImageToData:(UIImage *)image;
-+(NSInteger)getMaxConfRectIndex:(NSArray*)array;
-+ (UIImage *) convertBitmapRGBA8ToUIImage:(unsigned char *) buffer
-                                withWidth:(int) width
-                               withHeight:(int) height;
+
 @end
