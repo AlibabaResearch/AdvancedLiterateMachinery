@@ -350,6 +350,7 @@ Performances of the reproduced pretrained models are summaried as follows:
         <td align="center">81.7</td>
         <td align="center">91.0</td>
     </tr>
+</table>
 
 ### Run demo with pretrained model
 1. Download pretrained model 
