@@ -33,15 +33,27 @@ Download lmdb dataset from [Read Like Humans: Autonomous, Bidirectional and Iter
     2. [SynthText](http://www.robots.ox.ac.uk/~vgg/data/scenetext/) (ST):
         - Use `tools/crop_by_word_bb.py` to crop images from original [SynthText](http://www.robots.ox.ac.uk/~vgg/data/scenetext/) dataset, and convert images into LMDB dataset by `tools/create_lmdb_dataset.py`
         - [LMDB dataset BaiduNetdisk(passwd:n23k)](https://pan.baidu.com/s/1mgnTiyoR8f6Cm655rFI4HQ)
+    3. [Real](https://github.com/baudm/parseq/blob/main/Datasets.md):
+        - We use the real dataset from [PARSeq](https://github.com/baudm/parseq). We recommend you follow the instructions of [PARSeq](https://github.com/baudm/parseq) at its [parseq/Datasets.md](https://github.com/baudm/parseq/blob/main/Datasets.md) . The gdrive links are [gdrive-link1](https://drive.google.com/drive/folders/1NYuoi7dfJVgo-zUJogh8UQZgIMpLviOE) and [gdrive-link2](https://drive.google.com/drive/folders/1D9z_YJVa6f-O0juni-yG5jcwnhvYw-qC) from PARSeq.
+    4. [Union14M-L](https://github.com/Mountchicken/Union14M/):
+        - We use [Union14M-L](https://github.com/Mountchicken/Union14M/) for training, you can download from [here](https://github.com/Mountchicken/Union14M#34-download).
+    
+
 
 - Evaluation datasets
-  LMDB datasets can be downloaded from [BaiduNetdisk(passwd:1dbv)](https://pan.baidu.com/s/1RUg3Akwp7n8kZYJ55rU5LQ), [GoogleDrive](https://drive.google.com/file/d/1dTI0ipu14Q1uuK4s4z32DqbqF3dJPdkk/view?usp=sharing).<br>
-    1. ICDAR 2013 (IC13)
-    2. ICDAR 2015 (IC15)
-    3. IIIT5K Words (IIIT)
-    4. Street View Text (SVT)
-    5. Street View Text-Perspective (SVTP)
-    6. CUTE80 (CUTE)
+    Datasets can be downloaded from [BaiduNetdisk(passwd:1dbv)](https://pan.baidu.com/s/1RUg3Akwp7n8kZYJ55rU5LQ), [GoogleDrive](https://drive.google.com/file/d/1dTI0ipu14Q1uuK4s4z32DqbqF3dJPdkk/view?usp=sharing) and [parseq/Datasets.md](https://github.com/baudm/parseq/blob/main/Datasets.md) .<br>
+    1. ICDAR 2013 (IC13_857)
+    2. ICDAR 2013 (IC13_1015)
+    3. ICDAR 2015 (IC15_1811)
+    4. ICDAR 2015 (IC15_2077)
+    5. IIIT5K Words (IIIT)
+    6. Street View Text (SVT)
+    7. Street View Text-Perspective (SVTP)
+    8. CUTE80 (CUTE)
+    9. ArT (ArT)
+    10. COCOv1.4 (COCO)
+    11. Uber (Uber)
+    
 
 - The structure of data folder as below.
 ```
@@ -49,21 +61,26 @@ data
 ├── evaluation
 │   ├── CUTE80
 │   ├── IC13_857
+│   ├── IC13_1015
 │   ├── IC15_1811
+│   ├── IC15_2077
 │   ├── IIIT5k_3000
 │   ├── SVT
-│   └── SVTP
+│   ├── SVTP
+│   ├── ArT
+│   ├── COCOv1.4
+│   └── Uber
 ├── training
 │   ├── MJ
 │   │   ├── MJ_test
 │   │   ├── MJ_train
 │   │   └── MJ_valid
-│   └── ST
+│   ├── Real
+│   └── Union14M-L
 ```
 At this time, training datasets and evaluation datasets are LMDB datasets <br>
 
-
-### Pretrained Models 
+### Trained on MJ+ST data
 
 Available model weights:
 
@@ -71,19 +88,16 @@ Available model weights:
 | :---: | :---: | :---: |
 |[MGP-STR-Tiny](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/V1.0.1-ECCV2022-model/mgp_str_tiny_patch4_32_128.pth)|[MGP-STR-Small](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/V1.0.1-ECCV2022-model/mgp_str_small_patch4_32_128.pth)|[MGP-STR-Base](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/V1.0.1-ECCV2022-model/mgp_str_base_patch4_32_128.pth)|
 
-
-### Benchmarks (Top 1% accuracy)
-
 Performances of the reproduced pretrained models are summaried as follows:
 
 <table><tbody>
     <tr>
         <th>&nbsp;&nbsp;Model&nbsp;&nbsp;</th>
         <th>&nbsp;&nbsp;Output&nbsp;&nbsp;</th>
-        <th>&nbsp;&nbsp;IC13&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;IC13_857&nbsp;&nbsp;</th>
         <th>&nbsp;&nbsp;SVT&nbsp;&nbsp;</th>
         <th>&nbsp;&nbsp;IIIT&nbsp;&nbsp;</th>
-        <th>&nbsp;&nbsp;IC15&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;IC15_1811&nbsp;&nbsp;</th>
         <th>&nbsp;&nbsp;SVTP&nbsp;&nbsp;</th>
         <th>&nbsp;&nbsp;CUTE&nbsp;&nbsp;</th>
         <th>&nbsp;&nbsp;AVG&nbsp;&nbsp;</th>
@@ -214,6 +228,128 @@ Performances of the reproduced pretrained models are summaried as follows:
 </table>
 
 
+### Trained on MJ+ST+Real+Union14M-L data
+
+Available model weights:
+
+| Base | Large  |
+| :---: | :---: |
+|[MGP-STR-Base](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/V1.0.1-ECCV2022-model/mgp_str_base_union14.pth)|[MGP-STR-Large](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/V1.0.1-ECCV2022-model/mgp_str_large_union14.py)|
+
+Performances of the reproduced pretrained models are summaried as follows:
+
+<table><tbody>
+    <tr>
+        <th>&nbsp;&nbsp;Model&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;Output&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;IIIT&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;SVT&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;IC13_1015&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;IC15_2077&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;SVTP&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;CUTE&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;ArT&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;COCO&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;Uber&nbsp;&nbsp;</th>
+    </tr>
+    <tr>
+        <td rowspan="4" align="center">MGP-STR-base</td>
+        <td align="center">Char</td>
+        <td align="center">98.4</td>
+        <td align="center">98.0</td>
+        <td align="center">98.2</td>
+        <td align="center">89.3</td>
+        <td align="center">96.7</td>
+        <td align="center">98.6</td>
+        <td align="center">84.5</td>
+        <td align="center">78.8</td>
+        <td align="center">87.9</td>
+    </tr>
+    <tr>
+        <td align="center">BPE</td>
+        <td align="center">96.6</td>
+        <td align="center">97.5</td>
+        <td align="center">98.0</td>
+        <td align="center">88.0</td>
+        <td align="center">96.1</td>
+        <td align="center">96.8</td>
+        <td align="center">80.7</td>
+        <td align="center">76.6</td>
+        <td align="center">88.0</td>
+    </tr>
+    <tr>
+        <td align="center">WP</td>
+        <td align="center">96.5</td>
+        <td align="center">97.2</td>
+        <td align="center">98.3</td>
+        <td align="center">88.1</td>
+        <td align="center">95.3</td>
+        <td align="center">96.8</td>
+        <td align="center">80.9</td>
+        <td align="center">76.1</td>
+        <td align="center">87.8</td>
+    </tr>
+    <tr>
+        <td align="center">Fuse</td>
+        <td align="center">98.5</td>
+        <td align="center">98.5</td>
+        <td align="center">98.6</td>
+        <td align="center">89.9</td>
+        <td align="center">97.2</td>
+        <td align="center">98.3</td>
+        <td align="center">84.5</td>
+        <td align="center">79.9</td>
+        <td align="center">89.6</td>
+    </tr>
+    <tr>
+        <td rowspan="4" align="center">MGP-STR-large</td>
+        <td align="center">Char</td>
+        <td align="center">98.7</td>
+        <td align="center">98.7</td>
+        <td align="center">97.9</td>
+        <td align="center">90.6</td>
+        <td align="center">97.8</td>
+        <td align="center">98.9</td>
+        <td align="center">85.4</td>
+        <td align="center">80.6</td>
+        <td align="center">89.4</td>
+    </tr>
+    <tr>
+        <td align="center">BPE</td>
+        <td align="center">97.2</td>
+        <td align="center">97.5</td>
+        <td align="center">97.9</td>
+        <td align="center">89.4</td>
+        <td align="center">97.6</td>
+        <td align="center">97.5</td>
+        <td align="center">82.7</td>
+        <td align="center">78.4</td>
+        <td align="center">89.9</td>
+    </tr>
+    <tr>
+        <td align="center">WP</td>
+        <td align="center">97.3</td>
+        <td align="center">98.1</td>
+        <td align="center">97.8</td>
+        <td align="center">89.4</td>
+        <td align="center">97.2</td>
+        <td align="center">97.2</td>
+        <td align="center">83.3</td>
+        <td align="center">78.6</td>
+        <td align="center">89.8</td>
+    </tr>
+    <tr>
+        <td align="center">Fuse</td>
+        <td align="center">98.8</td>
+        <td align="center">98.6</td>
+        <td align="center">98.5</td>
+        <td align="center">90.8</td>
+        <td align="center">98.3</td>
+        <td align="center">99.3</td>
+        <td align="center">85.5</td>
+        <td align="center">81.7</td>
+        <td align="center">91.0</td>
+    </tr>
 
 ### Run demo with pretrained model
 1. Download pretrained model 

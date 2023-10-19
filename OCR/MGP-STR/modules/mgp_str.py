@@ -25,6 +25,7 @@ _logger = logging.getLogger(__name__)
 
 __all__ = [
     'mgp_str_base_patch4_3_32_128',
+    'mgp_str_large_patch4_3_32_128',
     'mgp_str_tiny_patch4_3_32_128',
     'mgp_str_small_patch4_3_32_128',
 ]
@@ -150,9 +151,12 @@ def load_pretrained(model, cfg=None, num_classes=1000, in_chans=1, filter_fn=Non
         classifier_bias = state_dict[classifier_name + '.bias']
         state_dict[classifier_name + '.bias'] = classifier_bias[1:]
     elif num_classes != cfg['num_classes']:
+        try:
         # completely discard fully connected for all other differences between pretrained and created model
-        del state_dict[classifier_name + '.weight']
-        del state_dict[classifier_name + '.bias']
+            del state_dict[classifier_name + '.weight']
+            del state_dict[classifier_name + '.bias']
+        except:
+            pass
         strict = False
 
     print("Loading pre-trained vision transformer weights from %s ..." % cfg['url'])
@@ -168,6 +172,24 @@ def _conv_filter(state_dict):
             print("not load",k) 
     return out_dict
 
+@register_model
+def mgp_str_large_patch4_3_32_128(pretrained=False, **kwargs) -> VisionTransformer:
+    """ ViT-Large model (ViT-L/16) from original paper (https://arxiv.org/abs/2010.11929).
+    ImageNet-1k weights fine-tuned from in21k @ 224x224, source https://github.com/google-research/vision_transformer.
+    """
+    # model_args = dict(patch_size=16, embed_dim=1024, depth=24, num_heads=16)
+    # model = _create_vision_transformer('vit_large_patch16_224', pretrained=pretrained, **dict(model_args, **kwargs))
+    kwargs['in_chans'] = 3
+    model = MGPSTR(
+        img_size=(32,128), patch_size=4, embed_dim=1024, depth=24, num_heads=16, mlp_ratio=4, qkv_bias=True, **kwargs)
+    model.default_cfg = _cfg(
+        # url = 'https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth'
+        url = 'https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_large.pth',
+    )
+    if pretrained:
+        load_pretrained(
+            model, num_classes=model.num_classes, in_chans=kwargs.get('in_chans', 3), filter_fn=_conv_filter)
+    return model
 
 @register_model
 def mgp_str_base_patch4_3_32_128(pretrained=False, **kwargs):

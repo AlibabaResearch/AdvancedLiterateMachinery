@@ -165,7 +165,7 @@ def get_args(is_train=True):
     """ Model Architecture """
     parser.add_argument('--Transformer', type=str, required=True, help='Transformer stage. mgp-str|char-str')
 
-    choices = ["mgp_str_base_patch4_3_32_128", "mgp_str_tiny_patch4_3_32_128", 
+    choices = ["mgp_str_base_patch4_3_32_128", "mgp_str_large_patch4_3_32_128", "mgp_str_tiny_patch4_3_32_128", 
                 "mgp_str_small_patch4_3_32_128", "char_str_base_patch4_3_32_128"]
     parser.add_argument('--TransformerModel', default='', help='Which mgp_str transformer model', choices=choices)
     parser.add_argument('--Transformation', type=str, default='', help='Transformation stage. None|TPS')
