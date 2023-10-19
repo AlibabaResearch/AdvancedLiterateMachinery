@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B24435B2AC28BAA00E59717 /* ImgHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B24435A2AC28BAA00E59717 /* ImgHelper.mm */; };
+		5B2443702AC28CB400E59717 /* LiteWeight_Mobile_OCR_dct_refine.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 5B24436F2AC28CB400E59717 /* LiteWeight_Mobile_OCR_dct_refine.mnn */; };
+		5B4594D22A29A3BB00BFFD46 /* Model_Scope_OCR_Lib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4594D12A29A3BB00BFFD46 /* Model_Scope_OCR_Lib.framework */; };
+		5B609E0929FA2543005E3B0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B609E0829FA2543005E3B0F /* AppDelegate.m */; };
+		5B609E0C29FA2543005E3B0F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B609E0B29FA2543005E3B0F /* SceneDelegate.m */; };
+		5B609E0F29FA2543005E3B0F /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B609E0E29FA2543005E3B0F /* ViewController.mm */; };
+		5B609E1229FA2543005E3B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B609E1029FA2543005E3B0F /* Main.storyboard */; };
+		5B609E1429FA2545005E3B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B609E1329FA2545005E3B0F /* Assets.xcassets */; };
+		5B609E1729FA2545005E3B0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B609E1529FA2545005E3B0F /* LaunchScreen.storyboard */; };
+		5B609E1A29FA2545005E3B0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B609E1929FA2545005E3B0F /* main.m */; };
+		5BF08DB62A25E21300BFB1DA /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF08DB32A25E21300BFB1DA /* libjpeg.a */; };
+		5BF08DB72A25E21300BFB1DA /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF08DB42A25E21300BFB1DA /* opencv2.framework */; };
+		5BF08DB82A25E21300BFB1DA /* MNN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF08DB52A25E21300BFB1DA /* MNN.framework */; };
+		5BF08DBD2A25E22F00BFB1DA /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF08DBC2A25E22F00BFB1DA /* Metal.framework */; };
+		5BF08DBF2A25E23700BFB1DA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF08DBE2A25E23700BFB1DA /* CoreFoundation.framework */; };
+		5BF08DC12A25E23D00BFB1DA /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF08DC02A25E23D00BFB1DA /* CoreML.framework */; };
+		5BF08DD12A25E32200BFB1DA /* LiteWeight_Mobile_OCR_dct.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 5BF08DCB2A25E32200BFB1DA /* LiteWeight_Mobile_OCR_dct.mnn */; };
+		5BF08DD32A25E32200BFB1DA /* LiteWeight_Mobile_OCR_lexicon.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BF08DCD2A25E32200BFB1DA /* LiteWeight_Mobile_OCR_lexicon.txt */; };
+		5BF08DD62A25E32200BFB1DA /* LiteWeight_Mobile_OCR_rec.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 5BF08DD02A25E32200BFB1DA /* LiteWeight_Mobile_OCR_rec.mnn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B609E2029FA2545005E3B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B609DFC29FA2543005E3B0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B609E0329FA2543005E3B0F;
+			remoteInfo = DuGuang_LiteOCR_IOS_DEMO;
+		};
+		5B609E2B29FA2545005E3B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B609DFC29FA2543005E3B0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B609E0329FA2543005E3B0F;
+			remoteInfo = DuGuang_LiteOCR_IOS_DEMO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B24435A2AC28BAA00E59717 /* ImgHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ImgHelper.mm; path = DuGuang_LiteOCR_IOS_DEMO/ImgHelper.mm; sourceTree = "<group>"; };
+		5B24436F2AC28CB400E59717 /* LiteWeight_Mobile_OCR_dct_refine.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = LiteWeight_Mobile_OCR_dct_refine.mnn; sourceTree = "<group>"; };
+		5B4594D12A29A3BB00BFFD46 /* Model_Scope_OCR_Lib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Model_Scope_OCR_Lib.framework; path = DuGuang_LiteOCR_IOS_DEMO/Model_Scope_OCR_Lib.framework; sourceTree = "<group>"; };
+		5B609E0429FA2543005E3B0F /* DuGuang_LiteOCR_IOS_DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuGuang_LiteOCR_IOS_DEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B609E0729FA2543005E3B0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B609E0829FA2543005E3B0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B609E0A29FA2543005E3B0F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5B609E0B29FA2543005E3B0F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5B609E0D29FA2543005E3B0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B609E0E29FA2543005E3B0F /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		5B609E1129FA2543005E3B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B609E1329FA2545005E3B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B609E1629FA2545005E3B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B609E1829FA2545005E3B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B609E1929FA2545005E3B0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B609E1F29FA2545005E3B0F /* DuGuang_LiteOCR_IOS_DEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuGuang_LiteOCR_IOS_DEMOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B609E2A29FA2545005E3B0F /* DuGuang_LiteOCR_IOS_DEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuGuang_LiteOCR_IOS_DEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF08DA02A25E0F700BFB1DA /* ImgHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgHelper.h; sourceTree = "<group>"; };
+		5BF08DB32A25E21300BFB1DA /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		5BF08DB42A25E21300BFB1DA /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		5BF08DB52A25E21300BFB1DA /* MNN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MNN.framework; sourceTree = "<group>"; };
+		5BF08DBC2A25E22F00BFB1DA /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		5BF08DBE2A25E23700BFB1DA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5BF08DC02A25E23D00BFB1DA /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		5BF08DCB2A25E32200BFB1DA /* LiteWeight_Mobile_OCR_dct.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = LiteWeight_Mobile_OCR_dct.mnn; sourceTree = "<group>"; };
+		5BF08DCD2A25E32200BFB1DA /* LiteWeight_Mobile_OCR_lexicon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LiteWeight_Mobile_OCR_lexicon.txt; sourceTree = "<group>"; };
+		5BF08DD02A25E32200BFB1DA /* LiteWeight_Mobile_OCR_rec.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = LiteWeight_Mobile_OCR_rec.mnn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B609E0129FA2543005E3B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF08DB72A25E21300BFB1DA /* opencv2.framework in Frameworks */,
+				5BF08DC12A25E23D00BFB1DA /* CoreML.framework in Frameworks */,
+				5BF08DBF2A25E23700BFB1DA /* CoreFoundation.framework in Frameworks */,
+				5BF08DBD2A25E22F00BFB1DA /* Metal.framework in Frameworks */,
+				5BF08DB82A25E21300BFB1DA /* MNN.framework in Frameworks */,
+				5B4594D22A29A3BB00BFFD46 /* Model_Scope_OCR_Lib.framework in Frameworks */,
+				5BF08DB62A25E21300BFB1DA /* libjpeg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B609E1C29FA2545005E3B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B609E2729FA2545005E3B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B609DFB29FA2543005E3B0F = {
+			isa = PBXGroup;
+			children = (
+				5B24435A2AC28BAA00E59717 /* ImgHelper.mm */,
+				5B4594D12A29A3BB00BFFD46 /* Model_Scope_OCR_Lib.framework */,
+				5B609E0629FA2543005E3B0F /* DuGuang_LiteOCR_IOS_DEMO */,
+				5B609E0529FA2543005E3B0F /* Products */,
+				5BF08D932A25DFCA00BFB1DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B609E0529FA2543005E3B0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B609E0429FA2543005E3B0F /* DuGuang_LiteOCR_IOS_DEMO.app */,
+				5B609E1F29FA2545005E3B0F /* DuGuang_LiteOCR_IOS_DEMOTests.xctest */,
+				5B609E2A29FA2545005E3B0F /* DuGuang_LiteOCR_IOS_DEMOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B609E0629FA2543005E3B0F /* DuGuang_LiteOCR_IOS_DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				5BF08DCA2A25E32200BFB1DA /* LightWeight_Mobile_Model */,
+				5BF08DB32A25E21300BFB1DA /* libjpeg.a */,
+				5BF08DB52A25E21300BFB1DA /* MNN.framework */,
+				5BF08DB42A25E21300BFB1DA /* opencv2.framework */,
+				5BF08DA02A25E0F700BFB1DA /* ImgHelper.h */,
+				5B609E0729FA2543005E3B0F /* AppDelegate.h */,
+				5B609E0829FA2543005E3B0F /* AppDelegate.m */,
+				5B609E0A29FA2543005E3B0F /* SceneDelegate.h */,
+				5B609E0B29FA2543005E3B0F /* SceneDelegate.m */,
+				5B609E0D29FA2543005E3B0F /* ViewController.h */,
+				5B609E0E29FA2543005E3B0F /* ViewController.mm */,
+				5B609E1029FA2543005E3B0F /* Main.storyboard */,
+				5B609E1329FA2545005E3B0F /* Assets.xcassets */,
+				5B609E1529FA2545005E3B0F /* LaunchScreen.storyboard */,
+				5B609E1829FA2545005E3B0F /* Info.plist */,
+				5B609E1929FA2545005E3B0F /* main.m */,
+			);
+			path = DuGuang_LiteOCR_IOS_DEMO;
+			sourceTree = "<group>";
+		};
+		5BF08D932A25DFCA00BFB1DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BF08DC02A25E23D00BFB1DA /* CoreML.framework */,
+				5BF08DBE2A25E23700BFB1DA /* CoreFoundation.framework */,
+				5BF08DBC2A25E22F00BFB1DA /* Metal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BF08DCA2A25E32200BFB1DA /* LightWeight_Mobile_Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B24436F2AC28CB400E59717 /* LiteWeight_Mobile_OCR_dct_refine.mnn */,
+				5BF08DCB2A25E32200BFB1DA /* LiteWeight_Mobile_OCR_dct.mnn */,
+				5BF08DCD2A25E32200BFB1DA /* LiteWeight_Mobile_OCR_lexicon.txt */,
+				5BF08DD02A25E32200BFB1DA /* LiteWeight_Mobile_OCR_rec.mnn */,
+			);
+			path = LightWeight_Mobile_Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B609E0329FA2543005E3B0F /* DuGuang_LiteOCR_IOS_DEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B609E3329FA2545005E3B0F /* Build configuration list for PBXNativeTarget "DuGuang_LiteOCR_IOS_DEMO" */;
+			buildPhases = (
+				5B609E0029FA2543005E3B0F /* Sources */,
+				5B609E0129FA2543005E3B0F /* Frameworks */,
+				5B609E0229FA2543005E3B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuGuang_LiteOCR_IOS_DEMO;
+			productName = DuGuang_LiteOCR_IOS_DEMO;
+			productReference = 5B609E0429FA2543005E3B0F /* DuGuang_LiteOCR_IOS_DEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B609E1E29FA2545005E3B0F /* DuGuang_LiteOCR_IOS_DEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B609E3629FA2545005E3B0F /* Build configuration list for PBXNativeTarget "DuGuang_LiteOCR_IOS_DEMOTests" */;
+			buildPhases = (
+				5B609E1B29FA2545005E3B0F /* Sources */,
+				5B609E1C29FA2545005E3B0F /* Frameworks */,
+				5B609E1D29FA2545005E3B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B609E2129FA2545005E3B0F /* PBXTargetDependency */,
+			);
+			name = DuGuang_LiteOCR_IOS_DEMOTests;
+			productName = DuGuang_LiteOCR_IOS_DEMOTests;
+			productReference = 5B609E1F29FA2545005E3B0F /* DuGuang_LiteOCR_IOS_DEMOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B609E2929FA2545005E3B0F /* DuGuang_LiteOCR_IOS_DEMOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B609E3929FA2545005E3B0F /* Build configuration list for PBXNativeTarget "DuGuang_LiteOCR_IOS_DEMOUITests" */;
+			buildPhases = (
+				5B609E2629FA2545005E3B0F /* Sources */,
+				5B609E2729FA2545005E3B0F /* Frameworks */,
+				5B609E2829FA2545005E3B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B609E2C29FA2545005E3B0F /* PBXTargetDependency */,
+			);
+			name = DuGuang_LiteOCR_IOS_DEMOUITests;
+			productName = DuGuang_LiteOCR_IOS_DEMOUITests;
+			productReference = 5B609E2A29FA2545005E3B0F /* DuGuang_LiteOCR_IOS_DEMOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B609DFC29FA2543005E3B0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					5B609E0329FA2543005E3B0F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					5B609E1E29FA2545005E3B0F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5B609E0329FA2543005E3B0F;
+					};
+					5B609E2929FA2545005E3B0F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5B609E0329FA2543005E3B0F;
+					};
+				};
+			};
+			buildConfigurationList = 5B609DFF29FA2543005E3B0F /* Build configuration list for PBXProject "DuGuang_LiteOCR_IOS_DEMO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B609DFB29FA2543005E3B0F;
+			productRefGroup = 5B609E0529FA2543005E3B0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B609E0329FA2543005E3B0F /* DuGuang_LiteOCR_IOS_DEMO */,
+				5B609E1E29FA2545005E3B0F /* DuGuang_LiteOCR_IOS_DEMOTests */,
+				5B609E2929FA2545005E3B0F /* DuGuang_LiteOCR_IOS_DEMOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B609E0229FA2543005E3B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B609E1729FA2545005E3B0F /* LaunchScreen.storyboard in Resources */,
+				5BF08DD62A25E32200BFB1DA /* LiteWeight_Mobile_OCR_rec.mnn in Resources */,
+				5BF08DD32A25E32200BFB1DA /* LiteWeight_Mobile_OCR_lexicon.txt in Resources */,
+				5B609E1429FA2545005E3B0F /* Assets.xcassets in Resources */,
+				5B2443702AC28CB400E59717 /* LiteWeight_Mobile_OCR_dct_refine.mnn in Resources */,
+				5BF08DD12A25E32200BFB1DA /* LiteWeight_Mobile_OCR_dct.mnn in Resources */,
+				5B609E1229FA2543005E3B0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B609E1D29FA2545005E3B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B609E2829FA2545005E3B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B609E0029FA2543005E3B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B24435B2AC28BAA00E59717 /* ImgHelper.mm in Sources */,
+				5B609E0F29FA2543005E3B0F /* ViewController.mm in Sources */,
+				5B609E0929FA2543005E3B0F /* AppDelegate.m in Sources */,
+				5B609E1A29FA2545005E3B0F /* main.m in Sources */,
+				5B609E0C29FA2543005E3B0F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B609E1B29FA2545005E3B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B609E2629FA2545005E3B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B609E2129FA2545005E3B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B609E0329FA2543005E3B0F /* DuGuang_LiteOCR_IOS_DEMO */;
+			targetProxy = 5B609E2029FA2545005E3B0F /* PBXContainerItemProxy */;
+		};
+		5B609E2C29FA2545005E3B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B609E0329FA2543005E3B0F /* DuGuang_LiteOCR_IOS_DEMO */;
+			targetProxy = 5B609E2B29FA2545005E3B0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B609E1029FA2543005E3B0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B609E1129FA2543005E3B0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B609E1529FA2545005E3B0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B609E1629FA2545005E3B0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B609E3129FA2545005E3B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B609E3229FA2545005E3B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B609E3429FA2545005E3B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9TF23GBA3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DuGuang_LiteOCR_IOS_DEMO",
+				);
+				INFOPLIST_FILE = DuGuang_LiteOCR_IOS_DEMO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DuGuang_LiteOCR_IOS_DEMO",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "DuGuang-LiteOCR-IOS-DEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B609E3529FA2545005E3B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9TF23GBA3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DuGuang_LiteOCR_IOS_DEMO",
+				);
+				INFOPLIST_FILE = DuGuang_LiteOCR_IOS_DEMO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DuGuang_LiteOCR_IOS_DEMO",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "DuGuang-LiteOCR-IOS-DEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B609E3729FA2545005E3B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9TF23GBA3;
+				INFOPLIST_FILE = DuGuang_LiteOCR_IOS_DEMOTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DuGuang-LiteOCR-IOS-DEMOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuGuang_LiteOCR_IOS_DEMO.app/DuGuang_LiteOCR_IOS_DEMO";
+			};
+			name = Debug;
+		};
+		5B609E3829FA2545005E3B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9TF23GBA3;
+				INFOPLIST_FILE = DuGuang_LiteOCR_IOS_DEMOTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DuGuang-LiteOCR-IOS-DEMOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuGuang_LiteOCR_IOS_DEMO.app/DuGuang_LiteOCR_IOS_DEMO";
+			};
+			name = Release;
+		};
+		5B609E3A29FA2545005E3B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9TF23GBA3;
+				INFOPLIST_FILE = DuGuang_LiteOCR_IOS_DEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DuGuang-LiteOCR-IOS-DEMOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DuGuang_LiteOCR_IOS_DEMO;
+			};
+			name = Debug;
+		};
+		5B609E3B29FA2545005E3B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9TF23GBA3;
+				INFOPLIST_FILE = DuGuang_LiteOCR_IOS_DEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DuGuang-LiteOCR-IOS-DEMOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DuGuang_LiteOCR_IOS_DEMO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B609DFF29FA2543005E3B0F /* Build configuration list for PBXProject "DuGuang_LiteOCR_IOS_DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B609E3129FA2545005E3B0F /* Debug */,
+				5B609E3229FA2545005E3B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B609E3329FA2545005E3B0F /* Build configuration list for PBXNativeTarget "DuGuang_LiteOCR_IOS_DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B609E3429FA2545005E3B0F /* Debug */,
+				5B609E3529FA2545005E3B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B609E3629FA2545005E3B0F /* Build configuration list for PBXNativeTarget "DuGuang_LiteOCR_IOS_DEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B609E3729FA2545005E3B0F /* Debug */,
+				5B609E3829FA2545005E3B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B609E3929FA2545005E3B0F /* Build configuration list for PBXNativeTarget "DuGuang_LiteOCR_IOS_DEMOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B609E3A29FA2545005E3B0F /* Debug */,
+				5B609E3B29FA2545005E3B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B609DFC29FA2543005E3B0F /* Project object */;
+}
