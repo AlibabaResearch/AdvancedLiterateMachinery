@@ -4,9 +4,7 @@
 import os
 import sys
 import numpy as np
-import datetime
-import time
-import cv2
+import json
 
 BASE_DIR = os.path.dirname(__file__)
 sys.path.append(BASE_DIR + '/../../../DocumentUnderstanding/DocXLayout')
@@ -29,13 +27,22 @@ class LayoutAnalysis(object):
 
         # initialize and launch module
         if configs['from_modelscope_flag'] is True:
-            self.layout_analyser = None  # (20230912) currently we only support models from Advanced Literate Machinery (https://github.com/AlibabaResearch/AdvancedLiterateMachinery)
+            self.layout_analyser = None  # (20230912) currently we only support layout analysis model from Advanced Literate Machinery (https://github.com/AlibabaResearch/AdvancedLiterateMachinery)
         else:
             params = {
                 'model_file': configs['model_path'],
                 'debug': 0, # 1: save vis results, 0: don't save
             }
-    
+
+            # load map information
+            map_info = json.load(open(BASE_DIR + '/../../../DocumentUnderstanding/DocXLayout/map_info.json'))
+            category_map = {}
+            for cate, idx in map_info["huntie"]["primary_map"].items():
+                category_map[idx] = cate
+
+            self.category_map = category_map
+
+            # initialize
             self.layout_analyser = DocXLayoutPredictor(params) 
 
 
@@ -61,6 +68,16 @@ class LayoutAnalysis(object):
             result = la_result
 
         return result
+
+    def mapping(self, index):
+        """
+        Description:
+          return the category name all the index
+        """
+
+        category = self.category_map[index]
+
+        return category
 
     def release(self):
         """

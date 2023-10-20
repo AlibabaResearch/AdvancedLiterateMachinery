@@ -53,7 +53,10 @@ class GeneralTextReading(object):
 
         # assembling
         for i in range(det_result.shape[0]):
-            final_result.append([det_result[i], rec_result[i]])
+            item = {}
+            item['position'] = det_result[i]
+            item['content'] = rec_result[i]['text']
+            final_result.append(item)
 
         return final_result
 

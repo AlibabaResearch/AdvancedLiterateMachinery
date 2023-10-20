@@ -87,13 +87,30 @@ class TableParsing(object):
             ctx = (p0[0]+p1[0]+p2[0]+p3[0]) / 4.0
             cty = (p0[1]+p1[1]+p2[1]+p3[1]) / 4.0
             for j in range(0, len(tsr_result)):
-                if self._point_in_box(tsr_result[j], [ctx,cty]):
-                    output.append([str(i + 1), rec['text'], self._coord2str(pts), self._coord2str(tsr_result[j])])
+                if self._point_in_box(tsr_result[j], [ctx, cty]):
+                    #output.append([str(i + 1), rec['text'], self._coord2str(pts), self._coord2str(tsr_result[j])])
+                    cell_poly = np.array([round(tsr_result[j][0][0]), round(tsr_result[j][0][1]),\
+                                          round(tsr_result[j][1][0]), round(tsr_result[j][1][1]),\
+                                          round(tsr_result[j][2][0]), round(tsr_result[j][2][1]),\
+                                          round(tsr_result[j][3][0]), round(tsr_result[j][3][1])])
+
+                    item = {}
+                    item['position'] = det_result[i]
+                    item['content'] = rec['text']
+                    item['cell'] = cell_poly
+                    output.append(item)
+
                     find_cell = 1
                     break
             
             if find_cell == 0:
-                output.append([str(i + 1), rec['text'], self._coord2str(pts), ''])   
+                dummy_cell_poly = np.array([-1, -1, -1, -1, -1, -1, -1, -1])
+
+                item = {}
+                item['position'] = det_result[i]
+                item['content'] = rec['text']
+                item['cell'] = dummy_cell_poly
+                output.append(item)
 
         return output
 

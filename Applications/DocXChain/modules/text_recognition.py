@@ -51,11 +51,10 @@ class TextRecognition(object):
         if self.text_recognizer is not None:
             # recognize the text instances one by one
             result = []
-            for i in range(detections.shape[0]):  # this part can be accelerated via parallelization (leave for future work)
+            for i in range(detections.shape[0]):  # this part can be largely accelerated via parallelization (leave for future work)
                 pts = self.order_point(detections[i])
                 image_crop = self.crop_image(image, pts)
                 rec = self.text_recognizer(image_crop)
-                #result.append([rec, ','.join([str(e) for e in list(pts.reshape(-1))])])
                 result.append(rec)
 
         return result
@@ -78,7 +77,6 @@ class TextRecognition(object):
         # perform text recognition
         if self.text_recognizer is not None:
             # recognize the text instance
-            #result = self.text_recognizer(cropped_image)['text']
             result = self.text_recognizer(cropped_image)
 
         return result

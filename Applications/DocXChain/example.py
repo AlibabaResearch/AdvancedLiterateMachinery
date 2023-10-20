@@ -14,6 +14,7 @@ from modules.file_loading import load_document
 from pipelines.general_text_reading import GeneralTextReading
 from pipelines.table_parsing import TableParsing
 from pipelines.document_structurization import DocumentStructurization
+from utilities.visualization import *
 
 def general_text_reading_example(image):
 
@@ -36,13 +37,16 @@ def general_text_reading_example(image):
     # run
     final_result = text_reader(image)
 
-    # display
-    output_image = image.copy()
+    if True:
+        print (final_result)
+
+    # visualize
+    output_image = general_text_reading_visualization(final_result, image)
 
     # release
     text_reader.release()
 
-    return output_image, final_result
+    return final_result, output_image
 
 def table_parsing_example(image):
 
@@ -70,13 +74,16 @@ def table_parsing_example(image):
     # run
     final_result = table_parser(image)
 
-    # display
-    output_image = image.copy()
+    if True:
+        print (final_result)
+
+    # visualize
+    output_image = table_parsing_visualization(final_result, image)
 
     # release
     table_parser.release()
 
-    return output_image, final_result
+    return final_result, output_image
 
 
 def document_structurization_example(image):
@@ -86,7 +93,7 @@ def document_structurization_example(image):
     
     layout_analysis_configs = dict()
     layout_analysis_configs['from_modelscope_flag'] = False
-    layout_analysis_configs['model_path'] = '/home/DocXLayout_230829.pth'  # layout analysis model is NOT from modelscope
+    layout_analysis_configs['model_path'] = '/home/DocXLayout_231012.pth'  # note that: currently the layout analysis model is NOT from modelscope
     configs['layout_analysis_configs'] = layout_analysis_configs
     
     text_detection_configs = dict()
@@ -96,7 +103,7 @@ def document_structurization_example(image):
 
     text_recognition_configs = dict()
     text_recognition_configs['from_modelscope_flag'] = True
-    text_recognition_configs['model_path'] = 'damo/cv_convnextTiny_ocr-recognition-general_damo'  # alternatives: 'damo/cv_convnextTiny_ocr-recognition-scene_damo', 'damo/cv_convnextTiny_ocr-recognition-document_damo', 'damo/cv_convnextTiny_ocr-recognition-handwritten_damo' 
+    text_recognition_configs['model_path'] = 'damo/cv_convnextTiny_ocr-recognition-document_damo'  # alternatives: 'damo/cv_convnextTiny_ocr-recognition-scene_damo', 'damo/cv_convnextTiny_ocr-recognition-general_damo', 'damo/cv_convnextTiny_ocr-recognition-handwritten_damo' 
     configs['text_recognition_configs'] = text_recognition_configs
 
     # initialize
@@ -105,13 +112,16 @@ def document_structurization_example(image):
     # run
     final_result = document_structurizer(image)
 
-    # display
-    output_image = image.copy()
+    if True:
+        print (final_result)
+
+    # visualize
+    output_image = document_structurization_visualization(final_result, image)
 
     # release
     document_structurizer.release()
 
-    return output_image, final_result
+    return final_result, output_image
 
 # main routine
 def main():
@@ -137,18 +147,20 @@ def main():
     image = load_document(args.document_path)
     
     # process
+    output_image = None
     if image is not None:
         if args.task == 'general_text_reading':
-            general_text_reading_example(image)
+            final_result, output_image = general_text_reading_example(image)
         elif args.task == 'table_parsing':
-            table_parsing_example(image)
+            final_result, output_image = table_parsing_example(image)
         else: # args.task == 'document_structurization'
-            document_structurization_example(image)
+            final_result, output_image = document_structurization_example(image)
     else:
         print ("Failed to load the document file!")
 
     # output
-    cv2.imwrite(args.output_path, image)
+    if output_image is not None:
+        cv2.imwrite(args.output_path, output_image)
 
     # finish
     now = datetime.datetime.now(tz)

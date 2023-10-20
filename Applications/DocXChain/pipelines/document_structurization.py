@@ -15,7 +15,7 @@ class DocumentStructurization(object):
     """
     Description:
       class definition of DocumentStructurization pipeline: 
-      (1) algorithm interfaces for document structurization (layout analysis + table structure recognition (if any table) + text content recognition)
+      (1) algorithm interfaces for document structurization (layout analysis + text detection + text recognition)
       (2) only tables with *visible borders* are supported currently (20230815)
 
     Caution:
@@ -35,10 +35,10 @@ class DocumentStructurization(object):
     def __call__(self, image):
         """
         Description:
-          perform table parsing (table structure recognition + content recognition)
+          structurize the given document (layout analysis + content recognition)
 
         Parameters:
-          image: the image to be processed, assume that it is a *full* image potentially containing a table
+          image: the image to be processed; assume that it is a *full* image
 
         Return:
           final_result: final document structurization result
@@ -61,7 +61,7 @@ class DocumentStructurization(object):
     def _assemble(self, la_result, det_result, rec_result):
         """
         Description:
-          perform assembling
+          perform assembling (combine the results )
 
         Parameters:
           image: the image to be processed, assume that it is a *full* image
@@ -77,29 +77,50 @@ class DocumentStructurization(object):
         output = []
 
         # assemble all the intermediate results to make the final output
-        for i in range(det_result.shape[0]):
-            # fetch
-            pts = self.text_recognition_module.order_point(det_result[i])
-            rec = rec_result[i]
+        layout_dets = la_result['layout_dets']
+        for i in range(0, len(layout_dets)):
+            # fetch each layout region
+            category_index = layout_dets[i]['category_id']
+            category_name = self.layout_analysis_module.mapping(category_index)
+            layout_box = [(layout_dets[i]['poly'][0], layout_dets[i]['poly'][1]),\
+                          (layout_dets[i]['poly'][2], layout_dets[i]['poly'][3]),\
+                          (layout_dets[i]['poly'][4], layout_dets[i]['poly'][5]),\
+                          (layout_dets[i]['poly'][6], layout_dets[i]['poly'][7])]
 
-            find_cell = 0
-            p0, p1, p2, p3 = pts
-            ctx = (p0[0]+p1[0]+p2[0]+p3[0]) / 4.0
-            cty = (p0[1]+p1[1]+p2[1]+p3[1]) / 4.0
-            layout_dets = la_result['layout_dets']
-            for j in range(0, len(layout_dets)):
-                layout_box = [(layout_dets[j]['poly'][0], layout_dets[j]['poly'][1]),\
-                              (layout_dets[j]['poly'][2], layout_dets[j]['poly'][3]),\
-                              (layout_dets[j]['poly'][4], layout_dets[j]['poly'][5]),\
-                              (layout_dets[j]['poly'][6], layout_dets[j]['poly'][7])]
+            region_poly = np.array([round(layout_box[0][0]), round(layout_box[0][1]),\
+                            round(layout_box[1][0]), round(layout_box[1][1]),\
+                            round(layout_box[2][0]), round(layout_box[2][1]),\
+                            round(layout_box[3][0]), round(layout_box[3][1])])
+
+            layout_region = {}
+            layout_region['index'] = category_index
+            layout_region['name'] = category_name
+            layout_region['poly'] = region_poly
+            layout_region['text_list'] = []  # one region may contain multiple text instances
+
+            # assign
+            for j in range(det_result.shape[0]):
+                # fetch each text instance
+                pts = self.text_recognition_module.order_point(det_result[j])
+                rec = rec_result[j]
+
+                # check
+                p0, p1, p2, p3 = pts
+                ctx = (p0[0]+p1[0]+p2[0]+p3[0]) / 4.0
+                cty = (p0[1]+p1[1]+p2[1]+p3[1]) / 4.0
                 if self._point_in_box(layout_box, [ctx, cty]):
-                    output.append([str(i + 1), layout_dets[j]['category_id'], rec['text'], self._coord2str(pts), self._coord2str(layout_box)])
-                    find_cell = 1
-                    break
-            
-            if find_cell == 0:
-                output.append([str(i + 1), -1, rec['text'], self._coord2str(pts), ''])   
+                    # record if matched
+                    item = {}
+                    item['position'] = det_result[j]
+                    item['content'] = rec['text']
+                    layout_region['text_list'].append(item)
+
+                else:
+                    pass  # (20231010) currently text instances that have not been assigned to any layout region will be discarded 
         
+            # record
+            output.append(layout_region)
+
         return output
 
     def _point_in_box(self, box, point):
