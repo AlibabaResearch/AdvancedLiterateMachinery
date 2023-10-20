@@ -1,0 +1,22 @@
+{
+    "huntie": {
+        "primary_map": {
+            "title": 0,
+            "figure": 1,
+            "plain text": 2,
+            "header": 3,
+            "page number": 4,
+            "footnote": 5,
+            "footer": 6,
+            "table": 7,
+            "table caption": 8,
+            "figure caption": 9,
+            "equation": 10,
+            "full column": 11,
+            "sub column": 12
+        },
+        "secondary_map": {
+            "0": 0
+        }
+    }
+}
