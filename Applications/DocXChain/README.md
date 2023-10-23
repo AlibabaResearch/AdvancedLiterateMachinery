@@ -10,7 +10,7 @@ DocXChain is a powerful open-source toolchain for document parsing, which can co
 
 DocXChain is designed and developed with the original aspiration of ***promoting the level of digitization and structurization for documents***. In the future, we will go beyond pure document parsing capabilities, to explore more possibilities, e.g., combining DocXChain with large language models (LLMs) to perform document information extraction (IE), question answering (QA) and retrieval-augmented generation (RAG).
 
-For more details, prelase refer to the [technical report](https://arxiv.org/abs/2310.12430) of DocXChain. 
+For more details, please refer to the [technical report](https://arxiv.org/abs/2310.12430) of DocXChain. 
 
 **Notice 1:** In this project, we adopt the ***broad concept of documents***, meaning DocXChain can support various kinds of documents, including regular documents (such as books, academic papers and business forms), street view photos, presentations and even screenshots.
 
