@@ -6,10 +6,11 @@
 import sys
 import numpy as np
 
+from modules.layout_analysis import LayoutAnalysis
 from modules.text_detection import TextDetection
 from modules.text_recognition import TextRecognition
 from modules.table_structure_recognition import TableStructureRecognition
-from modules.layout_analysis import LayoutAnalysis
+from modules.formula_recognition import FormulaRecognition
 
 class DocumentStructurization(object):
     """
@@ -31,6 +32,7 @@ class DocumentStructurization(object):
         self.layout_analysis_module = LayoutAnalysis(configs['layout_analysis_configs'])
         self.text_detection_module = TextDetection(configs['text_detection_configs'])
         self.text_recognition_module = TextRecognition(configs['text_recognition_configs'])
+        self.formula_recognition_module = FormulaRecognition(configs['formula_recognition_configs'])
 
     def __call__(self, image):
         """
@@ -54,11 +56,11 @@ class DocumentStructurization(object):
             rec_result = self.text_recognition_module(image, det_result)
 
             #print (la_result)
-            final_result = self._assemble(la_result, det_result, rec_result)
+            final_result = self._assemble(image, la_result, det_result, rec_result)
 
         return final_result
 
-    def _assemble(self, la_result, det_result, rec_result):
+    def _assemble(self, image, la_result, det_result, rec_result):
         """
         Description:
           perform assembling (combine the results )
@@ -93,30 +95,45 @@ class DocumentStructurization(object):
                             round(layout_box[3][0]), round(layout_box[3][1])])
 
             layout_region = {}
-            layout_region['index'] = category_index
-            layout_region['name'] = category_name
-            layout_region['poly'] = region_poly
+            layout_region['category_index'] = category_index
+            layout_region['category_name'] = category_name
+            layout_region['region_poly'] = region_poly.tolist()
             layout_region['text_list'] = []  # one region may contain multiple text instances
 
-            # assign
-            for j in range(det_result.shape[0]):
-                # fetch each text instance
-                pts = self.text_recognition_module.order_point(det_result[j])
-                rec = rec_result[j]
+            if layout_region['category_name'] == 'equation':  # special is treatment needed for equations/formulas
+                # crop sub image and perform formula recognition
+                pts = self.text_recognition_module.order_point(region_poly)
+                image_crop = self.text_recognition_module.crop_image(image, pts)
+                fr_result = self.formula_recognition_module(image_crop)
 
-                # check
-                p0, p1, p2, p3 = pts
-                ctx = (p0[0]+p1[0]+p2[0]+p3[0]) / 4.0
-                cty = (p0[1]+p1[1]+p2[1]+p3[1]) / 4.0
-                if self._point_in_box(layout_box, [ctx, cty]):
-                    # record if matched
-                    item = {}
-                    item['position'] = det_result[j]
-                    item['content'] = rec['text']
-                    layout_region['text_list'].append(item)
+                #print ('formua recognition: ', fr_result)
 
-                else:
-                    pass  # (20231010) currently text instances that have not been assigned to any layout region will be discarded 
+                # record
+                item = {}
+                item['position'] = region_poly.tolist()
+                item['content'] = '$$ ' + fr_result + ' $$'
+                layout_region['text_list'].append(item)
+
+            else:
+                # match and assign
+                for j in range(det_result.shape[0]):
+                    # fetch each text instance
+                    pts = self.text_recognition_module.order_point(det_result[j])
+                    rec = rec_result[j]
+
+                    # check
+                    p0, p1, p2, p3 = pts
+                    ctx = (p0[0]+p1[0]+p2[0]+p3[0]) / 4.0
+                    cty = (p0[1]+p1[1]+p2[1]+p3[1]) / 4.0
+                    if self._point_in_box(layout_box, [ctx, cty]):
+                        # record if matched
+                        item = {}
+                        item['position'] = det_result[j].tolist()
+                        item['content'] = rec['text']
+                        layout_region['text_list'].append(item)
+
+                    else:
+                        pass  # (20231010) currently text instances that have not been assigned to any layout region will be discarded 
         
             # record
             output.append(layout_region)

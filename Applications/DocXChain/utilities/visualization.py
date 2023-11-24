@@ -108,7 +108,7 @@ def document_structurization_visualization(predictions, image):
        
 
        # layout region quadrangle
-        quadrangle = item['poly']
+        quadrangle = item['region_poly']
         pts = np.array([[quadrangle[0], quadrangle[1]], [quadrangle[2], quadrangle[3]],
                         [quadrangle[4], quadrangle[5]], [quadrangle[6], quadrangle[7]]],
                         np.int32)
@@ -117,13 +117,13 @@ def document_structurization_visualization(predictions, image):
 
         # draw layout poly
         isClosed = True
-        index = item['index']
+        index = item['category_index']
         color = color_palette[index]
         thickness = 6
         output_image = cv2.polylines(output_image, [pts],  isClosed, color, thickness)
 
         # draw layout region category name
-        name = item['name']
+        name = item['category_name']
         fontScale = 1
         color = color_palette[index]
         thickness = 2

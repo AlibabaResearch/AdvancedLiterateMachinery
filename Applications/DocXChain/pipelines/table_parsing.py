@@ -95,9 +95,9 @@ class TableParsing(object):
                                           round(tsr_result[j][3][0]), round(tsr_result[j][3][1])])
 
                     item = {}
-                    item['position'] = det_result[i]
+                    item['position'] = det_result[i].tolist()
                     item['content'] = rec['text']
-                    item['cell'] = cell_poly
+                    item['cell'] = cell_poly.tolist()
                     output.append(item)
 
                     find_cell = 1
@@ -107,9 +107,9 @@ class TableParsing(object):
                 dummy_cell_poly = np.array([-1, -1, -1, -1, -1, -1, -1, -1])
 
                 item = {}
-                item['position'] = det_result[i]
+                item['position'] = det_result[i].tolist()
                 item['content'] = rec['text']
-                item['cell'] = dummy_cell_poly
+                item['cell'] = dummy_cell_poly.tolist()
                 output.append(item)
 
         return output

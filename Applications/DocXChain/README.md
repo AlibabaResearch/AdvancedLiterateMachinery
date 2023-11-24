@@ -6,7 +6,7 @@
 
 Documents are ubiquitous, since they are excellent carriers for recording and spreading information across space and time. Documents have been playing a critically important role in the daily work, study and life of people all over the world. Every day, billions of documents in different forms are created, viewed, processed, transmited and stored around the world, either physically or digitally. However, not all documents in the digital world can be directly accessed by machines (including computers and other automatic equipments), as only a portion of the documents can be successfully parsed with low-level procedures. For instance, the [Adobe Extract APIs](https://developer.adobe.com/document-services/docs/overview/pdf-extract-api/) are able to directly convert the metadata of born-digital PDF files into HTML-like trees, but would completely fail when handling PDFs generated from photographs produced by scanners or images captured by cameras. Therefore, if one would like to make documents that are not born-digital conveniently and instantly accessible to machines, a powerful toolset for extracting the structures and contents from such unstructured documents is of the essence.
 
-DocXChain is a powerful open-source toolchain for document parsing, which can convert the rich information in ***unstructured documents***, such as text, tables and charts, into ***structured representations*** that are readable and manipulable by machines. Currently, basic capabilities, including text detection, text recognition, table structure recognition and layout analysis, are provided. In addition, upon these basic capabilities, we also build typical pipelines, i.e., text reading, table parsing, and document structurization, to drive more complicated applications related to documents in real-world scenarios.
+DocXChain is a powerful open-source toolchain for document parsing, which can convert the rich information in ***unstructured documents***, such as text, tables and charts, into ***structured representations*** that are readable and manipulable by machines. Currently, basic capabilities, including text detection, text recognition, table structure recognition, mathematical formula recognition and layout analysis, are provided. In addition, upon these basic capabilities, we also build typical pipelines, i.e., text reading, table parsing, document structurization and whole PDF conversion, to drive more complicated applications related to documents in real-world scenarios.
 
 DocXChain is designed and developed with the original aspiration of ***promoting the level of digitization and structurization for documents***. In the future, we will go beyond pure document parsing capabilities, to explore more possibilities, e.g., combining DocXChain with large language models (LLMs) to perform document information extraction (IE), question answering (QA) and retrieval-augmented generation (RAG).
 
@@ -35,6 +35,10 @@ The core design ideas of DocXChain are summarized as follows:
 
 ![DocXChain_table_parsing_example](./resources/DocXChain_table_parsing_example.png)
 
+* Example of Formula Recognition (the image rendered from the LaTeX sequence is produced with the [online system](https://www.latexlive.com/home##) of [LaTeXLive](https://github.com/QianJianTech/LaTeXLive)):
+
+![DocXChain_formula_recognition_example](./resources/DocXChain_formula_recognition_example.png)
+
 * Example of Document Structurization:
 
 ![DocXChain_document_structurization_example](./resources/DocXChain_document_structurization_example.png)
@@ -62,13 +66,23 @@ sed -i '/disable ghostscript format types/,+6d' /etc/ImageMagick-6/policy.xml  #
 wget -c -t 100 -P /home/ https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/v1.2.0-docX-release/DocXLayout_231012.pth
 ``` 
 
+* Download the formula recognition models (from [RapidLatexOCR](https://github.com/RapidAI/RapidLatexOCR)):
+```bash
+wget -c -t 100 -P /home/ https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/v1.6.0-LaTeX-OCR-models/LaTeX-OCR_image_resizer.onnx
+wget -c -t 100 -P /home/ https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/v1.6.0-LaTeX-OCR-models/LaTeX-OCR_encoder.onnx
+wget -c -t 100 -P /home/ https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/v1.6.0-LaTeX-OCR-models/LaTeX-OCR_decoder.onnx
+wget -c -t 100 -P /home/ https://github.com/AlibabaResearch/AdvancedLiterateMachinery/releases/download/v1.6.0-LaTeX-OCR-models/LaTeX-OCR_tokenizer.json
+```
+
 ## Inference
 
 One can perform inference using the `example.py` script. It can be run as follows:
 ```bash
-python example.py general_text_reading <document_file_path> <output_file_path>  # task: general text reading
-python example.py table_parsing <document_file_path> <output_file_path>  # task: table parsing
-python example.py document_structurization <document_file_path> <output_file_path>  # task: document structurization
+python example.py general_text_reading <document_file_path> <output_file_path>  # task: general text reading (dump supports both image and JSON file)
+python example.py table_parsing <document_file_path> <output_file_path>  # task: table parsing  (dump supports both image and JSON file)
+python example.py formula_recognition  <document_file_path> <output_file_path>  # task: formula recognition (dump supports only JSON file)
+python example.py document_structurization <document_file_path> <output_file_path>  # task: document structurization  (dump supports both image and JSON file)
+python example.py whole_pdf_conversion <document_file_path> <output_file_path>  # task: whole PDF conversion, i.e., converting all pages of a PDF file into an organized JSON structure (dump supports only JSON file)
 ``` 
 
 ## Citation

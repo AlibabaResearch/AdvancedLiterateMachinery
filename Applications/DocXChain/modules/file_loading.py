@@ -19,7 +19,7 @@ def load_image(image_path):
 
     return image
 
-def load_pdf(pdf_path):
+def load_pdf(pdf_path, page_index = 0):
 
     # initialization
     image = None
@@ -28,15 +28,40 @@ def load_pdf(pdf_path):
     name = pdf_path.lower()
     if name.endswith('.pdf'):
         with pdfplumber.open(pdf_path) as pdf:
-            first_page = pdf.pages[0]
-            page_image = first_page.to_image(resolution=150) # convert the first page to image by default (20230815)
+            page_count = len(pdf.pages)
+            if page_index >= page_count - 1:
+                page_index = page_count - 1
+
+            page = pdf.pages[page_index]  # select the specified page (the first page will be chosen, by default)
+            page_image = page.to_image(resolution=150) # convert the page to image by default (20230815)
             image = cv2.cvtColor(np.array(page_image.original), cv2.COLOR_RGB2BGR)
 
             pdf.close()
 
     return image
 
-def load_document(document_path):
+def load_whole_pdf(pdf_path):
+
+    # initialization
+    image_list = []
+
+    # read PDF file (load all pages in the PDF file)
+    name = pdf_path.lower()
+    if name.endswith('.pdf'):
+        with pdfplumber.open(pdf_path) as pdf:
+            page_count = len(pdf.pages)
+            for page_index in range(page_count):  # traverse all pages
+                page = pdf.pages[page_index]  # select the current page
+                page_image = page.to_image(resolution=150) # convert the page to image by default (20230815)
+                image = cv2.cvtColor(np.array(page_image.original), cv2.COLOR_RGB2BGR)
+
+                image_list.append(image)
+
+            pdf.close()
+
+    return image_list
+
+def load_document(document_path, whole_flag = False):
 
     # initialization
     image = None
@@ -44,7 +69,10 @@ def load_document(document_path):
     # load file
     name = document_path.lower()
     if name.endswith('.pdf'):
-        image = load_pdf(document_path)
+        if whole_flag is True:
+            image = load_whole_pdf(document_path)
+        else:
+            image = load_pdf(document_path)
     else:
         image = load_image(document_path)
 

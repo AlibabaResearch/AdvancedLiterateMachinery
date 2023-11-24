@@ -88,4 +88,4 @@ class LayoutAnalysis(object):
         if self.layout_analyser is not None:
             del self.layout_analyser
 
-        return 
+        return
