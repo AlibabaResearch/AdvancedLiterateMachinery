@@ -166,6 +166,31 @@ The config files can be found in `Configs`.
 ```bash
 python train_VGT.py --config-file Configs/cascade/publaynet_VGT_cascade_PTM.yaml --eval-only --num-gpus 1 MODEL.WEIGHTS <finetuned_checkpoint_file_path> OUTPUT_DIR <your_output_dir> 
 ``` 
+## PDF Preprocessing
+Before inference, a pdf file needs to be converted into images and `pkl` file needs to be generated for each page
+
+### Generating Images
+One can convert PDF to a set of image using this code:
+```bash
+python pdf2img.py \
+--pdf 'input-pdf-path' \
+--output 'output-folder-path' \
+--format 'png'
+```
+
+### Generating grid information
+Every file requires a `pkl` file that contains the grid information necessary for Grid Transformer.
+In order to create this file for a **MACHINE-READABLE** PDF, run the following code:
+```bash
+python create_grid_input.py \
+--pdf 'path-to-pdf-file' \
+--output 'path-to-output-folder' \
+--tokenizer 'google-bert/bert-base-uncased' \
+--model 'doclaynet'
+```
+Default tokenizer is `google-bert/bert-base-uncased` and default model is `doclaynet`
+Based on the model selected, the extensions might change from `pkl` to `pdf.pkl`.
+
 
 ## Inference
 One can run inference using the `inference.py` script to use VGT model. It can be run as follows.
