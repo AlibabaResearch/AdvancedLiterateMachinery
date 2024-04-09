@@ -13,7 +13,7 @@ This is the repo for the LayoutLLM (CVPR 2024), which is an LLM/MLLM based metho
 
 ## Paper
 * [CVPR 2024]
-* [Arxiv]
+* [Arxiv](https://arxiv.org/abs/2404.05225)
 
 ## Citation
 
@@ -29,7 +29,7 @@ If you find this repository useful, please consider citing our work:
 
 ## License
 
-The training data of the LayoutLLM is released under the terms of the [Apache License, Version 2.0](LICENSE).
+The training data of the LayoutLLM is released under the terms of the [Apache License, Version 2.0](LICENSE.md).
 
 ```
 Copyright (C) 1999-2022 Alibaba Group Holding Ltd. 
