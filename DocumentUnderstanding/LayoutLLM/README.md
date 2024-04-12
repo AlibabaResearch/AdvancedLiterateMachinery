@@ -11,6 +11,13 @@ This is the repo for the LayoutLLM (CVPR 2024), which is an LLM/MLLM based metho
 - The evaluation data
     - QA for VIE
 
+## Data
+
+**Description:** The layout instruction tuning data (with images) of LayoutLLM.
+
+**Data Access**: [Download Dataset](https://modelscope.cn/datasets/iic/Layout-Instruction-Data/summary)
+
+
 ## Paper
 * [CVPR 2024]
 * [Arxiv](https://arxiv.org/abs/2404.05225)
