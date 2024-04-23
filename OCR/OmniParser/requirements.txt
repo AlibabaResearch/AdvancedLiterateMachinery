@@ -1,0 +1,10 @@
+bezier
+opencv-python
+Pillow
+pycocotools
+tqdm
+editdistance
+shapely
+timm
+pandas
+transformers

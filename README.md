@@ -6,13 +6,16 @@ The ultimate goal of our research is to build a system that has high-level intel
 
 To start with, we currently focus on teaching machines to ***read*** from images and documents. In years to come, we will explore the possibilities of endowing machines with the intellectual capabilities of ***thinking and creating***, catching up with and surpassing [GPT-4](https://openai.com/research/gpt-4) and [GPT-4V](https://openai.com/research/gpt-4v-system-card).
 
-This project is maintained by the **读光 OCR Team** (读光-Du Guang means “*Reading The Light*”) in the [Language Technology Lab, Alibaba DAMO Academy](https://damo.alibaba.com/labs/language-technology). 
+This project is maintained by the **读光 OCR Team** (读光-Du Guang means “*Reading The Light*”) in the [Tongyi Lab, Alibaba Group](https://tongyi.aliyun.com/).
 
 ![Logo](./resources/DuGuang.png)
 
 Visit our [读光-Du Guang Portal](https://duguang.aliyun.com/) and [DocMaster](https://www.modelscope.cn/studios/damo/DocMaster/summary) to experience online demos for OCR and Document Understanding.
 
 ## Recent Updates
+
+**2024.4 Release**
+  - [**OmniParser**](./OCR/OmniParser/) (*OmniParser: A Unified Framework for Text Spotting, Key Information Extraction and Table Recognition,* CVPR 2024. [paper](https://arxiv.org/abs/2403.19128)): We propose a universal model for parsing visually-situated text across diverse scenarios, called OmniParser, which can simultaneously handle three typical visually-situated text parsing tasks: text spotting, key information extraction, and table recognition. In OmniParser, all tasks share the **unified encoder-decoder architecture**, the unified objective: **point-conditioned text generation**, and the unified input & output representation: **prompt & structured sequences**.
 
 **2024.3 Release**
   - [**GEM**](./DocumentUnderstanding/GEM/) (*GEM: Gestalt Enhanced Markup Language Model for Web Understanding via Render Tree,* EMNLP 2023. [paper](https://aclanthology.org/2023.emnlp-main.375.pdf)): Web pages serve as crucial carriers for humans to acquire and perceive information. Inspired by the Gestalt psychological theory, we propose an innovative Gestalt Enhanced Markup Language Model (GEM for short) for **hosting heterogeneous visual information from render trees of web pages**, leading to excellent performances on tasks such as web question answering and web information extraction.
