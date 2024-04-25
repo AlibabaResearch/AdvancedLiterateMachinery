@@ -56,11 +56,10 @@ def main():
         )
 
     dataset = VIEDataset(
-        cfg.dataset,
+        cfg.dataset_root_path,
         cfg.task,
         backbone_type,
         cfg.model.head,
-        cfg.dataset_root_path,
         net.tokenizer,
         mode=mode,
     )
