@@ -1,0 +1,2405 @@
+[
+  {
+    "box": [
+      224,
+      100,
+      673,
+      132
+    ],
+    "text": "ADMINISTRATIVE STRUCTURE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          225,
+          101,
+          486,
+          132
+        ],
+        "text": "ADMINISTRATIVE"
+      },
+      {
+        "box": [
+          498,
+          103,
+          675,
+          131
+        ],
+        "text": "STRUCTURE"
+      }
+    ]
+  },
+  {
+    "box": [
+      695,
+      270,
+      757,
+      295
+    ],
+    "text": "Board",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          698,
+          269,
+          756,
+          294
+        ],
+        "text": "Board"
+      }
+    ]
+  },
+  {
+    "box": [
+      973,
+      372,
+      1057,
+      415
+    ],
+    "text": "Onice of",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          973,
+          376,
+          1030,
+          411
+        ],
+        "text": "Onice"
+      },
+      {
+        "box": [
+          1039,
+          378,
+          1057,
+          416
+        ],
+        "text": "of"
+      }
+    ]
+  },
+  {
+    "box": [
+      1097,
+      1191,
+      1267,
+      1214
+    ],
+    "text": "Administration",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1101,
+          1192,
+          1259,
+          1215
+        ],
+        "text": "Administration"
+      }
+    ]
+  },
+  {
+    "box": [
+      155,
+      1325,
+      669,
+      1360
+    ],
+    "text": "STRUCTURE OF ADMINISTRATION",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          155,
+          1326,
+          335,
+          1358
+        ],
+        "text": "STRUCTURE"
+      },
+      {
+        "box": [
+          349,
+          1327,
+          391,
+          1358
+        ],
+        "text": "OF"
+      },
+      {
+        "box": [
+          404,
+          1327,
+          667,
+          1360
+        ],
+        "text": "ADMINISTRATION"
+      }
+    ]
+  },
+  {
+    "box": [
+      171,
+      1386,
+      1275,
+      1416
+    ],
+    "text": "All the academic and administrative units at Tsukuba have the initialive regarding their plans and",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          188,
+          1387,
+          222,
+          1413
+        ],
+        "text": "All"
+      },
+      {
+        "box": [
+          228,
+          1387,
+          267,
+          1413
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          273,
+          1388,
+          376,
+          1414
+        ],
+        "text": "academic"
+      },
+      {
+        "box": [
+          382,
+          1388,
+          425,
+          1414
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          432,
+          1388,
+          589,
+          1414
+        ],
+        "text": "administrative"
+      },
+      {
+        "box": [
+          595,
+          1389,
+          652,
+          1415
+        ],
+        "text": "units"
+      },
+      {
+        "box": [
+          658,
+          1389,
+          685,
+          1415
+        ],
+        "text": "at"
+      },
+      {
+        "box": [
+          693,
+          1389,
+          786,
+          1415
+        ],
+        "text": "Tsukuba"
+      },
+      {
+        "box": [
+          792,
+          1390,
+          846,
+          1415
+        ],
+        "text": "have"
+      },
+      {
+        "box": [
+          852,
+          1390,
+          890,
+          1415
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          897,
+          1390,
+          993,
+          1415
+        ],
+        "text": "initialive"
+      },
+      {
+        "box": [
+          1000,
+          1390,
+          1101,
+          1416
+        ],
+        "text": "regarding"
+      },
+      {
+        "box": [
+          1108,
+          1391,
+          1159,
+          1416
+        ],
+        "text": "their"
+      },
+      {
+        "box": [
+          1166,
+          1391,
+          1222,
+          1416
+        ],
+        "text": "plans"
+      },
+      {
+        "box": [
+          1229,
+          1391,
+          1270,
+          1416
+        ],
+        "text": "and"
+      }
+    ]
+  },
+  {
+    "box": [
+      158,
+      1416,
+      1276,
+      1443
+    ],
+    "text": "Programs. Their administrative responsibilities are made clear and their initiatives in respect to",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          160,
+          1417,
+          268,
+          1442
+        ],
+        "text": "Programs."
+      },
+      {
+        "box": [
+          281,
+          1417,
+          342,
+          1442
+        ],
+        "text": "Their"
+      },
+      {
+        "box": [
+          351,
+          1417,
+          507,
+          1443
+        ],
+        "text": "administrative"
+      },
+      {
+        "box": [
+          519,
+          1417,
+          684,
+          1443
+        ],
+        "text": "responsibilities"
+      },
+      {
+        "box": [
+          696,
+          1418,
+          730,
+          1443
+        ],
+        "text": "are"
+      },
+      {
+        "box": [
+          743,
+          1418,
+          802,
+          1443
+        ],
+        "text": "made"
+      },
+      {
+        "box": [
+          815,
+          1418,
+          870,
+          1443
+        ],
+        "text": "clear"
+      },
+      {
+        "box": [
+          881,
+          1418,
+          921,
+          1443
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          935,
+          1418,
+          991,
+          1443
+        ],
+        "text": "their"
+      },
+      {
+        "box": [
+          1001,
+          1418,
+          1110,
+          1443
+        ],
+        "text": "initiatives"
+      },
+      {
+        "box": [
+          1121,
+          1418,
+          1141,
+          1443
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1156,
+          1418,
+          1236,
+          1443
+        ],
+        "text": "respect"
+      },
+      {
+        "box": [
+          1248,
+          1418,
+          1269,
+          1443
+        ],
+        "text": "to"
+      }
+    ]
+  },
+  {
+    "box": [
+      150,
+      1443,
+      1272,
+      1468
+    ],
+    "text": "budgetary and personnel matters are ifactively counlimited through university wide soil and",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          154,
+          1443,
+          266,
+          1469
+        ],
+        "text": "budgetary"
+      },
+      {
+        "box": [
+          276,
+          1444,
+          317,
+          1469
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          327,
+          1444,
+          438,
+          1469
+        ],
+        "text": "personnel"
+      },
+      {
+        "box": [
+          444,
+          1444,
+          531,
+          1469
+        ],
+        "text": "matters"
+      },
+      {
+        "box": [
+          537,
+          1445,
+          575,
+          1468
+        ],
+        "text": "are"
+      },
+      {
+        "box": [
+          593,
+          1445,
+          701,
+          1468
+        ],
+        "text": "ifactively"
+      },
+      {
+        "box": [
+          709,
+          1446,
+          842,
+          1467
+        ],
+        "text": "counlimited"
+      },
+      {
+        "box": [
+          851,
+          1446,
+          940,
+          1467
+        ],
+        "text": "through"
+      },
+      {
+        "box": [
+          951,
+          1446,
+          1060,
+          1466
+        ],
+        "text": "university"
+      },
+      {
+        "box": [
+          1066,
+          1446,
+          1122,
+          1466
+        ],
+        "text": "wide"
+      },
+      {
+        "box": [
+          1128,
+          1446,
+          1218,
+          1465
+        ],
+        "text": "soil"
+      },
+      {
+        "box": [
+          1229,
+          1446,
+          1271,
+          1465
+        ],
+        "text": "and"
+      }
+    ]
+  },
+  {
+    "box": [
+      148,
+      1464,
+      779,
+      1503
+    ],
+    "text": "committees to achieve balanced autonomy for s",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          152,
+          1471,
+          282,
+          1496
+        ],
+        "text": "committees"
+      },
+      {
+        "box": [
+          287,
+          1469,
+          310,
+          1496
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          316,
+          1469,
+          397,
+          1496
+        ],
+        "text": "achieve"
+      },
+      {
+        "box": [
+          403,
+          1468,
+          500,
+          1497
+        ],
+        "text": "balanced"
+      },
+      {
+        "box": [
+          505,
+          1470,
+          621,
+          1499
+        ],
+        "text": "autonomy"
+      },
+      {
+        "box": [
+          626,
+          1473,
+          661,
+          1500
+        ],
+        "text": "for"
+      },
+      {
+        "box": [
+          666,
+          1474,
+          682,
+          1501
+        ],
+        "text": "s"
+      }
+    ]
+  },
+  {
+    "box": [
+      155,
+      1496,
+      1278,
+      1526
+    ],
+    "text": "One characteristic of the administration at Tsukuba is that if hes live Chancellors to past the",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          185,
+          1497,
+          236,
+          1524
+        ],
+        "text": "One"
+      },
+      {
+        "box": [
+          242,
+          1497,
+          392,
+          1525
+        ],
+        "text": "characteristic"
+      },
+      {
+        "box": [
+          398,
+          1498,
+          427,
+          1525
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          433,
+          1499,
+          475,
+          1525
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          481,
+          1499,
+          644,
+          1525
+        ],
+        "text": "administration"
+      },
+      {
+        "box": [
+          652,
+          1500,
+          679,
+          1525
+        ],
+        "text": "at"
+      },
+      {
+        "box": [
+          689,
+          1500,
+          783,
+          1525
+        ],
+        "text": "Tsukuba"
+      },
+      {
+        "box": [
+          791,
+          1500,
+          813,
+          1525
+        ],
+        "text": "is"
+      },
+      {
+        "box": [
+          819,
+          1500,
+          869,
+          1525
+        ],
+        "text": "that"
+      },
+      {
+        "box": [
+          875,
+          1500,
+          897,
+          1525
+        ],
+        "text": "if"
+      },
+      {
+        "box": [
+          903,
+          1500,
+          945,
+          1525
+        ],
+        "text": "hes"
+      },
+      {
+        "box": [
+          951,
+          1500,
+          992,
+          1525
+        ],
+        "text": "live"
+      },
+      {
+        "box": [
+          998,
+          1501,
+          1130,
+          1525
+        ],
+        "text": "Chancellors"
+      },
+      {
+        "box": [
+          1135,
+          1501,
+          1161,
+          1525
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          1172,
+          1501,
+          1228,
+          1524
+        ],
+        "text": "past"
+      },
+      {
+        "box": [
+          1234,
+          1501,
+          1274,
+          1524
+        ],
+        "text": "the"
+      }
+    ]
+  },
+  {
+    "box": [
+      151,
+      1523,
+      1266,
+      1554
+    ],
+    "text": "President in the areas of research, scab the affair, student affairs, medical service and genera allairs",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          154,
+          1524,
+          256,
+          1552
+        ],
+        "text": "President"
+      },
+      {
+        "box": [
+          262,
+          1525,
+          287,
+          1552
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          293,
+          1525,
+          329,
+          1553
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          335,
+          1525,
+          390,
+          1553
+        ],
+        "text": "areas"
+      },
+      {
+        "box": [
+          396,
+          1526,
+          421,
+          1553
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          427,
+          1526,
+          524,
+          1553
+        ],
+        "text": "research,"
+      },
+      {
+        "box": [
+          530,
+          1527,
+          584,
+          1553
+        ],
+        "text": "scab"
+      },
+      {
+        "box": [
+          590,
+          1527,
+          632,
+          1553
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          638,
+          1527,
+          713,
+          1553
+        ],
+        "text": "affair,"
+      },
+      {
+        "box": [
+          718,
+          1528,
+          804,
+          1553
+        ],
+        "text": "student"
+      },
+      {
+        "box": [
+          810,
+          1528,
+          885,
+          1553
+        ],
+        "text": "affairs,"
+      },
+      {
+        "box": [
+          891,
+          1528,
+          979,
+          1553
+        ],
+        "text": "medical"
+      },
+      {
+        "box": [
+          984,
+          1529,
+          1056,
+          1553
+        ],
+        "text": "service"
+      },
+      {
+        "box": [
+          1061,
+          1529,
+          1103,
+          1552
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          1109,
+          1529,
+          1188,
+          1552
+        ],
+        "text": "genera"
+      },
+      {
+        "box": [
+          1195,
+          1529,
+          1267,
+          1552
+        ],
+        "text": "allairs"
+      }
+    ]
+  },
+  {
+    "box": [
+      154,
+      1551,
+      1271,
+      1581
+    ],
+    "text": "The President and his Chancellors assume the highest responsibly for the overall administration of",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          157,
+          1552,
+          198,
+          1581
+        ],
+        "text": "The"
+      },
+      {
+        "box": [
+          204,
+          1552,
+          307,
+          1581
+        ],
+        "text": "President"
+      },
+      {
+        "box": [
+          313,
+          1553,
+          356,
+          1581
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          362,
+          1553,
+          397,
+          1581
+        ],
+        "text": "his"
+      },
+      {
+        "box": [
+          404,
+          1553,
+          531,
+          1581
+        ],
+        "text": "Chancellors"
+      },
+      {
+        "box": [
+          538,
+          1553,
+          620,
+          1581
+        ],
+        "text": "assume"
+      },
+      {
+        "box": [
+          626,
+          1553,
+          663,
+          1581
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          670,
+          1554,
+          750,
+          1581
+        ],
+        "text": "highest"
+      },
+      {
+        "box": [
+          756,
+          1554,
+          908,
+          1581
+        ],
+        "text": "responsibly"
+      },
+      {
+        "box": [
+          915,
+          1554,
+          951,
+          1581
+        ],
+        "text": "for"
+      },
+      {
+        "box": [
+          958,
+          1554,
+          993,
+          1580
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1000,
+          1555,
+          1072,
+          1580
+        ],
+        "text": "overall"
+      },
+      {
+        "box": [
+          1079,
+          1555,
+          1240,
+          1579
+        ],
+        "text": "administration"
+      },
+      {
+        "box": [
+          1247,
+          1555,
+          1270,
+          1579
+        ],
+        "text": "of"
+      }
+    ]
+  },
+  {
+    "box": [
+      152,
+      1579,
+      1273,
+      1608
+    ],
+    "text": "the University. This administrative structure is sto unique in Japan where unseribe 3. is",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          152,
+          1579,
+          195,
+          1607
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          207,
+          1579,
+          335,
+          1606
+        ],
+        "text": "University."
+      },
+      {
+        "box": [
+          341,
+          1580,
+          393,
+          1606
+        ],
+        "text": "This"
+      },
+      {
+        "box": [
+          399,
+          1580,
+          559,
+          1606
+        ],
+        "text": "administrative"
+      },
+      {
+        "box": [
+          567,
+          1581,
+          673,
+          1605
+        ],
+        "text": "structure"
+      },
+      {
+        "box": [
+          679,
+          1582,
+          705,
+          1605
+        ],
+        "text": "is"
+      },
+      {
+        "box": [
+          711,
+          1582,
+          757,
+          1605
+        ],
+        "text": "sto"
+      },
+      {
+        "box": [
+          769,
+          1582,
+          848,
+          1605
+        ],
+        "text": "unique"
+      },
+      {
+        "box": [
+          855,
+          1583,
+          882,
+          1605
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          892,
+          1583,
+          959,
+          1605
+        ],
+        "text": "Japan"
+      },
+      {
+        "box": [
+          971,
+          1583,
+          1041,
+          1605
+        ],
+        "text": "where"
+      },
+      {
+        "box": [
+          1049,
+          1584,
+          1168,
+          1605
+        ],
+        "text": "unseribe"
+      },
+      {
+        "box": [
+          1188,
+          1584,
+          1224,
+          1605
+        ],
+        "text": "3."
+      },
+      {
+        "box": [
+          1231,
+          1584,
+          1273,
+          1605
+        ],
+        "text": "is"
+      }
+    ]
+  },
+  {
+    "box": [
+      152,
+      1605,
+      553,
+      1638
+    ],
+    "text": "traditionally by faculty meetings.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          153,
+          1606,
+          289,
+          1635
+        ],
+        "text": "traditionally"
+      },
+      {
+        "box": [
+          296,
+          1607,
+          325,
+          1635
+        ],
+        "text": "by"
+      },
+      {
+        "box": [
+          332,
+          1608,
+          409,
+          1636
+        ],
+        "text": "faculty"
+      },
+      {
+        "box": [
+          416,
+          1609,
+          528,
+          1637
+        ],
+        "text": "meetings."
+      }
+    ]
+  },
+  {
+    "box": [
+      149,
+      1631,
+      1275,
+      1663
+    ],
+    "text": "The ideal of Tsukuba is to be a truly open university that can festaly respond te Sects needs and",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          190,
+          1632,
+          229,
+          1661
+        ],
+        "text": "The"
+      },
+      {
+        "box": [
+          237,
+          1633,
+          291,
+          1661
+        ],
+        "text": "ideal"
+      },
+      {
+        "box": [
+          298,
+          1634,
+          327,
+          1661
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          334,
+          1634,
+          426,
+          1661
+        ],
+        "text": "Tsukuba"
+      },
+      {
+        "box": [
+          433,
+          1635,
+          454,
+          1661
+        ],
+        "text": "is"
+      },
+      {
+        "box": [
+          461,
+          1635,
+          485,
+          1661
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          493,
+          1635,
+          519,
+          1662
+        ],
+        "text": "be"
+      },
+      {
+        "box": [
+          526,
+          1636,
+          538,
+          1662
+        ],
+        "text": "a"
+      },
+      {
+        "box": [
+          545,
+          1636,
+          599,
+          1662
+        ],
+        "text": "truly"
+      },
+      {
+        "box": [
+          606,
+          1636,
+          659,
+          1662
+        ],
+        "text": "open"
+      },
+      {
+        "box": [
+          666,
+          1637,
+          775,
+          1662
+        ],
+        "text": "university"
+      },
+      {
+        "box": [
+          782,
+          1637,
+          826,
+          1662
+        ],
+        "text": "that"
+      },
+      {
+        "box": [
+          832,
+          1638,
+          872,
+          1662
+        ],
+        "text": "can"
+      },
+      {
+        "box": [
+          879,
+          1638,
+          964,
+          1661
+        ],
+        "text": "festaly"
+      },
+      {
+        "box": [
+          970,
+          1638,
+          1057,
+          1661
+        ],
+        "text": "respond"
+      },
+      {
+        "box": [
+          1063,
+          1639,
+          1087,
+          1661
+        ],
+        "text": "te"
+      },
+      {
+        "box": [
+          1093,
+          1639,
+          1154,
+          1661
+        ],
+        "text": "Sects"
+      },
+      {
+        "box": [
+          1160,
+          1639,
+          1225,
+          1661
+        ],
+        "text": "needs"
+      },
+      {
+        "box": [
+          1231,
+          1639,
+          1274,
+          1660
+        ],
+        "text": "and"
+      }
+    ]
+  },
+  {
+    "box": [
+      142,
+      1660,
+      1279,
+      1689
+    ],
+    "text": "thus, for the establishment of close contact with the general pubbe, it has an Advisory Board which",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          154,
+          1661,
+          211,
+          1688
+        ],
+        "text": "thus,"
+      },
+      {
+        "box": [
+          217,
+          1662,
+          252,
+          1688
+        ],
+        "text": "for"
+      },
+      {
+        "box": [
+          258,
+          1662,
+          298,
+          1688
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          305,
+          1662,
+          456,
+          1689
+        ],
+        "text": "establishment"
+      },
+      {
+        "box": [
+          462,
+          1663,
+          490,
+          1689
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          496,
+          1663,
+          554,
+          1689
+        ],
+        "text": "close"
+      },
+      {
+        "box": [
+          560,
+          1663,
+          645,
+          1689
+        ],
+        "text": "contact"
+      },
+      {
+        "box": [
+          651,
+          1664,
+          701,
+          1689
+        ],
+        "text": "with"
+      },
+      {
+        "box": [
+          709,
+          1664,
+          747,
+          1689
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          753,
+          1664,
+          835,
+          1689
+        ],
+        "text": "general"
+      },
+      {
+        "box": [
+          841,
+          1664,
+          917,
+          1688
+        ],
+        "text": "pubbe,"
+      },
+      {
+        "box": [
+          923,
+          1664,
+          944,
+          1688
+        ],
+        "text": "it"
+      },
+      {
+        "box": [
+          950,
+          1665,
+          986,
+          1688
+        ],
+        "text": "has"
+      },
+      {
+        "box": [
+          991,
+          1665,
+          1020,
+          1688
+        ],
+        "text": "an"
+      },
+      {
+        "box": [
+          1027,
+          1665,
+          1126,
+          1688
+        ],
+        "text": "Advisory"
+      },
+      {
+        "box": [
+          1132,
+          1665,
+          1198,
+          1687
+        ],
+        "text": "Board"
+      },
+      {
+        "box": [
+          1204,
+          1665,
+          1270,
+          1687
+        ],
+        "text": "which"
+      }
+    ]
+  },
+  {
+    "box": [
+      145,
+      1688,
+      621,
+      1714
+    ],
+    "text": "consists of leaders in various walks of life.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          154,
+          1690,
+          239,
+          1715
+        ],
+        "text": "consists"
+      },
+      {
+        "box": [
+          246,
+          1690,
+          268,
+          1715
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          274,
+          1690,
+          352,
+          1715
+        ],
+        "text": "leaders"
+      },
+      {
+        "box": [
+          358,
+          1690,
+          379,
+          1715
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          385,
+          1690,
+          465,
+          1715
+        ],
+        "text": "various"
+      },
+      {
+        "box": [
+          471,
+          1689,
+          532,
+          1715
+        ],
+        "text": "walks"
+      },
+      {
+        "box": [
+          537,
+          1689,
+          562,
+          1715
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          567,
+          1689,
+          619,
+          1715
+        ],
+        "text": "life."
+      }
+    ]
+  },
+  {
+    "box": [
+      158,
+      1751,
+      381,
+      1784
+    ],
+    "text": "STUDENT LIFE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          158,
+          1752,
+          303,
+          1784
+        ],
+        "text": "STUDENT"
+      },
+      {
+        "box": [
+          311,
+          1754,
+          382,
+          1784
+        ],
+        "text": "LIFE"
+      }
+    ]
+  },
+  {
+    "box": [
+      179,
+      1799,
+      1268,
+      1830
+    ],
+    "text": "Despite the inconveniences caused by the on-ging station, students : 1guns in pursuing",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          191,
+          1800,
+          274,
+          1826
+        ],
+        "text": "Despite"
+      },
+      {
+        "box": [
+          281,
+          1801,
+          319,
+          1826
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          325,
+          1801,
+          492,
+          1825
+        ],
+        "text": "inconveniences"
+      },
+      {
+        "box": [
+          498,
+          1802,
+          574,
+          1825
+        ],
+        "text": "caused"
+      },
+      {
+        "box": [
+          580,
+          1802,
+          609,
+          1825
+        ],
+        "text": "by"
+      },
+      {
+        "box": [
+          616,
+          1803,
+          652,
+          1825
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          658,
+          1803,
+          756,
+          1826
+        ],
+        "text": "on-ging"
+      },
+      {
+        "box": [
+          799,
+          1804,
+          905,
+          1826
+        ],
+        "text": "station,"
+      },
+      {
+        "box": [
+          911,
+          1804,
+          1004,
+          1827
+        ],
+        "text": "students"
+      },
+      {
+        "box": [
+          1010,
+          1805,
+          1026,
+          1827
+        ],
+        "text": ":"
+      },
+      {
+        "box": [
+          1042,
+          1805,
+          1133,
+          1828
+        ],
+        "text": "1guns"
+      },
+      {
+        "box": [
+          1139,
+          1806,
+          1167,
+          1829
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1178,
+          1806,
+          1267,
+          1830
+        ],
+        "text": "pursuing"
+      }
+    ]
+  },
+  {
+    "box": [
+      153,
+      1827,
+      1277,
+      1857
+    ],
+    "text": "their academie goal with zeal in this pastoral environment. They are also active in extracurricular",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          158,
+          1828,
+          213,
+          1855
+        ],
+        "text": "their"
+      },
+      {
+        "box": [
+          219,
+          1828,
+          324,
+          1856
+        ],
+        "text": "academie"
+      },
+      {
+        "box": [
+          332,
+          1828,
+          386,
+          1856
+        ],
+        "text": "goal"
+      },
+      {
+        "box": [
+          399,
+          1828,
+          449,
+          1856
+        ],
+        "text": "with"
+      },
+      {
+        "box": [
+          459,
+          1828,
+          504,
+          1857
+        ],
+        "text": "zeal"
+      },
+      {
+        "box": [
+          510,
+          1828,
+          533,
+          1857
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          539,
+          1828,
+          584,
+          1857
+        ],
+        "text": "this"
+      },
+      {
+        "box": [
+          591,
+          1828,
+          680,
+          1857
+        ],
+        "text": "pastoral"
+      },
+      {
+        "box": [
+          687,
+          1828,
+          839,
+          1857
+        ],
+        "text": "environment."
+      },
+      {
+        "box": [
+          846,
+          1828,
+          899,
+          1857
+        ],
+        "text": "They"
+      },
+      {
+        "box": [
+          907,
+          1828,
+          942,
+          1857
+        ],
+        "text": "are"
+      },
+      {
+        "box": [
+          948,
+          1828,
+          993,
+          1857
+        ],
+        "text": "also"
+      },
+      {
+        "box": [
+          1001,
+          1828,
+          1067,
+          1857
+        ],
+        "text": "active"
+      },
+      {
+        "box": [
+          1073,
+          1828,
+          1098,
+          1857
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1104,
+          1828,
+          1275,
+          1856
+        ],
+        "text": "extracurricular"
+      }
+    ]
+  },
+  {
+    "box": [
+      157,
+      1854,
+      1274,
+      1882
+    ],
+    "text": "acivilis and they have already organized more than 90 clubs and circles, Their campus life is",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          157,
+          1856,
+          258,
+          1880
+        ],
+        "text": "acivilis"
+      },
+      {
+        "box": [
+          266,
+          1856,
+          308,
+          1880
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          321,
+          1856,
+          371,
+          1880
+        ],
+        "text": "they"
+      },
+      {
+        "box": [
+          383,
+          1856,
+          435,
+          1880
+        ],
+        "text": "have"
+      },
+      {
+        "box": [
+          448,
+          1856,
+          527,
+          1880
+        ],
+        "text": "already"
+      },
+      {
+        "box": [
+          540,
+          1856,
+          647,
+          1881
+        ],
+        "text": "organized"
+      },
+      {
+        "box": [
+          661,
+          1856,
+          719,
+          1881
+        ],
+        "text": "more"
+      },
+      {
+        "box": [
+          732,
+          1856,
+          781,
+          1881
+        ],
+        "text": "than"
+      },
+      {
+        "box": [
+          795,
+          1856,
+          822,
+          1881
+        ],
+        "text": "90"
+      },
+      {
+        "box": [
+          838,
+          1856,
+          897,
+          1882
+        ],
+        "text": "clubs"
+      },
+      {
+        "box": [
+          906,
+          1856,
+          950,
+          1882
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          959,
+          1856,
+          1043,
+          1882
+        ],
+        "text": "circles,"
+      },
+      {
+        "box": [
+          1049,
+          1856,
+          1109,
+          1882
+        ],
+        "text": "Their"
+      },
+      {
+        "box": [
+          1116,
+          1856,
+          1201,
+          1883
+        ],
+        "text": "campus"
+      },
+      {
+        "box": [
+          1210,
+          1856,
+          1247,
+          1883
+        ],
+        "text": "life"
+      },
+      {
+        "box": [
+          1257,
+          1856,
+          1274,
+          1883
+        ],
+        "text": "is"
+      }
+    ]
+  },
+  {
+    "box": [
+      152,
+      1880,
+      1235,
+      1907
+    ],
+    "text": "expected to be even nches, as all of the planned physical facilities will be completed in a few years",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          155,
+          1883,
+          257,
+          1907
+        ],
+        "text": "expected"
+      },
+      {
+        "box": [
+          262,
+          1883,
+          286,
+          1907
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          293,
+          1882,
+          322,
+          1907
+        ],
+        "text": "be"
+      },
+      {
+        "box": [
+          327,
+          1882,
+          375,
+          1907
+        ],
+        "text": "even"
+      },
+      {
+        "box": [
+          382,
+          1882,
+          453,
+          1907
+        ],
+        "text": "nches,"
+      },
+      {
+        "box": [
+          458,
+          1882,
+          482,
+          1908
+        ],
+        "text": "as"
+      },
+      {
+        "box": [
+          487,
+          1882,
+          514,
+          1908
+        ],
+        "text": "all"
+      },
+      {
+        "box": [
+          519,
+          1882,
+          545,
+          1908
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          550,
+          1882,
+          588,
+          1908
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          592,
+          1882,
+          681,
+          1908
+        ],
+        "text": "planned"
+      },
+      {
+        "box": [
+          686,
+          1881,
+          779,
+          1908
+        ],
+        "text": "physical"
+      },
+      {
+        "box": [
+          783,
+          1882,
+          877,
+          1908
+        ],
+        "text": "facilities"
+      },
+      {
+        "box": [
+          881,
+          1882,
+          924,
+          1908
+        ],
+        "text": "will"
+      },
+      {
+        "box": [
+          928,
+          1882,
+          956,
+          1908
+        ],
+        "text": "be"
+      },
+      {
+        "box": [
+          960,
+          1882,
+          1079,
+          1908
+        ],
+        "text": "completed"
+      },
+      {
+        "box": [
+          1083,
+          1883,
+          1105,
+          1907
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1110,
+          1883,
+          1126,
+          1907
+        ],
+        "text": "a"
+      },
+      {
+        "box": [
+          1130,
+          1883,
+          1167,
+          1907
+        ],
+        "text": "few"
+      },
+      {
+        "box": [
+          1176,
+          1883,
+          1236,
+          1907
+        ],
+        "text": "years"
+      }
+    ]
+  },
+  {
+    "box": [
+      294,
+      1908,
+      474,
+      1936
+    ],
+    "text": "ce https //w",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          296,
+          1912,
+          327,
+          1934
+        ],
+        "text": "ce"
+      },
+      {
+        "box": [
+          350,
+          1910,
+          420,
+          1935
+        ],
+        "text": "https"
+      },
+      {
+        "box": [
+          432,
+          1911,
+          464,
+          1936
+        ],
+        "text": "//w"
+      }
+    ]
+  },
+  {
+    "box": [
+      482,
+      1914,
+      1213,
+      1946
+    ],
+    "text": "ww industrydocuments.uest edu/docs/hulkozzo",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          483,
+          1918,
+          515,
+          1947
+        ],
+        "text": "ww"
+      },
+      {
+        "box": [
+          531,
+          1917,
+          885,
+          1943
+        ],
+        "text": "industrydocuments.uest"
+      },
+      {
+        "box": [
+          891,
+          1914,
+          1175,
+          1945
+        ],
+        "text": "edu/docs/hulkozzo"
+      }
+    ]
+  }
+]

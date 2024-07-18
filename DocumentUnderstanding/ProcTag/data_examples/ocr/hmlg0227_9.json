@@ -1,0 +1,80 @@
+[
+  {
+    "box": [
+      334,
+      228,
+      791,
+      236
+    ],
+    "text": "For your departmental files",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          339,
+          230,
+          389,
+          252
+        ],
+        "text": "For"
+      },
+      {
+        "box": [
+          406,
+          226,
+          474,
+          250
+        ],
+        "text": "your"
+      },
+      {
+        "box": [
+          493,
+          221,
+          694,
+          240
+        ],
+        "text": "departmental"
+      },
+      {
+        "box": [
+          712,
+          212,
+          790,
+          234
+        ],
+        "text": "files"
+      }
+    ]
+  },
+  {
+    "box": [
+      59,
+      640,
+      1019,
+      672
+    ],
+    "text": "Source: https://www.industrydocuments.ucsf.edu/docs/hmlg0227",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          65,
+          641,
+          180,
+          671
+        ],
+        "text": "Source:"
+      },
+      {
+        "box": [
+          186,
+          642,
+          1019,
+          672
+        ],
+        "text": "https://www.industrydocuments.ucsf.edu/docs/hmlg0227"
+      }
+    ]
+  }
+]

@@ -1,0 +1,401 @@
+[
+  {
+    "box": [
+      310,
+      487,
+      1413,
+      572
+    ],
+    "text": "ALTERNATIVE BEARING",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          316,
+          491,
+          947,
+          571
+        ],
+        "text": "ALTERNATIVE"
+      },
+      {
+        "box": [
+          987,
+          490,
+          1395,
+          573
+        ],
+        "text": "BEARING"
+      }
+    ]
+  },
+  {
+    "box": [
+      640,
+      590,
+      1090,
+      673
+    ],
+    "text": "COUPLES",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          647,
+          594,
+          1089,
+          674
+        ],
+        "text": "COUPLES"
+      }
+    ]
+  },
+  {
+    "box": [
+      392,
+      895,
+      1348,
+      953
+    ],
+    "text": "I. BEARING COUPLE OPTIONS",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          401,
+          897,
+          457,
+          954
+        ],
+        "text": "I."
+      },
+      {
+        "box": [
+          475,
+          897,
+          750,
+          954
+        ],
+        "text": "BEARING"
+      },
+      {
+        "box": [
+          781,
+          898,
+          1032,
+          954
+        ],
+        "text": "COUPLE"
+      },
+      {
+        "box": [
+          1057,
+          897,
+          1341,
+          955
+        ],
+        "text": "OPTIONS"
+      }
+    ]
+  },
+  {
+    "box": [
+      545,
+      1034,
+      1199,
+      1090
+    ],
+    "text": "II. CURRENT ISSUES",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          549,
+          1035,
+          620,
+          1092
+        ],
+        "text": "II."
+      },
+      {
+        "box": [
+          638,
+          1035,
+          952,
+          1092
+        ],
+        "text": "CURRENT"
+      },
+      {
+        "box": [
+          962,
+          1034,
+          1195,
+          1090
+        ],
+        "text": "ISSUES"
+      }
+    ]
+  },
+  {
+    "box": [
+      521,
+      1171,
+      1233,
+      1231
+    ],
+    "text": "III. FAILURE ANALYSIS",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          521,
+          1175,
+          609,
+          1230
+        ],
+        "text": "III."
+      },
+      {
+        "box": [
+          627,
+          1174,
+          891,
+          1229
+        ],
+        "text": "FAILURE"
+      },
+      {
+        "box": [
+          913,
+          1172,
+          1224,
+          1232
+        ],
+        "text": "ANALYSIS"
+      }
+    ]
+  },
+  {
+    "box": [
+      307,
+      1307,
+      1440,
+      1370
+    ],
+    "text": "IV. WHERE DO WE GO FROM HERE?",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          307,
+          1308,
+          406,
+          1370
+        ],
+        "text": "IV."
+      },
+      {
+        "box": [
+          418,
+          1309,
+          657,
+          1371
+        ],
+        "text": "WHERE"
+      },
+      {
+        "box": [
+          672,
+          1310,
+          760,
+          1371
+        ],
+        "text": "DO"
+      },
+      {
+        "box": [
+          788,
+          1310,
+          887,
+          1371
+        ],
+        "text": "WE"
+      },
+      {
+        "box": [
+          907,
+          1310,
+          999,
+          1371
+        ],
+        "text": "GO"
+      },
+      {
+        "box": [
+          1022,
+          1310,
+          1198,
+          1371
+        ],
+        "text": "FROM"
+      },
+      {
+        "box": [
+          1229,
+          1310,
+          1440,
+          1371
+        ],
+        "text": "HERE?"
+      }
+    ]
+  },
+  {
+    "box": [
+      68,
+      2165,
+      1017,
+      2196
+    ],
+    "text": "PROTECTED DOCUMENT. DOCUMENT SUBJECT TO PROTECTIVE ORDER.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          70,
+          2166,
+          231,
+          2194
+        ],
+        "text": "PROTECTED"
+      },
+      {
+        "box": [
+          239,
+          2168,
+          401,
+          2195
+        ],
+        "text": "DOCUMENT."
+      },
+      {
+        "box": [
+          405,
+          2168,
+          562,
+          2196
+        ],
+        "text": "DOCUMENT"
+      },
+      {
+        "box": [
+          566,
+          2169,
+          689,
+          2196
+        ],
+        "text": "SUBJECT"
+      },
+      {
+        "box": [
+          693,
+          2169,
+          726,
+          2196
+        ],
+        "text": "TO"
+      },
+      {
+        "box": [
+          733,
+          2169,
+          904,
+          2196
+        ],
+        "text": "PROTECTIVE"
+      },
+      {
+        "box": [
+          909,
+          2168,
+          1018,
+          2196
+        ],
+        "text": "ORDER."
+      }
+    ]
+  },
+  {
+    "box": [
+      1406,
+      2166,
+      1639,
+      2194
+    ],
+    "text": "DEPUY063303039",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1409,
+          2167,
+          1636,
+          2195
+        ],
+        "text": "DEPUY063303039"
+      }
+    ]
+  },
+  {
+    "box": [
+      365,
+      2222,
+      1341,
+      2258
+    ],
+    "text": "Source: https://www.industrydocuments.ucsf.edu/docs/smwn0226",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          368,
+          2224,
+          482,
+          2259
+        ],
+        "text": "Source:"
+      },
+      {
+        "box": [
+          489,
+          2225,
+          1341,
+          2258
+        ],
+        "text": "https://www.industrydocuments.ucsf.edu/docs/smwn0226"
+      }
+    ]
+  },
+  {
+    "box": [
+      1423,
+      2217,
+      1650,
+      2244
+    ],
+    "text": "PLT-00048-00005",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1429,
+          2218,
+          1650,
+          2244
+        ],
+        "text": "PLT-00048-00005"
+      }
+    ]
+  }
+]

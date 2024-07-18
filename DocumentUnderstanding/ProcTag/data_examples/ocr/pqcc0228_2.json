@@ -1,0 +1,467 @@
+[
+  {
+    "box": [
+      81,
+      43,
+      428,
+      65
+    ],
+    "text": "CORN PRODUCTS CO.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          86,
+          43,
+          168,
+          67
+        ],
+        "text": "CORN"
+      },
+      {
+        "box": [
+          188,
+          43,
+          358,
+          66
+        ],
+        "text": "PRODUCTS"
+      },
+      {
+        "box": [
+          373,
+          42,
+          427,
+          64
+        ],
+        "text": "CO."
+      }
+    ]
+  },
+  {
+    "box": [
+      435,
+      41,
+      1223,
+      65
+    ],
+    "text": ". INTERNATIONAL PLAZA, ENGLEWOOD CLIFFS, N. J. 07632",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          459,
+          42,
+          475,
+          65
+        ],
+        "text": "."
+      },
+      {
+        "box": [
+          499,
+          42,
+          698,
+          66
+        ],
+        "text": "INTERNATIONAL"
+      },
+      {
+        "box": [
+          708,
+          42,
+          802,
+          66
+        ],
+        "text": "PLAZA,"
+      },
+      {
+        "box": [
+          806,
+          42,
+          963,
+          66
+        ],
+        "text": "ENGLEWOOD"
+      },
+      {
+        "box": [
+          977,
+          42,
+          1077,
+          66
+        ],
+        "text": "CLIFFS,"
+      },
+      {
+        "box": [
+          1081,
+          42,
+          1115,
+          66
+        ],
+        "text": "N."
+      },
+      {
+        "box": [
+          1119,
+          41,
+          1144,
+          66
+        ],
+        "text": "J."
+      },
+      {
+        "box": [
+          1148,
+          41,
+          1223,
+          66
+        ],
+        "text": "07632"
+      }
+    ]
+  },
+  {
+    "box": [
+      1240,
+      41,
+      1660,
+      65
+    ],
+    "text": ". STATEMENT OF REMITTANCE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1256,
+          43,
+          1271,
+          66
+        ],
+        "text": "."
+      },
+      {
+        "box": [
+          1298,
+          43,
+          1447,
+          66
+        ],
+        "text": "STATEMENT"
+      },
+      {
+        "box": [
+          1456,
+          43,
+          1490,
+          66
+        ],
+        "text": "OF"
+      },
+      {
+        "box": [
+          1500,
+          43,
+          1658,
+          66
+        ],
+        "text": "REMITTANCE"
+      }
+    ]
+  },
+  {
+    "box": [
+      195,
+      74,
+      1538,
+      95
+    ],
+    "text": "THE ENDORSEMENT OF ATTACHED CHECK IS RECEIPT IN FULL FOR ITEMS SHOWN BELOW. NO OTHER RECEIPT IS NECESSARY.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          199,
+          75,
+          237,
+          93
+        ],
+        "text": "THE"
+      },
+      {
+        "box": [
+          247,
+          75,
+          406,
+          94
+        ],
+        "text": "ENDORSEMENT"
+      },
+      {
+        "box": [
+          414,
+          75,
+          440,
+          94
+        ],
+        "text": "OF"
+      },
+      {
+        "box": [
+          449,
+          75,
+          558,
+          95
+        ],
+        "text": "ATTACHED"
+      },
+      {
+        "box": [
+          568,
+          75,
+          638,
+          95
+        ],
+        "text": "CHECK"
+      },
+      {
+        "box": [
+          648,
+          75,
+          670,
+          95
+        ],
+        "text": "IS"
+      },
+      {
+        "box": [
+          676,
+          75,
+          766,
+          95
+        ],
+        "text": "RECEIPT"
+      },
+      {
+        "box": [
+          773,
+          75,
+          794,
+          95
+        ],
+        "text": "IN"
+      },
+      {
+        "box": [
+          805,
+          75,
+          858,
+          95
+        ],
+        "text": "FULL"
+      },
+      {
+        "box": [
+          867,
+          75,
+          908,
+          95
+        ],
+        "text": "FOR"
+      },
+      {
+        "box": [
+          918,
+          75,
+          982,
+          95
+        ],
+        "text": "ITEMS"
+      },
+      {
+        "box": [
+          989,
+          75,
+          1064,
+          95
+        ],
+        "text": "SHOWN"
+      },
+      {
+        "box": [
+          1076,
+          75,
+          1162,
+          95
+        ],
+        "text": "BELOW."
+      },
+      {
+        "box": [
+          1165,
+          75,
+          1194,
+          95
+        ],
+        "text": "NO"
+      },
+      {
+        "box": [
+          1204,
+          75,
+          1273,
+          95
+        ],
+        "text": "OTHER"
+      },
+      {
+        "box": [
+          1283,
+          75,
+          1373,
+          95
+        ],
+        "text": "RECEIPT"
+      },
+      {
+        "box": [
+          1380,
+          75,
+          1401,
+          95
+        ],
+        "text": "IS"
+      },
+      {
+        "box": [
+          1408,
+          75,
+          1539,
+          94
+        ],
+        "text": "NECESSARY."
+      }
+    ]
+  },
+  {
+    "box": [
+      419,
+      126,
+      671,
+      175
+    ],
+    "text": "Deposited",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          426,
+          126,
+          671,
+          174
+        ],
+        "text": "Deposited"
+      }
+    ]
+  },
+  {
+    "box": [
+      420,
+      186,
+      786,
+      212
+    ],
+    "text": "Savings acct.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          429,
+          189,
+          623,
+          224
+        ],
+        "text": "Savings"
+      },
+      {
+        "box": [
+          648,
+          176,
+          784,
+          213
+        ],
+        "text": "acct."
+      }
+    ]
+  },
+  {
+    "box": [
+      1330,
+      154,
+      1564,
+      208
+    ],
+    "text": "125.00",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1330,
+          154,
+          1552,
+          209
+        ],
+        "text": "125.00"
+      }
+    ]
+  },
+  {
+    "box": [
+      390,
+      230,
+      1346,
+      297
+    ],
+    "text": "southbe /neds Towwekhaiistrydocuments.ucsf edu/docs/pacc0228",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          397,
+          232,
+          497,
+          283
+        ],
+        "text": "southbe"
+      },
+      {
+        "box": [
+          510,
+          233,
+          587,
+          284
+        ],
+        "text": "/neds"
+      },
+      {
+        "box": [
+          599,
+          236,
+          1050,
+          285
+        ],
+        "text": "Towwekhaiistrydocuments.ucsf"
+      },
+      {
+        "box": [
+          1061,
+          251,
+          1347,
+          284
+        ],
+        "text": "edu/docs/pacc0228"
+      }
+    ]
+  }
+]

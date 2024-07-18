@@ -1,0 +1,1556 @@
+[
+  {
+    "box": [
+      341,
+      184,
+      1411,
+      244
+    ],
+    "text": "THE GREAT WESTERN SUGAR COMPANY",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          354,
+          188,
+          468,
+          239
+        ],
+        "text": "THE"
+      },
+      {
+        "box": [
+          482,
+          187,
+          665,
+          241
+        ],
+        "text": "GREAT"
+      },
+      {
+        "box": [
+          675,
+          187,
+          934,
+          243
+        ],
+        "text": "WESTERN"
+      },
+      {
+        "box": [
+          950,
+          188,
+          1130,
+          243
+        ],
+        "text": "SUGAR"
+      },
+      {
+        "box": [
+          1147,
+          190,
+          1412,
+          242
+        ],
+        "text": "COMPANY"
+      }
+    ]
+  },
+  {
+    "box": [
+      534,
+      272,
+      810,
+      307
+    ],
+    "text": "Denver, Colorado",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          537,
+          274,
+          665,
+          308
+        ],
+        "text": "Denver,"
+      },
+      {
+        "box": [
+          675,
+          274,
+          809,
+          307
+        ],
+        "text": "Colorado"
+      }
+    ]
+  },
+  {
+    "box": [
+      1002,
+      271,
+      1279,
+      303
+    ],
+    "text": "October 24, 1966",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1010,
+          272,
+          1135,
+          306
+        ],
+        "text": "October"
+      },
+      {
+        "box": [
+          1146,
+          271,
+          1205,
+          305
+        ],
+        "text": "24,"
+      },
+      {
+        "box": [
+          1215,
+          270,
+          1279,
+          303
+        ],
+        "text": "1966"
+      }
+    ]
+  },
+  {
+    "box": [
+      298,
+      609,
+      891,
+      645
+    ],
+    "text": "EACH GENERAL OFFICE DEPARTMENT HEAD",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          303,
+          611,
+          372,
+          643
+        ],
+        "text": "EACH"
+      },
+      {
+        "box": [
+          385,
+          612,
+          510,
+          643
+        ],
+        "text": "GENERAL"
+      },
+      {
+        "box": [
+          521,
+          612,
+          627,
+          644
+        ],
+        "text": "OFFICE"
+      },
+      {
+        "box": [
+          639,
+          613,
+          812,
+          645
+        ],
+        "text": "DEPARTMENT"
+      },
+      {
+        "box": [
+          823,
+          613,
+          890,
+          646
+        ],
+        "text": "HEAD"
+      }
+    ]
+  },
+  {
+    "box": [
+      298,
+      646,
+      915,
+      679
+    ],
+    "text": "EACH DISTRICT OFFICE DEPARTMENT HEAD",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          300,
+          648,
+          373,
+          679
+        ],
+        "text": "EACH"
+      },
+      {
+        "box": [
+          385,
+          649,
+          528,
+          679
+        ],
+        "text": "DISTRICT"
+      },
+      {
+        "box": [
+          539,
+          650,
+          644,
+          679
+        ],
+        "text": "OFFICE"
+      },
+      {
+        "box": [
+          657,
+          650,
+          832,
+          679
+        ],
+        "text": "DEPARTMENT"
+      },
+      {
+        "box": [
+          841,
+          648,
+          915,
+          679
+        ],
+        "text": "HEAD"
+      }
+    ]
+  },
+  {
+    "box": [
+      300,
+      679,
+      754,
+      714
+    ],
+    "text": "EACH FACTORY SUPERINTENDENT",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          302,
+          679,
+          373,
+          712
+        ],
+        "text": "EACH"
+      },
+      {
+        "box": [
+          386,
+          680,
+          512,
+          712
+        ],
+        "text": "FACTORY"
+      },
+      {
+        "box": [
+          522,
+          682,
+          755,
+          713
+        ],
+        "text": "SUPERINTENDENT"
+      }
+    ]
+  },
+  {
+    "box": [
+      297,
+      712,
+      633,
+      747
+    ],
+    "text": "EACH FACTORY MANAGER",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          301,
+          714,
+          372,
+          745
+        ],
+        "text": "EACH"
+      },
+      {
+        "box": [
+          386,
+          713,
+          510,
+          745
+        ],
+        "text": "FACTORY"
+      },
+      {
+        "box": [
+          519,
+          715,
+          632,
+          746
+        ],
+        "text": "MANAGER"
+      }
+    ]
+  },
+  {
+    "box": [
+      302,
+      747,
+      645,
+      779
+    ],
+    "text": "EACH FACTORY CASHIER",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          302,
+          748,
+          371,
+          778
+        ],
+        "text": "EACH"
+      },
+      {
+        "box": [
+          386,
+          748,
+          508,
+          778
+        ],
+        "text": "FACTORY"
+      },
+      {
+        "box": [
+          521,
+          748,
+          643,
+          779
+        ],
+        "text": "CASHIER"
+      }
+    ]
+  },
+  {
+    "box": [
+      415,
+      814,
+      1448,
+      849
+    ],
+    "text": "The following new assignments are effective October 27, 1966,",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          420,
+          817,
+          476,
+          849
+        ],
+        "text": "The"
+      },
+      {
+        "box": [
+          491,
+          818,
+          645,
+          850
+        ],
+        "text": "following"
+      },
+      {
+        "box": [
+          655,
+          820,
+          710,
+          850
+        ],
+        "text": "new"
+      },
+      {
+        "box": [
+          724,
+          820,
+          917,
+          851
+        ],
+        "text": "assignments"
+      },
+      {
+        "box": [
+          926,
+          820,
+          981,
+          851
+        ],
+        "text": "are"
+      },
+      {
+        "box": [
+          995,
+          820,
+          1150,
+          851
+        ],
+        "text": "effective"
+      },
+      {
+        "box": [
+          1161,
+          819,
+          1284,
+          850
+        ],
+        "text": "October"
+      },
+      {
+        "box": [
+          1294,
+          817,
+          1355,
+          850
+        ],
+        "text": "27,"
+      },
+      {
+        "box": [
+          1365,
+          816,
+          1447,
+          850
+        ],
+        "text": "1966,"
+      }
+    ]
+  },
+  {
+    "box": [
+      298,
+      850,
+      1358,
+      884
+    ],
+    "text": "to facilitate construction of the new sugar factory in the tri-",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          304,
+          851,
+          338,
+          882
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          355,
+          851,
+          526,
+          883
+        ],
+        "text": "facilitate"
+      },
+      {
+        "box": [
+          541,
+          853,
+          745,
+          884
+        ],
+        "text": "construction"
+      },
+      {
+        "box": [
+          759,
+          854,
+          797,
+          884
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          811,
+          854,
+          864,
+          884
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          876,
+          854,
+          929,
+          884
+        ],
+        "text": "new"
+      },
+      {
+        "box": [
+          945,
+          854,
+          1032,
+          884
+        ],
+        "text": "sugar"
+      },
+      {
+        "box": [
+          1048,
+          854,
+          1168,
+          884
+        ],
+        "text": "factory"
+      },
+      {
+        "box": [
+          1181,
+          853,
+          1216,
+          884
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1232,
+          852,
+          1285,
+          883
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1298,
+          852,
+          1360,
+          883
+        ],
+        "text": "tri-"
+      }
+    ]
+  },
+  {
+    "box": [
+      304,
+      885,
+      1161,
+      918
+    ],
+    "text": "county area of Eastern Colorado and Western Kansas:",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          304,
+          887,
+          407,
+          917
+        ],
+        "text": "county"
+      },
+      {
+        "box": [
+          422,
+          887,
+          492,
+          918
+        ],
+        "text": "area"
+      },
+      {
+        "box": [
+          504,
+          886,
+          545,
+          918
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          556,
+          886,
+          677,
+          918
+        ],
+        "text": "Eastern"
+      },
+      {
+        "box": [
+          692,
+          886,
+          828,
+          918
+        ],
+        "text": "Colorado"
+      },
+      {
+        "box": [
+          843,
+          886,
+          896,
+          918
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          907,
+          886,
+          1028,
+          918
+        ],
+        "text": "Western"
+      },
+      {
+        "box": [
+          1041,
+          887,
+          1160,
+          918
+        ],
+        "text": "Kansas:"
+      }
+    ]
+  },
+  {
+    "box": [
+      414,
+      949,
+      1394,
+      989
+    ],
+    "text": "Mr. C. J. (Jim) Amos, presently Superintendent at Windsor,",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          419,
+          951,
+          480,
+          985
+        ],
+        "text": "Mr."
+      },
+      {
+        "box": [
+          489,
+          951,
+          531,
+          986
+        ],
+        "text": "C."
+      },
+      {
+        "box": [
+          542,
+          951,
+          581,
+          986
+        ],
+        "text": "J."
+      },
+      {
+        "box": [
+          593,
+          952,
+          682,
+          987
+        ],
+        "text": "(Jim)"
+      },
+      {
+        "box": [
+          689,
+          952,
+          783,
+          988
+        ],
+        "text": "Amos,"
+      },
+      {
+        "box": [
+          790,
+          953,
+          948,
+          988
+        ],
+        "text": "presently"
+      },
+      {
+        "box": [
+          961,
+          954,
+          1203,
+          987
+        ],
+        "text": "Superintendent"
+      },
+      {
+        "box": [
+          1214,
+          955,
+          1254,
+          987
+        ],
+        "text": "at"
+      },
+      {
+        "box": [
+          1260,
+          955,
+          1394,
+          985
+        ],
+        "text": "Windsor,"
+      }
+    ]
+  },
+  {
+    "box": [
+      300,
+      986,
+      1445,
+      1019
+    ],
+    "text": "and formerly Traveling Engineer, will become Project Superintendent.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          304,
+          987,
+          356,
+          1017
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          372,
+          987,
+          508,
+          1018
+        ],
+        "text": "formerly"
+      },
+      {
+        "box": [
+          522,
+          987,
+          678,
+          1019
+        ],
+        "text": "Traveling"
+      },
+      {
+        "box": [
+          691,
+          988,
+          849,
+          1020
+        ],
+        "text": "Engineer,"
+      },
+      {
+        "box": [
+          858,
+          988,
+          932,
+          1020
+        ],
+        "text": "will"
+      },
+      {
+        "box": [
+          943,
+          988,
+          1048,
+          1020
+        ],
+        "text": "become"
+      },
+      {
+        "box": [
+          1060,
+          988,
+          1185,
+          1019
+        ],
+        "text": "Project"
+      },
+      {
+        "box": [
+          1197,
+          988,
+          1446,
+          1018
+        ],
+        "text": "Superintendent."
+      }
+    ]
+  },
+  {
+    "box": [
+      412,
+      1049,
+      1380,
+      1090
+    ],
+    "text": "Mr. A. N. (Tony) Flasco, presently Traveling Engineer for",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          417,
+          1050,
+          479,
+          1085
+        ],
+        "text": "Mr."
+      },
+      {
+        "box": [
+          486,
+          1051,
+          530,
+          1086
+        ],
+        "text": "A."
+      },
+      {
+        "box": [
+          538,
+          1052,
+          582,
+          1087
+        ],
+        "text": "N."
+      },
+      {
+        "box": [
+          593,
+          1052,
+          700,
+          1088
+        ],
+        "text": "(Tony)"
+      },
+      {
+        "box": [
+          707,
+          1054,
+          833,
+          1089
+        ],
+        "text": "Flasco,"
+      },
+      {
+        "box": [
+          840,
+          1055,
+          1000,
+          1089
+        ],
+        "text": "presently"
+      },
+      {
+        "box": [
+          1011,
+          1055,
+          1170,
+          1089
+        ],
+        "text": "Traveling"
+      },
+      {
+        "box": [
+          1178,
+          1055,
+          1321,
+          1087
+        ],
+        "text": "Engineer"
+      },
+      {
+        "box": [
+          1332,
+          1054,
+          1381,
+          1086
+        ],
+        "text": "for"
+      }
+    ]
+  },
+  {
+    "box": [
+      300,
+      1087,
+      1261,
+      1123
+    ],
+    "text": "Eaton, Greeley and Windsor, will become Project Engineer.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          302,
+          1089,
+          411,
+          1120
+        ],
+        "text": "Eaton,"
+      },
+      {
+        "box": [
+          420,
+          1089,
+          542,
+          1120
+        ],
+        "text": "Greeley"
+      },
+      {
+        "box": [
+          556,
+          1089,
+          611,
+          1120
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          619,
+          1089,
+          763,
+          1121
+        ],
+        "text": "Windsor,"
+      },
+      {
+        "box": [
+          772,
+          1089,
+          849,
+          1121
+        ],
+        "text": "will"
+      },
+      {
+        "box": [
+          857,
+          1089,
+          964,
+          1121
+        ],
+        "text": "become"
+      },
+      {
+        "box": [
+          977,
+          1089,
+          1100,
+          1122
+        ],
+        "text": "Project"
+      },
+      {
+        "box": [
+          1112,
+          1090,
+          1258,
+          1123
+        ],
+        "text": "Engineer."
+      }
+    ]
+  },
+  {
+    "box": [
+      409,
+      1153,
+      1398,
+      1193
+    ],
+    "text": "Mr. Glenn A. Trout, presently Assistant Superintendent at",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          418,
+          1154,
+          479,
+          1187
+        ],
+        "text": "Mr."
+      },
+      {
+        "box": [
+          487,
+          1154,
+          576,
+          1189
+        ],
+        "text": "Glenn"
+      },
+      {
+        "box": [
+          588,
+          1155,
+          631,
+          1190
+        ],
+        "text": "A."
+      },
+      {
+        "box": [
+          641,
+          1156,
+          766,
+          1191
+        ],
+        "text": "Trout,"
+      },
+      {
+        "box": [
+          774,
+          1157,
+          933,
+          1192
+        ],
+        "text": "presently"
+      },
+      {
+        "box": [
+          940,
+          1157,
+          1101,
+          1192
+        ],
+        "text": "Assistant"
+      },
+      {
+        "box": [
+          1113,
+          1157,
+          1354,
+          1190
+        ],
+        "text": "Superintendent"
+      },
+      {
+        "box": [
+          1365,
+          1156,
+          1399,
+          1189
+        ],
+        "text": "at"
+      }
+    ]
+  },
+  {
+    "box": [
+      302,
+      1187,
+      1436,
+      1226
+    ],
+    "text": "Windsor, will become Temporary Superintendent at Windsor, directing",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          302,
+          1188,
+          445,
+          1222
+        ],
+        "text": "Windsor,"
+      },
+      {
+        "box": [
+          451,
+          1189,
+          528,
+          1223
+        ],
+        "text": "will"
+      },
+      {
+        "box": [
+          537,
+          1190,
+          645,
+          1224
+        ],
+        "text": "become"
+      },
+      {
+        "box": [
+          656,
+          1190,
+          813,
+          1225
+        ],
+        "text": "Temporary"
+      },
+      {
+        "box": [
+          826,
+          1191,
+          1069,
+          1225
+        ],
+        "text": "Superintendent"
+      },
+      {
+        "box": [
+          1080,
+          1191,
+          1118,
+          1225
+        ],
+        "text": "at"
+      },
+      {
+        "box": [
+          1126,
+          1191,
+          1271,
+          1225
+        ],
+        "text": "Windsor,"
+      },
+      {
+        "box": [
+          1282,
+          1191,
+          1437,
+          1224
+        ],
+        "text": "directing"
+      }
+    ]
+  },
+  {
+    "box": [
+      305,
+      1222,
+      1393,
+      1259
+    ],
+    "text": "day-to-day operations under the over-all supervision of Mr. Amos.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          306,
+          1224,
+          478,
+          1259
+        ],
+        "text": "day-to-day"
+      },
+      {
+        "box": [
+          488,
+          1223,
+          664,
+          1259
+        ],
+        "text": "operations"
+      },
+      {
+        "box": [
+          671,
+          1223,
+          764,
+          1259
+        ],
+        "text": "under"
+      },
+      {
+        "box": [
+          778,
+          1223,
+          832,
+          1259
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          842,
+          1223,
+          986,
+          1259
+        ],
+        "text": "over-all"
+      },
+      {
+        "box": [
+          996,
+          1223,
+          1183,
+          1259
+        ],
+        "text": "supervision"
+      },
+      {
+        "box": [
+          1196,
+          1224,
+          1235,
+          1258
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          1243,
+          1224,
+          1303,
+          1258
+        ],
+        "text": "Mr."
+      },
+      {
+        "box": [
+          1311,
+          1225,
+          1392,
+          1258
+        ],
+        "text": "Amos."
+      }
+    ]
+  },
+  {
+    "box": [
+      298,
+      1392,
+      507,
+      1429
+    ],
+    "text": "L. T. Jensen",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          303,
+          1393,
+          345,
+          1427
+        ],
+        "text": "L."
+      },
+      {
+        "box": [
+          352,
+          1395,
+          395,
+          1427
+        ],
+        "text": "T."
+      },
+      {
+        "box": [
+          407,
+          1396,
+          508,
+          1428
+        ],
+        "text": "Jensen"
+      }
+    ]
+  },
+  {
+    "box": [
+      789,
+      1387,
+      1240,
+      1434
+    ],
+    "text": "Vice President - Operations",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          791,
+          1390,
+          866,
+          1428
+        ],
+        "text": "Vice"
+      },
+      {
+        "box": [
+          873,
+          1390,
+          1038,
+          1429
+        ],
+        "text": "President"
+      },
+      {
+        "box": [
+          1045,
+          1390,
+          1070,
+          1430
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          1077,
+          1391,
+          1239,
+          1435
+        ],
+        "text": "Operations"
+      }
+    ]
+  },
+  {
+    "box": [
+      299,
+      1504,
+      355,
+      1522
+    ],
+    "text": "cc:",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          302,
+          1502,
+          354,
+          1521
+        ],
+        "text": "cc:"
+      }
+    ]
+  },
+  {
+    "box": [
+      366,
+      1497,
+      573,
+      1527
+    ],
+    "text": "S. L. Force",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          387,
+          1499,
+          425,
+          1527
+        ],
+        "text": "S."
+      },
+      {
+        "box": [
+          438,
+          1499,
+          476,
+          1527
+        ],
+        "text": "L."
+      },
+      {
+        "box": [
+          486,
+          1499,
+          573,
+          1527
+        ],
+        "text": "Force"
+      }
+    ]
+  },
+  {
+    "box": [
+      380,
+      1531,
+      595,
+      1560
+    ],
+    "text": "R. E. Munroe",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          385,
+          1532,
+          426,
+          1559
+        ],
+        "text": "R."
+      },
+      {
+        "box": [
+          437,
+          1532,
+          477,
+          1559
+        ],
+        "text": "E."
+      },
+      {
+        "box": [
+          485,
+          1532,
+          591,
+          1559
+        ],
+        "text": "Munroe"
+      }
+    ]
+  },
+  {
+    "box": [
+      377,
+      1564,
+      592,
+      1595
+    ],
+    "text": "J. B. Powell",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          389,
+          1565,
+          425,
+          1594
+        ],
+        "text": "J."
+      },
+      {
+        "box": [
+          438,
+          1565,
+          476,
+          1594
+        ],
+        "text": "B."
+      },
+      {
+        "box": [
+          487,
+          1566,
+          592,
+          1594
+        ],
+        "text": "Powell"
+      }
+    ]
+  },
+  {
+    "box": [
+      387,
+      1596,
+      574,
+      1629
+    ],
+    "text": "D. E. Ebner",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          387,
+          1597,
+          426,
+          1627
+        ],
+        "text": "D."
+      },
+      {
+        "box": [
+          437,
+          1598,
+          478,
+          1628
+        ],
+        "text": "E."
+      },
+      {
+        "box": [
+          488,
+          1599,
+          575,
+          1629
+        ],
+        "text": "Ebner"
+      }
+    ]
+  },
+  {
+    "box": [
+      386,
+      2186,
+      1337,
+      2224
+    ],
+    "text": "Source: https://www.industrydocuments.ucsf.edu/docs/kkvx0227",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          389,
+          2189,
+          502,
+          2224
+        ],
+        "text": "Source:"
+      },
+      {
+        "box": [
+          509,
+          2189,
+          1336,
+          2223
+        ],
+        "text": "https://www.industrydocuments.ucsf.edu/docs/kkvx0227"
+      }
+    ]
+  }
+]

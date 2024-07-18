@@ -1,0 +1,4076 @@
+[
+  {
+    "box": [
+      84,
+      281,
+      1110,
+      318
+    ],
+    "text": "11, Indicate your present principal paid employment (where you spend most time):",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          87,
+          282,
+          135,
+          316
+        ],
+        "text": "11,"
+      },
+      {
+        "box": [
+          140,
+          282,
+          242,
+          317
+        ],
+        "text": "Indicate"
+      },
+      {
+        "box": [
+          248,
+          283,
+          305,
+          318
+        ],
+        "text": "your"
+      },
+      {
+        "box": [
+          310,
+          283,
+          403,
+          318
+        ],
+        "text": "present"
+      },
+      {
+        "box": [
+          409,
+          284,
+          521,
+          319
+        ],
+        "text": "principal"
+      },
+      {
+        "box": [
+          527,
+          284,
+          586,
+          319
+        ],
+        "text": "paid"
+      },
+      {
+        "box": [
+          592,
+          284,
+          736,
+          319
+        ],
+        "text": "employment"
+      },
+      {
+        "box": [
+          742,
+          284,
+          826,
+          319
+        ],
+        "text": "(where"
+      },
+      {
+        "box": [
+          832,
+          284,
+          882,
+          319
+        ],
+        "text": "you"
+      },
+      {
+        "box": [
+          888,
+          283,
+          960,
+          319
+        ],
+        "text": "spend"
+      },
+      {
+        "box": [
+          966,
+          283,
+          1027,
+          318
+        ],
+        "text": "most"
+      },
+      {
+        "box": [
+          1033,
+          282,
+          1110,
+          318
+        ],
+        "text": "time):"
+      }
+    ]
+  },
+  {
+    "box": [
+      141,
+      316,
+      589,
+      354
+    ],
+    "text": "(A) Employer Category (check one):",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          141,
+          318,
+          185,
+          352
+        ],
+        "text": "(A)"
+      },
+      {
+        "box": [
+          191,
+          318,
+          306,
+          352
+        ],
+        "text": "Employer"
+      },
+      {
+        "box": [
+          313,
+          318,
+          423,
+          352
+        ],
+        "text": "Category"
+      },
+      {
+        "box": [
+          431,
+          319,
+          513,
+          353
+        ],
+        "text": "(check"
+      },
+      {
+        "box": [
+          521,
+          320,
+          588,
+          354
+        ],
+        "text": "one):"
+      }
+    ]
+  },
+  {
+    "box": [
+      942,
+      318,
+      1413,
+      352
+    ],
+    "text": "(B) Type of Organization (check one):",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          942,
+          318,
+          985,
+          354
+        ],
+        "text": "(B)"
+      },
+      {
+        "box": [
+          991,
+          318,
+          1056,
+          354
+        ],
+        "text": "Type"
+      },
+      {
+        "box": [
+          1062,
+          318,
+          1089,
+          354
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          1095,
+          318,
+          1253,
+          353
+        ],
+        "text": "Organization"
+      },
+      {
+        "box": [
+          1260,
+          318,
+          1345,
+          352
+        ],
+        "text": "(check"
+      },
+      {
+        "box": [
+          1352,
+          318,
+          1413,
+          351
+        ],
+        "text": "one):"
+      }
+    ]
+  },
+  {
+    "box": [
+      140,
+      353,
+      462,
+      385
+    ],
+    "text": "None - Unemployed",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          200,
+          354,
+          270,
+          384
+        ],
+        "text": "None"
+      },
+      {
+        "box": [
+          276,
+          353,
+          296,
+          383
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          302,
+          353,
+          460,
+          384
+        ],
+        "text": "Unemployed"
+      }
+    ]
+  },
+  {
+    "box": [
+      984,
+      349,
+      1549,
+      387
+    ],
+    "text": "1 ]Undergraduate School (pre-professional)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          992,
+          350,
+          1016,
+          384
+        ],
+        "text": "1"
+      },
+      {
+        "box": [
+          1034,
+          351,
+          1231,
+          384
+        ],
+        "text": "]Undergraduate"
+      },
+      {
+        "box": [
+          1237,
+          351,
+          1319,
+          384
+        ],
+        "text": "School"
+      },
+      {
+        "box": [
+          1325,
+          351,
+          1548,
+          387
+        ],
+        "text": "(pre-professional)"
+      }
+    ]
+  },
+  {
+    "box": [
+      141,
+      385,
+      517,
+      418
+    ],
+    "text": "None - Full-time Student",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          199,
+          387,
+          269,
+          418
+        ],
+        "text": "None"
+      },
+      {
+        "box": [
+          274,
+          386,
+          295,
+          418
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          302,
+          386,
+          419,
+          418
+        ],
+        "text": "Full-time"
+      },
+      {
+        "box": [
+          425,
+          385,
+          515,
+          420
+        ],
+        "text": "Student"
+      }
+    ]
+  },
+  {
+    "box": [
+      988,
+      384,
+      1545,
+      420
+    ],
+    "text": "2 ]Graduate School (includes professional)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          990,
+          385,
+          1015,
+          420
+        ],
+        "text": "2"
+      },
+      {
+        "box": [
+          1034,
+          385,
+          1165,
+          420
+        ],
+        "text": "]Graduate"
+      },
+      {
+        "box": [
+          1171,
+          385,
+          1252,
+          420
+        ],
+        "text": "School"
+      },
+      {
+        "box": [
+          1257,
+          385,
+          1380,
+          420
+        ],
+        "text": "(includes"
+      },
+      {
+        "box": [
+          1385,
+          385,
+          1546,
+          421
+        ],
+        "text": "professional)"
+      }
+    ]
+  },
+  {
+    "box": [
+      135,
+      419,
+      385,
+      452
+    ],
+    "text": "Self-employed",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          203,
+          420,
+          381,
+          452
+        ],
+        "text": "Self-employed"
+      }
+    ]
+  },
+  {
+    "box": [
+      987,
+      415,
+      1609,
+      456
+    ],
+    "text": "Hospital (includes sanatoriums & residential",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1050,
+          417,
+          1158,
+          453
+        ],
+        "text": "Hospital"
+      },
+      {
+        "box": [
+          1165,
+          419,
+          1284,
+          454
+        ],
+        "text": "(includes"
+      },
+      {
+        "box": [
+          1291,
+          420,
+          1442,
+          455
+        ],
+        "text": "sanatoriums"
+      },
+      {
+        "box": [
+          1448,
+          421,
+          1471,
+          455
+        ],
+        "text": "&"
+      },
+      {
+        "box": [
+          1477,
+          421,
+          1608,
+          454
+        ],
+        "text": "residential"
+      }
+    ]
+  },
+  {
+    "box": [
+      135,
+      453,
+      598,
+      488
+    ],
+    "text": "Private Non-profit Organization",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          203,
+          455,
+          294,
+          487
+        ],
+        "text": "Private"
+      },
+      {
+        "box": [
+          300,
+          454,
+          428,
+          487
+        ],
+        "text": "Non-profit"
+      },
+      {
+        "box": [
+          435,
+          453,
+          598,
+          488
+        ],
+        "text": "Organization"
+      }
+    ]
+  },
+  {
+    "box": [
+      131,
+      487,
+      741,
+      523
+    ],
+    "text": "sPrivate Organization (other than non-profit)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          141,
+          489,
+          295,
+          521
+        ],
+        "text": "sPrivate"
+      },
+      {
+        "box": [
+          301,
+          489,
+          459,
+          522
+        ],
+        "text": "Organization"
+      },
+      {
+        "box": [
+          465,
+          490,
+          546,
+          522
+        ],
+        "text": "(other"
+      },
+      {
+        "box": [
+          551,
+          490,
+          604,
+          522
+        ],
+        "text": "than"
+      },
+      {
+        "box": [
+          610,
+          490,
+          741,
+          523
+        ],
+        "text": "non-profit)"
+      }
+    ]
+  },
+  {
+    "box": [
+      1078,
+      451,
+      1585,
+      495
+    ],
+    "text": "treatment centers). Specify nature, e.g.,",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1082,
+          458,
+          1201,
+          488
+        ],
+        "text": "treatment"
+      },
+      {
+        "box": [
+          1207,
+          455,
+          1326,
+          489
+        ],
+        "text": "centers)."
+      },
+      {
+        "box": [
+          1332,
+          454,
+          1424,
+          490
+        ],
+        "text": "Specify"
+      },
+      {
+        "box": [
+          1430,
+          455,
+          1520,
+          493
+        ],
+        "text": "nature,"
+      },
+      {
+        "box": [
+          1527,
+          458,
+          1585,
+          495
+        ],
+        "text": "e.g.,"
+      }
+    ]
+  },
+  {
+    "box": [
+      133,
+      521,
+      779,
+      554
+    ],
+    "text": ". Federal Government ( exclude military service)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          141,
+          521,
+          163,
+          554
+        ],
+        "text": "."
+      },
+      {
+        "box": [
+          204,
+          521,
+          300,
+          554
+        ],
+        "text": "Federal"
+      },
+      {
+        "box": [
+          306,
+          522,
+          448,
+          554
+        ],
+        "text": "Government"
+      },
+      {
+        "box": [
+          454,
+          523,
+          463,
+          554
+        ],
+        "text": "("
+      },
+      {
+        "box": [
+          469,
+          523,
+          566,
+          553
+        ],
+        "text": "exclude"
+      },
+      {
+        "box": [
+          572,
+          524,
+          674,
+          553
+        ],
+        "text": "military"
+      },
+      {
+        "box": [
+          679,
+          524,
+          779,
+          553
+        ],
+        "text": "service)"
+      }
+    ]
+  },
+  {
+    "box": [
+      1083,
+      488,
+      1426,
+      524
+    ],
+    "text": "general, children's, mental:",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1083,
+          492,
+          1184,
+          521
+        ],
+        "text": "general,"
+      },
+      {
+        "box": [
+          1190,
+          490,
+          1325,
+          522
+        ],
+        "text": "children's,"
+      },
+      {
+        "box": [
+          1332,
+          489,
+          1426,
+          525
+        ],
+        "text": "mental:"
+      }
+    ]
+  },
+  {
+    "box": [
+      135,
+      554,
+      421,
+      590
+    ],
+    "text": "7 ]State Government",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          143,
+          557,
+          164,
+          589
+        ],
+        "text": "7"
+      },
+      {
+        "box": [
+          186,
+          557,
+          268,
+          590
+        ],
+        "text": "]State"
+      },
+      {
+        "box": [
+          273,
+          556,
+          422,
+          590
+        ],
+        "text": "Government"
+      }
+    ]
+  },
+  {
+    "box": [
+      164,
+      589,
+      428,
+      623
+    ],
+    "text": "Local Government",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          202,
+          590,
+          277,
+          623
+        ],
+        "text": "Local"
+      },
+      {
+        "box": [
+          283,
+          590,
+          428,
+          623
+        ],
+        "text": "Government"
+      }
+    ]
+  },
+  {
+    "box": [
+      994,
+      553,
+      1505,
+      593
+    ],
+    "text": "]Clinic (out-patient). Specify nature:",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1033,
+          554,
+          1129,
+          592
+        ],
+        "text": "]Clinic"
+      },
+      {
+        "box": [
+          1136,
+          554,
+          1312,
+          592
+        ],
+        "text": "(out-patient)."
+      },
+      {
+        "box": [
+          1320,
+          555,
+          1410,
+          593
+        ],
+        "text": "Specify"
+      },
+      {
+        "box": [
+          1418,
+          556,
+          1506,
+          593
+        ],
+        "text": "nature:"
+      }
+    ]
+  },
+  {
+    "box": [
+      138,
+      625,
+      596,
+      658
+    ],
+    "text": ". Other (include military service)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          143,
+          626,
+          165,
+          659
+        ],
+        "text": "."
+      },
+      {
+        "box": [
+          202,
+          625,
+          270,
+          660
+        ],
+        "text": "Other"
+      },
+      {
+        "box": [
+          276,
+          625,
+          379,
+          659
+        ],
+        "text": "(include"
+      },
+      {
+        "box": [
+          385,
+          625,
+          488,
+          658
+        ],
+        "text": "military"
+      },
+      {
+        "box": [
+          494,
+          625,
+          595,
+          656
+        ],
+        "text": "service)"
+      }
+    ]
+  },
+  {
+    "box": [
+      256,
+      655,
+      776,
+      692
+    ],
+    "text": "World Health Organization",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          262,
+          661,
+          365,
+          692
+        ],
+        "text": "World"
+      },
+      {
+        "box": [
+          384,
+          657,
+          507,
+          690
+        ],
+        "text": "Health"
+      },
+      {
+        "box": [
+          528,
+          656,
+          772,
+          693
+        ],
+        "text": "Organization"
+      }
+    ]
+  },
+  {
+    "box": [
+      989,
+      623,
+      1148,
+      661
+    ],
+    "text": "s Agency",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          993,
+          623,
+          1018,
+          660
+        ],
+        "text": "s"
+      },
+      {
+        "box": [
+          1053,
+          624,
+          1149,
+          660
+        ],
+        "text": "Agency"
+      }
+    ]
+  },
+  {
+    "box": [
+      448,
+      686,
+      564,
+      716
+    ],
+    "text": "(Specify)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          465,
+          687,
+          563,
+          716
+        ],
+        "text": "(Specify)"
+      }
+    ]
+  },
+  {
+    "box": [
+      1074,
+      655,
+      1615,
+      696
+    ],
+    "text": "Specify nature, e.g., social welfare, public",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1081,
+          658,
+          1173,
+          692
+        ],
+        "text": "Specify"
+      },
+      {
+        "box": [
+          1179,
+          658,
+          1269,
+          693
+        ],
+        "text": "nature,"
+      },
+      {
+        "box": [
+          1275,
+          658,
+          1336,
+          694
+        ],
+        "text": "e.g.,"
+      },
+      {
+        "box": [
+          1342,
+          658,
+          1421,
+          695
+        ],
+        "text": "social"
+      },
+      {
+        "box": [
+          1427,
+          659,
+          1531,
+          696
+        ],
+        "text": "welfare,"
+      },
+      {
+        "box": [
+          1538,
+          660,
+          1615,
+          697
+        ],
+        "text": "public"
+      }
+    ]
+  },
+  {
+    "box": [
+      1079,
+      687,
+      1174,
+      724
+    ],
+    "text": "health:",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1079,
+          688,
+          1175,
+          724
+        ],
+        "text": "health:"
+      }
+    ]
+  },
+  {
+    "box": [
+      987,
+      757,
+      1184,
+      793
+    ],
+    "text": "Drug Firm",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1050,
+          758,
+          1112,
+          793
+        ],
+        "text": "Drug"
+      },
+      {
+        "box": [
+          1118,
+          757,
+          1178,
+          795
+        ],
+        "text": "Firm"
+      }
+    ]
+  },
+  {
+    "box": [
+      985,
+      792,
+      1342,
+      825
+    ],
+    "text": "7 Industrial Organization",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          992,
+          796,
+          1013,
+          826
+        ],
+        "text": "7"
+      },
+      {
+        "box": [
+          1051,
+          795,
+          1175,
+          826
+        ],
+        "text": "Industrial"
+      },
+      {
+        "box": [
+          1179,
+          792,
+          1342,
+          827
+        ],
+        "text": "Organization"
+      }
+    ]
+  },
+  {
+    "box": [
+      988,
+      826,
+      1141,
+      858
+    ],
+    "text": "X] Other",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1019,
+          828,
+          1048,
+          860
+        ],
+        "text": "X]"
+      },
+      {
+        "box": [
+          1053,
+          827,
+          1129,
+          859
+        ],
+        "text": "Other"
+      }
+    ]
+  },
+  {
+    "box": [
+      1080,
+      842,
+      1599,
+      882
+    ],
+    "text": "World Health Organization",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1090,
+          848,
+          1198,
+          884
+        ],
+        "text": "World"
+      },
+      {
+        "box": [
+          1214,
+          844,
+          1337,
+          884
+        ],
+        "text": "Health"
+      },
+      {
+        "box": [
+          1358,
+          842,
+          1599,
+          881
+        ],
+        "text": "Organization"
+      }
+    ]
+  },
+  {
+    "box": [
+      1292,
+      886,
+      1422,
+      917
+    ],
+    "text": "(Specify)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1309,
+          888,
+          1415,
+          917
+        ],
+        "text": "(Specify)"
+      }
+    ]
+  },
+  {
+    "box": [
+      137,
+      927,
+      1349,
+      964
+    ],
+    "text": "(C) Name and address of Organization (if employed in other than self-employed category above):",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          137,
+          927,
+          179,
+          962
+        ],
+        "text": "(C)"
+      },
+      {
+        "box": [
+          185,
+          928,
+          255,
+          962
+        ],
+        "text": "Name"
+      },
+      {
+        "box": [
+          262,
+          928,
+          307,
+          963
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          314,
+          929,
+          411,
+          963
+        ],
+        "text": "address"
+      },
+      {
+        "box": [
+          418,
+          929,
+          445,
+          963
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          451,
+          929,
+          612,
+          964
+        ],
+        "text": "Organization"
+      },
+      {
+        "box": [
+          619,
+          930,
+          650,
+          964
+        ],
+        "text": "(if"
+      },
+      {
+        "box": [
+          657,
+          930,
+          770,
+          964
+        ],
+        "text": "employed"
+      },
+      {
+        "box": [
+          777,
+          930,
+          806,
+          964
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          813,
+          930,
+          878,
+          964
+        ],
+        "text": "other"
+      },
+      {
+        "box": [
+          885,
+          930,
+          942,
+          964
+        ],
+        "text": "than"
+      },
+      {
+        "box": [
+          949,
+          930,
+          1122,
+          964
+        ],
+        "text": "self-employed"
+      },
+      {
+        "box": [
+          1129,
+          930,
+          1235,
+          963
+        ],
+        "text": "category"
+      },
+      {
+        "box": [
+          1242,
+          930,
+          1346,
+          963
+        ],
+        "text": "above):"
+      }
+    ]
+  },
+  {
+    "box": [
+      184,
+      958,
+      1672,
+      995
+    ],
+    "text": "_Pan American Health Organization 1501 New Hampshire Ave, Washington D.C.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          190,
+          962,
+          282,
+          994
+        ],
+        "text": "_Pan"
+      },
+      {
+        "box": [
+          305,
+          962,
+          465,
+          994
+        ],
+        "text": "American"
+      },
+      {
+        "box": [
+          486,
+          963,
+          608,
+          994
+        ],
+        "text": "Health"
+      },
+      {
+        "box": [
+          627,
+          963,
+          871,
+          994
+        ],
+        "text": "Organization"
+      },
+      {
+        "box": [
+          894,
+          962,
+          976,
+          994
+        ],
+        "text": "1501"
+      },
+      {
+        "box": [
+          993,
+          962,
+          1054,
+          994
+        ],
+        "text": "New"
+      },
+      {
+        "box": [
+          1073,
+          961,
+          1258,
+          995
+        ],
+        "text": "Hampshire"
+      },
+      {
+        "box": [
+          1279,
+          960,
+          1363,
+          995
+        ],
+        "text": "Ave,"
+      },
+      {
+        "box": [
+          1376,
+          959,
+          1580,
+          996
+        ],
+        "text": "Washington"
+      },
+      {
+        "box": [
+          1599,
+          957,
+          1672,
+          997
+        ],
+        "text": "D.C."
+      }
+    ]
+  },
+  {
+    "box": [
+      186,
+      1026,
+      448,
+      1064
+    ],
+    "text": "School & Department",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          189,
+          1027,
+          272,
+          1064
+        ],
+        "text": "School"
+      },
+      {
+        "box": [
+          280,
+          1029,
+          298,
+          1064
+        ],
+        "text": "&"
+      },
+      {
+        "box": [
+          306,
+          1029,
+          447,
+          1063
+        ],
+        "text": "Department"
+      }
+    ]
+  },
+  {
+    "box": [
+      182,
+      1094,
+      517,
+      1129
+    ],
+    "text": "Division & Branch or Unit",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          188,
+          1096,
+          296,
+          1130
+        ],
+        "text": "Division"
+      },
+      {
+        "box": [
+          302,
+          1096,
+          325,
+          1130
+        ],
+        "text": "&"
+      },
+      {
+        "box": [
+          331,
+          1096,
+          421,
+          1130
+        ],
+        "text": "Branch"
+      },
+      {
+        "box": [
+          427,
+          1094,
+          452,
+          1130
+        ],
+        "text": "or"
+      },
+      {
+        "box": [
+          459,
+          1094,
+          515,
+          1129
+        ],
+        "text": "Unit"
+      }
+    ]
+  },
+  {
+    "box": [
+      619,
+      1062,
+      803,
+      1094
+    ],
+    "text": "Zone TV",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          628,
+          1064,
+          708,
+          1095
+        ],
+        "text": "Zone"
+      },
+      {
+        "box": [
+          732,
+          1062,
+          769,
+          1095
+        ],
+        "text": "TV"
+      }
+    ]
+  },
+  {
+    "box": [
+      656,
+      1093,
+      871,
+      1119
+    ],
+    "text": "School or Division",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          665,
+          1096,
+          741,
+          1120
+        ],
+        "text": "School"
+      },
+      {
+        "box": [
+          745,
+          1094,
+          771,
+          1120
+        ],
+        "text": "or"
+      },
+      {
+        "box": [
+          775,
+          1093,
+          872,
+          1120
+        ],
+        "text": "Division"
+      }
+    ]
+  },
+  {
+    "box": [
+      1119,
+      1060,
+      1578,
+      1096
+    ],
+    "text": "Nutrition - Ecuador 53",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1130,
+          1061,
+          1317,
+          1097
+        ],
+        "text": "Nutrition"
+      },
+      {
+        "box": [
+          1335,
+          1061,
+          1359,
+          1097
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          1376,
+          1061,
+          1519,
+          1097
+        ],
+        "text": "Ecuador"
+      },
+      {
+        "box": [
+          1539,
+          1059,
+          1576,
+          1097
+        ],
+        "text": "53"
+      }
+    ]
+  },
+  {
+    "box": [
+      1256,
+      1091,
+      1504,
+      1125
+    ],
+    "text": "Department or Branch",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1265,
+          1095,
+          1390,
+          1124
+        ],
+        "text": "Department"
+      },
+      {
+        "box": [
+          1396,
+          1094,
+          1420,
+          1124
+        ],
+        "text": "or"
+      },
+      {
+        "box": [
+          1426,
+          1094,
+          1503,
+          1126
+        ],
+        "text": "Branch"
+      }
+    ]
+  },
+  {
+    "box": [
+      134,
+      1165,
+      484,
+      1203
+    ],
+    "text": "(D) Title of your position:_",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          137,
+          1166,
+          182,
+          1202
+        ],
+        "text": "(D)"
+      },
+      {
+        "box": [
+          188,
+          1166,
+          252,
+          1202
+        ],
+        "text": "Title"
+      },
+      {
+        "box": [
+          259,
+          1166,
+          283,
+          1202
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          290,
+          1167,
+          344,
+          1203
+        ],
+        "text": "your"
+      },
+      {
+        "box": [
+          351,
+          1167,
+          485,
+          1204
+        ],
+        "text": "position:_"
+      }
+    ]
+  },
+  {
+    "box": [
+      498,
+      1159,
+      1228,
+      1202
+    ],
+    "text": "Nutrition Adviser, Medical Officer.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          522,
+          1160,
+          712,
+          1201
+        ],
+        "text": "Nutrition"
+      },
+      {
+        "box": [
+          731,
+          1161,
+          899,
+          1201
+        ],
+        "text": "Adviser,"
+      },
+      {
+        "box": [
+          907,
+          1162,
+          1062,
+          1202
+        ],
+        "text": "Medical"
+      },
+      {
+        "box": [
+          1073,
+          1162,
+          1228,
+          1203
+        ],
+        "text": "Officer."
+      }
+    ]
+  },
+  {
+    "box": [
+      79,
+      1234,
+      1613,
+      1270
+    ],
+    "text": "12. Number your first and second most important functions (in terms of time actually spent) by entering \"1\" and \"2\" on the",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          84,
+          1234,
+          129,
+          1271
+        ],
+        "text": "12."
+      },
+      {
+        "box": [
+          137,
+          1235,
+          229,
+          1271
+        ],
+        "text": "Number"
+      },
+      {
+        "box": [
+          237,
+          1235,
+          292,
+          1271
+        ],
+        "text": "your"
+      },
+      {
+        "box": [
+          299,
+          1235,
+          354,
+          1271
+        ],
+        "text": "first"
+      },
+      {
+        "box": [
+          361,
+          1236,
+          406,
+          1271
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          414,
+          1236,
+          500,
+          1271
+        ],
+        "text": "second"
+      },
+      {
+        "box": [
+          507,
+          1236,
+          569,
+          1271
+        ],
+        "text": "most"
+      },
+      {
+        "box": [
+          576,
+          1236,
+          691,
+          1271
+        ],
+        "text": "important"
+      },
+      {
+        "box": [
+          698,
+          1237,
+          813,
+          1271
+        ],
+        "text": "functions"
+      },
+      {
+        "box": [
+          820,
+          1237,
+          858,
+          1271
+        ],
+        "text": "(in"
+      },
+      {
+        "box": [
+          865,
+          1237,
+          935,
+          1271
+        ],
+        "text": "terms"
+      },
+      {
+        "box": [
+          942,
+          1237,
+          968,
+          1271
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          975,
+          1237,
+          1030,
+          1271
+        ],
+        "text": "time"
+      },
+      {
+        "box": [
+          1038,
+          1237,
+          1140,
+          1271
+        ],
+        "text": "actually"
+      },
+      {
+        "box": [
+          1147,
+          1236,
+          1224,
+          1271
+        ],
+        "text": "spent)"
+      },
+      {
+        "box": [
+          1231,
+          1236,
+          1262,
+          1271
+        ],
+        "text": "by"
+      },
+      {
+        "box": [
+          1269,
+          1236,
+          1374,
+          1271
+        ],
+        "text": "entering"
+      },
+      {
+        "box": [
+          1382,
+          1236,
+          1427,
+          1271
+        ],
+        "text": "\"1\""
+      },
+      {
+        "box": [
+          1434,
+          1235,
+          1480,
+          1271
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          1487,
+          1235,
+          1532,
+          1271
+        ],
+        "text": "\"2\""
+      },
+      {
+        "box": [
+          1539,
+          1235,
+          1570,
+          1271
+        ],
+        "text": "on"
+      },
+      {
+        "box": [
+          1578,
+          1235,
+          1613,
+          1271
+        ],
+        "text": "the"
+      }
+    ]
+  },
+  {
+    "box": [
+      134,
+      1271,
+      889,
+      1303
+    ],
+    "text": "appropriate lines below. Extend to \"3\", etc., If significant:",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          139,
+          1274,
+          279,
+          1304
+        ],
+        "text": "appropriate"
+      },
+      {
+        "box": [
+          285,
+          1273,
+          350,
+          1305
+        ],
+        "text": "lines"
+      },
+      {
+        "box": [
+          356,
+          1272,
+          445,
+          1305
+        ],
+        "text": "below."
+      },
+      {
+        "box": [
+          456,
+          1271,
+          545,
+          1305
+        ],
+        "text": "Extend"
+      },
+      {
+        "box": [
+          552,
+          1271,
+          580,
+          1305
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          586,
+          1271,
+          641,
+          1305
+        ],
+        "text": "\"3\","
+      },
+      {
+        "box": [
+          648,
+          1271,
+          706,
+          1304
+        ],
+        "text": "etc.,"
+      },
+      {
+        "box": [
+          713,
+          1271,
+          737,
+          1304
+        ],
+        "text": "If"
+      },
+      {
+        "box": [
+          744,
+          1271,
+          886,
+          1303
+        ],
+        "text": "significant:"
+      }
+    ]
+  },
+  {
+    "box": [
+      209,
+      1303,
+      551,
+      1338
+    ],
+    "text": "- 1 Undergraduate Teaching",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          209,
+          1305,
+          222,
+          1337
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          228,
+          1305,
+          241,
+          1338
+        ],
+        "text": "1"
+      },
+      {
+        "box": [
+          247,
+          1305,
+          428,
+          1338
+        ],
+        "text": "Undergraduate"
+      },
+      {
+        "box": [
+          434,
+          1305,
+          552,
+          1338
+        ],
+        "text": "Teaching"
+      }
+    ]
+  },
+  {
+    "box": [
+      1022,
+      1302,
+      1613,
+      1339
+    ],
+    "text": "s Supervision and training in hospital, clinical",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1028,
+          1304,
+          1045,
+          1337
+        ],
+        "text": "s"
+      },
+      {
+        "box": [
+          1051,
+          1304,
+          1195,
+          1339
+        ],
+        "text": "Supervision"
+      },
+      {
+        "box": [
+          1201,
+          1305,
+          1248,
+          1339
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          1254,
+          1305,
+          1351,
+          1339
+        ],
+        "text": "training"
+      },
+      {
+        "box": [
+          1358,
+          1305,
+          1385,
+          1339
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1391,
+          1305,
+          1508,
+          1339
+        ],
+        "text": "hospital,"
+      },
+      {
+        "box": [
+          1514,
+          1304,
+          1613,
+          1339
+        ],
+        "text": "clinical"
+      }
+    ]
+  },
+  {
+    "box": [
+      172,
+      1336,
+      499,
+      1373
+    ],
+    "text": "2 2 Graduate Teaching",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          182,
+          1337,
+          204,
+          1372
+        ],
+        "text": "2"
+      },
+      {
+        "box": [
+          225,
+          1337,
+          241,
+          1372
+        ],
+        "text": "2"
+      },
+      {
+        "box": [
+          248,
+          1338,
+          362,
+          1372
+        ],
+        "text": "Graduate"
+      },
+      {
+        "box": [
+          370,
+          1339,
+          489,
+          1374
+        ],
+        "text": "Teaching"
+      }
+    ]
+  },
+  {
+    "box": [
+      1046,
+      1341,
+      1262,
+      1371
+    ],
+    "text": "group, or agency",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1051,
+          1342,
+          1131,
+          1373
+        ],
+        "text": "group,"
+      },
+      {
+        "box": [
+          1137,
+          1341,
+          1163,
+          1372
+        ],
+        "text": "or"
+      },
+      {
+        "box": [
+          1169,
+          1341,
+          1261,
+          1372
+        ],
+        "text": "agency"
+      }
+    ]
+  },
+  {
+    "box": [
+      207,
+      1372,
+      639,
+      1407
+    ],
+    "text": "_ a Research in university setting",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          208,
+          1373,
+          220,
+          1405
+        ],
+        "text": "_"
+      },
+      {
+        "box": [
+          227,
+          1373,
+          241,
+          1405
+        ],
+        "text": "a"
+      },
+      {
+        "box": [
+          248,
+          1373,
+          363,
+          1404
+        ],
+        "text": "Research"
+      },
+      {
+        "box": [
+          370,
+          1373,
+          396,
+          1404
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          404,
+          1373,
+          531,
+          1405
+        ],
+        "text": "university"
+      },
+      {
+        "box": [
+          539,
+          1373,
+          632,
+          1408
+        ],
+        "text": "setting"
+      }
+    ]
+  },
+  {
+    "box": [
+      223,
+      1403,
+      829,
+      1440
+    ],
+    "text": "4 Research in hospital, clinic, or agency setting",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          227,
+          1406,
+          242,
+          1436
+        ],
+        "text": "4"
+      },
+      {
+        "box": [
+          247,
+          1406,
+          364,
+          1438
+        ],
+        "text": "Research"
+      },
+      {
+        "box": [
+          370,
+          1406,
+          396,
+          1439
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          402,
+          1406,
+          516,
+          1440
+        ],
+        "text": "hospital,"
+      },
+      {
+        "box": [
+          523,
+          1406,
+          607,
+          1440
+        ],
+        "text": "clinic,"
+      },
+      {
+        "box": [
+          614,
+          1406,
+          641,
+          1441
+        ],
+        "text": "or"
+      },
+      {
+        "box": [
+          648,
+          1406,
+          736,
+          1441
+        ],
+        "text": "agency"
+      },
+      {
+        "box": [
+          744,
+          1406,
+          827,
+          1440
+        ],
+        "text": "setting"
+      }
+    ]
+  },
+  {
+    "box": [
+      1016,
+      1371,
+      1574,
+      1406
+    ],
+    "text": "10 Administration in educational institutions",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1018,
+          1374,
+          1044,
+          1405
+        ],
+        "text": "10"
+      },
+      {
+        "box": [
+          1051,
+          1374,
+          1234,
+          1405
+        ],
+        "text": "Administration"
+      },
+      {
+        "box": [
+          1241,
+          1372,
+          1269,
+          1406
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1276,
+          1372,
+          1422,
+          1406
+        ],
+        "text": "educational"
+      },
+      {
+        "box": [
+          1430,
+          1373,
+          1574,
+          1406
+        ],
+        "text": "institutions"
+      }
+    ]
+  },
+  {
+    "box": [
+      242,
+      1436,
+      778,
+      1470
+    ],
+    "text": "(including those medical school affiliated)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          249,
+          1437,
+          373,
+          1470
+        ],
+        "text": "(including"
+      },
+      {
+        "box": [
+          379,
+          1439,
+          447,
+          1471
+        ],
+        "text": "those"
+      },
+      {
+        "box": [
+          453,
+          1439,
+          556,
+          1471
+        ],
+        "text": "medical"
+      },
+      {
+        "box": [
+          562,
+          1439,
+          645,
+          1470
+        ],
+        "text": "school"
+      },
+      {
+        "box": [
+          651,
+          1439,
+          778,
+          1470
+        ],
+        "text": "affiliated)"
+      }
+    ]
+  },
+  {
+    "box": [
+      993,
+      1406,
+      1605,
+      1441
+    ],
+    "text": "_11 Administration in hospital, clinical group, or",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          994,
+          1408,
+          1044,
+          1439
+        ],
+        "text": "_11"
+      },
+      {
+        "box": [
+          1051,
+          1408,
+          1233,
+          1440
+        ],
+        "text": "Administration"
+      },
+      {
+        "box": [
+          1239,
+          1408,
+          1264,
+          1441
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1271,
+          1408,
+          1388,
+          1441
+        ],
+        "text": "hospital,"
+      },
+      {
+        "box": [
+          1394,
+          1408,
+          1494,
+          1441
+        ],
+        "text": "clinical"
+      },
+      {
+        "box": [
+          1500,
+          1409,
+          1579,
+          1442
+        ],
+        "text": "group,"
+      },
+      {
+        "box": [
+          1584,
+          1410,
+          1604,
+          1442
+        ],
+        "text": "or"
+      }
+    ]
+  },
+  {
+    "box": [
+      1048,
+      1440,
+      1140,
+      1468
+    ],
+    "text": "agency",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1053,
+          1441,
+          1139,
+          1469
+        ],
+        "text": "agency"
+      }
+    ]
+  },
+  {
+    "box": [
+      213,
+      1472,
+      782,
+      1507
+    ],
+    "text": "s Research in industrial organization or drug",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          224,
+          1474,
+          243,
+          1504
+        ],
+        "text": "s"
+      },
+      {
+        "box": [
+          248,
+          1474,
+          365,
+          1505
+        ],
+        "text": "Research"
+      },
+      {
+        "box": [
+          370,
+          1474,
+          398,
+          1505
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          403,
+          1474,
+          527,
+          1506
+        ],
+        "text": "industrial"
+      },
+      {
+        "box": [
+          532,
+          1474,
+          691,
+          1507
+        ],
+        "text": "organization"
+      },
+      {
+        "box": [
+          696,
+          1474,
+          728,
+          1507
+        ],
+        "text": "or"
+      },
+      {
+        "box": [
+          733,
+          1475,
+          782,
+          1508
+        ],
+        "text": "drug"
+      }
+    ]
+  },
+  {
+    "box": [
+      1018,
+      1471,
+      1589,
+      1508
+    ],
+    "text": "12 Administration in industrial organization or",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1018,
+          1473,
+          1046,
+          1503
+        ],
+        "text": "12"
+      },
+      {
+        "box": [
+          1051,
+          1474,
+          1233,
+          1506
+        ],
+        "text": "Administration"
+      },
+      {
+        "box": [
+          1239,
+          1475,
+          1266,
+          1506
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1272,
+          1475,
+          1399,
+          1507
+        ],
+        "text": "industrial"
+      },
+      {
+        "box": [
+          1406,
+          1475,
+          1560,
+          1508
+        ],
+        "text": "organization"
+      },
+      {
+        "box": [
+          1567,
+          1475,
+          1589,
+          1508
+        ],
+        "text": "or"
+      }
+    ]
+  },
+  {
+    "box": [
+      240,
+      1506,
+      325,
+      1537
+    ],
+    "text": "firm",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          248,
+          1504,
+          297,
+          1536
+        ],
+        "text": "firm"
+      }
+    ]
+  },
+  {
+    "box": [
+      1042,
+      1503,
+      1168,
+      1538
+    ],
+    "text": "drug firm",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1056,
+          1505,
+          1108,
+          1537
+        ],
+        "text": "drug"
+      },
+      {
+        "box": [
+          1113,
+          1506,
+          1161,
+          1538
+        ],
+        "text": "firm"
+      }
+    ]
+  },
+  {
+    "box": [
+      171,
+      1538,
+      788,
+      1577
+    ],
+    "text": "Is Research in independent organization (e.g.,",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          182,
+          1540,
+          242,
+          1573
+        ],
+        "text": "Is"
+      },
+      {
+        "box": [
+          249,
+          1541,
+          364,
+          1574
+        ],
+        "text": "Research"
+      },
+      {
+        "box": [
+          371,
+          1542,
+          396,
+          1575
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          403,
+          1542,
+          556,
+          1576
+        ],
+        "text": "independent"
+      },
+      {
+        "box": [
+          563,
+          1543,
+          718,
+          1577
+        ],
+        "text": "organization"
+      },
+      {
+        "box": [
+          725,
+          1542,
+          788,
+          1577
+        ],
+        "text": "(e.g.,"
+      }
+    ]
+  },
+  {
+    "box": [
+      1006,
+      1540,
+      1457,
+      1578
+    ],
+    "text": "13 Administration in research group",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1016,
+          1542,
+          1045,
+          1572
+        ],
+        "text": "13"
+      },
+      {
+        "box": [
+          1051,
+          1542,
+          1233,
+          1575
+        ],
+        "text": "Administration"
+      },
+      {
+        "box": [
+          1239,
+          1543,
+          1266,
+          1575
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1272,
+          1544,
+          1382,
+          1577
+        ],
+        "text": "research"
+      },
+      {
+        "box": [
+          1391,
+          1546,
+          1456,
+          1578
+        ],
+        "text": "group"
+      }
+    ]
+  },
+  {
+    "box": [
+      240,
+      1575,
+      593,
+      1609
+    ],
+    "text": "separate research institute)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          248,
+          1577,
+          355,
+          1608
+        ],
+        "text": "separate"
+      },
+      {
+        "box": [
+          361,
+          1577,
+          469,
+          1609
+        ],
+        "text": "research"
+      },
+      {
+        "box": [
+          475,
+          1577,
+          593,
+          1610
+        ],
+        "text": "institute)"
+      }
+    ]
+  },
+  {
+    "box": [
+      1004,
+      1573,
+      1190,
+      1609
+    ],
+    "text": "14 Consulting",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1017,
+          1575,
+          1045,
+          1605
+        ],
+        "text": "14"
+      },
+      {
+        "box": [
+          1051,
+          1575,
+          1188,
+          1609
+        ],
+        "text": "Consulting"
+      }
+    ]
+  },
+  {
+    "box": [
+      216,
+      1609,
+      569,
+      1643
+    ],
+    "text": "7 Private Clinical Practice",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          228,
+          1610,
+          240,
+          1643
+        ],
+        "text": "7"
+      },
+      {
+        "box": [
+          247,
+          1610,
+          340,
+          1643
+        ],
+        "text": "Private"
+      },
+      {
+        "box": [
+          346,
+          1609,
+          450,
+          1643
+        ],
+        "text": "Clinical"
+      },
+      {
+        "box": [
+          456,
+          1609,
+          569,
+          1643
+        ],
+        "text": "Practice"
+      }
+    ]
+  },
+  {
+    "box": [
+      1009,
+      1607,
+      1209,
+      1641
+    ],
+    "text": "is As a student",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1016,
+          1610,
+          1046,
+          1638
+        ],
+        "text": "is"
+      },
+      {
+        "box": [
+          1053,
+          1610,
+          1088,
+          1639
+        ],
+        "text": "As"
+      },
+      {
+        "box": [
+          1093,
+          1610,
+          1111,
+          1640
+        ],
+        "text": "a"
+      },
+      {
+        "box": [
+          1118,
+          1610,
+          1210,
+          1640
+        ],
+        "text": "student"
+      }
+    ]
+  },
+  {
+    "box": [
+      213,
+      1641,
+      638,
+      1677
+    ],
+    "text": "e Institutional Clinical Practice",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          224,
+          1645,
+          242,
+          1677
+        ],
+        "text": "e"
+      },
+      {
+        "box": [
+          247,
+          1645,
+          401,
+          1675
+        ],
+        "text": "Institutional"
+      },
+      {
+        "box": [
+          407,
+          1642,
+          511,
+          1676
+        ],
+        "text": "Clinical"
+      },
+      {
+        "box": [
+          518,
+          1641,
+          629,
+          1678
+        ],
+        "text": "Practice"
+      }
+    ]
+  },
+  {
+    "box": [
+      1007,
+      1645,
+      1121,
+      1673
+    ],
+    "text": "16 Other",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1017,
+          1646,
+          1045,
+          1673
+        ],
+        "text": "16"
+      },
+      {
+        "box": [
+          1051,
+          1645,
+          1121,
+          1674
+        ],
+        "text": "Other"
+      }
+    ]
+  },
+  {
+    "box": [
+      1308,
+      1704,
+      1412,
+      1728
+    ],
+    "text": "(Specify)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1309,
+          1705,
+          1410,
+          1729
+        ],
+        "text": "(Specify)"
+      }
+    ]
+  },
+  {
+    "box": [
+      82,
+      1742,
+      1279,
+      1783
+    ],
+    "text": "13. Indicate whether you are a Diplomate of a professional specialty board (check one or more):",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          82,
+          1746,
+          132,
+          1779
+        ],
+        "text": "13."
+      },
+      {
+        "box": [
+          137,
+          1745,
+          240,
+          1779
+        ],
+        "text": "Indicate"
+      },
+      {
+        "box": [
+          246,
+          1745,
+          344,
+          1779
+        ],
+        "text": "whether"
+      },
+      {
+        "box": [
+          350,
+          1744,
+          394,
+          1779
+        ],
+        "text": "you"
+      },
+      {
+        "box": [
+          401,
+          1744,
+          443,
+          1779
+        ],
+        "text": "are"
+      },
+      {
+        "box": [
+          449,
+          1744,
+          467,
+          1779
+        ],
+        "text": "a"
+      },
+      {
+        "box": [
+          474,
+          1744,
+          602,
+          1779
+        ],
+        "text": "Diplomate"
+      },
+      {
+        "box": [
+          609,
+          1744,
+          635,
+          1779
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          642,
+          1744,
+          657,
+          1779
+        ],
+        "text": "a"
+      },
+      {
+        "box": [
+          664,
+          1744,
+          821,
+          1780
+        ],
+        "text": "professional"
+      },
+      {
+        "box": [
+          828,
+          1744,
+          942,
+          1780
+        ],
+        "text": "specialty"
+      },
+      {
+        "box": [
+          950,
+          1745,
+          1020,
+          1781
+        ],
+        "text": "board"
+      },
+      {
+        "box": [
+          1027,
+          1745,
+          1110,
+          1782
+        ],
+        "text": "(check"
+      },
+      {
+        "box": [
+          1118,
+          1746,
+          1161,
+          1782
+        ],
+        "text": "one"
+      },
+      {
+        "box": [
+          1169,
+          1746,
+          1194,
+          1783
+        ],
+        "text": "or"
+      },
+      {
+        "box": [
+          1202,
+          1747,
+          1278,
+          1783
+        ],
+        "text": "more):"
+      }
+    ]
+  },
+  {
+    "box": [
+      132,
+      1780,
+      548,
+      1815
+    ],
+    "text": "0o XX None - Not Board Eligible",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          140,
+          1783,
+          171,
+          1816
+        ],
+        "text": "0o"
+      },
+      {
+        "box": [
+          178,
+          1782,
+          207,
+          1815
+        ],
+        "text": "XX"
+      },
+      {
+        "box": [
+          213,
+          1782,
+          281,
+          1813
+        ],
+        "text": "None"
+      },
+      {
+        "box": [
+          287,
+          1780,
+          305,
+          1812
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          312,
+          1780,
+          359,
+          1812
+        ],
+        "text": "Not"
+      },
+      {
+        "box": [
+          365,
+          1779,
+          439,
+          1812
+        ],
+        "text": "Board"
+      },
+      {
+        "box": [
+          446,
+          1779,
+          547,
+          1815
+        ],
+        "text": "Eligible"
+      }
+    ]
+  },
+  {
+    "box": [
+      134,
+      1812,
+      567,
+      1852
+    ],
+    "text": "01 None - Board Eligible for:-",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          138,
+          1819,
+          177,
+          1847
+        ],
+        "text": "01"
+      },
+      {
+        "box": [
+          212,
+          1816,
+          281,
+          1845
+        ],
+        "text": "None"
+      },
+      {
+        "box": [
+          288,
+          1814,
+          307,
+          1845
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          314,
+          1813,
+          389,
+          1846
+        ],
+        "text": "Board"
+      },
+      {
+        "box": [
+          394,
+          1813,
+          498,
+          1849
+        ],
+        "text": "Eligible"
+      },
+      {
+        "box": [
+          504,
+          1814,
+          566,
+          1853
+        ],
+        "text": "for:-"
+      }
+    ]
+  },
+  {
+    "box": [
+      138,
+      1846,
+      671,
+      1883
+    ],
+    "text": "os American Board of Internal Medicine",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          138,
+          1852,
+          174,
+          1879
+        ],
+        "text": "os"
+      },
+      {
+        "box": [
+          215,
+          1851,
+          331,
+          1880
+        ],
+        "text": "American"
+      },
+      {
+        "box": [
+          337,
+          1849,
+          412,
+          1881
+        ],
+        "text": "Board"
+      },
+      {
+        "box": [
+          416,
+          1848,
+          446,
+          1881
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          449,
+          1848,
+          550,
+          1882
+        ],
+        "text": "Internal"
+      },
+      {
+        "box": [
+          554,
+          1848,
+          671,
+          1883
+        ],
+        "text": "Medicine"
+      }
+    ]
+  },
+  {
+    "box": [
+      1033,
+      1839,
+      1147,
+      1862
+    ],
+    "text": "(specify)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1050,
+          1839,
+          1146,
+          1863
+        ],
+        "text": "(specify)"
+      }
+    ]
+  },
+  {
+    "box": [
+      139,
+      1881,
+      936,
+      1918
+    ],
+    "text": "14 American Board of Preventive Medicine and Public Health",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          142,
+          1885,
+          175,
+          1914
+        ],
+        "text": "14"
+      },
+      {
+        "box": [
+          216,
+          1884,
+          332,
+          1917
+        ],
+        "text": "American"
+      },
+      {
+        "box": [
+          338,
+          1884,
+          411,
+          1917
+        ],
+        "text": "Board"
+      },
+      {
+        "box": [
+          416,
+          1884,
+          445,
+          1918
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          450,
+          1884,
+          587,
+          1919
+        ],
+        "text": "Preventive"
+      },
+      {
+        "box": [
+          593,
+          1883,
+          707,
+          1919
+        ],
+        "text": "Medicine"
+      },
+      {
+        "box": [
+          713,
+          1883,
+          758,
+          1919
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          764,
+          1882,
+          846,
+          1918
+        ],
+        "text": "Public"
+      },
+      {
+        "box": [
+          852,
+          1882,
+          936,
+          1918
+        ],
+        "text": "Health"
+      }
+    ]
+  },
+  {
+    "box": [
+      139,
+      1916,
+      776,
+      1953
+    ],
+    "text": "18 American Board of Psychiatry and Neurology",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          141,
+          1919,
+          175,
+          1949
+        ],
+        "text": "18"
+      },
+      {
+        "box": [
+          215,
+          1919,
+          333,
+          1950
+        ],
+        "text": "American"
+      },
+      {
+        "box": [
+          338,
+          1918,
+          413,
+          1951
+        ],
+        "text": "Board"
+      },
+      {
+        "box": [
+          418,
+          1918,
+          446,
+          1951
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          451,
+          1918,
+          590,
+          1952
+        ],
+        "text": "Psychiatry"
+      },
+      {
+        "box": [
+          596,
+          1918,
+          639,
+          1953
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          645,
+          1919,
+          775,
+          1954
+        ],
+        "text": "Neurology"
+      }
+    ]
+  },
+  {
+    "box": [
+      141,
+      1950,
+      934,
+      1985
+    ],
+    "text": "40 American Board of Examiners in Professional Psychology",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          144,
+          1954,
+          175,
+          1984
+        ],
+        "text": "40"
+      },
+      {
+        "box": [
+          214,
+          1953,
+          331,
+          1985
+        ],
+        "text": "American"
+      },
+      {
+        "box": [
+          339,
+          1952,
+          412,
+          1985
+        ],
+        "text": "Board"
+      },
+      {
+        "box": [
+          419,
+          1951,
+          446,
+          1985
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          452,
+          1951,
+          584,
+          1986
+        ],
+        "text": "Examiners"
+      },
+      {
+        "box": [
+          590,
+          1950,
+          617,
+          1986
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          623,
+          1950,
+          782,
+          1986
+        ],
+        "text": "Professional"
+      },
+      {
+        "box": [
+          788,
+          1950,
+          932,
+          1987
+        ],
+        "text": "Psychology"
+      }
+    ]
+  },
+  {
+    "box": [
+      137,
+      2020,
+      291,
+      2051
+    ],
+    "text": "\". Other",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          140,
+          2022,
+          176,
+          2055
+        ],
+        "text": "\"."
+      },
+      {
+        "box": [
+          213,
+          2019,
+          291,
+          2052
+        ],
+        "text": "Other"
+      }
+    ]
+  },
+  {
+    "box": [
+      920,
+      2046,
+      1024,
+      2071
+    ],
+    "text": "(Specify)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          920,
+          2046,
+          1024,
+          2071
+        ],
+        "text": "(Specify)"
+      }
+    ]
+  },
+  {
+    "box": [
+      424,
+      2255,
+      1372,
+      2279
+    ],
+    "text": "Source. https.//www.industrydocuments. test. eau/docs/nrab0228",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          425,
+          2255,
+          537,
+          2285
+        ],
+        "text": "Source."
+      },
+      {
+        "box": [
+          544,
+          2257,
+          1011,
+          2282
+        ],
+        "text": "https.//www.industrydocuments."
+      },
+      {
+        "box": [
+          1017,
+          2258,
+          1082,
+          2281
+        ],
+        "text": "test."
+      },
+      {
+        "box": [
+          1087,
+          2257,
+          1372,
+          2277
+        ],
+        "text": "eau/docs/nrab0228"
+      }
+    ]
+  }
+]

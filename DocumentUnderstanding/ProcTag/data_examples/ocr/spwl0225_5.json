@@ -1,0 +1,1676 @@
+[
+  {
+    "box": [
+      259,
+      185,
+      1326,
+      264
+    ],
+    "text": "Reduce Harm & Ensure Product Integrity",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          264,
+          193,
+          462,
+          254
+        ],
+        "text": "Reduce"
+      },
+      {
+        "box": [
+          474,
+          193,
+          604,
+          255
+        ],
+        "text": "Harm"
+      },
+      {
+        "box": [
+          635,
+          193,
+          672,
+          256
+        ],
+        "text": "&"
+      },
+      {
+        "box": [
+          685,
+          193,
+          871,
+          259
+        ],
+        "text": "Ensure"
+      },
+      {
+        "box": [
+          884,
+          193,
+          1093,
+          262
+        ],
+        "text": "Product"
+      },
+      {
+        "box": [
+          1106,
+          192,
+          1322,
+          265
+        ],
+        "text": "Integrity"
+      }
+    ]
+  },
+  {
+    "box": [
+      264,
+      353,
+      586,
+      401
+    ],
+    "text": "Major milestones",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          266,
+          354,
+          372,
+          400
+        ],
+        "text": "Major"
+      },
+      {
+        "box": [
+          382,
+          355,
+          587,
+          399
+        ],
+        "text": "milestones"
+      }
+    ]
+  },
+  {
+    "box": [
+      275,
+      446,
+      1075,
+      494
+    ],
+    "text": "2. Harm reduction across the cigarette portfolio",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          280,
+          449,
+          319,
+          487
+        ],
+        "text": "2."
+      },
+      {
+        "box": [
+          326,
+          449,
+          409,
+          490
+        ],
+        "text": "Harm"
+      },
+      {
+        "box": [
+          426,
+          450,
+          587,
+          493
+        ],
+        "text": "reduction"
+      },
+      {
+        "box": [
+          594,
+          451,
+          709,
+          494
+        ],
+        "text": "across"
+      },
+      {
+        "box": [
+          716,
+          451,
+          772,
+          494
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          779,
+          451,
+          925,
+          493
+        ],
+        "text": "cigarette"
+      },
+      {
+        "box": [
+          932,
+          451,
+          1076,
+          492
+        ],
+        "text": "portfolio"
+      }
+    ]
+  },
+  {
+    "box": [
+      316,
+      530,
+      1411,
+      575
+    ],
+    "text": ". Initiate Performance Standards benchmarking of RJRT and SF",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          325,
+          532,
+          352,
+          573
+        ],
+        "text": "."
+      },
+      {
+        "box": [
+          370,
+          533,
+          485,
+          575
+        ],
+        "text": "Initiate"
+      },
+      {
+        "box": [
+          492,
+          534,
+          709,
+          576
+        ],
+        "text": "Performance"
+      },
+      {
+        "box": [
+          716,
+          536,
+          887,
+          577
+        ],
+        "text": "Standards"
+      },
+      {
+        "box": [
+          894,
+          536,
+          1135,
+          576
+        ],
+        "text": "benchmarking"
+      },
+      {
+        "box": [
+          1142,
+          534,
+          1177,
+          576
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          1184,
+          534,
+          1279,
+          575
+        ],
+        "text": "RJRT"
+      },
+      {
+        "box": [
+          1285,
+          532,
+          1350,
+          574
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          1357,
+          531,
+          1406,
+          573
+        ],
+        "text": "SF"
+      }
+    ]
+  },
+  {
+    "box": [
+      1727,
+      527,
+      1837,
+      566
+    ],
+    "text": "4Q '07",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1734,
+          526,
+          1777,
+          565
+        ],
+        "text": "4Q"
+      },
+      {
+        "box": [
+          1787,
+          527,
+          1835,
+          565
+        ],
+        "text": "'07"
+      }
+    ]
+  },
+  {
+    "box": [
+      368,
+      583,
+      666,
+      622
+    ],
+    "text": "cigarette portfolio",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          371,
+          585,
+          517,
+          624
+        ],
+        "text": "cigarette"
+      },
+      {
+        "box": [
+          525,
+          583,
+          663,
+          624
+        ],
+        "text": "portfolio"
+      }
+    ]
+  },
+  {
+    "box": [
+      312,
+      646,
+      1110,
+      689
+    ],
+    "text": ". Characterize potential exposure to toxicants",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          326,
+          647,
+          352,
+          689
+        ],
+        "text": "."
+      },
+      {
+        "box": [
+          375,
+          648,
+          580,
+          690
+        ],
+        "text": "Characterize"
+      },
+      {
+        "box": [
+          589,
+          649,
+          737,
+          690
+        ],
+        "text": "potential"
+      },
+      {
+        "box": [
+          745,
+          649,
+          901,
+          689
+        ],
+        "text": "exposure"
+      },
+      {
+        "box": [
+          908,
+          650,
+          944,
+          689
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          951,
+          650,
+          1110,
+          687
+        ],
+        "text": "toxicants"
+      }
+    ]
+  },
+  {
+    "box": [
+      412,
+      712,
+      1431,
+      760
+    ],
+    "text": "- Benchmark RJRT current cigarette portfolio for human yield/in",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          414,
+          715,
+          440,
+          753
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          471,
+          716,
+          650,
+          757
+        ],
+        "text": "Benchmark"
+      },
+      {
+        "box": [
+          656,
+          718,
+          748,
+          758
+        ],
+        "text": "RJRT"
+      },
+      {
+        "box": [
+          755,
+          718,
+          867,
+          759
+        ],
+        "text": "current"
+      },
+      {
+        "box": [
+          874,
+          718,
+          1007,
+          760
+        ],
+        "text": "cigarette"
+      },
+      {
+        "box": [
+          1014,
+          718,
+          1143,
+          760
+        ],
+        "text": "portfolio"
+      },
+      {
+        "box": [
+          1150,
+          718,
+          1192,
+          760
+        ],
+        "text": "for"
+      },
+      {
+        "box": [
+          1200,
+          718,
+          1308,
+          759
+        ],
+        "text": "human"
+      },
+      {
+        "box": [
+          1316,
+          717,
+          1429,
+          758
+        ],
+        "text": "yield/in"
+      }
+    ]
+  },
+  {
+    "box": [
+      1734,
+      715,
+      1838,
+      751
+    ],
+    "text": "4Q '08",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1735,
+          714,
+          1777,
+          751
+        ],
+        "text": "4Q"
+      },
+      {
+        "box": [
+          1789,
+          714,
+          1836,
+          751
+        ],
+        "text": "'08"
+      }
+    ]
+  },
+  {
+    "box": [
+      470,
+      761,
+      693,
+      805
+    ],
+    "text": "vitro/chemistry",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          471,
+          762,
+          694,
+          805
+        ],
+        "text": "vitro/chemistry"
+      }
+    ]
+  },
+  {
+    "box": [
+      314,
+      823,
+      1540,
+      875
+    ],
+    "text": ". Develop Quantitative Risk Assessment metric(s) based upon potential",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          326,
+          826,
+          352,
+          868
+        ],
+        "text": "."
+      },
+      {
+        "box": [
+          372,
+          827,
+          509,
+          870
+        ],
+        "text": "Develop"
+      },
+      {
+        "box": [
+          519,
+          829,
+          716,
+          872
+        ],
+        "text": "Quantitative"
+      },
+      {
+        "box": [
+          725,
+          831,
+          800,
+          873
+        ],
+        "text": "Risk"
+      },
+      {
+        "box": [
+          809,
+          832,
+          1014,
+          874
+        ],
+        "text": "Assessment"
+      },
+      {
+        "box": [
+          1024,
+          832,
+          1172,
+          875
+        ],
+        "text": "metric(s)"
+      },
+      {
+        "box": [
+          1181,
+          831,
+          1281,
+          875
+        ],
+        "text": "based"
+      },
+      {
+        "box": [
+          1289,
+          830,
+          1376,
+          875
+        ],
+        "text": "upon"
+      },
+      {
+        "box": [
+          1384,
+          829,
+          1539,
+          874
+        ],
+        "text": "potential"
+      }
+    ]
+  },
+  {
+    "box": [
+      1731,
+      828,
+      1837,
+      865
+    ],
+    "text": "4Q '08",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1733,
+          827,
+          1777,
+          865
+        ],
+        "text": "4Q"
+      },
+      {
+        "box": [
+          1789,
+          827,
+          1837,
+          865
+        ],
+        "text": "'08"
+      }
+    ]
+  },
+  {
+    "box": [
+      370,
+      877,
+      1374,
+      921
+    ],
+    "text": "toxicant exposure data to guide product development efforts",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          373,
+          880,
+          509,
+          918
+        ],
+        "text": "toxicant"
+      },
+      {
+        "box": [
+          517,
+          880,
+          673,
+          920
+        ],
+        "text": "exposure"
+      },
+      {
+        "box": [
+          688,
+          881,
+          752,
+          921
+        ],
+        "text": "data"
+      },
+      {
+        "box": [
+          760,
+          881,
+          794,
+          921
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          801,
+          881,
+          896,
+          921
+        ],
+        "text": "guide"
+      },
+      {
+        "box": [
+          903,
+          881,
+          1044,
+          921
+        ],
+        "text": "product"
+      },
+      {
+        "box": [
+          1051,
+          880,
+          1262,
+          919
+        ],
+        "text": "development"
+      },
+      {
+        "box": [
+          1269,
+          879,
+          1375,
+          917
+        ],
+        "text": "efforts"
+      }
+    ]
+  },
+  {
+    "box": [
+      274,
+      964,
+      1432,
+      1009
+    ],
+    "text": "3. Develop PREP platforms and heat-don't-burn improvement (RJRT)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          281,
+          965,
+          319,
+          1008
+        ],
+        "text": "3."
+      },
+      {
+        "box": [
+          328,
+          966,
+          463,
+          1008
+        ],
+        "text": "Develop"
+      },
+      {
+        "box": [
+          472,
+          967,
+          569,
+          1008
+        ],
+        "text": "PREP"
+      },
+      {
+        "box": [
+          578,
+          967,
+          738,
+          1009
+        ],
+        "text": "platforms"
+      },
+      {
+        "box": [
+          747,
+          968,
+          805,
+          1009
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          814,
+          968,
+          1071,
+          1009
+        ],
+        "text": "heat-don't-burn"
+      },
+      {
+        "box": [
+          1080,
+          968,
+          1302,
+          1010
+        ],
+        "text": "improvement"
+      },
+      {
+        "box": [
+          1310,
+          966,
+          1432,
+          1010
+        ],
+        "text": "(RJRT)"
+      }
+    ]
+  },
+  {
+    "box": [
+      352,
+      1098,
+      1346,
+      1144
+    ],
+    "text": "Non-menthol burn down PREP available for dermal testing",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          371,
+          1101,
+          585,
+          1142
+        ],
+        "text": "Non-menthol"
+      },
+      {
+        "box": [
+          594,
+          1102,
+          675,
+          1142
+        ],
+        "text": "burn"
+      },
+      {
+        "box": [
+          692,
+          1103,
+          775,
+          1143
+        ],
+        "text": "down"
+      },
+      {
+        "box": [
+          784,
+          1103,
+          880,
+          1143
+        ],
+        "text": "PREP"
+      },
+      {
+        "box": [
+          889,
+          1103,
+          1034,
+          1144
+        ],
+        "text": "available"
+      },
+      {
+        "box": [
+          1044,
+          1103,
+          1100,
+          1144
+        ],
+        "text": "for"
+      },
+      {
+        "box": [
+          1110,
+          1102,
+          1216,
+          1144
+        ],
+        "text": "dermal"
+      },
+      {
+        "box": [
+          1226,
+          1102,
+          1341,
+          1145
+        ],
+        "text": "testing"
+      }
+    ]
+  },
+  {
+    "box": [
+      1730,
+      1095,
+      1833,
+      1133
+    ],
+    "text": "2Q '08",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1734,
+          1094,
+          1777,
+          1131
+        ],
+        "text": "2Q"
+      },
+      {
+        "box": [
+          1789,
+          1095,
+          1832,
+          1132
+        ],
+        "text": "'08"
+      }
+    ]
+  },
+  {
+    "box": [
+      356,
+      1166,
+      1279,
+      1215
+    ],
+    "text": "Menthol burn down PREP designs available for testing",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          371,
+          1168,
+          506,
+          1211
+        ],
+        "text": "Menthol"
+      },
+      {
+        "box": [
+          515,
+          1168,
+          597,
+          1212
+        ],
+        "text": "burn"
+      },
+      {
+        "box": [
+          609,
+          1169,
+          693,
+          1213
+        ],
+        "text": "down"
+      },
+      {
+        "box": [
+          702,
+          1169,
+          800,
+          1214
+        ],
+        "text": "PREP"
+      },
+      {
+        "box": [
+          812,
+          1169,
+          940,
+          1215
+        ],
+        "text": "designs"
+      },
+      {
+        "box": [
+          948,
+          1170,
+          1095,
+          1215
+        ],
+        "text": "available"
+      },
+      {
+        "box": [
+          1103,
+          1170,
+          1154,
+          1215
+        ],
+        "text": "for"
+      },
+      {
+        "box": [
+          1162,
+          1170,
+          1280,
+          1215
+        ],
+        "text": "testing"
+      }
+    ]
+  },
+  {
+    "box": [
+      1726,
+      1169,
+      1837,
+      1207
+    ],
+    "text": "3Q '08",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1733,
+          1170,
+          1777,
+          1207
+        ],
+        "text": "3Q"
+      },
+      {
+        "box": [
+          1789,
+          1171,
+          1837,
+          1208
+        ],
+        "text": "'08"
+      }
+    ]
+  },
+  {
+    "box": [
+      316,
+      1229,
+      1314,
+      1284
+    ],
+    "text": ". Complete HSB for all COTAN prototypes. Product design",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          324,
+          1236,
+          350,
+          1273
+        ],
+        "text": "."
+      },
+      {
+        "box": [
+          373,
+          1236,
+          533,
+          1277
+        ],
+        "text": "Complete"
+      },
+      {
+        "box": [
+          540,
+          1235,
+          614,
+          1279
+        ],
+        "text": "HSB"
+      },
+      {
+        "box": [
+          623,
+          1235,
+          673,
+          1280
+        ],
+        "text": "for"
+      },
+      {
+        "box": [
+          680,
+          1235,
+          723,
+          1280
+        ],
+        "text": "all"
+      },
+      {
+        "box": [
+          730,
+          1235,
+          849,
+          1282
+        ],
+        "text": "COTAN"
+      },
+      {
+        "box": [
+          860,
+          1234,
+          1053,
+          1283
+        ],
+        "text": "prototypes."
+      },
+      {
+        "box": [
+          1060,
+          1234,
+          1203,
+          1284
+        ],
+        "text": "Product"
+      },
+      {
+        "box": [
+          1209,
+          1234,
+          1314,
+          1284
+        ],
+        "text": "design"
+      }
+    ]
+  },
+  {
+    "box": [
+      1735,
+      1243,
+      1837,
+      1281
+    ],
+    "text": "4Q '08",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1735,
+          1242,
+          1777,
+          1280
+        ],
+        "text": "4Q"
+      },
+      {
+        "box": [
+          1789,
+          1243,
+          1836,
+          1280
+        ],
+        "text": "'08"
+      }
+    ]
+  },
+  {
+    "box": [
+      365,
+      1284,
+      658,
+      1323
+    ],
+    "text": "recommendation",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          369,
+          1286,
+          652,
+          1323
+        ],
+        "text": "recommendation"
+      }
+    ]
+  },
+  {
+    "box": [
+      318,
+      1348,
+      1525,
+      1393
+    ],
+    "text": ". Complete interim consumer screening of consumer acceptable H-D-B",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          323,
+          1350,
+          352,
+          1390
+        ],
+        "text": "."
+      },
+      {
+        "box": [
+          371,
+          1350,
+          532,
+          1392
+        ],
+        "text": "Complete"
+      },
+      {
+        "box": [
+          538,
+          1352,
+          652,
+          1393
+        ],
+        "text": "interim"
+      },
+      {
+        "box": [
+          666,
+          1354,
+          835,
+          1393
+        ],
+        "text": "consumer"
+      },
+      {
+        "box": [
+          841,
+          1355,
+          1010,
+          1393
+        ],
+        "text": "screening"
+      },
+      {
+        "box": [
+          1017,
+          1355,
+          1052,
+          1393
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          1059,
+          1354,
+          1227,
+          1393
+        ],
+        "text": "consumer"
+      },
+      {
+        "box": [
+          1234,
+          1353,
+          1415,
+          1392
+        ],
+        "text": "acceptable"
+      },
+      {
+        "box": [
+          1423,
+          1351,
+          1524,
+          1391
+        ],
+        "text": "H-D-B"
+      }
+    ]
+  },
+  {
+    "box": [
+      1735,
+      1349,
+      1837,
+      1387
+    ],
+    "text": "4Q '08",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1735,
+          1348,
+          1777,
+          1386
+        ],
+        "text": "4Q"
+      },
+      {
+        "box": [
+          1789,
+          1349,
+          1836,
+          1386
+        ],
+        "text": "'08"
+      }
+    ]
+  },
+  {
+    "box": [
+      15,
+      1435,
+      48,
+      1620
+    ],
+    "text": "55820 0385",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          48,
+          1443,
+          16,
+          1539
+        ],
+        "text": "55820"
+      },
+      {
+        "box": [
+          47,
+          1546,
+          17,
+          1619
+        ],
+        "text": "0385"
+      }
+    ]
+  },
+  {
+    "box": [
+      367,
+      1401,
+      546,
+      1439
+    ],
+    "text": "prototypes",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          370,
+          1403,
+          546,
+          1439
+        ],
+        "text": "prototypes"
+      }
+    ]
+  },
+  {
+    "box": [
+      318,
+      1461,
+      1548,
+      1508
+    ],
+    "text": ". Complete and issue initial report of clinical trial of Eclipse and Snus in",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          325,
+          1464,
+          350,
+          1501
+        ],
+        "text": "."
+      },
+      {
+        "box": [
+          373,
+          1465,
+          536,
+          1504
+        ],
+        "text": "Complete"
+      },
+      {
+        "box": [
+          550,
+          1466,
+          613,
+          1505
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          620,
+          1466,
+          711,
+          1506
+        ],
+        "text": "issue"
+      },
+      {
+        "box": [
+          718,
+          1467,
+          812,
+          1507
+        ],
+        "text": "initial"
+      },
+      {
+        "box": [
+          818,
+          1467,
+          924,
+          1508
+        ],
+        "text": "report"
+      },
+      {
+        "box": [
+          931,
+          1467,
+          965,
+          1508
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          972,
+          1467,
+          1094,
+          1508
+        ],
+        "text": "clinical"
+      },
+      {
+        "box": [
+          1101,
+          1467,
+          1169,
+          1508
+        ],
+        "text": "trial"
+      },
+      {
+        "box": [
+          1175,
+          1467,
+          1209,
+          1508
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          1216,
+          1467,
+          1341,
+          1507
+        ],
+        "text": "Eclipse"
+      },
+      {
+        "box": [
+          1347,
+          1466,
+          1415,
+          1506
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          1421,
+          1465,
+          1506,
+          1505
+        ],
+        "text": "Snus"
+      },
+      {
+        "box": [
+          1512,
+          1465,
+          1547,
+          1505
+        ],
+        "text": "in"
+      }
+    ]
+  },
+  {
+    "box": [
+      1731,
+      1475,
+      1837,
+      1512
+    ],
+    "text": "4Q '08",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1733,
+          1474,
+          1776,
+          1511
+        ],
+        "text": "4Q"
+      },
+      {
+        "box": [
+          1788,
+          1475,
+          1836,
+          1511
+        ],
+        "text": "'08"
+      }
+    ]
+  },
+  {
+    "box": [
+      371,
+      1511,
+      641,
+      1554
+    ],
+    "text": "smokers (QOL I)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          374,
+          1515,
+          519,
+          1552
+        ],
+        "text": "smokers"
+      },
+      {
+        "box": [
+          527,
+          1513,
+          613,
+          1554
+        ],
+        "text": "(QOL"
+      },
+      {
+        "box": [
+          621,
+          1513,
+          641,
+          1555
+        ],
+        "text": "I)"
+      }
+    ]
+  },
+  {
+    "box": [
+      871,
+      1630,
+      1378,
+      1661
+    ],
+    "text": "DRAFT - FOR DISCUSSION PURPOSES ONLY",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          879,
+          1630,
+          954,
+          1660
+        ],
+        "text": "DRAFT"
+      },
+      {
+        "box": [
+          960,
+          1631,
+          974,
+          1660
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          979,
+          1631,
+          1028,
+          1660
+        ],
+        "text": "FOR"
+      },
+      {
+        "box": [
+          1033,
+          1632,
+          1174,
+          1661
+        ],
+        "text": "DISCUSSION"
+      },
+      {
+        "box": [
+          1179,
+          1632,
+          1307,
+          1660
+        ],
+        "text": "PURPOSES"
+      },
+      {
+        "box": [
+          1311,
+          1632,
+          1378,
+          1660
+        ],
+        "text": "ONLY"
+      }
+    ]
+  },
+  {
+    "box": [
+      621,
+      1656,
+      1578,
+      1694
+    ],
+    "text": "Source: https://www.industrydocuments.ucsf.edu/docs/spwl0225",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          626,
+          1658,
+          742,
+          1694
+        ],
+        "text": "Source:"
+      },
+      {
+        "box": [
+          748,
+          1660,
+          1576,
+          1694
+        ],
+        "text": "https://www.industrydocuments.ucsf.edu/docs/spwl0225"
+      }
+    ]
+  }
+]

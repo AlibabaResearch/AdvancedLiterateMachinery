@@ -1,0 +1,341 @@
+[
+  {
+    "box": [
+      688,
+      628,
+      1056,
+      661
+    ],
+    "text": "SUMMARY OF DISCUSSIONS",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          692,
+          629,
+          814,
+          661
+        ],
+        "text": "SUMMARY"
+      },
+      {
+        "box": [
+          825,
+          632,
+          862,
+          661
+        ],
+        "text": "OF"
+      },
+      {
+        "box": [
+          875,
+          632,
+          1057,
+          662
+        ],
+        "text": "DISCUSSIONS"
+      }
+    ]
+  },
+  {
+    "box": [
+      689,
+      824,
+      1061,
+      856
+    ],
+    "text": "RESOURCE CONFERENCE ON",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          694,
+          825,
+          832,
+          857
+        ],
+        "text": "RESOURCE"
+      },
+      {
+        "box": [
+          843,
+          825,
+          1012,
+          857
+        ],
+        "text": "CONFERENCE"
+      },
+      {
+        "box": [
+          1025,
+          825,
+          1061,
+          857
+        ],
+        "text": "ON"
+      }
+    ]
+  },
+  {
+    "box": [
+      673,
+      888,
+      1078,
+      923
+    ],
+    "text": "FOOD FADDISM AND CULTISM",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          677,
+          889,
+          749,
+          922
+        ],
+        "text": "FOOD"
+      },
+      {
+        "box": [
+          759,
+          891,
+          879,
+          923
+        ],
+        "text": "FADDISM"
+      },
+      {
+        "box": [
+          891,
+          892,
+          948,
+          923
+        ],
+        "text": "AND"
+      },
+      {
+        "box": [
+          958,
+          891,
+          1078,
+          923
+        ],
+        "text": "CULTISM"
+      }
+    ]
+  },
+  {
+    "box": [
+      764,
+      1023,
+      972,
+      1056
+    ],
+    "text": "sponsored by",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          767,
+          1024,
+          924,
+          1055
+        ],
+        "text": "sponsored"
+      },
+      {
+        "box": [
+          938,
+          1027,
+          971,
+          1056
+        ],
+        "text": "by"
+      }
+    ]
+  },
+  {
+    "box": [
+      590,
+      1089,
+      1168,
+      1128
+    ],
+    "text": "Department of Foods and Nutrition",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          594,
+          1093,
+          770,
+          1124
+        ],
+        "text": "Department"
+      },
+      {
+        "box": [
+          785,
+          1094,
+          821,
+          1124
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          834,
+          1094,
+          924,
+          1126
+        ],
+        "text": "Foods"
+      },
+      {
+        "box": [
+          939,
+          1094,
+          994,
+          1126
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          1006,
+          1094,
+          1164,
+          1128
+        ],
+        "text": "Nutrition"
+      }
+    ]
+  },
+  {
+    "box": [
+      631,
+      1159,
+      1120,
+      1196
+    ],
+    "text": "American Medical Association",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          631,
+          1160,
+          767,
+          1192
+        ],
+        "text": "American"
+      },
+      {
+        "box": [
+          781,
+          1162,
+          908,
+          1194
+        ],
+        "text": "Medical"
+      },
+      {
+        "box": [
+          922,
+          1163,
+          1114,
+          1196
+        ],
+        "text": "Association"
+      }
+    ]
+  },
+  {
+    "box": [
+      1216,
+      1906,
+      1499,
+      1939
+    ],
+    "text": "CHICAGO, ILLINOIS",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1217,
+          1907,
+          1356,
+          1940
+        ],
+        "text": "CHICAGO,"
+      },
+      {
+        "box": [
+          1365,
+          1907,
+          1498,
+          1939
+        ],
+        "text": "ILLINOIS"
+      }
+    ]
+  },
+  {
+    "box": [
+      1214,
+      1971,
+      1599,
+      2004
+    ],
+    "text": "OCTOBER 26 and 27, 1971",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1217,
+          1972,
+          1335,
+          2005
+        ],
+        "text": "OCTOBER"
+      },
+      {
+        "box": [
+          1347,
+          1973,
+          1385,
+          2005
+        ],
+        "text": "26"
+      },
+      {
+        "box": [
+          1397,
+          1973,
+          1452,
+          2005
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          1462,
+          1973,
+          1520,
+          2005
+        ],
+        "text": "27,"
+      },
+      {
+        "box": [
+          1530,
+          1971,
+          1598,
+          2005
+        ],
+        "text": "1971"
+      }
+    ]
+  }
+]

@@ -1,0 +1,935 @@
+[
+  {
+    "box": [
+      729,
+      250,
+      1082,
+      284
+    ],
+    "text": "DISTRIBUTION LIST",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          735,
+          252,
+          979,
+          283
+        ],
+        "text": "DISTRIBUTION"
+      },
+      {
+        "box": [
+          999,
+          249,
+          1082,
+          284
+        ],
+        "text": "LIST"
+      }
+    ]
+  },
+  {
+    "box": [
+      253,
+      386,
+      1202,
+      425
+    ],
+    "text": "Copies of the complete report to the following;",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          256,
+          387,
+          379,
+          423
+        ],
+        "text": "Copies"
+      },
+      {
+        "box": [
+          395,
+          388,
+          442,
+          423
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          457,
+          388,
+          521,
+          423
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          536,
+          388,
+          702,
+          424
+        ],
+        "text": "complete"
+      },
+      {
+        "box": [
+          717,
+          388,
+          844,
+          424
+        ],
+        "text": "report"
+      },
+      {
+        "box": [
+          859,
+          388,
+          902,
+          424
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          919,
+          388,
+          983,
+          425
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1000,
+          388,
+          1201,
+          425
+        ],
+        "text": "following;"
+      }
+    ]
+  },
+  {
+    "box": [
+      1195,
+      455,
+      1463,
+      489
+    ],
+    "text": "No. of Copies",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1196,
+          455,
+          1267,
+          491
+        ],
+        "text": "No."
+      },
+      {
+        "box": [
+          1279,
+          455,
+          1326,
+          490
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          1340,
+          455,
+          1463,
+          487
+        ],
+        "text": "Copies"
+      }
+    ]
+  },
+  {
+    "box": [
+      252,
+      522,
+      613,
+      557
+    ],
+    "text": "Commanding General",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          254,
+          523,
+          460,
+          557
+        ],
+        "text": "Commanding"
+      },
+      {
+        "box": [
+          475,
+          524,
+          613,
+          556
+        ],
+        "text": "General"
+      }
+    ]
+  },
+  {
+    "box": [
+      1296,
+      526,
+      1313,
+      549
+    ],
+    "text": "4",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1300,
+          525,
+          1313,
+          548
+        ],
+        "text": "4"
+      }
+    ]
+  },
+  {
+    "box": [
+      251,
+      553,
+      859,
+      591
+    ],
+    "text": "U.S. Army Medical Research and",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          251,
+          554,
+          343,
+          590
+        ],
+        "text": "U.S."
+      },
+      {
+        "box": [
+          353,
+          555,
+          440,
+          590
+        ],
+        "text": "Army"
+      },
+      {
+        "box": [
+          452,
+          556,
+          603,
+          591
+        ],
+        "text": "Medical"
+      },
+      {
+        "box": [
+          616,
+          557,
+          779,
+          591
+        ],
+        "text": "Research"
+      },
+      {
+        "box": [
+          798,
+          556,
+          860,
+          592
+        ],
+        "text": "and"
+      }
+    ]
+  },
+  {
+    "box": [
+      251,
+      592,
+      664,
+      624
+    ],
+    "text": "Development Command",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          273,
+          593,
+          499,
+          623
+        ],
+        "text": "Development"
+      },
+      {
+        "box": [
+          515,
+          592,
+          661,
+          624
+        ],
+        "text": "Command"
+      }
+    ]
+  },
+  {
+    "box": [
+      253,
+      622,
+      839,
+      659
+    ],
+    "text": "Office of the Surgeon General",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          253,
+          623,
+          379,
+          658
+        ],
+        "text": "Office"
+      },
+      {
+        "box": [
+          393,
+          623,
+          440,
+          658
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          457,
+          623,
+          519,
+          658
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          536,
+          624,
+          678,
+          659
+        ],
+        "text": "Surgeon"
+      },
+      {
+        "box": [
+          697,
+          624,
+          839,
+          660
+        ],
+        "text": "General"
+      }
+    ]
+  },
+  {
+    "box": [
+      254,
+      656,
+      555,
+      693
+    ],
+    "text": "ATTN: MEDDH- SI",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          256,
+          658,
+          362,
+          692
+        ],
+        "text": "ATTN:"
+      },
+      {
+        "box": [
+          392,
+          657,
+          510,
+          691
+        ],
+        "text": "MEDDH-"
+      },
+      {
+        "box": [
+          516,
+          660,
+          554,
+          690
+        ],
+        "text": "SI"
+      }
+    ]
+  },
+  {
+    "box": [
+      248,
+      688,
+      566,
+      727
+    ],
+    "text": "Washington, D. C.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          252,
+          691,
+          482,
+          727
+        ],
+        "text": "Washington,"
+      },
+      {
+        "box": [
+          496,
+          692,
+          531,
+          727
+        ],
+        "text": "D."
+      },
+      {
+        "box": [
+          537,
+          691,
+          566,
+          727
+        ],
+        "text": "C."
+      }
+    ]
+  },
+  {
+    "box": [
+      645,
+      691,
+      753,
+      723
+    ],
+    "text": "20315",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          657,
+          692,
+          753,
+          723
+        ],
+        "text": "20315"
+      }
+    ]
+  },
+  {
+    "box": [
+      250,
+      825,
+      823,
+      860
+    ],
+    "text": "Defense Documentation Center",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          254,
+          827,
+          395,
+          859
+        ],
+        "text": "Defense"
+      },
+      {
+        "box": [
+          416,
+          829,
+          676,
+          861
+        ],
+        "text": "Documentation"
+      },
+      {
+        "box": [
+          698,
+          828,
+          820,
+          861
+        ],
+        "text": "Center"
+      }
+    ]
+  },
+  {
+    "box": [
+      1279,
+      827,
+      1316,
+      855
+    ],
+    "text": "20",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1280,
+          826,
+          1315,
+          854
+        ],
+        "text": "20"
+      }
+    ]
+  },
+  {
+    "box": [
+      255,
+      860,
+      505,
+      893
+    ],
+    "text": "ATTN: DDCIR",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          256,
+          862,
+          362,
+          892
+        ],
+        "text": "ATTN:"
+      },
+      {
+        "box": [
+          395,
+          860,
+          499,
+          891
+        ],
+        "text": "DDCIR"
+      }
+    ]
+  },
+  {
+    "box": [
+      255,
+      897,
+      553,
+      927
+    ],
+    "text": "Cameron Station",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          256,
+          897,
+          396,
+          927
+        ],
+        "text": "Cameron"
+      },
+      {
+        "box": [
+          415,
+          898,
+          552,
+          927
+        ],
+        "text": "Station"
+      }
+    ]
+  },
+  {
+    "box": [
+      252,
+      927,
+      663,
+      965
+    ],
+    "text": "Alexandria, Virginia",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          254,
+          931,
+          482,
+          963
+        ],
+        "text": "Alexandria,"
+      },
+      {
+        "box": [
+          495,
+          928,
+          660,
+          965
+        ],
+        "text": "Virginia"
+      }
+    ]
+  },
+  {
+    "box": [
+      708,
+      926,
+      821,
+      960
+    ],
+    "text": "22314",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          717,
+          927,
+          821,
+          961
+        ],
+        "text": "22314"
+      }
+    ]
+  },
+  {
+    "box": [
+      253,
+      1063,
+      619,
+      1097
+    ],
+    "text": "Commanding Officer",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          255,
+          1064,
+          459,
+          1098
+        ],
+        "text": "Commanding"
+      },
+      {
+        "box": [
+          475,
+          1065,
+          619,
+          1097
+        ],
+        "text": "Officer"
+      }
+    ]
+  },
+  {
+    "box": [
+      1290,
+      1064,
+      1322,
+      1091
+    ],
+    "text": "1",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1299,
+          1062,
+          1321,
+          1091
+        ],
+        "text": "1"
+      }
+    ]
+  },
+  {
+    "box": [
+      254,
+      1095,
+      986,
+      1130
+    ],
+    "text": "U. S. Army Combat Development Command",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          255,
+          1095,
+          288,
+          1131
+        ],
+        "text": "U."
+      },
+      {
+        "box": [
+          295,
+          1096,
+          342,
+          1131
+        ],
+        "text": "S."
+      },
+      {
+        "box": [
+          354,
+          1097,
+          439,
+          1131
+        ],
+        "text": "Army"
+      },
+      {
+        "box": [
+          458,
+          1097,
+          582,
+          1131
+        ],
+        "text": "Combat"
+      },
+      {
+        "box": [
+          597,
+          1098,
+          825,
+          1130
+        ],
+        "text": "Development"
+      },
+      {
+        "box": [
+          839,
+          1097,
+          985,
+          1130
+        ],
+        "text": "Command"
+      }
+    ]
+  },
+  {
+    "box": [
+      251,
+      1133,
+      691,
+      1166
+    ],
+    "text": "Medical Service Agency",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          251,
+          1133,
+          400,
+          1166
+        ],
+        "text": "Medical"
+      },
+      {
+        "box": [
+          416,
+          1134,
+          558,
+          1166
+        ],
+        "text": "Service"
+      },
+      {
+        "box": [
+          576,
+          1135,
+          692,
+          1166
+        ],
+        "text": "Agency"
+      }
+    ]
+  },
+  {
+    "box": [
+      255,
+      1164,
+      778,
+      1198
+    ],
+    "text": "Brooke Army Medical Center",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          256,
+          1165,
+          380,
+          1199
+        ],
+        "text": "Brooke"
+      },
+      {
+        "box": [
+          394,
+          1166,
+          479,
+          1199
+        ],
+        "text": "Army"
+      },
+      {
+        "box": [
+          492,
+          1166,
+          643,
+          1199
+        ],
+        "text": "Medical"
+      },
+      {
+        "box": [
+          659,
+          1165,
+          777,
+          1199
+        ],
+        "text": "Center"
+      }
+    ]
+  },
+  {
+    "box": [
+      254,
+      1199,
+      720,
+      1232
+    ],
+    "text": "Fort Sam Houston, Texas",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          256,
+          1200,
+          340,
+          1233
+        ],
+        "text": "Fort"
+      },
+      {
+        "box": [
+          357,
+          1202,
+          416,
+          1234
+        ],
+        "text": "Sam"
+      },
+      {
+        "box": [
+          434,
+          1202,
+          603,
+          1233
+        ],
+        "text": "Houston,"
+      },
+      {
+        "box": [
+          619,
+          1200,
+          719,
+          1231
+        ],
+        "text": "Texas"
+      }
+    ]
+  },
+  {
+    "box": [
+      815,
+      1196,
+      920,
+      1230
+    ],
+    "text": "78234",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          821,
+          1198,
+          920,
+          1230
+        ],
+        "text": "78234"
+      }
+    ]
+  },
+  {
+    "box": [
+      419,
+      2252,
+      542,
+      2275
+    ],
+    "text": "Source:",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          422,
+          2253,
+          543,
+          2276
+        ],
+        "text": "Source:"
+      }
+    ]
+  },
+  {
+    "box": [
+      943,
+      2246,
+      1363,
+      2277
+    ],
+    "text": "ents.ucsf.edu/docs/rimg0227",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          944,
+          2248,
+          1361,
+          2278
+        ],
+        "text": "ents.ucsf.edu/docs/rimg0227"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3902 @@
+[
+  {
+    "box": [
+      216,
+      85,
+      645,
+      106
+    ],
+    "text": "SUGAR RESEARCH FOUNDATION, INC.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          218,
+          85,
+          291,
+          108
+        ],
+        "text": "SUGAR"
+      },
+      {
+        "box": [
+          302,
+          85,
+          420,
+          108
+        ],
+        "text": "RESEARCH"
+      },
+      {
+        "box": [
+          432,
+          85,
+          595,
+          107
+        ],
+        "text": "FOUNDATION,"
+      },
+      {
+        "box": [
+          600,
+          85,
+          645,
+          106
+        ],
+        "text": "INC."
+      }
+    ]
+  },
+  {
+    "box": [
+      392,
+      130,
+      468,
+      145
+    ],
+    "text": "OFFICERS",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          394,
+          131,
+          468,
+          145
+        ],
+        "text": "OFFICERS"
+      }
+    ]
+  },
+  {
+    "box": [
+      133,
+      156,
+      318,
+      171
+    ],
+    "text": "JOSEPH F. ABBOTT, President",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          135,
+          157,
+          179,
+          172
+        ],
+        "text": "JOSEPH"
+      },
+      {
+        "box": [
+          185,
+          156,
+          200,
+          172
+        ],
+        "text": "F."
+      },
+      {
+        "box": [
+          203,
+          156,
+          256,
+          172
+        ],
+        "text": "ABBOTT,"
+      },
+      {
+        "box": [
+          259,
+          155,
+          318,
+          172
+        ],
+        "text": "President"
+      }
+    ]
+  },
+  {
+    "box": [
+      495,
+      153,
+      671,
+      169
+    ],
+    "text": "CARL S. NADLER, Treasurer",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          496,
+          153,
+          531,
+          169
+        ],
+        "text": "CARL"
+      },
+      {
+        "box": [
+          534,
+          154,
+          549,
+          169
+        ],
+        "text": "S."
+      },
+      {
+        "box": [
+          552,
+          154,
+          609,
+          170
+        ],
+        "text": "NADLER,"
+      },
+      {
+        "box": [
+          612,
+          154,
+          672,
+          169
+        ],
+        "text": "Treasurer"
+      }
+    ]
+  },
+  {
+    "box": [
+      135,
+      173,
+      361,
+      190
+    ],
+    "text": "ERNEST W. GREENE, Vice President",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          136,
+          175,
+          182,
+          190
+        ],
+        "text": "ERNEST"
+      },
+      {
+        "box": [
+          185,
+          174,
+          207,
+          190
+        ],
+        "text": "W."
+      },
+      {
+        "box": [
+          210,
+          174,
+          264,
+          190
+        ],
+        "text": "GREENE,"
+      },
+      {
+        "box": [
+          267,
+          174,
+          298,
+          190
+        ],
+        "text": "Vice"
+      },
+      {
+        "box": [
+          300,
+          173,
+          360,
+          190
+        ],
+        "text": "President"
+      }
+    ]
+  },
+  {
+    "box": [
+      495,
+      170,
+      672,
+      188
+    ],
+    "text": "DAVID M. KEISER, Secretary",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          496,
+          172,
+          535,
+          187
+        ],
+        "text": "DAVID"
+      },
+      {
+        "box": [
+          540,
+          172,
+          562,
+          187
+        ],
+        "text": "M."
+      },
+      {
+        "box": [
+          565,
+          173,
+          612,
+          188
+        ],
+        "text": "KEISER,"
+      },
+      {
+        "box": [
+          615,
+          173,
+          673,
+          188
+        ],
+        "text": "Secretary"
+      }
+    ]
+  },
+  {
+    "box": [
+      134,
+      192,
+      369,
+      206
+    ],
+    "text": "DOUGLAS E. SCALLEY, Vice President",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          135,
+          193,
+          192,
+          208
+        ],
+        "text": "DOUGLAS"
+      },
+      {
+        "box": [
+          195,
+          193,
+          212,
+          208
+        ],
+        "text": "E."
+      },
+      {
+        "box": [
+          214,
+          193,
+          273,
+          207
+        ],
+        "text": "SCALLEY,"
+      },
+      {
+        "box": [
+          276,
+          192,
+          306,
+          207
+        ],
+        "text": "Vice"
+      },
+      {
+        "box": [
+          309,
+          192,
+          369,
+          207
+        ],
+        "text": "President"
+      }
+    ]
+  },
+  {
+    "box": [
+      495,
+      189,
+      729,
+      205
+    ],
+    "text": "ODY H. LAMBORN, Executive Director",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          497,
+          190,
+          523,
+          206
+        ],
+        "text": "ODY"
+      },
+      {
+        "box": [
+          526,
+          190,
+          541,
+          206
+        ],
+        "text": "H."
+      },
+      {
+        "box": [
+          545,
+          190,
+          607,
+          206
+        ],
+        "text": "LAMBORN,"
+      },
+      {
+        "box": [
+          611,
+          190,
+          671,
+          206
+        ],
+        "text": "Executive"
+      },
+      {
+        "box": [
+          675,
+          190,
+          728,
+          206
+        ],
+        "text": "Director"
+      }
+    ]
+  },
+  {
+    "box": [
+      297,
+      209,
+      564,
+      224
+    ],
+    "text": "ROBERT C. HOCKETT, Scientific Director",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          300,
+          210,
+          351,
+          225
+        ],
+        "text": "ROBERT"
+      },
+      {
+        "box": [
+          356,
+          209,
+          374,
+          225
+        ],
+        "text": "C."
+      },
+      {
+        "box": [
+          377,
+          209,
+          442,
+          225
+        ],
+        "text": "HOCKETT,"
+      },
+      {
+        "box": [
+          445,
+          209,
+          504,
+          225
+        ],
+        "text": "Scientific"
+      },
+      {
+        "box": [
+          508,
+          209,
+          563,
+          224
+        ],
+        "text": "Director"
+      }
+    ]
+  },
+  {
+    "box": [
+      382,
+      256,
+      474,
+      271
+    ],
+    "text": "DIRECTORS",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          385,
+          258,
+          474,
+          271
+        ],
+        "text": "DIRECTORS"
+      }
+    ]
+  },
+  {
+    "box": [
+      78,
+      287,
+      196,
+      300
+    ],
+    "text": "JOSEPH F. ABBOTT",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          79,
+          287,
+          121,
+          301
+        ],
+        "text": "JOSEPH"
+      },
+      {
+        "box": [
+          128,
+          287,
+          145,
+          301
+        ],
+        "text": "F."
+      },
+      {
+        "box": [
+          147,
+          287,
+          196,
+          300
+        ],
+        "text": "ABBOTT"
+      }
+    ]
+  },
+  {
+    "box": [
+      446,
+      282,
+      550,
+      297
+    ],
+    "text": "CARL S. NADLER",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          446,
+          284,
+          480,
+          297
+        ],
+        "text": "CARL"
+      },
+      {
+        "box": [
+          484,
+          283,
+          499,
+          297
+        ],
+        "text": "S."
+      },
+      {
+        "box": [
+          501,
+          284,
+          550,
+          297
+        ],
+        "text": "NADLER"
+      }
+    ]
+  },
+  {
+    "box": [
+      88,
+      301,
+      323,
+      315
+    ],
+    "text": "President, The American Sugar Refining Co.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          89,
+          303,
+          144,
+          315
+        ],
+        "text": "President,"
+      },
+      {
+        "box": [
+          147,
+          303,
+          168,
+          315
+        ],
+        "text": "The"
+      },
+      {
+        "box": [
+          170,
+          303,
+          220,
+          316
+        ],
+        "text": "American"
+      },
+      {
+        "box": [
+          224,
+          303,
+          255,
+          316
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          257,
+          302,
+          303,
+          316
+        ],
+        "text": "Refining"
+      },
+      {
+        "box": [
+          306,
+          302,
+          323,
+          316
+        ],
+        "text": "Co."
+      }
+    ]
+  },
+  {
+    "box": [
+      456,
+      298,
+      662,
+      313
+    ],
+    "text": "President, South Porto Rico Sugar Co.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          457,
+          300,
+          510,
+          311
+        ],
+        "text": "President,"
+      },
+      {
+        "box": [
+          512,
+          300,
+          541,
+          311
+        ],
+        "text": "South"
+      },
+      {
+        "box": [
+          546,
+          300,
+          576,
+          312
+        ],
+        "text": "Porto"
+      },
+      {
+        "box": [
+          581,
+          300,
+          605,
+          312
+        ],
+        "text": "Rico"
+      },
+      {
+        "box": [
+          608,
+          299,
+          640,
+          312
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          642,
+          299,
+          662,
+          313
+        ],
+        "text": "Co."
+      }
+    ]
+  },
+  {
+    "box": [
+      78,
+      321,
+      222,
+      334
+    ],
+    "text": "OSCAR DIAZ ALBERTINI",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          79,
+          322,
+          117,
+          335
+        ],
+        "text": "OSCAR"
+      },
+      {
+        "box": [
+          123,
+          322,
+          154,
+          335
+        ],
+        "text": "DIAZ"
+      },
+      {
+        "box": [
+          159,
+          321,
+          222,
+          334
+        ],
+        "text": "ALBERTINI"
+      }
+    ]
+  },
+  {
+    "box": [
+      444,
+      318,
+      556,
+      331
+    ],
+    "text": "H. HARVEY PIKE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          445,
+          318,
+          466,
+          331
+        ],
+        "text": "H."
+      },
+      {
+        "box": [
+          468,
+          318,
+          519,
+          331
+        ],
+        "text": "HARVEY"
+      },
+      {
+        "box": [
+          524,
+          318,
+          554,
+          331
+        ],
+        "text": "PIKE"
+      }
+    ]
+  },
+  {
+    "box": [
+      89,
+      336,
+      277,
+      349
+    ],
+    "text": "Cuban Sugar Stabilization Institute",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          91,
+          336,
+          125,
+          348
+        ],
+        "text": "Cuban"
+      },
+      {
+        "box": [
+          128,
+          337,
+          160,
+          348
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          162,
+          337,
+          227,
+          348
+        ],
+        "text": "Stabilization"
+      },
+      {
+        "box": [
+          232,
+          337,
+          277,
+          349
+        ],
+        "text": "Institute"
+      }
+    ]
+  },
+  {
+    "box": [
+      454,
+      331,
+      631,
+      346
+    ],
+    "text": "President, H. H. Pike & Co., Inc.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          457,
+          333,
+          511,
+          346
+        ],
+        "text": "President,"
+      },
+      {
+        "box": [
+          513,
+          333,
+          529,
+          346
+        ],
+        "text": "H."
+      },
+      {
+        "box": [
+          531,
+          332,
+          546,
+          346
+        ],
+        "text": "H."
+      },
+      {
+        "box": [
+          548,
+          332,
+          573,
+          346
+        ],
+        "text": "Pike"
+      },
+      {
+        "box": [
+          575,
+          333,
+          584,
+          346
+        ],
+        "text": "&"
+      },
+      {
+        "box": [
+          587,
+          333,
+          608,
+          346
+        ],
+        "text": "Co.,"
+      },
+      {
+        "box": [
+          611,
+          333,
+          632,
+          347
+        ],
+        "text": "Inc."
+      }
+    ]
+  },
+  {
+    "box": [
+      80,
+      354,
+      206,
+      369
+    ],
+    "text": "EDWARD C. BOSTOCK",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          80,
+          355,
+          130,
+          368
+        ],
+        "text": "EDWARD"
+      },
+      {
+        "box": [
+          134,
+          355,
+          152,
+          368
+        ],
+        "text": "C."
+      },
+      {
+        "box": [
+          154,
+          355,
+          207,
+          369
+        ],
+        "text": "BOSTOCK"
+      }
+    ]
+  },
+  {
+    "box": [
+      445,
+      350,
+      574,
+      367
+    ],
+    "text": "LOUIS V. PLACE, JR.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          447,
+          352,
+          486,
+          367
+        ],
+        "text": "LOUIS"
+      },
+      {
+        "box": [
+          489,
+          352,
+          506,
+          367
+        ],
+        "text": "V."
+      },
+      {
+        "box": [
+          509,
+          352,
+          555,
+          367
+        ],
+        "text": "PLACE,"
+      },
+      {
+        "box": [
+          557,
+          353,
+          575,
+          368
+        ],
+        "text": "JR."
+      }
+    ]
+  },
+  {
+    "box": [
+      90,
+      369,
+      325,
+      384
+    ],
+    "text": "Chairman of the Board, Michigan Sugar Co.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          90,
+          371,
+          141,
+          383
+        ],
+        "text": "Chairman"
+      },
+      {
+        "box": [
+          145,
+          371,
+          159,
+          383
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          161,
+          371,
+          179,
+          383
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          182,
+          370,
+          219,
+          383
+        ],
+        "text": "Board,"
+      },
+      {
+        "box": [
+          221,
+          370,
+          269,
+          384
+        ],
+        "text": "Michigan"
+      },
+      {
+        "box": [
+          274,
+          370,
+          305,
+          384
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          309,
+          370,
+          325,
+          384
+        ],
+        "text": "Co."
+      }
+    ]
+  },
+  {
+    "box": [
+      456,
+      367,
+      771,
+      381
+    ],
+    "text": "Vice-President, The Philadelphia Sugar Refining Company",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          458,
+          369,
+          537,
+          380
+        ],
+        "text": "Vice-President,"
+      },
+      {
+        "box": [
+          541,
+          368,
+          562,
+          381
+        ],
+        "text": "The"
+      },
+      {
+        "box": [
+          567,
+          368,
+          633,
+          381
+        ],
+        "text": "Philadelphia"
+      },
+      {
+        "box": [
+          639,
+          368,
+          668,
+          381
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          673,
+          368,
+          717,
+          381
+        ],
+        "text": "Refining"
+      },
+      {
+        "box": [
+          724,
+          368,
+          771,
+          381
+        ],
+        "text": "Company"
+      }
+    ]
+  },
+  {
+    "box": [
+      79,
+      389,
+      206,
+      403
+    ],
+    "text": "ELLSWORTH BUNKER",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          80,
+          389,
+          148,
+          403
+        ],
+        "text": "ELLSWORTH"
+      },
+      {
+        "box": [
+          156,
+          391,
+          204,
+          402
+        ],
+        "text": "BUNKER"
+      }
+    ]
+  },
+  {
+    "box": [
+      448,
+      385,
+      657,
+      403
+    ],
+    "text": "TEODORO SANTIESTEBAN SANJUAN",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          449,
+          387,
+          505,
+          401
+        ],
+        "text": "TEODORO"
+      },
+      {
+        "box": [
+          509,
+          388,
+          594,
+          401
+        ],
+        "text": "SANTIESTEBAN"
+      },
+      {
+        "box": [
+          599,
+          388,
+          655,
+          403
+        ],
+        "text": "SANJUAN"
+      }
+    ]
+  },
+  {
+    "box": [
+      86,
+      404,
+      309,
+      418
+    ],
+    "text": "President, The National Sugar Refining Co.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          89,
+          405,
+          141,
+          416
+        ],
+        "text": "President,"
+      },
+      {
+        "box": [
+          144,
+          405,
+          163,
+          416
+        ],
+        "text": "The"
+      },
+      {
+        "box": [
+          166,
+          405,
+          211,
+          417
+        ],
+        "text": "National"
+      },
+      {
+        "box": [
+          213,
+          405,
+          242,
+          417
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          245,
+          405,
+          289,
+          418
+        ],
+        "text": "Refining"
+      },
+      {
+        "box": [
+          292,
+          405,
+          309,
+          418
+        ],
+        "text": "Co."
+      }
+    ]
+  },
+  {
+    "box": [
+      458,
+      402,
+      623,
+      415
+    ],
+    "text": "Asociacion de Colonos de Cuba",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          458,
+          403,
+          512,
+          415
+        ],
+        "text": "Asociacion"
+      },
+      {
+        "box": [
+          517,
+          403,
+          529,
+          415
+        ],
+        "text": "de"
+      },
+      {
+        "box": [
+          533,
+          403,
+          576,
+          415
+        ],
+        "text": "Colonos"
+      },
+      {
+        "box": [
+          579,
+          403,
+          592,
+          415
+        ],
+        "text": "de"
+      },
+      {
+        "box": [
+          595,
+          403,
+          623,
+          415
+        ],
+        "text": "Cuba"
+      }
+    ]
+  },
+  {
+    "box": [
+      80,
+      422,
+      200,
+      437
+    ],
+    "text": "ERNEST W. GREENE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          80,
+          423,
+          125,
+          436
+        ],
+        "text": "ERNEST"
+      },
+      {
+        "box": [
+          130,
+          423,
+          152,
+          436
+        ],
+        "text": "W."
+      },
+      {
+        "box": [
+          154,
+          423,
+          201,
+          436
+        ],
+        "text": "GREENE"
+      }
+    ]
+  },
+  {
+    "box": [
+      448,
+      419,
+      579,
+      435
+    ],
+    "text": "DOUGLAS E. SCALLEY",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          448,
+          420,
+          504,
+          435
+        ],
+        "text": "DOUGLAS"
+      },
+      {
+        "box": [
+          507,
+          421,
+          525,
+          435
+        ],
+        "text": "E."
+      },
+      {
+        "box": [
+          527,
+          421,
+          580,
+          435
+        ],
+        "text": "SCALLEY"
+      }
+    ]
+  },
+  {
+    "box": [
+      86,
+      437,
+      365,
+      451
+    ],
+    "text": "Vice-President, Hawaiian Sugar Planters' Association",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          89,
+          439,
+          168,
+          452
+        ],
+        "text": "Vice-President,"
+      },
+      {
+        "box": [
+          169,
+          439,
+          219,
+          452
+        ],
+        "text": "Hawaiian"
+      },
+      {
+        "box": [
+          222,
+          439,
+          253,
+          452
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          255,
+          439,
+          303,
+          451
+        ],
+        "text": "Planters'"
+      },
+      {
+        "box": [
+          305,
+          438,
+          361,
+          450
+        ],
+        "text": "Association"
+      }
+    ]
+  },
+  {
+    "box": [
+      455,
+      435,
+      773,
+      449
+    ],
+    "text": "Vice-President and General Manager, Utah-Idaho Sugar Co.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          458,
+          436,
+          533,
+          449
+        ],
+        "text": "Vice-President"
+      },
+      {
+        "box": [
+          535,
+          436,
+          555,
+          449
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          560,
+          436,
+          603,
+          449
+        ],
+        "text": "General"
+      },
+      {
+        "box": [
+          605,
+          436,
+          655,
+          449
+        ],
+        "text": "Manager,"
+      },
+      {
+        "box": [
+          657,
+          436,
+          717,
+          449
+        ],
+        "text": "Utah-Idaho"
+      },
+      {
+        "box": [
+          720,
+          436,
+          752,
+          449
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          755,
+          436,
+          773,
+          449
+        ],
+        "text": "Co."
+      }
+    ]
+  },
+  {
+    "box": [
+      78,
+      455,
+      188,
+      471
+    ],
+    "text": "DAVID M. KEISER",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          78,
+          456,
+          117,
+          470
+        ],
+        "text": "DAVID"
+      },
+      {
+        "box": [
+          122,
+          457,
+          145,
+          471
+        ],
+        "text": "M."
+      },
+      {
+        "box": [
+          147,
+          457,
+          189,
+          471
+        ],
+        "text": "KEISER"
+      }
+    ]
+  },
+  {
+    "box": [
+      448,
+      453,
+      596,
+      470
+    ],
+    "text": "LEWIS J. SEIDENSTICKER",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          448,
+          454,
+          487,
+          469
+        ],
+        "text": "LEWIS"
+      },
+      {
+        "box": [
+          491,
+          455,
+          504,
+          469
+        ],
+        "text": "J."
+      },
+      {
+        "box": [
+          507,
+          455,
+          596,
+          469
+        ],
+        "text": "SEIDENSTICKER"
+      }
+    ]
+  },
+  {
+    "box": [
+      88,
+      472,
+      276,
+      485
+    ],
+    "text": "President, Colonial Sugars Company",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          89,
+          473,
+          143,
+          484
+        ],
+        "text": "President,"
+      },
+      {
+        "box": [
+          145,
+          473,
+          190,
+          484
+        ],
+        "text": "Colonial"
+      },
+      {
+        "box": [
+          192,
+          473,
+          227,
+          485
+        ],
+        "text": "Sugars"
+      },
+      {
+        "box": [
+          229,
+          473,
+          277,
+          486
+        ],
+        "text": "Company"
+      }
+    ]
+  },
+  {
+    "box": [
+      457,
+      469,
+      671,
+      484
+    ],
+    "text": "President, Atlantic Sugar Refineries, Ltd.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          457,
+          471,
+          511,
+          483
+        ],
+        "text": "President,"
+      },
+      {
+        "box": [
+          513,
+          471,
+          556,
+          483
+        ],
+        "text": "Atlantic"
+      },
+      {
+        "box": [
+          558,
+          470,
+          590,
+          483
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          592,
+          470,
+          648,
+          484
+        ],
+        "text": "Refineries,"
+      },
+      {
+        "box": [
+          650,
+          470,
+          671,
+          484
+        ],
+        "text": "Ltd."
+      }
+    ]
+  },
+  {
+    "box": [
+      80,
+      489,
+      156,
+      504
+    ],
+    "text": "NEIL KELLY",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          80,
+          490,
+          111,
+          505
+        ],
+        "text": "NEIL"
+      },
+      {
+        "box": [
+          115,
+          490,
+          157,
+          504
+        ],
+        "text": "KELLY"
+      }
+    ]
+  },
+  {
+    "box": [
+      446,
+      488,
+      531,
+      504
+    ],
+    "text": "JOHN SPEYER",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          447,
+          489,
+          480,
+          504
+        ],
+        "text": "JOHN"
+      },
+      {
+        "box": [
+          485,
+          489,
+          531,
+          504
+        ],
+        "text": "SPEYER"
+      }
+    ]
+  },
+  {
+    "box": [
+      87,
+      505,
+      335,
+      520
+    ],
+    "text": "Secretary, United States Beet Sugar Association",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          89,
+          506,
+          141,
+          519
+        ],
+        "text": "Secretary,"
+      },
+      {
+        "box": [
+          143,
+          506,
+          179,
+          520
+        ],
+        "text": "United"
+      },
+      {
+        "box": [
+          181,
+          506,
+          213,
+          520
+        ],
+        "text": "States"
+      },
+      {
+        "box": [
+          216,
+          506,
+          240,
+          520
+        ],
+        "text": "Beet"
+      },
+      {
+        "box": [
+          242,
+          506,
+          274,
+          519
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          276,
+          506,
+          334,
+          519
+        ],
+        "text": "Association"
+      }
+    ]
+  },
+  {
+    "box": [
+      455,
+      501,
+      677,
+      518
+    ],
+    "text": "Vice-President, Alexander & Baldwin, Ltd.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          457,
+          504,
+          535,
+          516
+        ],
+        "text": "Vice-President,"
+      },
+      {
+        "box": [
+          537,
+          504,
+          591,
+          517
+        ],
+        "text": "Alexander"
+      },
+      {
+        "box": [
+          594,
+          503,
+          603,
+          517
+        ],
+        "text": "&"
+      },
+      {
+        "box": [
+          606,
+          503,
+          653,
+          518
+        ],
+        "text": "Baldwin,"
+      },
+      {
+        "box": [
+          656,
+          503,
+          677,
+          518
+        ],
+        "text": "Ltd."
+      }
+    ]
+  },
+  {
+    "box": [
+      79,
+      523,
+      189,
+      540
+    ],
+    "text": "W. J. MCGREGOR",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          79,
+          524,
+          101,
+          540
+        ],
+        "text": "W."
+      },
+      {
+        "box": [
+          104,
+          524,
+          117,
+          540
+        ],
+        "text": "J."
+      },
+      {
+        "box": [
+          120,
+          525,
+          190,
+          540
+        ],
+        "text": "MCGREGOR"
+      }
+    ]
+  },
+  {
+    "box": [
+      449,
+      521,
+      531,
+      537
+    ],
+    "text": "W. N. WILDS",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          449,
+          521,
+          468,
+          536
+        ],
+        "text": "W."
+      },
+      {
+        "box": [
+          470,
+          522,
+          491,
+          536
+        ],
+        "text": "N."
+      },
+      {
+        "box": [
+          494,
+          522,
+          532,
+          537
+        ],
+        "text": "WILDS"
+      }
+    ]
+  },
+  {
+    "box": [
+      86,
+      539,
+      333,
+      553
+    ],
+    "text": "President, Canada & Dominion Sugar Co., Ltd.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          88,
+          540,
+          141,
+          553
+        ],
+        "text": "President,"
+      },
+      {
+        "box": [
+          143,
+          540,
+          183,
+          553
+        ],
+        "text": "Canada"
+      },
+      {
+        "box": [
+          186,
+          540,
+          194,
+          553
+        ],
+        "text": "&"
+      },
+      {
+        "box": [
+          198,
+          540,
+          250,
+          553
+        ],
+        "text": "Dominion"
+      },
+      {
+        "box": [
+          253,
+          539,
+          285,
+          553
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          287,
+          539,
+          308,
+          553
+        ],
+        "text": "Co.,"
+      },
+      {
+        "box": [
+          310,
+          539,
+          333,
+          553
+        ],
+        "text": "Ltd."
+      }
+    ]
+  },
+  {
+    "box": [
+      455,
+      537,
+      656,
+      552
+    ],
+    "text": "President, American Crystal Sugar Co.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          457,
+          539,
+          510,
+          551
+        ],
+        "text": "President,"
+      },
+      {
+        "box": [
+          512,
+          539,
+          561,
+          551
+        ],
+        "text": "American"
+      },
+      {
+        "box": [
+          565,
+          539,
+          602,
+          552
+        ],
+        "text": "Crystal"
+      },
+      {
+        "box": [
+          604,
+          538,
+          635,
+          552
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          637,
+          538,
+          657,
+          552
+        ],
+        "text": "Co."
+      }
+    ]
+  },
+  {
+    "box": [
+      332,
+      577,
+      524,
+      593
+    ],
+    "text": "EXECUTIVE COMMITTEE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          336,
+          578,
+          423,
+          592
+        ],
+        "text": "EXECUTIVE"
+      },
+      {
+        "box": [
+          429,
+          579,
+          524,
+          593
+        ],
+        "text": "COMMITTEE"
+      }
+    ]
+  },
+  {
+    "box": [
+      104,
+      606,
+      220,
+      622
+    ],
+    "text": "JOSEPH F. ABBOTT",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          106,
+          607,
+          148,
+          622
+        ],
+        "text": "JOSEPH"
+      },
+      {
+        "box": [
+          155,
+          607,
+          171,
+          622
+        ],
+        "text": "F."
+      },
+      {
+        "box": [
+          174,
+          607,
+          220,
+          622
+        ],
+        "text": "ABBOTT"
+      }
+    ]
+  },
+  {
+    "box": [
+      344,
+      604,
+      469,
+      620
+    ],
+    "text": "ELLSWORTH BUNKER",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          346,
+          605,
+          415,
+          619
+        ],
+        "text": "ELLSWORTH"
+      },
+      {
+        "box": [
+          422,
+          606,
+          470,
+          620
+        ],
+        "text": "BUNKER"
+      }
+    ]
+  },
+  {
+    "box": [
+      580,
+      603,
+      686,
+      620
+    ],
+    "text": "CARL S. NADLER",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          580,
+          604,
+          614,
+          620
+        ],
+        "text": "CARL"
+      },
+      {
+        "box": [
+          618,
+          605,
+          633,
+          620
+        ],
+        "text": "S."
+      },
+      {
+        "box": [
+          636,
+          605,
+          686,
+          620
+        ],
+        "text": "NADLER"
+      }
+    ]
+  },
+  {
+    "box": [
+      106,
+      624,
+      249,
+      640
+    ],
+    "text": "OSCAR DIAZ ALBERTINI",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          106,
+          625,
+          145,
+          639
+        ],
+        "text": "OSCAR"
+      },
+      {
+        "box": [
+          150,
+          625,
+          182,
+          639
+        ],
+        "text": "DIAZ"
+      },
+      {
+        "box": [
+          186,
+          626,
+          249,
+          640
+        ],
+        "text": "ALBERTINI"
+      }
+    ]
+  },
+  {
+    "box": [
+      345,
+      622,
+      469,
+      638
+    ],
+    "text": "ERNEST W. GREENE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          346,
+          623,
+          392,
+          638
+        ],
+        "text": "ERNEST"
+      },
+      {
+        "box": [
+          396,
+          624,
+          417,
+          638
+        ],
+        "text": "W."
+      },
+      {
+        "box": [
+          420,
+          624,
+          469,
+          638
+        ],
+        "text": "GREENE"
+      }
+    ]
+  },
+  {
+    "box": [
+      578,
+      622,
+      686,
+      638
+    ],
+    "text": "H. HARVEY PIKE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          579,
+          623,
+          600,
+          637
+        ],
+        "text": "H."
+      },
+      {
+        "box": [
+          602,
+          623,
+          653,
+          638
+        ],
+        "text": "HARVEY"
+      },
+      {
+        "box": [
+          658,
+          623,
+          687,
+          638
+        ],
+        "text": "PIKE"
+      }
+    ]
+  },
+  {
+    "box": [
+      102,
+      644,
+      233,
+      658
+    ],
+    "text": "EDWARD C. BOSTOCK",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          104,
+          644,
+          155,
+          658
+        ],
+        "text": "EDWARD"
+      },
+      {
+        "box": [
+          159,
+          644,
+          178,
+          658
+        ],
+        "text": "C."
+      },
+      {
+        "box": [
+          180,
+          644,
+          232,
+          658
+        ],
+        "text": "BOSTOCK"
+      }
+    ]
+  },
+  {
+    "box": [
+      344,
+      641,
+      422,
+      656
+    ],
+    "text": "NEIL KELLY",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          345,
+          642,
+          376,
+          656
+        ],
+        "text": "NEIL"
+      },
+      {
+        "box": [
+          382,
+          642,
+          422,
+          656
+        ],
+        "text": "KELLY"
+      }
+    ]
+  },
+  {
+    "box": [
+      579,
+      640,
+      708,
+      659
+    ],
+    "text": "LOUIS V. PLACE, JR.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          580,
+          642,
+          619,
+          657
+        ],
+        "text": "LOUIS"
+      },
+      {
+        "box": [
+          623,
+          642,
+          639,
+          657
+        ],
+        "text": "V."
+      },
+      {
+        "box": [
+          643,
+          642,
+          688,
+          658
+        ],
+        "text": "PLACE,"
+      },
+      {
+        "box": [
+          691,
+          642,
+          707,
+          659
+        ],
+        "text": "JR."
+      }
+    ]
+  },
+  {
+    "box": [
+      219,
+      683,
+      641,
+      699
+    ],
+    "text": "MEMBERS OF THE SCIENTIFIC ADVISORY COMMITTEE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          221,
+          686,
+          297,
+          700
+        ],
+        "text": "MEMBERS"
+      },
+      {
+        "box": [
+          302,
+          684,
+          323,
+          700
+        ],
+        "text": "OF"
+      },
+      {
+        "box": [
+          330,
+          684,
+          362,
+          700
+        ],
+        "text": "THE"
+      },
+      {
+        "box": [
+          369,
+          684,
+          454,
+          699
+        ],
+        "text": "SCIENTIFIC"
+      },
+      {
+        "box": [
+          461,
+          683,
+          538,
+          699
+        ],
+        "text": "ADVISORY"
+      },
+      {
+        "box": [
+          543,
+          683,
+          640,
+          700
+        ],
+        "text": "COMMITTEE"
+      }
+    ]
+  },
+  {
+    "box": [
+      327,
+      706,
+      529,
+      723
+    ],
+    "text": "ROBERT C. HOCKETT, Chairman",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          329,
+          708,
+          378,
+          723
+        ],
+        "text": "ROBERT"
+      },
+      {
+        "box": [
+          382,
+          707,
+          400,
+          723
+        ],
+        "text": "C."
+      },
+      {
+        "box": [
+          403,
+          707,
+          466,
+          723
+        ],
+        "text": "HOCKETT,"
+      },
+      {
+        "box": [
+          468,
+          708,
+          529,
+          722
+        ],
+        "text": "Chairman"
+      }
+    ]
+  },
+  {
+    "box": [
+      76,
+      736,
+      171,
+      750
+    ],
+    "text": "P. W. ALSTON",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          77,
+          737,
+          94,
+          750
+        ],
+        "text": "P."
+      },
+      {
+        "box": [
+          97,
+          737,
+          119,
+          750
+        ],
+        "text": "W."
+      },
+      {
+        "box": [
+          122,
+          737,
+          166,
+          750
+        ],
+        "text": "ALSTON"
+      }
+    ]
+  },
+  {
+    "box": [
+      446,
+      734,
+      541,
+      747
+    ],
+    "text": "A. L. HOLVEN",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          447,
+          735,
+          464,
+          748
+        ],
+        "text": "A."
+      },
+      {
+        "box": [
+          466,
+          735,
+          485,
+          747
+        ],
+        "text": "L."
+      },
+      {
+        "box": [
+          486,
+          735,
+          536,
+          748
+        ],
+        "text": "HOLVEN"
+      }
+    ]
+  },
+  {
+    "box": [
+      86,
+      752,
+      214,
+      763
+    ],
+    "text": "Western Sugar Refinery",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          88,
+          753,
+          129,
+          764
+        ],
+        "text": "Western"
+      },
+      {
+        "box": [
+          135,
+          753,
+          166,
+          764
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          169,
+          752,
+          214,
+          764
+        ],
+        "text": "Refinery"
+      }
+    ]
+  },
+  {
+    "box": [
+      455,
+      748,
+      760,
+      764
+    ],
+    "text": "California and Hawaiian Sugar Refining Corporation, Ltd.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          457,
+          749,
+          510,
+          763
+        ],
+        "text": "California"
+      },
+      {
+        "box": [
+          512,
+          750,
+          534,
+          763
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          536,
+          750,
+          586,
+          763
+        ],
+        "text": "Hawaiian"
+      },
+      {
+        "box": [
+          589,
+          750,
+          619,
+          764
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          622,
+          750,
+          667,
+          764
+        ],
+        "text": "Refining"
+      },
+      {
+        "box": [
+          670,
+          751,
+          735,
+          764
+        ],
+        "text": "Corporation,"
+      },
+      {
+        "box": [
+          738,
+          750,
+          760,
+          763
+        ],
+        "text": "Ltd."
+      }
+    ]
+  },
+  {
+    "box": [
+      78,
+      770,
+      147,
+      783
+    ],
+    "text": "JOHN BASS",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          79,
+          771,
+          110,
+          784
+        ],
+        "text": "JOHN"
+      },
+      {
+        "box": [
+          116,
+          771,
+          147,
+          783
+        ],
+        "text": "BASS"
+      }
+    ]
+  },
+  {
+    "box": [
+      447,
+      766,
+      555,
+      783
+    ],
+    "text": "MARY F. HUGHES",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          447,
+          767,
+          484,
+          782
+        ],
+        "text": "MARY"
+      },
+      {
+        "box": [
+          489,
+          768,
+          506,
+          782
+        ],
+        "text": "F."
+      },
+      {
+        "box": [
+          508,
+          768,
+          555,
+          782
+        ],
+        "text": "HUGHES"
+      }
+    ]
+  },
+  {
+    "box": [
+      88,
+      786,
+      319,
+      798
+    ],
+    "text": "The Fajardo Sugar Company of Porto Rico",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          89,
+          786,
+          112,
+          799
+        ],
+        "text": "The"
+      },
+      {
+        "box": [
+          114,
+          786,
+          155,
+          800
+        ],
+        "text": "Fajardo"
+      },
+      {
+        "box": [
+          158,
+          786,
+          189,
+          800
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          192,
+          786,
+          242,
+          799
+        ],
+        "text": "Company"
+      },
+      {
+        "box": [
+          244,
+          786,
+          257,
+          799
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          259,
+          786,
+          290,
+          798
+        ],
+        "text": "Porto"
+      },
+      {
+        "box": [
+          293,
+          786,
+          319,
+          797
+        ],
+        "text": "Rico"
+      }
+    ]
+  },
+  {
+    "box": [
+      455,
+      783,
+      610,
+      797
+    ],
+    "text": "Refined Syrups & Sugars, Inc.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          458,
+          784,
+          498,
+          796
+        ],
+        "text": "Refined"
+      },
+      {
+        "box": [
+          500,
+          784,
+          536,
+          797
+        ],
+        "text": "Syrups"
+      },
+      {
+        "box": [
+          538,
+          784,
+          545,
+          797
+        ],
+        "text": "&"
+      },
+      {
+        "box": [
+          549,
+          784,
+          587,
+          797
+        ],
+        "text": "Sugars,"
+      },
+      {
+        "box": [
+          589,
+          784,
+          611,
+          797
+        ],
+        "text": "Inc."
+      }
+    ]
+  },
+  {
+    "box": [
+      75,
+      804,
+      167,
+      819
+    ],
+    "text": "J. M. BROWN",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          78,
+          805,
+          92,
+          819
+        ],
+        "text": "J."
+      },
+      {
+        "box": [
+          95,
+          805,
+          117,
+          819
+        ],
+        "text": "M."
+      },
+      {
+        "box": [
+          119,
+          804,
+          164,
+          819
+        ],
+        "text": "BROWN"
+      }
+    ]
+  },
+  {
+    "box": [
+      447,
+      802,
+      544,
+      816
+    ],
+    "text": "STROUD JORDAN",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          447,
+          802,
+          491,
+          816
+        ],
+        "text": "STROUD"
+      },
+      {
+        "box": [
+          498,
+          803,
+          542,
+          817
+        ],
+        "text": "JORDAN"
+      }
+    ]
+  },
+  {
+    "box": [
+      86,
+      819,
+      203,
+      833
+    ],
+    "text": "Revere Sugar Refinery",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          88,
+          821,
+          125,
+          832
+        ],
+        "text": "Revere"
+      },
+      {
+        "box": [
+          127,
+          820,
+          157,
+          833
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          160,
+          820,
+          203,
+          833
+        ],
+        "text": "Refinery"
+      }
+    ]
+  },
+  {
+    "box": [
+      456,
+      817,
+      661,
+      832
+    ],
+    "text": "The American Sugar Refining Company",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          459,
+          818,
+          480,
+          830
+        ],
+        "text": "The"
+      },
+      {
+        "box": [
+          482,
+          818,
+          531,
+          831
+        ],
+        "text": "American"
+      },
+      {
+        "box": [
+          534,
+          819,
+          565,
+          832
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          567,
+          819,
+          612,
+          832
+        ],
+        "text": "Refining"
+      },
+      {
+        "box": [
+          614,
+          819,
+          662,
+          832
+        ],
+        "text": "Company"
+      }
+    ]
+  },
+  {
+    "box": [
+      78,
+      836,
+      183,
+      853
+    ],
+    "text": "R. H. COTTRELL",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          78,
+          837,
+          97,
+          851
+        ],
+        "text": "R."
+      },
+      {
+        "box": [
+          99,
+          838,
+          119,
+          852
+        ],
+        "text": "H."
+      },
+      {
+        "box": [
+          121,
+          838,
+          183,
+          853
+        ],
+        "text": "COTTRELL"
+      }
+    ]
+  },
+  {
+    "box": [
+      447,
+      836,
+      571,
+      852
+    ],
+    "text": "ARTHUR G. KELLER",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          447,
+          837,
+          495,
+          851
+        ],
+        "text": "ARTHUR"
+      },
+      {
+        "box": [
+          502,
+          837,
+          520,
+          851
+        ],
+        "text": "G."
+      },
+      {
+        "box": [
+          523,
+          838,
+          570,
+          852
+        ],
+        "text": "KELLER"
+      }
+    ]
+  },
+  {
+    "box": [
+      85,
+      853,
+      268,
+      867
+    ],
+    "text": "The Amalgamated Sugar Company",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          89,
+          855,
+          111,
+          867
+        ],
+        "text": "The"
+      },
+      {
+        "box": [
+          113,
+          855,
+          184,
+          868
+        ],
+        "text": "Amalgamated"
+      },
+      {
+        "box": [
+          186,
+          855,
+          217,
+          868
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          219,
+          854,
+          269,
+          866
+        ],
+        "text": "Company"
+      }
+    ]
+  },
+  {
+    "box": [
+      454,
+      851,
+      565,
+      864
+    ],
+    "text": "Sterling Sugars, Inc.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          457,
+          851,
+          498,
+          864
+        ],
+        "text": "Sterling"
+      },
+      {
+        "box": [
+          500,
+          852,
+          538,
+          864
+        ],
+        "text": "Sugars,"
+      },
+      {
+        "box": [
+          540,
+          852,
+          564,
+          864
+        ],
+        "text": "Inc."
+      }
+    ]
+  },
+  {
+    "box": [
+      76,
+      873,
+      186,
+      886
+    ],
+    "text": "ARTHUR L. DEAN",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          78,
+          873,
+          126,
+          887
+        ],
+        "text": "ARTHUR"
+      },
+      {
+        "box": [
+          131,
+          874,
+          150,
+          887
+        ],
+        "text": "L."
+      },
+      {
+        "box": [
+          152,
+          873,
+          186,
+          886
+        ],
+        "text": "DEAN"
+      }
+    ]
+  },
+  {
+    "box": [
+      445,
+      870,
+      520,
+      884
+    ],
+    "text": "LOUIS LANG",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          446,
+          870,
+          485,
+          884
+        ],
+        "text": "LOUIS"
+      },
+      {
+        "box": [
+          488,
+          871,
+          521,
+          884
+        ],
+        "text": "LANG"
+      }
+    ]
+  },
+  {
+    "box": [
+      86,
+      887,
+      230,
+      900
+    ],
+    "text": "Alexander & Baldwin, Ltd.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          88,
+          889,
+          142,
+          900
+        ],
+        "text": "Alexander"
+      },
+      {
+        "box": [
+          145,
+          889,
+          152,
+          900
+        ],
+        "text": "&"
+      },
+      {
+        "box": [
+          157,
+          889,
+          206,
+          900
+        ],
+        "text": "Baldwin,"
+      },
+      {
+        "box": [
+          208,
+          888,
+          231,
+          900
+        ],
+        "text": "Ltd."
+      }
+    ]
+  },
+  {
+    "box": [
+      455,
+      885,
+      657,
+      900
+    ],
+    "text": "The National Sugar Refining Company",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          458,
+          886,
+          480,
+          898
+        ],
+        "text": "The"
+      },
+      {
+        "box": [
+          482,
+          886,
+          528,
+          899
+        ],
+        "text": "National"
+      },
+      {
+        "box": [
+          530,
+          887,
+          561,
+          899
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          563,
+          887,
+          608,
+          900
+        ],
+        "text": "Refining"
+      },
+      {
+        "box": [
+          610,
+          887,
+          658,
+          900
+        ],
+        "text": "Company"
+      }
+    ]
+  },
+  {
+    "box": [
+      77,
+      907,
+      168,
+      919
+    ],
+    "text": "HOLGER FIGGE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          78,
+          907,
+          127,
+          920
+        ],
+        "text": "HOLGER"
+      },
+      {
+        "box": [
+          132,
+          907,
+          167,
+          920
+        ],
+        "text": "FIGGE"
+      }
+    ]
+  },
+  {
+    "box": [
+      446,
+      903,
+      557,
+      919
+    ],
+    "text": "HAROLD L. LYON",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          447,
+          903,
+          498,
+          920
+        ],
+        "text": "HAROLD"
+      },
+      {
+        "box": [
+          501,
+          905,
+          518,
+          920
+        ],
+        "text": "L."
+      },
+      {
+        "box": [
+          522,
+          905,
+          557,
+          919
+        ],
+        "text": "LYON"
+      }
+    ]
+  },
+  {
+    "box": [
+      85,
+      922,
+      260,
+      935
+    ],
+    "text": "American Crystal Sugar Company",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          89,
+          923,
+          137,
+          935
+        ],
+        "text": "American"
+      },
+      {
+        "box": [
+          141,
+          923,
+          179,
+          935
+        ],
+        "text": "Crystal"
+      },
+      {
+        "box": [
+          181,
+          923,
+          211,
+          935
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          214,
+          923,
+          260,
+          936
+        ],
+        "text": "Company"
+      }
+    ]
+  },
+  {
+    "box": [
+      454,
+      919,
+      648,
+      934
+    ],
+    "text": "Hawaiian Sugar Planters' Association",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          457,
+          920,
+          506,
+          933
+        ],
+        "text": "Hawaiian"
+      },
+      {
+        "box": [
+          509,
+          921,
+          539,
+          933
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          542,
+          921,
+          587,
+          934
+        ],
+        "text": "Planters'"
+      },
+      {
+        "box": [
+          590,
+          921,
+          648,
+          934
+        ],
+        "text": "Association"
+      }
+    ]
+  },
+  {
+    "box": [
+      78,
+      940,
+      209,
+      955
+    ],
+    "text": "FERNANDO GUERRERO",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          78,
+          941,
+          139,
+          955
+        ],
+        "text": "FERNANDO"
+      },
+      {
+        "box": [
+          145,
+          942,
+          208,
+          955
+        ],
+        "text": "GUERRERO"
+      }
+    ]
+  },
+  {
+    "box": [
+      447,
+      937,
+      565,
+      954
+    ],
+    "text": "GEORGE P. MEADE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          447,
+          939,
+          495,
+          953
+        ],
+        "text": "GEORGE"
+      },
+      {
+        "box": [
+          500,
+          939,
+          517,
+          954
+        ],
+        "text": "P."
+      },
+      {
+        "box": [
+          519,
+          939,
+          563,
+          954
+        ],
+        "text": "MEADE"
+      }
+    ]
+  },
+  {
+    "box": [
+      88,
+      955,
+      253,
+      970
+    ],
+    "text": "Cuban Hacendados Association",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          89,
+          956,
+          123,
+          968
+        ],
+        "text": "Cuban"
+      },
+      {
+        "box": [
+          127,
+          956,
+          192,
+          969
+        ],
+        "text": "Hacendados"
+      },
+      {
+        "box": [
+          195,
+          956,
+          252,
+          970
+        ],
+        "text": "Association"
+      }
+    ]
+  },
+  {
+    "box": [
+      454,
+      955,
+      593,
+      966
+    ],
+    "text": "Colonial Sugars Company",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          457,
+          956,
+          503,
+          967
+        ],
+        "text": "Colonial"
+      },
+      {
+        "box": [
+          505,
+          956,
+          540,
+          968
+        ],
+        "text": "Sugars"
+      },
+      {
+        "box": [
+          544,
+          955,
+          593,
+          967
+        ],
+        "text": "Company"
+      }
+    ]
+  },
+  {
+    "box": [
+      328,
+      973,
+      448,
+      988
+    ],
+    "text": "E. WHITMAN RICE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          329,
+          974,
+          345,
+          989
+        ],
+        "text": "E."
+      },
+      {
+        "box": [
+          348,
+          974,
+          410,
+          988
+        ],
+        "text": "WHITMAN"
+      },
+      {
+        "box": [
+          416,
+          973,
+          448,
+          988
+        ],
+        "text": "RICE"
+      }
+    ]
+  },
+  {
+    "box": [
+      336,
+      986,
+      544,
+      1005
+    ],
+    "text": "The National Sugar Refining Company",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          341,
+          989,
+          362,
+          1002
+        ],
+        "text": "The"
+      },
+      {
+        "box": [
+          365,
+          988,
+          411,
+          1003
+        ],
+        "text": "National"
+      },
+      {
+        "box": [
+          413,
+          988,
+          443,
+          1003
+        ],
+        "text": "Sugar"
+      },
+      {
+        "box": [
+          445,
+          988,
+          490,
+          1004
+        ],
+        "text": "Refining"
+      },
+      {
+        "box": [
+          493,
+          988,
+          544,
+          1005
+        ],
+        "text": "Company"
+      }
+    ]
+  },
+  {
+    "box": [
+      60,
+      1050,
+      780,
+      1074
+    ],
+    "text": "Source: https://www.industrydocuments.ucsf.edu/docs/snm10226",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          64,
+          1050,
+          150,
+          1075
+        ],
+        "text": "Source:"
+      },
+      {
+        "box": [
+          155,
+          1050,
+          780,
+          1074
+        ],
+        "text": "https://www.industrydocuments.ucsf.edu/docs/snm10226"
+      }
+    ]
+  }
+]

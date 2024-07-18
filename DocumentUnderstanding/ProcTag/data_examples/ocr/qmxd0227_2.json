@@ -1,0 +1,473 @@
+[
+  {
+    "box": [
+      870,
+      109,
+      1029,
+      134
+    ],
+    "text": "FIRST CLASS",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          873,
+          110,
+          945,
+          133
+        ],
+        "text": "FIRST"
+      },
+      {
+        "box": [
+          953,
+          112,
+          1028,
+          135
+        ],
+        "text": "CLASS"
+      }
+    ]
+  },
+  {
+    "box": [
+      856,
+      164,
+      1036,
+      183
+    ],
+    "text": "PERMIT NO. 6211",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          856,
+          165,
+          937,
+          183
+        ],
+        "text": "PERMIT"
+      },
+      {
+        "box": [
+          946,
+          166,
+          988,
+          183
+        ],
+        "text": "NO."
+      },
+      {
+        "box": [
+          991,
+          166,
+          1036,
+          183
+        ],
+        "text": "6211"
+      }
+    ]
+  },
+  {
+    "box": [
+      854,
+      208,
+      1035,
+      231
+    ],
+    "text": "ST. LOUIS, MO.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          860,
+          210,
+          902,
+          231
+        ],
+        "text": "ST."
+      },
+      {
+        "box": [
+          906,
+          210,
+          990,
+          232
+        ],
+        "text": "LOUIS,"
+      },
+      {
+        "box": [
+          995,
+          209,
+          1034,
+          233
+        ],
+        "text": "MO."
+      }
+    ]
+  },
+  {
+    "box": [
+      328,
+      328,
+      769,
+      366
+    ],
+    "text": "BUSINESS REPLY MAIL",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          330,
+          330,
+          522,
+          366
+        ],
+        "text": "BUSINESS"
+      },
+      {
+        "box": [
+          541,
+          329,
+          661,
+          366
+        ],
+        "text": "REPLY"
+      },
+      {
+        "box": [
+          682,
+          330,
+          770,
+          366
+        ],
+        "text": "MAIL"
+      }
+    ]
+  },
+  {
+    "box": [
+      270,
+      368,
+      869,
+      388
+    ],
+    "text": "No Postage Stamp Necessary If Mailed in the United States",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          274,
+          369,
+          302,
+          388
+        ],
+        "text": "No"
+      },
+      {
+        "box": [
+          311,
+          369,
+          391,
+          389
+        ],
+        "text": "Postage"
+      },
+      {
+        "box": [
+          398,
+          369,
+          455,
+          389
+        ],
+        "text": "Stamp"
+      },
+      {
+        "box": [
+          462,
+          369,
+          566,
+          389
+        ],
+        "text": "Necessary"
+      },
+      {
+        "box": [
+          573,
+          369,
+          592,
+          389
+        ],
+        "text": "If"
+      },
+      {
+        "box": [
+          596,
+          369,
+          663,
+          389
+        ],
+        "text": "Mailed"
+      },
+      {
+        "box": [
+          670,
+          369,
+          689,
+          389
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          696,
+          369,
+          728,
+          388
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          735,
+          368,
+          801,
+          388
+        ],
+        "text": "United"
+      },
+      {
+        "box": [
+          809,
+          368,
+          869,
+          387
+        ],
+        "text": "States"
+      }
+    ]
+  },
+  {
+    "box": [
+      273,
+      420,
+      867,
+      453
+    ],
+    "text": "-POSTAGE WILL BE PAID BY-",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          280,
+          421,
+          492,
+          452
+        ],
+        "text": "-POSTAGE"
+      },
+      {
+        "box": [
+          511,
+          422,
+          593,
+          452
+        ],
+        "text": "WILL"
+      },
+      {
+        "box": [
+          612,
+          422,
+          655,
+          452
+        ],
+        "text": "BE"
+      },
+      {
+        "box": [
+          674,
+          423,
+          754,
+          452
+        ],
+        "text": "PAID"
+      },
+      {
+        "box": [
+          782,
+          423,
+          850,
+          451
+        ],
+        "text": "BY-"
+      }
+    ]
+  },
+  {
+    "box": [
+      318,
+      514,
+      745,
+      539
+    ],
+    "text": "ST. LOUIS HEART ASSOCIATION",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          322,
+          514,
+          368,
+          540
+        ],
+        "text": "ST."
+      },
+      {
+        "box": [
+          373,
+          514,
+          456,
+          539
+        ],
+        "text": "LOUIS"
+      },
+      {
+        "box": [
+          461,
+          514,
+          559,
+          539
+        ],
+        "text": "HEART"
+      },
+      {
+        "box": [
+          569,
+          514,
+          742,
+          539
+        ],
+        "text": "ASSOCIATION"
+      }
+    ]
+  },
+  {
+    "box": [
+      375,
+      567,
+      690,
+      589
+    ],
+    "text": "4643 LINDELL BOULEVARD",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          380,
+          567,
+          436,
+          591
+        ],
+        "text": "4643"
+      },
+      {
+        "box": [
+          443,
+          567,
+          539,
+          591
+        ],
+        "text": "LINDELL"
+      },
+      {
+        "box": [
+          546,
+          567,
+          687,
+          590
+        ],
+        "text": "BOULEVARD"
+      }
+    ]
+  },
+  {
+    "box": [
+      451,
+      626,
+      815,
+      652
+    ],
+    "text": "ST. LOUIS, MISSOURI 63108",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          461,
+          628,
+          503,
+          652
+        ],
+        "text": "ST."
+      },
+      {
+        "box": [
+          514,
+          627,
+          601,
+          653
+        ],
+        "text": "LOUIS,"
+      },
+      {
+        "box": [
+          612,
+          627,
+          736,
+          653
+        ],
+        "text": "MISSOURI"
+      },
+      {
+        "box": [
+          745,
+          627,
+          815,
+          652
+        ],
+        "text": "63108"
+      }
+    ]
+  },
+  {
+    "box": [
+      99,
+      683,
+      1073,
+      711
+    ],
+    "text": "Source. https.//www.industrydocuments.ucsi.edu/docs/qmxd0227",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          108,
+          684,
+          222,
+          712
+        ],
+        "text": "Source."
+      },
+      {
+        "box": [
+          228,
+          684,
+          1072,
+          711
+        ],
+        "text": "https.//www.industrydocuments.ucsi.edu/docs/qmxd0227"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1088 @@
+[
+  {
+    "box": [
+      261,
+      241,
+      321,
+      268
+    ],
+    "text": "TO :",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          266,
+          240,
+          300,
+          267
+        ],
+        "text": "TO"
+      },
+      {
+        "box": [
+          309,
+          241,
+          319,
+          267
+        ],
+        "text": ":"
+      }
+    ]
+  },
+  {
+    "box": [
+      623,
+      239,
+      868,
+      276
+    ],
+    "text": "ISRF Members",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          629,
+          241,
+          708,
+          273
+        ],
+        "text": "ISRF"
+      },
+      {
+        "box": [
+          726,
+          243,
+          868,
+          276
+        ],
+        "text": "Members"
+      }
+    ]
+  },
+  {
+    "box": [
+      262,
+      308,
+      364,
+      336
+    ],
+    "text": "DATE :",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          262,
+          309,
+          343,
+          336
+        ],
+        "text": "DATE"
+      },
+      {
+        "box": [
+          350,
+          310,
+          365,
+          336
+        ],
+        "text": ":"
+      }
+    ]
+  },
+  {
+    "box": [
+      623,
+      307,
+      908,
+      343
+    ],
+    "text": "April 15, 1977",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          625,
+          307,
+          733,
+          343
+        ],
+        "text": "April"
+      },
+      {
+        "box": [
+          751,
+          309,
+          818,
+          343
+        ],
+        "text": "15,"
+      },
+      {
+        "box": [
+          832,
+          309,
+          909,
+          342
+        ],
+        "text": "1977"
+      }
+    ]
+  },
+  {
+    "box": [
+      257,
+      375,
+      419,
+      406
+    ],
+    "text": "SUBJECT :",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          262,
+          376,
+          403,
+          406
+        ],
+        "text": "SUBJECT"
+      },
+      {
+        "box": [
+          408,
+          378,
+          420,
+          406
+        ],
+        "text": ":"
+      }
+    ]
+  },
+  {
+    "box": [
+      625,
+      374,
+      1310,
+      415
+    ],
+    "text": "Recent Literature on Dental Caries",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          627,
+          376,
+          750,
+          410
+        ],
+        "text": "Recent"
+      },
+      {
+        "box": [
+          767,
+          378,
+          970,
+          413
+        ],
+        "text": "Literature"
+      },
+      {
+        "box": [
+          990,
+          380,
+          1029,
+          414
+        ],
+        "text": "on"
+      },
+      {
+        "box": [
+          1047,
+          381,
+          1175,
+          415
+        ],
+        "text": "Dental"
+      },
+      {
+        "box": [
+          1191,
+          380,
+          1310,
+          416
+        ],
+        "text": "Caries"
+      }
+    ]
+  },
+  {
+    "box": [
+      845,
+      676,
+      1018,
+      733
+    ],
+    "text": "ISRF",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          849,
+          676,
+          1016,
+          734
+        ],
+        "text": "ISRF"
+      }
+    ]
+  },
+  {
+    "box": [
+      464,
+      774,
+      1390,
+      842
+    ],
+    "text": "BIBLIOGRAPHIC SURVEY",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          474,
+          777,
+          1058,
+          841
+        ],
+        "text": "BIBLIOGRAPHIC"
+      },
+      {
+        "box": [
+          1090,
+          777,
+          1381,
+          843
+        ],
+        "text": "SURVEY"
+      }
+    ]
+  },
+  {
+    "box": [
+      799,
+      923,
+      1032,
+      1000
+    ],
+    "text": "SUGAR RESEARC",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          815,
+          946,
+          907,
+          969
+        ],
+        "text": "SUGAR"
+      },
+      {
+        "box": [
+          923,
+          922,
+          1016,
+          1001
+        ],
+        "text": "RESEARC"
+      }
+    ]
+  },
+  {
+    "box": [
+      818,
+      1174,
+      1039,
+      1242
+    ],
+    "text": "THI 1968 2HI",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          832,
+          1176,
+          876,
+          1240
+        ],
+        "text": "THI"
+      },
+      {
+        "box": [
+          885,
+          1187,
+          963,
+          1239
+        ],
+        "text": "1968"
+      },
+      {
+        "box": [
+          968,
+          1186,
+          1037,
+          1219
+        ],
+        "text": "2HI"
+      }
+    ]
+  },
+  {
+    "box": [
+      987,
+      1014,
+      1092,
+      1205
+    ],
+    "text": "NOILYOHNO !",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1004,
+          1172,
+          1076,
+          1044
+        ],
+        "text": "NOILYOHNO"
+      },
+      {
+        "box": [
+          1035,
+          1037,
+          1075,
+          1011
+        ],
+        "text": "!"
+      }
+    ]
+  },
+  {
+    "box": [
+      627,
+      1380,
+      1236,
+      1446
+    ],
+    "text": "DENTAL CARIES",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          636,
+          1382,
+          936,
+          1446
+        ],
+        "text": "DENTAL"
+      },
+      {
+        "box": [
+          971,
+          1384,
+          1232,
+          1448
+        ],
+        "text": "CARIES"
+      }
+    ]
+  },
+  {
+    "box": [
+      257,
+      1622,
+      1289,
+      1664
+    ],
+    "text": "Please add to your loose-leaf folder the following:",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          259,
+          1625,
+          381,
+          1658
+        ],
+        "text": "Please"
+      },
+      {
+        "box": [
+          401,
+          1625,
+          462,
+          1659
+        ],
+        "text": "add"
+      },
+      {
+        "box": [
+          484,
+          1625,
+          522,
+          1660
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          542,
+          1626,
+          625,
+          1660
+        ],
+        "text": "your"
+      },
+      {
+        "box": [
+          645,
+          1626,
+          850,
+          1662
+        ],
+        "text": "loose-leaf"
+      },
+      {
+        "box": [
+          868,
+          1627,
+          987,
+          1663
+        ],
+        "text": "folder"
+      },
+      {
+        "box": [
+          1009,
+          1627,
+          1068,
+          1663
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1091,
+          1627,
+          1288,
+          1664
+        ],
+        "text": "following:"
+      }
+    ]
+  },
+  {
+    "box": [
+      448,
+      1686,
+      1282,
+      1732
+    ],
+    "text": "\"Role of carbohydrates in dental caries.\"",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          461,
+          1688,
+          562,
+          1724
+        ],
+        "text": "\"Role"
+      },
+      {
+        "box": [
+          581,
+          1690,
+          628,
+          1726
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          645,
+          1691,
+          907,
+          1731
+        ],
+        "text": "carbohydrates"
+      },
+      {
+        "box": [
+          928,
+          1693,
+          966,
+          1731
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          989,
+          1693,
+          1110,
+          1731
+        ],
+        "text": "dental"
+      },
+      {
+        "box": [
+          1129,
+          1693,
+          1283,
+          1728
+        ],
+        "text": "caries.\""
+      }
+    ]
+  },
+  {
+    "box": [
+      439,
+      1754,
+      1507,
+      1801
+    ],
+    "text": "\"Dental plaque and dietary intakes in schoolchildren",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          461,
+          1756,
+          604,
+          1792
+        ],
+        "text": "\"Dental"
+      },
+      {
+        "box": [
+          622,
+          1759,
+          745,
+          1795
+        ],
+        "text": "plaque"
+      },
+      {
+        "box": [
+          765,
+          1761,
+          825,
+          1796
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          847,
+          1761,
+          986,
+          1798
+        ],
+        "text": "dietary"
+      },
+      {
+        "box": [
+          1006,
+          1763,
+          1149,
+          1799
+        ],
+        "text": "intakes"
+      },
+      {
+        "box": [
+          1166,
+          1763,
+          1205,
+          1799
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1227,
+          1763,
+          1507,
+          1798
+        ],
+        "text": "schoolchildren"
+      }
+    ]
+  },
+  {
+    "box": [
+      477,
+      1791,
+      708,
+      1822
+    ],
+    "text": "in Hawaii. \"",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          482,
+          1793,
+          520,
+          1824
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          540,
+          1794,
+          678,
+          1822
+        ],
+        "text": "Hawaii."
+      },
+      {
+        "box": [
+          685,
+          1791,
+          704,
+          1822
+        ],
+        "text": "\""
+      }
+    ]
+  },
+  {
+    "box": [
+      439,
+      1854,
+      1484,
+      1902
+    ],
+    "text": "\"Effects of sodium trimetaphosphate supplementation",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          460,
+          1855,
+          627,
+          1893
+        ],
+        "text": "\"Effects"
+      },
+      {
+        "box": [
+          643,
+          1859,
+          688,
+          1895
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          704,
+          1860,
+          825,
+          1897
+        ],
+        "text": "sodium"
+      },
+      {
+        "box": [
+          846,
+          1862,
+          1168,
+          1899
+        ],
+        "text": "trimetaphosphate"
+      },
+      {
+        "box": [
+          1186,
+          1866,
+          1484,
+          1897
+        ],
+        "text": "supplementation"
+      }
+    ]
+  },
+  {
+    "box": [
+      478,
+      1892,
+      1585,
+      1934
+    ],
+    "text": "of a high sucrose diet on the microbial and biochemical",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          480,
+          1894,
+          524,
+          1925
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          542,
+          1894,
+          562,
+          1926
+        ],
+        "text": "a"
+      },
+      {
+        "box": [
+          580,
+          1894,
+          663,
+          1927
+        ],
+        "text": "high"
+      },
+      {
+        "box": [
+          684,
+          1895,
+          825,
+          1930
+        ],
+        "text": "sucrose"
+      },
+      {
+        "box": [
+          844,
+          1896,
+          925,
+          1931
+        ],
+        "text": "diet"
+      },
+      {
+        "box": [
+          944,
+          1896,
+          983,
+          1931
+        ],
+        "text": "on"
+      },
+      {
+        "box": [
+          1006,
+          1897,
+          1066,
+          1932
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1082,
+          1897,
+          1270,
+          1933
+        ],
+        "text": "microbial"
+      },
+      {
+        "box": [
+          1287,
+          1898,
+          1348,
+          1933
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          1363,
+          1898,
+          1587,
+          1932
+        ],
+        "text": "biochemical"
+      }
+    ]
+  },
+  {
+    "box": [
+      482,
+      1926,
+      1588,
+      1969
+    ],
+    "text": "composition of four-day plaque and on urine calcium and",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          483,
+          1928,
+          702,
+          1962
+        ],
+        "text": "composition"
+      },
+      {
+        "box": [
+          722,
+          1929,
+          767,
+          1963
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          785,
+          1929,
+          944,
+          1965
+        ],
+        "text": "four-day"
+      },
+      {
+        "box": [
+          962,
+          1930,
+          1085,
+          1966
+        ],
+        "text": "plaque"
+      },
+      {
+        "box": [
+          1104,
+          1931,
+          1168,
+          1967
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          1185,
+          1932,
+          1224,
+          1967
+        ],
+        "text": "on"
+      },
+      {
+        "box": [
+          1245,
+          1932,
+          1345,
+          1967
+        ],
+        "text": "urine"
+      },
+      {
+        "box": [
+          1366,
+          1933,
+          1505,
+          1966
+        ],
+        "text": "calcium"
+      },
+      {
+        "box": [
+          1527,
+          1934,
+          1587,
+          1966
+        ],
+        "text": "and"
+      }
+    ]
+  },
+  {
+    "box": [
+      473,
+      1962,
+      868,
+      1993
+    ],
+    "text": "phosphorus levels.\"",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          479,
+          1963,
+          687,
+          1995
+        ],
+        "text": "phosphorus"
+      },
+      {
+        "box": [
+          705,
+          1963,
+          868,
+          1992
+        ],
+        "text": "levels.\""
+      }
+    ]
+  },
+  {
+    "box": [
+      465,
+      2023,
+      1448,
+      2068
+    ],
+    "text": "\"Distribution of Streptococcus mutans biotypes in",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          465,
+          2026,
+          723,
+          2062
+        ],
+        "text": "\"Distribution"
+      },
+      {
+        "box": [
+          742,
+          2031,
+          786,
+          2063
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          803,
+          2032,
+          1067,
+          2066
+        ],
+        "text": "Streptococcus"
+      },
+      {
+        "box": [
+          1080,
+          2033,
+          1208,
+          2067
+        ],
+        "text": "mutans"
+      },
+      {
+        "box": [
+          1223,
+          2032,
+          1388,
+          2068
+        ],
+        "text": "biotypes"
+      },
+      {
+        "box": [
+          1406,
+          2031,
+          1445,
+          2069
+        ],
+        "text": "in"
+      }
+    ]
+  },
+  {
+    "box": [
+      476,
+      2060,
+      969,
+      2097
+    ],
+    "text": "five human populations. \"",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          483,
+          2060,
+          563,
+          2096
+        ],
+        "text": "five"
+      },
+      {
+        "box": [
+          579,
+          2064,
+          683,
+          2098
+        ],
+        "text": "human"
+      },
+      {
+        "box": [
+          702,
+          2067,
+          936,
+          2094
+        ],
+        "text": "populations."
+      },
+      {
+        "box": [
+          944,
+          2063,
+          965,
+          2093
+        ],
+        "text": "\""
+      }
+    ]
+  },
+  {
+    "box": [
+      391,
+      2161,
+      1316,
+      2200
+    ],
+    "text": "Source: https://www.industrydocuments.ucsf.edu/docs/rIlk0226",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          395,
+          2164,
+          509,
+          2198
+        ],
+        "text": "Source:"
+      },
+      {
+        "box": [
+          515,
+          2165,
+          1317,
+          2200
+        ],
+        "text": "https://www.industrydocuments.ucsf.edu/docs/rIlk0226"
+      }
+    ]
+  }
+]

@@ -1,0 +1,410 @@
+[
+  {
+    "box": [
+      592,
+      642,
+      1028,
+      676
+    ],
+    "text": "Final Progress Report",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          597,
+          642,
+          703,
+          675
+        ],
+        "text": "Final"
+      },
+      {
+        "box": [
+          719,
+          644,
+          887,
+          675
+        ],
+        "text": "Progress"
+      },
+      {
+        "box": [
+          905,
+          645,
+          1028,
+          677
+        ],
+        "text": "Report"
+      }
+    ]
+  },
+  {
+    "box": [
+      680,
+      711,
+      940,
+      741
+    ],
+    "text": "Grant No. 493",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          681,
+          713,
+          784,
+          742
+        ],
+        "text": "Grant"
+      },
+      {
+        "box": [
+          801,
+          711,
+          867,
+          742
+        ],
+        "text": "No."
+      },
+      {
+        "box": [
+          886,
+          711,
+          939,
+          741
+        ],
+        "text": "493"
+      }
+    ]
+  },
+  {
+    "box": [
+      513,
+      778,
+      1106,
+      814
+    ],
+    "text": "Folic Acid Compounds in Foods",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          519,
+          779,
+          624,
+          813
+        ],
+        "text": "Folic"
+      },
+      {
+        "box": [
+          638,
+          779,
+          727,
+          812
+        ],
+        "text": "Acid"
+      },
+      {
+        "box": [
+          741,
+          779,
+          930,
+          812
+        ],
+        "text": "Compounds"
+      },
+      {
+        "box": [
+          946,
+          779,
+          987,
+          813
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1004,
+          779,
+          1105,
+          814
+        ],
+        "text": "Foods"
+      }
+    ]
+  },
+  {
+    "box": [
+      652,
+      845,
+      941,
+      881
+    ],
+    "text": "February , 1977",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          662,
+          848,
+          822,
+          881
+        ],
+        "text": "February"
+      },
+      {
+        "box": [
+          829,
+          850,
+          848,
+          881
+        ],
+        "text": ","
+      },
+      {
+        "box": [
+          867,
+          849,
+          942,
+          879
+        ],
+        "text": "1977"
+      }
+    ]
+  },
+  {
+    "box": [
+      635,
+      913,
+      990,
+      949
+    ],
+    "text": "Michael C. Archer",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          640,
+          914,
+          785,
+          948
+        ],
+        "text": "Michael"
+      },
+      {
+        "box": [
+          803,
+          916,
+          849,
+          948
+        ],
+        "text": "C."
+      },
+      {
+        "box": [
+          864,
+          917,
+          988,
+          948
+        ],
+        "text": "Archer"
+      }
+    ]
+  },
+  {
+    "box": [
+      437,
+      1182,
+      1251,
+      1220
+    ],
+    "text": "Department of Nutrition and Food Science",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          439,
+          1185,
+          646,
+          1218
+        ],
+        "text": "Department"
+      },
+      {
+        "box": [
+          664,
+          1185,
+          707,
+          1219
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          723,
+          1185,
+          907,
+          1220
+        ],
+        "text": "Nutrition"
+      },
+      {
+        "box": [
+          930,
+          1185,
+          991,
+          1220
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          1009,
+          1185,
+          1093,
+          1220
+        ],
+        "text": "Food"
+      },
+      {
+        "box": [
+          1111,
+          1184,
+          1252,
+          1220
+        ],
+        "text": "Science"
+      }
+    ]
+  },
+  {
+    "box": [
+      429,
+      1249,
+      1189,
+      1288
+    ],
+    "text": "Massachusetts Institute of Technology",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          438,
+          1254,
+          704,
+          1286
+        ],
+        "text": "Massachusetts"
+      },
+      {
+        "box": [
+          728,
+          1253,
+          906,
+          1288
+        ],
+        "text": "Institute"
+      },
+      {
+        "box": [
+          928,
+          1253,
+          970,
+          1288
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          992,
+          1252,
+          1188,
+          1288
+        ],
+        "text": "Technology"
+      }
+    ]
+  },
+  {
+    "box": [
+      440,
+      1317,
+      734,
+      1353
+    ],
+    "text": "Cambridge, MA.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          440,
+          1318,
+          648,
+          1352
+        ],
+        "text": "Cambridge,"
+      },
+      {
+        "box": [
+          663,
+          1320,
+          730,
+          1352
+        ],
+        "text": "MA."
+      }
+    ]
+  },
+  {
+    "box": [
+      755,
+      1318,
+      867,
+      1352
+    ],
+    "text": "02139",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          767,
+          1320,
+          866,
+          1352
+        ],
+        "text": "02139"
+      }
+    ]
+  },
+  {
+    "box": [
+      415,
+      2223,
+      1012,
+      2255
+    ],
+    "text": "Source: https://www.industrydocuments.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          417,
+          2227,
+          529,
+          2251
+        ],
+        "text": "Source:"
+      },
+      {
+        "box": [
+          535,
+          2227,
+          1011,
+          2255
+        ],
+        "text": "https://www.industrydocuments."
+      }
+    ]
+  }
+]

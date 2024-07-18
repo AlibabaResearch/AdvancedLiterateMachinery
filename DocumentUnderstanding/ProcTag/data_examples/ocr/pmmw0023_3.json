@@ -1,0 +1,5777 @@
+[
+  {
+    "box": [
+      645,
+      83,
+      1147,
+      113
+    ],
+    "text": "R. J. REYNOLDS TOBACCO COMPANY",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          648,
+          83,
+          680,
+          114
+        ],
+        "text": "R."
+      },
+      {
+        "box": [
+          684,
+          83,
+          708,
+          114
+        ],
+        "text": "J."
+      },
+      {
+        "box": [
+          712,
+          83,
+          865,
+          114
+        ],
+        "text": "REYNOLDS"
+      },
+      {
+        "box": [
+          870,
+          84,
+          1001,
+          113
+        ],
+        "text": "TOBACCO"
+      },
+      {
+        "box": [
+          1007,
+          84,
+          1147,
+          112
+        ],
+        "text": "COMPANY"
+      }
+    ]
+  },
+  {
+    "box": [
+      567,
+      118,
+      1227,
+      148
+    ],
+    "text": "RETAIL PARTNERS MARKETING PLAN CONTRACT",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          568,
+          119,
+          667,
+          150
+        ],
+        "text": "RETAIL"
+      },
+      {
+        "box": [
+          672,
+          121,
+          821,
+          150
+        ],
+        "text": "PARTNERS"
+      },
+      {
+        "box": [
+          826,
+          121,
+          985,
+          149
+        ],
+        "text": "MARKETING"
+      },
+      {
+        "box": [
+          990,
+          120,
+          1065,
+          149
+        ],
+        "text": "PLAN"
+      },
+      {
+        "box": [
+          1073,
+          119,
+          1227,
+          149
+        ],
+        "text": "CONTRACT"
+      }
+    ]
+  },
+  {
+    "box": [
+      699,
+      150,
+      1089,
+      179
+    ],
+    "text": "CARTON OUTLET - ACV < 80%",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          704,
+          151,
+          816,
+          181
+        ],
+        "text": "CARTON"
+      },
+      {
+        "box": [
+          823,
+          151,
+          929,
+          180
+        ],
+        "text": "OUTLET"
+      },
+      {
+        "box": [
+          935,
+          151,
+          947,
+          180
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          952,
+          150,
+          1008,
+          180
+        ],
+        "text": "ACV"
+      },
+      {
+        "box": [
+          1015,
+          150,
+          1031,
+          180
+        ],
+        "text": "<"
+      },
+      {
+        "box": [
+          1036,
+          150,
+          1088,
+          179
+        ],
+        "text": "80%"
+      }
+    ]
+  },
+  {
+    "box": [
+      822,
+      185,
+      962,
+      212
+    ],
+    "text": "LEVEL 1/2",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          833,
+          186,
+          918,
+          212
+        ],
+        "text": "LEVEL"
+      },
+      {
+        "box": [
+          926,
+          186,
+          963,
+          213
+        ],
+        "text": "1/2"
+      }
+    ]
+  },
+  {
+    "box": [
+      196,
+      212,
+      818,
+      245
+    ],
+    "text": "Request For Taxpayer Identification Number and Certification",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          196,
+          212,
+          272,
+          242
+        ],
+        "text": "Request"
+      },
+      {
+        "box": [
+          278,
+          214,
+          315,
+          242
+        ],
+        "text": "For"
+      },
+      {
+        "box": [
+          321,
+          215,
+          410,
+          243
+        ],
+        "text": "Taxpayer"
+      },
+      {
+        "box": [
+          416,
+          217,
+          548,
+          244
+        ],
+        "text": "Identification"
+      },
+      {
+        "box": [
+          554,
+          218,
+          636,
+          244
+        ],
+        "text": "Number"
+      },
+      {
+        "box": [
+          642,
+          218,
+          681,
+          244
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          687,
+          218,
+          815,
+          243
+        ],
+        "text": "Certification"
+      }
+    ]
+  },
+  {
+    "box": [
+      192,
+      239,
+      1606,
+      267
+    ],
+    "text": "R. J. Reynolds Tobacco Company must withhold tax at the rate of 31% from payee in conformity with Internal Revenue Service backup withholding",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          194,
+          240,
+          211,
+          266
+        ],
+        "text": "R."
+      },
+      {
+        "box": [
+          218,
+          240,
+          233,
+          266
+        ],
+        "text": "J."
+      },
+      {
+        "box": [
+          240,
+          240,
+          333,
+          266
+        ],
+        "text": "Reynolds"
+      },
+      {
+        "box": [
+          340,
+          240,
+          420,
+          266
+        ],
+        "text": "Tobacco"
+      },
+      {
+        "box": [
+          427,
+          240,
+          518,
+          266
+        ],
+        "text": "Company"
+      },
+      {
+        "box": [
+          525,
+          241,
+          571,
+          266
+        ],
+        "text": "must"
+      },
+      {
+        "box": [
+          578,
+          241,
+          657,
+          266
+        ],
+        "text": "withhold"
+      },
+      {
+        "box": [
+          664,
+          241,
+          697,
+          266
+        ],
+        "text": "tax"
+      },
+      {
+        "box": [
+          703,
+          241,
+          721,
+          266
+        ],
+        "text": "at"
+      },
+      {
+        "box": [
+          727,
+          241,
+          757,
+          267
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          763,
+          241,
+          801,
+          267
+        ],
+        "text": "rate"
+      },
+      {
+        "box": [
+          808,
+          241,
+          827,
+          267
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          834,
+          241,
+          875,
+          267
+        ],
+        "text": "31%"
+      },
+      {
+        "box": [
+          882,
+          241,
+          922,
+          267
+        ],
+        "text": "from"
+      },
+      {
+        "box": [
+          931,
+          241,
+          989,
+          267
+        ],
+        "text": "payee"
+      },
+      {
+        "box": [
+          995,
+          241,
+          1014,
+          267
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          1020,
+          241,
+          1121,
+          267
+        ],
+        "text": "conformity"
+      },
+      {
+        "box": [
+          1127,
+          241,
+          1167,
+          267
+        ],
+        "text": "with"
+      },
+      {
+        "box": [
+          1173,
+          241,
+          1248,
+          267
+        ],
+        "text": "Internal"
+      },
+      {
+        "box": [
+          1254,
+          241,
+          1342,
+          267
+        ],
+        "text": "Revenue"
+      },
+      {
+        "box": [
+          1348,
+          241,
+          1418,
+          267
+        ],
+        "text": "Service"
+      },
+      {
+        "box": [
+          1423,
+          241,
+          1493,
+          267
+        ],
+        "text": "backup"
+      },
+      {
+        "box": [
+          1499,
+          240,
+          1607,
+          267
+        ],
+        "text": "withholding"
+      }
+    ]
+  },
+  {
+    "box": [
+      188,
+      264,
+      1610,
+      293
+    ],
+    "text": "requirements, If the payee falls to provide R. J. Reynolds Tobacco Company with sufficient correct information to issue a Form 1099 to such payee for",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          189,
+          265,
+          319,
+          290
+        ],
+        "text": "requirements,"
+      },
+      {
+        "box": [
+          325,
+          266,
+          335,
+          291
+        ],
+        "text": "If"
+      },
+      {
+        "box": [
+          341,
+          266,
+          372,
+          291
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          378,
+          266,
+          435,
+          291
+        ],
+        "text": "payee"
+      },
+      {
+        "box": [
+          441,
+          266,
+          479,
+          291
+        ],
+        "text": "falls"
+      },
+      {
+        "box": [
+          485,
+          266,
+          505,
+          291
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          511,
+          267,
+          581,
+          292
+        ],
+        "text": "provide"
+      },
+      {
+        "box": [
+          587,
+          267,
+          610,
+          292
+        ],
+        "text": "R."
+      },
+      {
+        "box": [
+          616,
+          267,
+          631,
+          292
+        ],
+        "text": "J."
+      },
+      {
+        "box": [
+          637,
+          267,
+          730,
+          292
+        ],
+        "text": "Reynolds"
+      },
+      {
+        "box": [
+          735,
+          267,
+          815,
+          292
+        ],
+        "text": "Tobacco"
+      },
+      {
+        "box": [
+          821,
+          268,
+          909,
+          292
+        ],
+        "text": "Company"
+      },
+      {
+        "box": [
+          915,
+          268,
+          953,
+          292
+        ],
+        "text": "with"
+      },
+      {
+        "box": [
+          958,
+          268,
+          1043,
+          292
+        ],
+        "text": "sufficient"
+      },
+      {
+        "box": [
+          1049,
+          268,
+          1115,
+          292
+        ],
+        "text": "correct"
+      },
+      {
+        "box": [
+          1120,
+          268,
+          1228,
+          292
+        ],
+        "text": "information"
+      },
+      {
+        "box": [
+          1233,
+          268,
+          1252,
+          292
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          1257,
+          268,
+          1310,
+          292
+        ],
+        "text": "issue"
+      },
+      {
+        "box": [
+          1316,
+          268,
+          1326,
+          291
+        ],
+        "text": "a"
+      },
+      {
+        "box": [
+          1332,
+          268,
+          1380,
+          291
+        ],
+        "text": "Form"
+      },
+      {
+        "box": [
+          1392,
+          268,
+          1436,
+          291
+        ],
+        "text": "1099"
+      },
+      {
+        "box": [
+          1442,
+          268,
+          1461,
+          291
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          1466,
+          268,
+          1511,
+          291
+        ],
+        "text": "such"
+      },
+      {
+        "box": [
+          1516,
+          268,
+          1574,
+          290
+        ],
+        "text": "payee"
+      },
+      {
+        "box": [
+          1579,
+          268,
+          1611,
+          290
+        ],
+        "text": "for"
+      }
+    ]
+  },
+  {
+    "box": [
+      178,
+      287,
+      1606,
+      318
+    ],
+    "text": "any calendar year. With individual proprietorship, this information is the person's individual name and either his/her social security number (S.S. No.)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          188,
+          288,
+          222,
+          315
+        ],
+        "text": "any"
+      },
+      {
+        "box": [
+          229,
+          289,
+          311,
+          316
+        ],
+        "text": "calendar"
+      },
+      {
+        "box": [
+          318,
+          290,
+          372,
+          316
+        ],
+        "text": "year."
+      },
+      {
+        "box": [
+          379,
+          290,
+          419,
+          316
+        ],
+        "text": "With"
+      },
+      {
+        "box": [
+          426,
+          291,
+          515,
+          317
+        ],
+        "text": "individual"
+      },
+      {
+        "box": [
+          522,
+          291,
+          658,
+          317
+        ],
+        "text": "proprietorship,"
+      },
+      {
+        "box": [
+          665,
+          292,
+          700,
+          317
+        ],
+        "text": "this"
+      },
+      {
+        "box": [
+          707,
+          292,
+          811,
+          317
+        ],
+        "text": "information"
+      },
+      {
+        "box": [
+          818,
+          293,
+          834,
+          317
+        ],
+        "text": "is"
+      },
+      {
+        "box": [
+          841,
+          293,
+          869,
+          317
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          875,
+          293,
+          953,
+          317
+        ],
+        "text": "person's"
+      },
+      {
+        "box": [
+          959,
+          293,
+          1049,
+          317
+        ],
+        "text": "individual"
+      },
+      {
+        "box": [
+          1055,
+          293,
+          1111,
+          317
+        ],
+        "text": "name"
+      },
+      {
+        "box": [
+          1117,
+          293,
+          1153,
+          317
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          1159,
+          293,
+          1214,
+          317
+        ],
+        "text": "either"
+      },
+      {
+        "box": [
+          1220,
+          293,
+          1286,
+          317
+        ],
+        "text": "his/her"
+      },
+      {
+        "box": [
+          1292,
+          293,
+          1349,
+          317
+        ],
+        "text": "social"
+      },
+      {
+        "box": [
+          1354,
+          292,
+          1427,
+          316
+        ],
+        "text": "security"
+      },
+      {
+        "box": [
+          1433,
+          292,
+          1506,
+          316
+        ],
+        "text": "number"
+      },
+      {
+        "box": [
+          1511,
+          291,
+          1558,
+          316
+        ],
+        "text": "(S.S."
+      },
+      {
+        "box": [
+          1563,
+          291,
+          1607,
+          315
+        ],
+        "text": "No.)"
+      }
+    ]
+  },
+  {
+    "box": [
+      187,
+      312,
+      1614,
+      344
+    ],
+    "text": "or the employer identification number (EIN) for the proprietorship. In addition to the payee's individual name, the payee may also provide the business",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          188,
+          313,
+          207,
+          340
+        ],
+        "text": "or"
+      },
+      {
+        "box": [
+          213,
+          313,
+          243,
+          340
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          249,
+          313,
+          336,
+          340
+        ],
+        "text": "employer"
+      },
+      {
+        "box": [
+          342,
+          314,
+          460,
+          341
+        ],
+        "text": "identification"
+      },
+      {
+        "box": [
+          466,
+          314,
+          539,
+          342
+        ],
+        "text": "number"
+      },
+      {
+        "box": [
+          545,
+          314,
+          594,
+          342
+        ],
+        "text": "(EIN)"
+      },
+      {
+        "box": [
+          601,
+          315,
+          626,
+          342
+        ],
+        "text": "for"
+      },
+      {
+        "box": [
+          632,
+          315,
+          663,
+          342
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          669,
+          315,
+          809,
+          343
+        ],
+        "text": "proprietorship."
+      },
+      {
+        "box": [
+          815,
+          315,
+          836,
+          343
+        ],
+        "text": "In"
+      },
+      {
+        "box": [
+          841,
+          315,
+          912,
+          343
+        ],
+        "text": "addition"
+      },
+      {
+        "box": [
+          918,
+          315,
+          937,
+          343
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          943,
+          315,
+          972,
+          343
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          978,
+          315,
+          1049,
+          343
+        ],
+        "text": "payee's"
+      },
+      {
+        "box": [
+          1055,
+          316,
+          1147,
+          343
+        ],
+        "text": "individual"
+      },
+      {
+        "box": [
+          1152,
+          316,
+          1213,
+          343
+        ],
+        "text": "name,"
+      },
+      {
+        "box": [
+          1219,
+          316,
+          1250,
+          343
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1255,
+          316,
+          1313,
+          343
+        ],
+        "text": "payee"
+      },
+      {
+        "box": [
+          1318,
+          315,
+          1361,
+          343
+        ],
+        "text": "may"
+      },
+      {
+        "box": [
+          1367,
+          315,
+          1405,
+          343
+        ],
+        "text": "also"
+      },
+      {
+        "box": [
+          1411,
+          315,
+          1480,
+          343
+        ],
+        "text": "provide"
+      },
+      {
+        "box": [
+          1486,
+          315,
+          1517,
+          343
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1523,
+          315,
+          1613,
+          343
+        ],
+        "text": "business"
+      }
+    ]
+  },
+  {
+    "box": [
+      187,
+      337,
+      1606,
+      367
+    ],
+    "text": "name for the sole proprietorship, provided the individual name is listed before the business name. (Sole proprietors may not furnish only the business",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          188,
+          339,
+          241,
+          364
+        ],
+        "text": "name"
+      },
+      {
+        "box": [
+          246,
+          339,
+          273,
+          364
+        ],
+        "text": "for"
+      },
+      {
+        "box": [
+          278,
+          339,
+          312,
+          365
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          317,
+          339,
+          356,
+          365
+        ],
+        "text": "sole"
+      },
+      {
+        "box": [
+          361,
+          339,
+          496,
+          366
+        ],
+        "text": "proprietorship,"
+      },
+      {
+        "box": [
+          502,
+          339,
+          585,
+          366
+        ],
+        "text": "provided"
+      },
+      {
+        "box": [
+          590,
+          338,
+          621,
+          367
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          627,
+          338,
+          717,
+          367
+        ],
+        "text": "individual"
+      },
+      {
+        "box": [
+          723,
+          338,
+          776,
+          367
+        ],
+        "text": "name"
+      },
+      {
+        "box": [
+          781,
+          338,
+          798,
+          367
+        ],
+        "text": "is"
+      },
+      {
+        "box": [
+          803,
+          338,
+          853,
+          367
+        ],
+        "text": "listed"
+      },
+      {
+        "box": [
+          859,
+          338,
+          919,
+          367
+        ],
+        "text": "before"
+      },
+      {
+        "box": [
+          925,
+          338,
+          954,
+          367
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          960,
+          338,
+          1042,
+          367
+        ],
+        "text": "business"
+      },
+      {
+        "box": [
+          1048,
+          339,
+          1116,
+          367
+        ],
+        "text": "name."
+      },
+      {
+        "box": [
+          1123,
+          339,
+          1173,
+          367
+        ],
+        "text": "(Sole"
+      },
+      {
+        "box": [
+          1179,
+          339,
+          1282,
+          367
+        ],
+        "text": "proprietors"
+      },
+      {
+        "box": [
+          1288,
+          339,
+          1329,
+          367
+        ],
+        "text": "may"
+      },
+      {
+        "box": [
+          1336,
+          339,
+          1364,
+          367
+        ],
+        "text": "not"
+      },
+      {
+        "box": [
+          1370,
+          339,
+          1436,
+          366
+        ],
+        "text": "furnish"
+      },
+      {
+        "box": [
+          1443,
+          340,
+          1479,
+          366
+        ],
+        "text": "only"
+      },
+      {
+        "box": [
+          1486,
+          340,
+          1515,
+          366
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1522,
+          340,
+          1604,
+          365
+        ],
+        "text": "business"
+      }
+    ]
+  },
+  {
+    "box": [
+      187,
+      362,
+      1606,
+      392
+    ],
+    "text": "name.) With respect to corporations, partnerships, estates, trusts, and similar entities, the necessary information is the entity's name and employer",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          189,
+          363,
+          262,
+          390
+        ],
+        "text": "name.)"
+      },
+      {
+        "box": [
+          268,
+          363,
+          315,
+          390
+        ],
+        "text": "With"
+      },
+      {
+        "box": [
+          322,
+          363,
+          392,
+          391
+        ],
+        "text": "respect"
+      },
+      {
+        "box": [
+          398,
+          364,
+          417,
+          391
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          423,
+          364,
+          548,
+          391
+        ],
+        "text": "corporations,"
+      },
+      {
+        "box": [
+          554,
+          364,
+          679,
+          392
+        ],
+        "text": "partnerships,"
+      },
+      {
+        "box": [
+          685,
+          365,
+          761,
+          392
+        ],
+        "text": "estates,"
+      },
+      {
+        "box": [
+          767,
+          365,
+          827,
+          392
+        ],
+        "text": "trusts,"
+      },
+      {
+        "box": [
+          832,
+          365,
+          869,
+          392
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          875,
+          365,
+          937,
+          392
+        ],
+        "text": "similar"
+      },
+      {
+        "box": [
+          942,
+          365,
+          1017,
+          392
+        ],
+        "text": "entities,"
+      },
+      {
+        "box": [
+          1022,
+          365,
+          1054,
+          392
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1059,
+          365,
+          1160,
+          392
+        ],
+        "text": "necessary"
+      },
+      {
+        "box": [
+          1166,
+          365,
+          1274,
+          391
+        ],
+        "text": "information"
+      },
+      {
+        "box": [
+          1279,
+          366,
+          1299,
+          391
+        ],
+        "text": "is"
+      },
+      {
+        "box": [
+          1304,
+          366,
+          1336,
+          391
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1341,
+          365,
+          1409,
+          391
+        ],
+        "text": "entity's"
+      },
+      {
+        "box": [
+          1414,
+          365,
+          1471,
+          391
+        ],
+        "text": "name"
+      },
+      {
+        "box": [
+          1476,
+          365,
+          1514,
+          391
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          1519,
+          365,
+          1606,
+          390
+        ],
+        "text": "employer"
+      }
+    ]
+  },
+  {
+    "box": [
+      184,
+      384,
+      1198,
+      420
+    ],
+    "text": "identification number (EIN) as It appears on IRS Form 575 (Assignment of Employer Identification Number).",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          186,
+          385,
+          306,
+          415
+        ],
+        "text": "identification"
+      },
+      {
+        "box": [
+          312,
+          387,
+          383,
+          416
+        ],
+        "text": "number"
+      },
+      {
+        "box": [
+          389,
+          388,
+          440,
+          417
+        ],
+        "text": "(EIN)"
+      },
+      {
+        "box": [
+          446,
+          389,
+          466,
+          417
+        ],
+        "text": "as"
+      },
+      {
+        "box": [
+          472,
+          389,
+          486,
+          417
+        ],
+        "text": "It"
+      },
+      {
+        "box": [
+          492,
+          389,
+          567,
+          418
+        ],
+        "text": "appears"
+      },
+      {
+        "box": [
+          573,
+          390,
+          597,
+          418
+        ],
+        "text": "on"
+      },
+      {
+        "box": [
+          603,
+          390,
+          639,
+          418
+        ],
+        "text": "IRS"
+      },
+      {
+        "box": [
+          645,
+          390,
+          694,
+          419
+        ],
+        "text": "Form"
+      },
+      {
+        "box": [
+          702,
+          391,
+          735,
+          419
+        ],
+        "text": "575"
+      },
+      {
+        "box": [
+          741,
+          391,
+          858,
+          419
+        ],
+        "text": "(Assignment"
+      },
+      {
+        "box": [
+          864,
+          391,
+          882,
+          419
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          888,
+          391,
+          974,
+          418
+        ],
+        "text": "Employer"
+      },
+      {
+        "box": [
+          980,
+          391,
+          1099,
+          417
+        ],
+        "text": "Identification"
+      },
+      {
+        "box": [
+          1105,
+          391,
+          1199,
+          417
+        ],
+        "text": "Number)."
+      }
+    ]
+  },
+  {
+    "box": [
+      183,
+      435,
+      796,
+      478
+    ],
+    "text": "Type of Organization: X corporation \" Sole Proprietor",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          185,
+          444,
+          234,
+          474
+        ],
+        "text": "Type"
+      },
+      {
+        "box": [
+          239,
+          442,
+          258,
+          474
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          263,
+          441,
+          402,
+          477
+        ],
+        "text": "Organization:"
+      },
+      {
+        "box": [
+          414,
+          437,
+          435,
+          477
+        ],
+        "text": "X"
+      },
+      {
+        "box": [
+          455,
+          437,
+          565,
+          478
+        ],
+        "text": "corporation"
+      },
+      {
+        "box": [
+          570,
+          436,
+          589,
+          478
+        ],
+        "text": "\""
+      },
+      {
+        "box": [
+          647,
+          437,
+          689,
+          479
+        ],
+        "text": "Sole"
+      },
+      {
+        "box": [
+          693,
+          438,
+          796,
+          478
+        ],
+        "text": "Proprietor"
+      }
+    ]
+  },
+  {
+    "box": [
+      183,
+      483,
+      814,
+      526
+    ],
+    "text": "Is this a corporation exempt from backup withholding? XI Yes",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          185,
+          491,
+          198,
+          525
+        ],
+        "text": "Is"
+      },
+      {
+        "box": [
+          205,
+          492,
+          240,
+          526
+        ],
+        "text": "this"
+      },
+      {
+        "box": [
+          248,
+          494,
+          258,
+          526
+        ],
+        "text": "a"
+      },
+      {
+        "box": [
+          266,
+          494,
+          368,
+          527
+        ],
+        "text": "corporation"
+      },
+      {
+        "box": [
+          376,
+          496,
+          445,
+          527
+        ],
+        "text": "exempt"
+      },
+      {
+        "box": [
+          452,
+          496,
+          490,
+          527
+        ],
+        "text": "from"
+      },
+      {
+        "box": [
+          497,
+          495,
+          566,
+          527
+        ],
+        "text": "backup"
+      },
+      {
+        "box": [
+          573,
+          493,
+          706,
+          528
+        ],
+        "text": "withholding?"
+      },
+      {
+        "box": [
+          721,
+          485,
+          755,
+          528
+        ],
+        "text": "XI"
+      },
+      {
+        "box": [
+          762,
+          482,
+          809,
+          528
+        ],
+        "text": "Yes"
+      }
+    ]
+  },
+  {
+    "box": [
+      826,
+      429,
+      1175,
+      486
+    ],
+    "text": "Partnership, Estate, Trust, etc.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          885,
+          436,
+          987,
+          478
+        ],
+        "text": "Partnership,"
+      },
+      {
+        "box": [
+          1001,
+          444,
+          1062,
+          479
+        ],
+        "text": "Estate,"
+      },
+      {
+        "box": [
+          1075,
+          445,
+          1124,
+          481
+        ],
+        "text": "Trust,"
+      },
+      {
+        "box": [
+          1136,
+          444,
+          1173,
+          483
+        ],
+        "text": "etc."
+      }
+    ]
+  },
+  {
+    "box": [
+      821,
+      478,
+      911,
+      526
+    ],
+    "text": "ONO",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          838,
+          478,
+          912,
+          525
+        ],
+        "text": "ONO"
+      }
+    ]
+  },
+  {
+    "box": [
+      185,
+      542,
+      993,
+      579
+    ],
+    "text": "Please use the appropriate line to fill in the name and Taxpayer Identification Number.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          185,
+          545,
+          251,
+          573
+        ],
+        "text": "Please"
+      },
+      {
+        "box": [
+          256,
+          545,
+          291,
+          574
+        ],
+        "text": "use"
+      },
+      {
+        "box": [
+          296,
+          545,
+          327,
+          574
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          333,
+          545,
+          438,
+          576
+        ],
+        "text": "appropriate"
+      },
+      {
+        "box": [
+          443,
+          545,
+          478,
+          577
+        ],
+        "text": "line"
+      },
+      {
+        "box": [
+          483,
+          545,
+          500,
+          577
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          506,
+          546,
+          526,
+          577
+        ],
+        "text": "fill"
+      },
+      {
+        "box": [
+          532,
+          546,
+          551,
+          577
+        ],
+        "text": "in"
+      },
+      {
+        "box": [
+          556,
+          546,
+          585,
+          578
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          591,
+          546,
+          646,
+          578
+        ],
+        "text": "name"
+      },
+      {
+        "box": [
+          651,
+          545,
+          689,
+          578
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          695,
+          545,
+          781,
+          578
+        ],
+        "text": "Taxpayer"
+      },
+      {
+        "box": [
+          786,
+          545,
+          904,
+          577
+        ],
+        "text": "Identification"
+      },
+      {
+        "box": [
+          909,
+          545,
+          995,
+          577
+        ],
+        "text": "Number."
+      }
+    ]
+  },
+  {
+    "box": [
+      185,
+      590,
+      363,
+      625
+    ],
+    "text": "Corporation Name",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          185,
+          592,
+          297,
+          625
+        ],
+        "text": "Corporation"
+      },
+      {
+        "box": [
+          304,
+          592,
+          362,
+          625
+        ],
+        "text": "Name"
+      }
+    ]
+  },
+  {
+    "box": [
+      191,
+      617,
+      221,
+      640
+    ],
+    "text": "or",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          189,
+          617,
+          213,
+          639
+        ],
+        "text": "or"
+      }
+    ]
+  },
+  {
+    "box": [
+      404,
+      573,
+      880,
+      621
+    ],
+    "text": "KROGER CINN. DAYTON",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          406,
+          578,
+          568,
+          623
+        ],
+        "text": "KROGER"
+      },
+      {
+        "box": [
+          595,
+          574,
+          728,
+          623
+        ],
+        "text": "CINN."
+      },
+      {
+        "box": [
+          743,
+          574,
+          879,
+          623
+        ],
+        "text": "DAYTON"
+      }
+    ]
+  },
+  {
+    "box": [
+      1163,
+      592,
+      1244,
+      622
+    ],
+    "text": "EIN L",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1162,
+          591,
+          1202,
+          623
+        ],
+        "text": "EIN"
+      },
+      {
+        "box": [
+          1208,
+          589,
+          1231,
+          622
+        ],
+        "text": "L"
+      }
+    ]
+  },
+  {
+    "box": [
+      179,
+      641,
+      410,
+      673
+    ],
+    "text": "Sole Proprietor's Name",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          186,
+          642,
+          229,
+          670
+        ],
+        "text": "Sole"
+      },
+      {
+        "box": [
+          234,
+          643,
+          343,
+          671
+        ],
+        "text": "Proprietor's"
+      },
+      {
+        "box": [
+          348,
+          645,
+          410,
+          673
+        ],
+        "text": "Name"
+      }
+    ]
+  },
+  {
+    "box": [
+      1112,
+      638,
+      1623,
+      673
+    ],
+    "text": "S.S. No.WILL",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1116,
+          641,
+          1155,
+          671
+        ],
+        "text": "S.S."
+      },
+      {
+        "box": [
+          1159,
+          640,
+          1589,
+          673
+        ],
+        "text": "No.WILL"
+      }
+    ]
+  },
+  {
+    "box": [
+      188,
+      709,
+      499,
+      741
+    ],
+    "text": "Sole Proprietor's Business Name",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          188,
+          709,
+          229,
+          737
+        ],
+        "text": "Sole"
+      },
+      {
+        "box": [
+          234,
+          710,
+          343,
+          739
+        ],
+        "text": "Proprietor's"
+      },
+      {
+        "box": [
+          349,
+          712,
+          434,
+          740
+        ],
+        "text": "Business"
+      },
+      {
+        "box": [
+          440,
+          714,
+          499,
+          741
+        ],
+        "text": "Name"
+      }
+    ]
+  },
+  {
+    "box": [
+      192,
+      737,
+      216,
+      763
+    ],
+    "text": "or",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          192,
+          736,
+          213,
+          762
+        ],
+        "text": "or"
+      }
+    ]
+  },
+  {
+    "box": [
+      188,
+      758,
+      471,
+      790
+    ],
+    "text": "Partnership, Estate, Trust, etc.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          188,
+          758,
+          302,
+          788
+        ],
+        "text": "Partnership,"
+      },
+      {
+        "box": [
+          307,
+          761,
+          376,
+          789
+        ],
+        "text": "Estate,"
+      },
+      {
+        "box": [
+          381,
+          763,
+          436,
+          789
+        ],
+        "text": "Trust,"
+      },
+      {
+        "box": [
+          440,
+          764,
+          472,
+          789
+        ],
+        "text": "etc."
+      }
+    ]
+  },
+  {
+    "box": [
+      184,
+      801,
+      1231,
+      833
+    ],
+    "text": "Address (Number, Street and Apt. or Suite No.) 50 TRI County PKWY",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          187,
+          813,
+          267,
+          836
+        ],
+        "text": "Address"
+      },
+      {
+        "box": [
+          271,
+          810,
+          364,
+          838
+        ],
+        "text": "(Number,"
+      },
+      {
+        "box": [
+          367,
+          808,
+          425,
+          839
+        ],
+        "text": "Street"
+      },
+      {
+        "box": [
+          429,
+          806,
+          465,
+          840
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          469,
+          805,
+          510,
+          841
+        ],
+        "text": "Apt."
+      },
+      {
+        "box": [
+          513,
+          803,
+          535,
+          841
+        ],
+        "text": "or"
+      },
+      {
+        "box": [
+          538,
+          803,
+          589,
+          841
+        ],
+        "text": "Suite"
+      },
+      {
+        "box": [
+          592,
+          801,
+          638,
+          841
+        ],
+        "text": "No.)"
+      },
+      {
+        "box": [
+          695,
+          798,
+          734,
+          841
+        ],
+        "text": "50"
+      },
+      {
+        "box": [
+          819,
+          795,
+          890,
+          839
+        ],
+        "text": "TRI"
+      },
+      {
+        "box": [
+          937,
+          792,
+          1065,
+          835
+        ],
+        "text": "County"
+      },
+      {
+        "box": [
+          1115,
+          787,
+          1222,
+          829
+        ],
+        "text": "PKWY"
+      }
+    ]
+  },
+  {
+    "box": [
+      179,
+      858,
+      521,
+      890
+    ],
+    "text": "Address (City, State and Zip Code)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          186,
+          859,
+          266,
+          889
+        ],
+        "text": "Address"
+      },
+      {
+        "box": [
+          272,
+          862,
+          323,
+          890
+        ],
+        "text": "(City,"
+      },
+      {
+        "box": [
+          329,
+          863,
+          378,
+          890
+        ],
+        "text": "State"
+      },
+      {
+        "box": [
+          383,
+          864,
+          419,
+          890
+        ],
+        "text": "and"
+      },
+      {
+        "box": [
+          425,
+          864,
+          454,
+          890
+        ],
+        "text": "Zip"
+      },
+      {
+        "box": [
+          460,
+          864,
+          521,
+          889
+        ],
+        "text": "Code)"
+      }
+    ]
+  },
+  {
+    "box": [
+      634,
+      842,
+      1040,
+      887
+    ],
+    "text": "CancionATi . OH.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          641,
+          842,
+          906,
+          889
+        ],
+        "text": "CancionATi"
+      },
+      {
+        "box": [
+          916,
+          842,
+          940,
+          888
+        ],
+        "text": "."
+      },
+      {
+        "box": [
+          950,
+          841,
+          1039,
+          887
+        ],
+        "text": "OH."
+      }
+    ]
+  },
+  {
+    "box": [
+      1085,
+      839,
+      1253,
+      884
+    ],
+    "text": "15246",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1089,
+          840,
+          1247,
+          884
+        ],
+        "text": "15246"
+      }
+    ]
+  },
+  {
+    "box": [
+      182,
+      888,
+      322,
+      921
+    ],
+    "text": "Certification:",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          190,
+          890,
+          323,
+          920
+        ],
+        "text": "Certification:"
+      }
+    ]
+  },
+  {
+    "box": [
+      188,
+      917,
+      562,
+      946
+    ],
+    "text": "Under penalties of perjury, I certify that:",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          188,
+          918,
+          248,
+          944
+        ],
+        "text": "Under"
+      },
+      {
+        "box": [
+          252,
+          918,
+          341,
+          945
+        ],
+        "text": "penalties"
+      },
+      {
+        "box": [
+          346,
+          919,
+          364,
+          945
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          369,
+          919,
+          440,
+          945
+        ],
+        "text": "perjury,"
+      },
+      {
+        "box": [
+          445,
+          920,
+          452,
+          945
+        ],
+        "text": "I"
+      },
+      {
+        "box": [
+          457,
+          920,
+          513,
+          945
+        ],
+        "text": "certify"
+      },
+      {
+        "box": [
+          518,
+          920,
+          561,
+          945
+        ],
+        "text": "that:"
+      }
+    ]
+  },
+  {
+    "box": [
+      187,
+      945,
+      1397,
+      967
+    ],
+    "text": "1. The number shown above is my correct taxpayer identification number (or I am waiting for a number to be issued to me) and",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          192,
+          945,
+          218,
+          971
+        ],
+        "text": "1."
+      },
+      {
+        "box": [
+          231,
+          945,
+          266,
+          971
+        ],
+        "text": "The"
+      },
+      {
+        "box": [
+          271,
+          946,
+          345,
+          971
+        ],
+        "text": "number"
+      },
+      {
+        "box": [
+          351,
+          946,
+          413,
+          971
+        ],
+        "text": "shown"
+      },
+      {
+        "box": [
+          418,
+          946,
+          473,
+          970
+        ],
+        "text": "above"
+      },
+      {
+        "box": [
+          479,
+          946,
+          495,
+          970
+        ],
+        "text": "is"
+      },
+      {
+        "box": [
+          501,
+          946,
+          531,
+          970
+        ],
+        "text": "my"
+      },
+      {
+        "box": [
+          537,
+          946,
+          600,
+          970
+        ],
+        "text": "correct"
+      },
+      {
+        "box": [
+          606,
+          946,
+          688,
+          970
+        ],
+        "text": "taxpayer"
+      },
+      {
+        "box": [
+          694,
+          946,
+          811,
+          969
+        ],
+        "text": "identification"
+      },
+      {
+        "box": [
+          817,
+          946,
+          887,
+          969
+        ],
+        "text": "number"
+      },
+      {
+        "box": [
+          893,
+          945,
+          919,
+          969
+        ],
+        "text": "(or"
+      },
+      {
+        "box": [
+          925,
+          945,
+          933,
+          969
+        ],
+        "text": "I"
+      },
+      {
+        "box": [
+          938,
+          945,
+          963,
+          969
+        ],
+        "text": "am"
+      },
+      {
+        "box": [
+          971,
+          945,
+          1036,
+          968
+        ],
+        "text": "waiting"
+      },
+      {
+        "box": [
+          1042,
+          945,
+          1068,
+          968
+        ],
+        "text": "for"
+      },
+      {
+        "box": [
+          1074,
+          945,
+          1085,
+          968
+        ],
+        "text": "a"
+      },
+      {
+        "box": [
+          1091,
+          945,
+          1164,
+          968
+        ],
+        "text": "number"
+      },
+      {
+        "box": [
+          1170,
+          944,
+          1187,
+          968
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          1194,
+          944,
+          1216,
+          967
+        ],
+        "text": "be"
+      },
+      {
+        "box": [
+          1222,
+          944,
+          1285,
+          967
+        ],
+        "text": "issued"
+      },
+      {
+        "box": [
+          1291,
+          943,
+          1309,
+          967
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          1315,
+          943,
+          1353,
+          967
+        ],
+        "text": "me)"
+      },
+      {
+        "box": [
+          1359,
+          943,
+          1395,
+          966
+        ],
+        "text": "and"
+      }
+    ]
+  },
+  {
+    "box": [
+      187,
+      966,
+      1583,
+      994
+    ],
+    "text": "2. I am not subject to backup withholding because: (a) I am exempt from backup withholding, or (b) I have not been notified by the Internal Revenue",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          191,
+          967,
+          218,
+          992
+        ],
+        "text": "2."
+      },
+      {
+        "box": [
+          229,
+          967,
+          235,
+          992
+        ],
+        "text": "I"
+      },
+      {
+        "box": [
+          241,
+          967,
+          267,
+          992
+        ],
+        "text": "am"
+      },
+      {
+        "box": [
+          277,
+          968,
+          307,
+          993
+        ],
+        "text": "not"
+      },
+      {
+        "box": [
+          313,
+          968,
+          379,
+          993
+        ],
+        "text": "subject"
+      },
+      {
+        "box": [
+          385,
+          969,
+          402,
+          993
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          408,
+          969,
+          476,
+          994
+        ],
+        "text": "backup"
+      },
+      {
+        "box": [
+          482,
+          970,
+          589,
+          994
+        ],
+        "text": "withholding"
+      },
+      {
+        "box": [
+          595,
+          971,
+          681,
+          994
+        ],
+        "text": "because:"
+      },
+      {
+        "box": [
+          687,
+          971,
+          712,
+          994
+        ],
+        "text": "(a)"
+      },
+      {
+        "box": [
+          718,
+          971,
+          727,
+          994
+        ],
+        "text": "I"
+      },
+      {
+        "box": [
+          733,
+          971,
+          758,
+          995
+        ],
+        "text": "am"
+      },
+      {
+        "box": [
+          767,
+          972,
+          835,
+          995
+        ],
+        "text": "exempt"
+      },
+      {
+        "box": [
+          841,
+          972,
+          881,
+          995
+        ],
+        "text": "from"
+      },
+      {
+        "box": [
+          888,
+          972,
+          955,
+          995
+        ],
+        "text": "backup"
+      },
+      {
+        "box": [
+          961,
+          972,
+          1073,
+          994
+        ],
+        "text": "withholding,"
+      },
+      {
+        "box": [
+          1079,
+          971,
+          1098,
+          994
+        ],
+        "text": "or"
+      },
+      {
+        "box": [
+          1103,
+          971,
+          1129,
+          994
+        ],
+        "text": "(b)"
+      },
+      {
+        "box": [
+          1134,
+          971,
+          1140,
+          994
+        ],
+        "text": "I"
+      },
+      {
+        "box": [
+          1146,
+          971,
+          1193,
+          994
+        ],
+        "text": "have"
+      },
+      {
+        "box": [
+          1198,
+          971,
+          1229,
+          994
+        ],
+        "text": "not"
+      },
+      {
+        "box": [
+          1234,
+          971,
+          1283,
+          994
+        ],
+        "text": "been"
+      },
+      {
+        "box": [
+          1288,
+          970,
+          1357,
+          993
+        ],
+        "text": "notified"
+      },
+      {
+        "box": [
+          1362,
+          970,
+          1387,
+          993
+        ],
+        "text": "by"
+      },
+      {
+        "box": [
+          1392,
+          970,
+          1421,
+          993
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1426,
+          969,
+          1498,
+          993
+        ],
+        "text": "Internal"
+      },
+      {
+        "box": [
+          1503,
+          968,
+          1583,
+          992
+        ],
+        "text": "Revenue"
+      }
+    ]
+  },
+  {
+    "box": [
+      232,
+      993,
+      1591,
+      1017
+    ],
+    "text": "Service that I am subject to backup withholding as a result of a failure to report all interest or dividends, or (c) the IRS has notified me that I am no",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          233,
+          994,
+          301,
+          1020
+        ],
+        "text": "Service"
+      },
+      {
+        "box": [
+          306,
+          994,
+          343,
+          1020
+        ],
+        "text": "that"
+      },
+      {
+        "box": [
+          348,
+          994,
+          355,
+          1020
+        ],
+        "text": "I"
+      },
+      {
+        "box": [
+          360,
+          994,
+          389,
+          1020
+        ],
+        "text": "am"
+      },
+      {
+        "box": [
+          395,
+          994,
+          461,
+          1020
+        ],
+        "text": "subject"
+      },
+      {
+        "box": [
+          466,
+          994,
+          485,
+          1020
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          489,
+          994,
+          559,
+          1020
+        ],
+        "text": "backup"
+      },
+      {
+        "box": [
+          564,
+          993,
+          673,
+          1019
+        ],
+        "text": "withholding"
+      },
+      {
+        "box": [
+          678,
+          993,
+          702,
+          1019
+        ],
+        "text": "as"
+      },
+      {
+        "box": [
+          707,
+          993,
+          719,
+          1019
+        ],
+        "text": "a"
+      },
+      {
+        "box": [
+          724,
+          993,
+          778,
+          1019
+        ],
+        "text": "result"
+      },
+      {
+        "box": [
+          783,
+          993,
+          800,
+          1019
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          804,
+          993,
+          817,
+          1019
+        ],
+        "text": "a"
+      },
+      {
+        "box": [
+          821,
+          993,
+          879,
+          1019
+        ],
+        "text": "failure"
+      },
+      {
+        "box": [
+          884,
+          993,
+          902,
+          1019
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          907,
+          993,
+          965,
+          1019
+        ],
+        "text": "report"
+      },
+      {
+        "box": [
+          970,
+          992,
+          988,
+          1019
+        ],
+        "text": "all"
+      },
+      {
+        "box": [
+          993,
+          992,
+          1066,
+          1019
+        ],
+        "text": "interest"
+      },
+      {
+        "box": [
+          1071,
+          992,
+          1093,
+          1019
+        ],
+        "text": "or"
+      },
+      {
+        "box": [
+          1098,
+          992,
+          1192,
+          1018
+        ],
+        "text": "dividends,"
+      },
+      {
+        "box": [
+          1197,
+          992,
+          1217,
+          1018
+        ],
+        "text": "or"
+      },
+      {
+        "box": [
+          1222,
+          992,
+          1248,
+          1018
+        ],
+        "text": "(c)"
+      },
+      {
+        "box": [
+          1253,
+          992,
+          1283,
+          1018
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1288,
+          992,
+          1323,
+          1018
+        ],
+        "text": "IRS"
+      },
+      {
+        "box": [
+          1328,
+          991,
+          1365,
+          1018
+        ],
+        "text": "has"
+      },
+      {
+        "box": [
+          1371,
+          991,
+          1440,
+          1018
+        ],
+        "text": "notified"
+      },
+      {
+        "box": [
+          1445,
+          991,
+          1475,
+          1018
+        ],
+        "text": "me"
+      },
+      {
+        "box": [
+          1480,
+          991,
+          1515,
+          1018
+        ],
+        "text": "that"
+      },
+      {
+        "box": [
+          1521,
+          991,
+          1529,
+          1018
+        ],
+        "text": "I"
+      },
+      {
+        "box": [
+          1534,
+          991,
+          1561,
+          1018
+        ],
+        "text": "am"
+      },
+      {
+        "box": [
+          1568,
+          991,
+          1589,
+          1018
+        ],
+        "text": "no"
+      }
+    ]
+  },
+  {
+    "box": [
+      232,
+      1015,
+      582,
+      1047
+    ],
+    "text": "onger subject to backup withholding.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          235,
+          1017,
+          289,
+          1044
+        ],
+        "text": "onger"
+      },
+      {
+        "box": [
+          295,
+          1018,
+          364,
+          1046
+        ],
+        "text": "subject"
+      },
+      {
+        "box": [
+          369,
+          1018,
+          385,
+          1046
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          391,
+          1018,
+          461,
+          1047
+        ],
+        "text": "backup"
+      },
+      {
+        "box": [
+          466,
+          1018,
+          583,
+          1047
+        ],
+        "text": "withholding."
+      }
+    ]
+  },
+  {
+    "box": [
+      192,
+      1044,
+      1606,
+      1068
+    ],
+    "text": "Certification Instructions: You must cross out item 2 above if you have been notified by the IRS that you are currently subject to backup withholding",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          194,
+          1045,
+          316,
+          1071
+        ],
+        "text": "Certification"
+      },
+      {
+        "box": [
+          322,
+          1044,
+          457,
+          1071
+        ],
+        "text": "Instructions:"
+      },
+      {
+        "box": [
+          463,
+          1044,
+          498,
+          1071
+        ],
+        "text": "You"
+      },
+      {
+        "box": [
+          504,
+          1044,
+          552,
+          1071
+        ],
+        "text": "must"
+      },
+      {
+        "box": [
+          558,
+          1044,
+          609,
+          1071
+        ],
+        "text": "cross"
+      },
+      {
+        "box": [
+          615,
+          1044,
+          643,
+          1071
+        ],
+        "text": "out"
+      },
+      {
+        "box": [
+          649,
+          1043,
+          690,
+          1071
+        ],
+        "text": "item"
+      },
+      {
+        "box": [
+          697,
+          1043,
+          709,
+          1071
+        ],
+        "text": "2"
+      },
+      {
+        "box": [
+          715,
+          1043,
+          771,
+          1071
+        ],
+        "text": "above"
+      },
+      {
+        "box": [
+          777,
+          1043,
+          788,
+          1071
+        ],
+        "text": "if"
+      },
+      {
+        "box": [
+          794,
+          1043,
+          828,
+          1071
+        ],
+        "text": "you"
+      },
+      {
+        "box": [
+          834,
+          1043,
+          878,
+          1071
+        ],
+        "text": "have"
+      },
+      {
+        "box": [
+          884,
+          1043,
+          931,
+          1070
+        ],
+        "text": "been"
+      },
+      {
+        "box": [
+          937,
+          1043,
+          1004,
+          1070
+        ],
+        "text": "notified"
+      },
+      {
+        "box": [
+          1009,
+          1043,
+          1031,
+          1070
+        ],
+        "text": "by"
+      },
+      {
+        "box": [
+          1037,
+          1043,
+          1067,
+          1070
+        ],
+        "text": "the"
+      },
+      {
+        "box": [
+          1073,
+          1043,
+          1109,
+          1070
+        ],
+        "text": "IRS"
+      },
+      {
+        "box": [
+          1114,
+          1043,
+          1152,
+          1070
+        ],
+        "text": "that"
+      },
+      {
+        "box": [
+          1157,
+          1043,
+          1193,
+          1070
+        ],
+        "text": "you"
+      },
+      {
+        "box": [
+          1199,
+          1043,
+          1229,
+          1070
+        ],
+        "text": "are"
+      },
+      {
+        "box": [
+          1235,
+          1043,
+          1317,
+          1069
+        ],
+        "text": "currently"
+      },
+      {
+        "box": [
+          1323,
+          1043,
+          1390,
+          1069
+        ],
+        "text": "subject"
+      },
+      {
+        "box": [
+          1395,
+          1042,
+          1412,
+          1069
+        ],
+        "text": "to"
+      },
+      {
+        "box": [
+          1418,
+          1042,
+          1488,
+          1069
+        ],
+        "text": "backup"
+      },
+      {
+        "box": [
+          1493,
+          1042,
+          1604,
+          1068
+        ],
+        "text": "withholding"
+      }
+    ]
+  },
+  {
+    "box": [
+      191,
+      1067,
+      702,
+      1094
+    ],
+    "text": "because of under reporting interest on your tax return.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          193,
+          1068,
+          273,
+          1095
+        ],
+        "text": "because"
+      },
+      {
+        "box": [
+          279,
+          1070,
+          295,
+          1095
+        ],
+        "text": "of"
+      },
+      {
+        "box": [
+          302,
+          1070,
+          355,
+          1095
+        ],
+        "text": "under"
+      },
+      {
+        "box": [
+          361,
+          1070,
+          445,
+          1095
+        ],
+        "text": "reporting"
+      },
+      {
+        "box": [
+          451,
+          1070,
+          523,
+          1095
+        ],
+        "text": "interest"
+      },
+      {
+        "box": [
+          528,
+          1070,
+          551,
+          1095
+        ],
+        "text": "on"
+      },
+      {
+        "box": [
+          556,
+          1070,
+          598,
+          1095
+        ],
+        "text": "your"
+      },
+      {
+        "box": [
+          603,
+          1069,
+          632,
+          1094
+        ],
+        "text": "tax"
+      },
+      {
+        "box": [
+          636,
+          1068,
+          701,
+          1094
+        ],
+        "text": "return."
+      }
+    ]
+  },
+  {
+    "box": [
+      181,
+      1120,
+      446,
+      1154
+    ],
+    "text": "Store Name (Please Print)-",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          191,
+          1123,
+          238,
+          1151
+        ],
+        "text": "Store"
+      },
+      {
+        "box": [
+          246,
+          1124,
+          304,
+          1153
+        ],
+        "text": "Name"
+      },
+      {
+        "box": [
+          311,
+          1125,
+          382,
+          1154
+        ],
+        "text": "(Please"
+      },
+      {
+        "box": [
+          388,
+          1124,
+          447,
+          1154
+        ],
+        "text": "Print)-"
+      }
+    ]
+  },
+  {
+    "box": [
+      478,
+      1096,
+      998,
+      1147
+    ],
+    "text": "KROGER CINN. / DAYTON",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          479,
+          1104,
+          647,
+          1153
+        ],
+        "text": "KROGER"
+      },
+      {
+        "box": [
+          679,
+          1095,
+          808,
+          1151
+        ],
+        "text": "CINN."
+      },
+      {
+        "box": [
+          816,
+          1089,
+          834,
+          1151
+        ],
+        "text": "/"
+      },
+      {
+        "box": [
+          842,
+          1089,
+          998,
+          1149
+        ],
+        "text": "DAYTON"
+      }
+    ]
+  },
+  {
+    "box": [
+      1113,
+      1121,
+      1297,
+      1151
+    ],
+    "text": "RJR Account No.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1122,
+          1125,
+          1166,
+          1150
+        ],
+        "text": "RJR"
+      },
+      {
+        "box": [
+          1169,
+          1123,
+          1250,
+          1151
+        ],
+        "text": "Account"
+      },
+      {
+        "box": [
+          1253,
+          1122,
+          1296,
+          1151
+        ],
+        "text": "No."
+      }
+    ]
+  },
+  {
+    "box": [
+      1283,
+      1101,
+      1471,
+      1142
+    ],
+    "text": "541167",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1314,
+          1101,
+          1471,
+          1143
+        ],
+        "text": "541167"
+      }
+    ]
+  },
+  {
+    "box": [
+      185,
+      1169,
+      340,
+      1207
+    ],
+    "text": "Street Address .",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          190,
+          1173,
+          247,
+          1203
+        ],
+        "text": "Street"
+      },
+      {
+        "box": [
+          253,
+          1173,
+          330,
+          1207
+        ],
+        "text": "Address"
+      },
+      {
+        "box": [
+          337,
+          1173,
+          339,
+          1207
+        ],
+        "text": "."
+      }
+    ]
+  },
+  {
+    "box": [
+      350,
+      1156,
+      905,
+      1198
+    ],
+    "text": "150_IRI COUNTY PKWY",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          366,
+          1158,
+          583,
+          1203
+        ],
+        "text": "150_IRI"
+      },
+      {
+        "box": [
+          612,
+          1157,
+          754,
+          1201
+        ],
+        "text": "COUNTY"
+      },
+      {
+        "box": [
+          788,
+          1154,
+          904,
+          1198
+        ],
+        "text": "PKWY"
+      }
+    ]
+  },
+  {
+    "box": [
+      1124,
+      1169,
+      1301,
+      1205
+    ],
+    "text": "RJR Territory No.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1124,
+          1173,
+          1166,
+          1201
+        ],
+        "text": "RJR"
+      },
+      {
+        "box": [
+          1171,
+          1172,
+          1253,
+          1204
+        ],
+        "text": "Territory"
+      },
+      {
+        "box": [
+          1257,
+          1172,
+          1300,
+          1206
+        ],
+        "text": "No."
+      }
+    ]
+  },
+  {
+    "box": [
+      1321,
+      1149,
+      1429,
+      1194
+    ],
+    "text": "1844",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1328,
+          1148,
+          1429,
+          1193
+        ],
+        "text": "1844"
+      }
+    ]
+  },
+  {
+    "box": [
+      190,
+      1220,
+      284,
+      1254
+    ],
+    "text": "City/State",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          190,
+          1220,
+          284,
+          1252
+        ],
+        "text": "City/State"
+      }
+    ]
+  },
+  {
+    "box": [
+      1120,
+      1216,
+      1208,
+      1253
+    ],
+    "text": "Zip Code",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1124,
+          1218,
+          1154,
+          1248
+        ],
+        "text": "Zip"
+      },
+      {
+        "box": [
+          1158,
+          1219,
+          1208,
+          1251
+        ],
+        "text": "Code"
+      }
+    ]
+  },
+  {
+    "box": [
+      1254,
+      1200,
+      1416,
+      1246
+    ],
+    "text": "45246",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1257,
+          1200,
+          1416,
+          1245
+        ],
+        "text": "45246"
+      }
+    ]
+  },
+  {
+    "box": [
+      187,
+      1273,
+      371,
+      1304
+    ],
+    "text": "Call Classification .",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          190,
+          1275,
+          229,
+          1302
+        ],
+        "text": "Call"
+      },
+      {
+        "box": [
+          233,
+          1277,
+          361,
+          1304
+        ],
+        "text": "Classification"
+      },
+      {
+        "box": [
+          366,
+          1277,
+          372,
+          1305
+        ],
+        "text": "."
+      }
+    ]
+  },
+  {
+    "box": [
+      1119,
+      1271,
+      1281,
+      1297
+    ],
+    "text": "Brand (If Chain)",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1125,
+          1273,
+          1181,
+          1298
+        ],
+        "text": "Brand"
+      },
+      {
+        "box": [
+          1186,
+          1273,
+          1209,
+          1298
+        ],
+        "text": "(If"
+      },
+      {
+        "box": [
+          1213,
+          1272,
+          1280,
+          1298
+        ],
+        "text": "Chain)"
+      }
+    ]
+  },
+  {
+    "box": [
+      241,
+      1311,
+      331,
+      1341
+    ],
+    "text": "Current",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          245,
+          1312,
+          332,
+          1341
+        ],
+        "text": "Current"
+      }
+    ]
+  },
+  {
+    "box": [
+      618,
+      1323,
+      681,
+      1353
+    ],
+    "text": "Type",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          628,
+          1322,
+          679,
+          1353
+        ],
+        "text": "Type"
+      }
+    ]
+  },
+  {
+    "box": [
+      963,
+      1311,
+      999,
+      1336
+    ],
+    "text": "No.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          969,
+          1310,
+          998,
+          1335
+        ],
+        "text": "No."
+      }
+    ]
+  },
+  {
+    "box": [
+      213,
+      1339,
+      348,
+      1368
+    ],
+    "text": "RJR Volume",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          220,
+          1339,
+          265,
+          1365
+        ],
+        "text": "RJR"
+      },
+      {
+        "box": [
+          270,
+          1340,
+          349,
+          1367
+        ],
+        "text": "Volume"
+      }
+    ]
+  },
+  {
+    "box": [
+      949,
+      1335,
+      1040,
+      1367
+    ],
+    "text": "Stores",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          954,
+          1338,
+          1024,
+          1367
+        ],
+        "text": "Stores"
+      }
+    ]
+  },
+  {
+    "box": [
+      1097,
+      1322,
+      1279,
+      1348
+    ],
+    "text": "Monthly Payment",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1102,
+          1323,
+          1186,
+          1348
+        ],
+        "text": "Monthly"
+      },
+      {
+        "box": [
+          1190,
+          1324,
+          1280,
+          1349
+        ],
+        "text": "Payment"
+      }
+    ]
+  },
+  {
+    "box": [
+      1431,
+      1306,
+      1571,
+      1337
+    ],
+    "text": "Total Quarterly",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1431,
+          1308,
+          1480,
+          1333
+        ],
+        "text": "Total"
+      },
+      {
+        "box": [
+          1484,
+          1309,
+          1570,
+          1337
+        ],
+        "text": "Quarterly"
+      }
+    ]
+  },
+  {
+    "box": [
+      925,
+      1363,
+      1006,
+      1399
+    ],
+    "text": "OPEN",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          927,
+          1362,
+          1001,
+          1399
+        ],
+        "text": "OPEN"
+      }
+    ]
+  },
+  {
+    "box": [
+      1072,
+      1362,
+      1250,
+      1393
+    ],
+    "text": "$ 164. 00",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1091,
+          1363,
+          1107,
+          1393
+        ],
+        "text": "$"
+      },
+      {
+        "box": [
+          1118,
+          1363,
+          1194,
+          1393
+        ],
+        "text": "164."
+      },
+      {
+        "box": [
+          1202,
+          1363,
+          1246,
+          1395
+        ],
+        "text": "00"
+      }
+    ]
+  },
+  {
+    "box": [
+      1422,
+      1335,
+      1578,
+      1364
+    ],
+    "text": "Dollar Amount",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1430,
+          1338,
+          1492,
+          1362
+        ],
+        "text": "Dollar"
+      },
+      {
+        "box": [
+          1497,
+          1336,
+          1579,
+          1365
+        ],
+        "text": "Amount"
+      }
+    ]
+  },
+  {
+    "box": [
+      207,
+      1394,
+      379,
+      1440
+    ],
+    "text": "179 CP",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          210,
+          1396,
+          295,
+          1438
+        ],
+        "text": "179"
+      },
+      {
+        "box": [
+          310,
+          1396,
+          360,
+          1438
+        ],
+        "text": "CP"
+      }
+    ]
+  },
+  {
+    "box": [
+      1313,
+      1473,
+      1383,
+      1493
+    ],
+    "text": "TOTAL",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1316,
+          1475,
+          1383,
+          1495
+        ],
+        "text": "TOTAL"
+      }
+    ]
+  },
+  {
+    "box": [
+      261,
+      1540,
+      390,
+      1589
+    ],
+    "text": "7/22/96",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          266,
+          1539,
+          389,
+          1591
+        ],
+        "text": "7/22/96"
+      }
+    ]
+  },
+  {
+    "box": [
+      570,
+      1552,
+      769,
+      1586
+    ],
+    "text": "Relailer's Signature",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          577,
+          1556,
+          668,
+          1585
+        ],
+        "text": "Relailer's"
+      },
+      {
+        "box": [
+          672,
+          1558,
+          768,
+          1584
+        ],
+        "text": "Signature"
+      }
+    ]
+  },
+  {
+    "box": [
+      798,
+      1509,
+      1216,
+      1576
+    ],
+    "text": "nan. A Serge",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          823,
+          1511,
+          965,
+          1583
+        ],
+        "text": "nan."
+      },
+      {
+        "box": [
+          978,
+          1507,
+          1026,
+          1581
+        ],
+        "text": "A"
+      },
+      {
+        "box": [
+          1087,
+          1507,
+          1214,
+          1574
+        ],
+        "text": "Serge"
+      }
+    ]
+  },
+  {
+    "box": [
+      262,
+      1595,
+      459,
+      1628
+    ],
+    "text": "Date Contract Signed",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          262,
+          1595,
+          306,
+          1626
+        ],
+        "text": "Date"
+      },
+      {
+        "box": [
+          312,
+          1597,
+          393,
+          1626
+        ],
+        "text": "Contract"
+      },
+      {
+        "box": [
+          399,
+          1598,
+          460,
+          1628
+        ],
+        "text": "Signed"
+      }
+    ]
+  },
+  {
+    "box": [
+      577,
+      1610,
+      620,
+      1637
+    ],
+    "text": "Title",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          580,
+          1610,
+          619,
+          1636
+        ],
+        "text": "Title"
+      }
+    ]
+  },
+  {
+    "box": [
+      715,
+      1587,
+      1218,
+      1626
+    ],
+    "text": "SENIOR CATEGORY MANAGER",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          716,
+          1590,
+          839,
+          1632
+        ],
+        "text": "SENIOR"
+      },
+      {
+        "box": [
+          869,
+          1588,
+          1040,
+          1630
+        ],
+        "text": "CATEGORY"
+      },
+      {
+        "box": [
+          1059,
+          1584,
+          1218,
+          1627
+        ],
+        "text": "MANAGER"
+      }
+    ]
+  },
+  {
+    "box": [
+      284,
+      1636,
+      441,
+      1691
+    ],
+    "text": "71 198",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          291,
+          1637,
+          360,
+          1691
+        ],
+        "text": "71"
+      },
+      {
+        "box": [
+          371,
+          1637,
+          440,
+          1691
+        ],
+        "text": "198"
+      }
+    ]
+  },
+  {
+    "box": [
+      258,
+      1696,
+      477,
+      1727
+    ],
+    "text": "Contract Effective Date",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          260,
+          1699,
+          335,
+          1723
+        ],
+        "text": "Contract"
+      },
+      {
+        "box": [
+          342,
+          1700,
+          421,
+          1725
+        ],
+        "text": "Effective"
+      },
+      {
+        "box": [
+          428,
+          1699,
+          476,
+          1727
+        ],
+        "text": "Date"
+      }
+    ]
+  },
+  {
+    "box": [
+      571,
+      1671,
+      986,
+      1702
+    ],
+    "text": "R. J. REYNOLDS TOBACCO COMPANY",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          578,
+          1673,
+          600,
+          1704
+        ],
+        "text": "R."
+      },
+      {
+        "box": [
+          607,
+          1673,
+          621,
+          1704
+        ],
+        "text": "J."
+      },
+      {
+        "box": [
+          628,
+          1673,
+          747,
+          1703
+        ],
+        "text": "REYNOLDS"
+      },
+      {
+        "box": [
+          753,
+          1673,
+          856,
+          1703
+        ],
+        "text": "TOBACCO"
+      },
+      {
+        "box": [
+          862,
+          1672,
+          976,
+          1703
+        ],
+        "text": "COMPANY"
+      }
+    ]
+  },
+  {
+    "box": [
+      581,
+      1722,
+      613,
+      1755
+    ],
+    "text": "By.",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          579,
+          1722,
+          613,
+          1753
+        ],
+        "text": "By."
+      }
+    ]
+  },
+  {
+    "box": [
+      602,
+      1700,
+      1048,
+      1748
+    ],
+    "text": "-chcott B. Ochoa",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          610,
+          1701,
+          815,
+          1750
+        ],
+        "text": "-chcott"
+      },
+      {
+        "box": [
+          835,
+          1698,
+          912,
+          1748
+        ],
+        "text": "B."
+      },
+      {
+        "box": [
+          925,
+          1698,
+          1047,
+          1745
+        ],
+        "text": "Ochoa"
+      }
+    ]
+  },
+  {
+    "box": [
+      1448,
+      1767,
+      1553,
+      1795
+    ],
+    "text": "EFFECTIVE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1449,
+          1769,
+          1553,
+          1794
+        ],
+        "text": "EFFECTIVE"
+      }
+    ]
+  },
+  {
+    "box": [
+      389,
+      1800,
+      506,
+      1824
+    ],
+    "text": "FUNCTION",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          397,
+          1801,
+          506,
+          1823
+        ],
+        "text": "FUNCTION"
+      }
+    ]
+  },
+  {
+    "box": [
+      620,
+      1794,
+      796,
+      1828
+    ],
+    "text": "CONTRACT TYPE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          620,
+          1797,
+          739,
+          1827
+        ],
+        "text": "CONTRACT"
+      },
+      {
+        "box": [
+          744,
+          1797,
+          795,
+          1828
+        ],
+        "text": "TYPE"
+      }
+    ]
+  },
+  {
+    "box": [
+      998,
+      1793,
+      1060,
+      1820
+    ],
+    "text": "TYPE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1001,
+          1792,
+          1058,
+          1819
+        ],
+        "text": "TYPE"
+      }
+    ]
+  },
+  {
+    "box": [
+      1164,
+      1793,
+      1236,
+      1818
+    ],
+    "text": "UNITS",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1168,
+          1794,
+          1236,
+          1818
+        ],
+        "text": "UNITS"
+      }
+    ]
+  },
+  {
+    "box": [
+      1307,
+      1792,
+      1370,
+      1817
+    ],
+    "text": "RATE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1307,
+          1791,
+          1366,
+          1816
+        ],
+        "text": "RATE"
+      }
+    ]
+  },
+  {
+    "box": [
+      1470,
+      1793,
+      1548,
+      1821
+    ],
+    "text": "MO/YR",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1471,
+          1794,
+          1541,
+          1819
+        ],
+        "text": "MO/YR"
+      }
+    ]
+  },
+  {
+    "box": [
+      194,
+      1839,
+      320,
+      1868
+    ],
+    "text": "FUNCTION:",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          197,
+          1841,
+          321,
+          1869
+        ],
+        "text": "FUNCTION:"
+      }
+    ]
+  },
+  {
+    "box": [
+      440,
+      1841,
+      477,
+      1877
+    ],
+    "text": "A",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          441,
+          1840,
+          472,
+          1877
+        ],
+        "text": "A"
+      }
+    ]
+  },
+  {
+    "box": [
+      517,
+      1834,
+      750,
+      1874
+    ],
+    "text": "NW CEN",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          518,
+          1836,
+          589,
+          1881
+        ],
+        "text": "NW"
+      },
+      {
+        "box": [
+          636,
+          1831,
+          737,
+          1874
+        ],
+        "text": "CEN"
+      }
+    ]
+  },
+  {
+    "box": [
+      199,
+      1891,
+      288,
+      1912
+    ],
+    "text": "A ADD",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          201,
+          1891,
+          216,
+          1914
+        ],
+        "text": "A"
+      },
+      {
+        "box": [
+          238,
+          1891,
+          286,
+          1911
+        ],
+        "text": "ADD"
+      }
+    ]
+  },
+  {
+    "box": [
+      201,
+      1921,
+      285,
+      1947
+    ],
+    "text": "E - END",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          202,
+          1922,
+          215,
+          1947
+        ],
+        "text": "E"
+      },
+      {
+        "box": [
+          219,
+          1922,
+          235,
+          1946
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          240,
+          1922,
+          285,
+          1947
+        ],
+        "text": "END"
+      }
+    ]
+  },
+  {
+    "box": [
+      201,
+      1956,
+      329,
+      1982
+    ],
+    "text": "D = DELETE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          202,
+          1959,
+          217,
+          1982
+        ],
+        "text": "D"
+      },
+      {
+        "box": [
+          221,
+          1958,
+          235,
+          1982
+        ],
+        "text": "="
+      },
+      {
+        "box": [
+          239,
+          1958,
+          328,
+          1983
+        ],
+        "text": "DELETE"
+      }
+    ]
+  },
+  {
+    "box": [
+      446,
+      1884,
+      475,
+      1968
+    ],
+    "text": "D",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          443,
+          1917,
+          477,
+          1892
+        ],
+        "text": "D"
+      }
+    ]
+  },
+  {
+    "box": [
+      518,
+      1888,
+      623,
+      1923
+    ],
+    "text": "PRP",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          522,
+          1887,
+          622,
+          1923
+        ],
+        "text": "PRP"
+      }
+    ]
+  },
+  {
+    "box": [
+      934,
+      1879,
+      1125,
+      1924
+    ],
+    "text": "BASE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          938,
+          1880,
+          1086,
+          1926
+        ],
+        "text": "BASE"
+      }
+    ]
+  },
+  {
+    "box": [
+      202,
+      1989,
+      336,
+      2015
+    ],
+    "text": "C = CHANGE",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          203,
+          1991,
+          217,
+          2015
+        ],
+        "text": "C"
+      },
+      {
+        "box": [
+          221,
+          1991,
+          236,
+          2015
+        ],
+        "text": "="
+      },
+      {
+        "box": [
+          240,
+          1991,
+          334,
+          2016
+        ],
+        "text": "CHANGE"
+      }
+    ]
+  },
+  {
+    "box": [
+      119,
+      2079,
+      384,
+      2101
+    ],
+    "text": "RJRT Form 3808 - WML 5/18/1998",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          124,
+          2081,
+          163,
+          2102
+        ],
+        "text": "RJRT"
+      },
+      {
+        "box": [
+          169,
+          2081,
+          205,
+          2102
+        ],
+        "text": "Form"
+      },
+      {
+        "box": [
+          211,
+          2080,
+          246,
+          2102
+        ],
+        "text": "3808"
+      },
+      {
+        "box": [
+          252,
+          2080,
+          255,
+          2102
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          260,
+          2080,
+          298,
+          2102
+        ],
+        "text": "WML"
+      },
+      {
+        "box": [
+          303,
+          2079,
+          378,
+          2102
+        ],
+        "text": "5/18/1998"
+      }
+    ]
+  },
+  {
+    "box": [
+      1610,
+      1891,
+      1644,
+      2090
+    ],
+    "text": "52204 4312",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1645,
+          1893,
+          1612,
+          1992
+        ],
+        "text": "52204"
+      },
+      {
+        "box": [
+          1642,
+          2013,
+          1612,
+          2090
+        ],
+        "text": "4312"
+      }
+    ]
+  },
+  {
+    "box": [
+      120,
+      2098,
+      262,
+      2119
+    ],
+    "text": "ITEM NO. 546593",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          125,
+          2099,
+          162,
+          2120
+        ],
+        "text": "ITEM"
+      },
+      {
+        "box": [
+          167,
+          2098,
+          195,
+          2120
+        ],
+        "text": "NO."
+      },
+      {
+        "box": [
+          200,
+          2098,
+          258,
+          2120
+        ],
+        "text": "546593"
+      }
+    ]
+  },
+  {
+    "box": [
+      462,
+      2115,
+      639,
+      2148
+    ],
+    "text": "WHITE - ROU",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          463,
+          2117,
+          551,
+          2149
+        ],
+        "text": "WHITE"
+      },
+      {
+        "box": [
+          556,
+          2119,
+          567,
+          2149
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          572,
+          2119,
+          632,
+          2148
+        ],
+        "text": "ROU"
+      }
+    ]
+  },
+  {
+    "box": [
+      779,
+      2114,
+      1006,
+      2147
+    ],
+    "text": "CANARY - EXTRA",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          780,
+          2116,
+          893,
+          2148
+        ],
+        "text": "CANARY"
+      },
+      {
+        "box": [
+          898,
+          2117,
+          910,
+          2148
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          915,
+          2116,
+          1007,
+          2147
+        ],
+        "text": "EXTRA"
+      }
+    ]
+  },
+  {
+    "box": [
+      1144,
+      2113,
+      1395,
+      2139
+    ],
+    "text": "PINK - CUSTOMER",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          1146,
+          2113,
+          1214,
+          2143
+        ],
+        "text": "PINK"
+      },
+      {
+        "box": [
+          1218,
+          2113,
+          1231,
+          2142
+        ],
+        "text": "-"
+      },
+      {
+        "box": [
+          1235,
+          2113,
+          1391,
+          2137
+        ],
+        "text": "CUSTOMER"
+      }
+    ]
+  },
+  {
+    "box": [
+      358,
+      2203,
+      1342,
+      2235
+    ],
+    "text": "Source: https://www.industrydocuments.ucsf.edu/docs/pmmw0023",
+    "label": null,
+    "words": [
+      {
+        "box": [
+          358,
+          2203,
+          472,
+          2236
+        ],
+        "text": "Source:"
+      },
+      {
+        "box": [
+          478,
+          2204,
+          1341,
+          2233
+        ],
+        "text": "https://www.industrydocuments.ucsf.edu/docs/pmmw0023"
+      }
+    ]
+  }
+]
