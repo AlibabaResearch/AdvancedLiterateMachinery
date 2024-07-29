@@ -4,8 +4,6 @@ The official PyTorch implementation of SceneVTG (ECCV 2024).
 
 The authors propose a visual text generator (termed SceneVTG), which can produce high-quality text images in the wild. Following a two-stage paradigm, SceneVTG leverages a Multimodal Large Language Model to recommend reasonable text regions and contents across multiple scales and levels, which are used by a conditional diffusion model as conditions to generate text images. To train SceneVTG, the authors also contribute a new dataset SceneVTG-Erase, which contains 110K scene text images and their text-erased backgrounds with detailed OCR annotations. Extensive experiments verified the fidelity, reasonability, and utility of our proposed SceneVTG, and the authors plan to publicly release both the SceneVTG model and the SceneVTG-Erase dataset to facilitate further research and application in advanced visual text generation tasks. <br>
 
-# ❗❗ Newest Version Can be Found Here ❗❗
-* [Link](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/master/AIGC/SceneVTG)
 
 ### Paper
 * [Arxiv](https://arxiv.org/abs/2407.14138)
