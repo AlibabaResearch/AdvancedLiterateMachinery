@@ -19,7 +19,7 @@ This is the repo for the LayoutLLM (CVPR 2024), which is an LLM/MLLM based metho
 
 
 ## Paper
-* [CVPR 2024]
+* [CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/papers/Luo_LayoutLLM_Layout_Instruction_Tuning_with_Large_Language_Models_for_Document_CVPR_2024_paper.pdf)
 * [Arxiv](https://arxiv.org/abs/2404.05225)
 
 ## Citation
