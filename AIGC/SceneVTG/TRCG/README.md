@@ -1,20 +1,53 @@
 # Visual Text Generation in the Wild
 
-The official PyTorch implementation of SceneVTG (ECCV 2024).
-
-The authors propose a visual text generator (termed SceneVTG), which can produce high-quality text images in the wild. Following a two-stage paradigm, SceneVTG leverages a Multimodal Large Language Model to recommend reasonable text regions and contents across multiple scales and levels, which are used by a conditional diffusion model as conditions to generate text images. To train SceneVTG, the authors also contribute a new dataset SceneVTG-Erase, which contains 110K scene text images and their text-erased backgrounds with detailed OCR annotations. Extensive experiments verified the fidelity, reasonability, and utility of our proposed SceneVTG, and the authors plan to publicly release both the SceneVTG model and the SceneVTG-Erase dataset to facilitate further research and application in advanced visual text generation tasks. <br>
-
-### Paper
+## Paper
 * [Arxiv](https://arxiv.org/abs/2407.14138)
+
+## Text Region and Content Generator (TRCG)
+
+### Install requirements
+```
+cd TRCG
+conda create -n trcg python=3.10 -y
+conda activate trcg
+pip install --upgrade pip  # enable PEP 660 support
+pip install -e .
+
+# if trainging
+pip install -e ".[train]"
+pip install flash-attn --no-build-isolation
+pip install xformers==0.0.22
+
+# if inference
+pip install shapely
+pip install opencv-python
+```
 
 ### Dataset
 Download dataset from [modelscope](https://www.modelscope.cn/datasets/Kpillow/SceneVTG-Erase).
 
-### Code
-[TRCG](./AIGC/SceneVTG/TRCG/) and [LVTR](./AIGC/SceneVTG/LVTR/) use different structures to optimize different objectives and are trained independently. 
+### Pretrain models
+1. Download pretrained [LLaVA-v1.5](https://huggingface.co/liuhaotian/llava-v1.5-7b)
+2. Download pretrained [CLIP](https://huggingface.co/openai/clip-vit-large-patch14-336)
+3. Download TRCG models from [modelscope](https://www.modelscope.cn/models/Kpillow/SceneVTG).
+ckpts/trcg/* (need to change model path in ```config.json``` and ```adapter_config.json```)
 
-### Prtrained models
-Download models from [modelscope](https://www.modelscope.cn/models/Kpillow/SceneVTG).
+### Training
+change the dataset path and pretrained LLaVA-v1.5 to yours in scripts/finetune_flash_attn.sh or scripts/finetune_xformers.sh
+```
+# with flash-attn
+sh scripts/finetune_flash_attn.sh
+# with xformers
+sh scripts/finetune_xformers.sh
+```
+
+### Inference
+```Shell
+CUDA_VISIBLE_DEVICES=0 python inference.py
+```
+
+## Acknowledge
+Thanks to [LLaVA](https://github.com/haotian-liu/LLaVA), our code is mainly based on it.
 
 ## Citation
 If you find this work useful, please cite:

@@ -1,20 +1,44 @@
 # Visual Text Generation in the Wild
 
-The official PyTorch implementation of SceneVTG (ECCV 2024).
-
-The authors propose a visual text generator (termed SceneVTG), which can produce high-quality text images in the wild. Following a two-stage paradigm, SceneVTG leverages a Multimodal Large Language Model to recommend reasonable text regions and contents across multiple scales and levels, which are used by a conditional diffusion model as conditions to generate text images. To train SceneVTG, the authors also contribute a new dataset SceneVTG-Erase, which contains 110K scene text images and their text-erased backgrounds with detailed OCR annotations. Extensive experiments verified the fidelity, reasonability, and utility of our proposed SceneVTG, and the authors plan to publicly release both the SceneVTG model and the SceneVTG-Erase dataset to facilitate further research and application in advanced visual text generation tasks. <br>
-
-### Paper
+## Paper
 * [Arxiv](https://arxiv.org/abs/2407.14138)
+
+## Local Visual Text Renderer (LVTR)
+
+### Install requirements
+```
+conda env create -f environment.yml
+conda activate lvtr
+```
 
 ### Dataset
 Download dataset from [modelscope](https://www.modelscope.cn/datasets/Kpillow/SceneVTG-Erase).
 
-### Code
-[TRCG](./AIGC/SceneVTG/TRCG/) and [LVTR](./AIGC/SceneVTG/LVTR/) use different structures to optimize different objectives and are trained independently. 
-
-### Prtrained models
+### Pretrain models
 Download models from [modelscope](https://www.modelscope.cn/models/Kpillow/SceneVTG).
+```
+ckpts/lvtr.pth  # pretrain model of LVTR
+ckpts/recognizer.pth  # pretrain model of recognizer
+```
+
+### Training
+1. Training recognizer.
+change the dataset path to yours in configs/cfgs_recognizer.py
+```
+sh train_recognizer.sh
+```
+
+2. Training LVTR.
+change the dataset path to yours in configs/cfgs_lvtr.py
+```
+sh train_lvtr.sh
+```
+
+### Local Image Generation (Inference)
+change "testmode" to "True" in configs/cfgs_lvtr.py
+```
+sh train_lvtr.sh
+```
 
 ## Citation
 If you find this work useful, please cite:
