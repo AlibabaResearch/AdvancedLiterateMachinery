@@ -47,11 +47,10 @@ class VIEDataModule(pl.LightningDataModule):
         start_time = time.time()
 
         dataset = VIEDataset(
-            self.cfg.dataset,
+            self.cfg.dataset_root_path,
             self.cfg.task,
             self.backbone_type,
             self.cfg.model.head,
-            self.cfg.dataset_root_path,
             self.tokenizer,
             self.cfg.train.max_seq_length,
             self.cfg.train.max_block_num,
@@ -74,11 +73,10 @@ class VIEDataModule(pl.LightningDataModule):
 
     def _get_val_test_loaders(self, mode):
         dataset = VIEDataset(
-            self.cfg.dataset,
+            self.cfg.dataset_root_path,
             self.cfg.task,
             self.backbone_type,
             self.cfg.model.head,
-            self.cfg.dataset_root_path,
             self.tokenizer,
             self.cfg.train.max_seq_length,
             self.cfg.train.max_block_num,
