@@ -13,5 +13,6 @@ simplejson
 sortedcontainers
 tf_slim
 tensorflow <= 2.12.0
+torch
 pyclipper
 matplotlib

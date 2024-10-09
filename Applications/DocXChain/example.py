@@ -262,9 +262,10 @@ def main():
 
     # dump
     name = args.output_path.lower()
-    if name.endswith('.png'):
+    if name.endswith('.png') or name.endswith('.jpg'):
         if output_image is not None:
             cv2.imwrite(args.output_path, output_image)
+
     elif name.endswith('.json'):
         if final_result is not None:
             with open(args.output_path, 'w') as json_file:
@@ -281,5 +282,8 @@ def main():
 
 if __name__ == "__main__":
     # execute only if run as a script
+    s = time.time()
     main()
+    e = time.time()
+    print(f'time cost: {e-s}')
 
