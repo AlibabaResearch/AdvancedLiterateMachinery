@@ -282,8 +282,5 @@ def main():
 
 if __name__ == "__main__":
     # execute only if run as a script
-    s = time.time()
     main()
-    e = time.time()
-    print(f'time cost: {e-s}')
 
