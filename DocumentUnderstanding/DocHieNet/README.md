@@ -2,14 +2,16 @@
 
 The official repository of DocHieNet. DocHieNet is a large and diverse manually annotated dataset for Document Hierarchy Parsing. The dataset is accompanied by a baseline model DHFormer, which effectively extends the text-layout models for multi-page documents.
 
-### Paper
+The dataset and model will be made publicly available in the near future.
+
+## Paper
 - [Arxiv](https://github.com/AlibabaResearch/AdvancedLiterateMachinery)
 
-### Dataset
-Download dataset from [modelscope](https://github.com/AlibabaResearch/AdvancedLiterateMachinery).
+<!-- ## Dataset
 
-### Model Weights
-Download models from [modelscope](https://github.com/AlibabaResearch/AdvancedLiterateMachinery).
+
+## Model  -->
+
 
 ## License
 
