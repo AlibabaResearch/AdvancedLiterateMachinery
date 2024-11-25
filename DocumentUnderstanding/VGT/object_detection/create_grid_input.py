@@ -212,4 +212,4 @@ if __name__ == "__main__":
     for page in range(len(word_grid)):
 
         grid = create_grid_dict(tokenizer, word_grid[page])
-        save_pkl_file(grid, args.output, f"page_{page}", page, args.model)
+        save_pkl_file(grid, args.output, f"page_{page}", args.model)
