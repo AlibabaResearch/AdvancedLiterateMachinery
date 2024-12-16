@@ -1,0 +1,6 @@
+beautifulsoup4==4.12.3
+h5py==3.12.1
+numpy==2.1.3
+tqdm==4.66.1
+transformers==4.38.2
+numpy==1.26.2
