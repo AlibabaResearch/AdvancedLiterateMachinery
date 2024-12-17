@@ -54,9 +54,11 @@ class TextRecognition(object):
             for i in range(detections.shape[0]):  # this part can be largely accelerated via parallelization (leave for future work)
                 pts = self.order_point(detections[i])
                 image_crop = self.crop_image(image, pts)
-                rec = self.text_recognizer(image_crop)
+                try:
+                    rec = self.text_recognizer(image_crop)
+                except:
+                    rec = {'text': ['']}
                 result.append(rec)
-
         return result
 
     def recognize_cropped_image(self, cropped_image):
