@@ -4,6 +4,8 @@ The official repository of DocHieNet. DocHieNet is a large and diverse manually 
 
 The dataset and model will be made publicly available in the near future.
 
+## Dataset
+- [ModelScope](https://modelscope.cn/datasets/iic/DocHieNet)
 ## Paper
 - [Arxiv](https://github.com/AlibabaResearch/AdvancedLiterateMachinery)
 
