@@ -5,7 +5,8 @@ This is the Repository for CC-OCR Benchmark.
 Dataset and evaluation code for the Paper "CC-OCR: A Comprehensive and Challenging OCR Benchmark for Evaluating Large Multimodal Models in Literacy".
 
 <p align="center">
-🚀 <a href="https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/Benchmarks/CC-OCR">GitHub</a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/Qwen/CC-OCR">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://www.modelscope.cn/datasets/Qwen/CC-OCR">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2412.02210">Paper</a> &nbsp&nbsp 
+🚀 <a href="https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/Benchmarks/CC-OCR">GitHub</a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/datasets/wulipc/CC-OCR">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://www.modelscope.cn/datasets/Qwen/CC-OCR">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2412.02210">Paper</a> &nbsp&nbsp | &nbsp&nbsp📗 <a href="https://zhibogogo.github.io/ccocr.github.io">Blog</a>
+
 </p>
 
 ## News

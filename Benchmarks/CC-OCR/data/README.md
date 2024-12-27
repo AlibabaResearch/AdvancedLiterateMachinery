@@ -1,7 +1,8 @@
 ## Dataset Download
 
 ```shell
-# download from our official URL: TBD
+# download from our official URL
+wget https://modelscope-open.oss-cn-hangzhou.aliyuncs.com/open_data/cc_ocr/cc_ocr_data.zip
 unzip cc_ocr_data.zip
 ```
 
