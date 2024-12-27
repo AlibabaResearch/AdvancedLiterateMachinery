@@ -13,7 +13,6 @@ Dataset and evaluation code for the Paper "CC-OCR: A Comprehensive and Challengi
 * 2024-12-26 🔥 We release CC-OCR, including both data and evaluation script!
 
 ## Benchmark Leaderboard
-***
 ![](assets/images/cc_ocr_overall_performance.jpg)
 
 | Model            | Multi-Scene Text Reading | Multilingual Text Reading | Document Parsing | Visual Information Extraction   | Total |
@@ -32,7 +31,6 @@ Dataset and evaluation code for the Paper "CC-OCR: A Comprehensive and Challengi
 * We conducted the all test around November 20th, 2024, please refer to our paper for more information.
 
 ## Benchmark Introduction
-***
 ![](assets/images/cc_ocr_cover.jpg)
 
 The CC-OCR benchmark is specifically designed for evaluating the OCR-centric capabilities of Large Multimodal Models. CC-OCR possesses a diverse range of scenarios, tasks, and challenges. CC-OCR comprises four OCR-centric tracks: multi-scene text reading, multilingual text reading, document parsing, and key information extraction. It includes 39 subsets with 7,058 full annotated images, of which 41% are sourced from real applications, being released for the first time.
@@ -47,13 +45,11 @@ For a detailed introduction to the CC-OCR dataset, see the documents ([zh](asset
 
 
 ## Dataset Download
-***
 We public the full data of CC-OCR, including images and annotation files. 
 You can obtain the full data with the following the [instructions](./data/README.md).
 
 
 ## Evaluation
-***
 We officially recommend [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) for evaluation.
 Please refer to document ([zh](assets/doc/VLMEvalKit_zh.md) & [en](assets/doc/VLMEvalKit_en.md)) for more information.
 
