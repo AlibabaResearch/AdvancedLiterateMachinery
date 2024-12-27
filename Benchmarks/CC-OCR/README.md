@@ -9,8 +9,8 @@ Dataset and evaluation code for the Paper "CC-OCR: A Comprehensive and Challengi
 </p>
 
 ## News
-* 2024-12-05 🚀 CC-OCR is in the PR stage of [VLMEvalKit](https://github.com/open-compass/VLMEvalKit). Please refer to the document ([zh](assets/doc/VLMEvalKit_zh.md) & [en](assets/doc/VLMEvalKit_en.md)) for usage.
-* 2024-11-29 🔥 We release CC-OCR, including both data and evaluation script!
+* 2024-12-27 🚀 CC-OCR is in the PR stage of [VLMEvalKit](https://github.com/open-compass/VLMEvalKit). Please refer to the document ([zh](assets/doc/VLMEvalKit_zh.md) & [en](assets/doc/VLMEvalKit_en.md)) for usage.
+* 2024-12-26 🔥 We release CC-OCR, including both data and evaluation script!
 
 ## Benchmark Leaderboard
 ***
@@ -42,7 +42,7 @@ The main features of our CC-OCR include:
 * We focus on four OCR-centric tasks, namely `Multi-Scene Text Reading`, `Multilingual Text Reading`, `Document Parsing`, `Visual Information Extraction`;
 * The CC-OCR covers fine-grained visual challenges (i.e., orientation-sensitivity, natural noise, and artistic text), decoding of various expressions, and structured inputs and outputs;
 
-For a detailed introduction to the CC-OCR dataset, see the documents ([zh](assets/doc/data_structure_zh.md) & [en](assets/doc/data_structure_en.md)) and our [paper](https://www.overleaf.com/project/672c330f0674c8217a0a96f0). 
+For a detailed introduction to the CC-OCR dataset, see the documents ([zh](assets/doc/data_structure_zh.md) & [en](assets/doc/data_structure_en.md)) and our [paper](https://arxiv.org/abs/2412.02210). 
 
 
 

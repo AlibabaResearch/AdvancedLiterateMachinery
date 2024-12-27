@@ -1,6 +1,7 @@
 ## Dataset Download
 
 ```shell
+# download from our official URL: TBD
 unzip cc_ocr_data.zip
 ```
 
