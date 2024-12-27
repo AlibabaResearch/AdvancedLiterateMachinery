@@ -1,0 +1,72 @@
+[
+    {
+        "dataset": "doc_photo_chn",
+        "base_dir": "data/doc_parsing/doc/doc_photo_chn",
+        "group": "doc_parsing",
+        "op": "doc",
+        "num": 75
+    },
+    {
+        "dataset": "doc_photo_eng",
+        "base_dir": "data/doc_parsing/doc/doc_photo_eng",
+        "group": "doc_parsing",
+        "op": "doc",
+        "num": 75
+    },
+    {
+        "dataset": "doc_scan_chn",
+        "base_dir": "data/doc_parsing/doc/doc_scan_chn",
+        "group": "doc_parsing",
+        "op": "doc",
+        "num": 75
+    },
+    {
+        "dataset": "doc_scan_eng",
+        "base_dir": "data/doc_parsing/doc/doc_scan_eng",
+        "group": "doc_parsing",
+        "op": "doc",
+        "num": 75
+    },
+    {
+        "dataset": "table_photo_chn",
+        "base_dir": "data/doc_parsing/table/table_photo_chn",
+        "group": "doc_parsing",
+        "op": "table",
+        "num": 75
+    },
+    {
+        "dataset": "table_photo_eng",
+        "base_dir": "data/doc_parsing/table/table_photo_eng",
+        "group": "doc_parsing",
+        "op": "table",
+        "num": 75
+    },
+    {
+        "dataset": "table_scan_chn",
+        "base_dir": "data/doc_parsing/table/table_scan_chn",
+        "group": "doc_parsing",
+        "op": "table",
+        "num": 75
+    },
+    {
+        "dataset": "table_scan_eng",
+        "base_dir": "data/doc_parsing/table/table_scan_eng",
+        "group": "doc_parsing",
+        "op": "table",
+        "num": 75
+    },
+    {
+        "dataset": "molecular_handwriting",
+        "base_dir": "data/doc_parsing/molecular/molecular_handwriting",
+        "group": "doc_parsing",
+        "op": "molecular",
+        "num": 100
+    },
+    {
+        "dataset": "formula_handwriting",
+        "base_dir": "data/doc_parsing/formula/formula_handwriting",
+        "group": "doc_parsing",
+        "op": "formula",
+        "num": 100
+    }
+]

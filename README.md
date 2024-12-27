@@ -13,6 +13,8 @@ This project is maintained by the **读光 OCR Team** (读光-Du Guang means “
 Visit our [读光-Du Guang Portal](https://duguang.aliyun.com/) and [DocMaster](https://www.modelscope.cn/studios/damo/DocMaster/summary) to experience online demos for OCR and Document Understanding.
 
 ## Recent Updates
+**2024.12 Release**
+  - [**CC-OCR**](./Benchmarks/CC-OCR/) (*CC-OCR: A Comprehensive and Challenging OCR Benchmark for Evaluating Large Multimodal Models in Literacy*. [paper](https://arxiv.org/abs/2412.02210)): The CC-OCR benchmark is specifically designed for evaluating the OCR-centric capabilities of Large Multimodal Models. CC-OCR possesses a diverse range of scenarios, tasks, and challenges, which comprises four OCR-centric tracks: multi-scene text reading, multilingual text reading, document parsing, and key information extraction. It includes 39 subsets with 7,058 full annotated images, of which 41% are sourced from real applications, being released for the first time.
 
 **2024.9 Release**
   - [**Platypus**](./OCR/Platypus/) (*Platypus: A Generalized Specialist Model for Reading Text in Various Forms,* ECCV 2024. [paper](https://arxiv.org/abs/2408.14805)): Platypus introduces a novel approach to text reading from images, addressing limitations of both specialist and generalist models. Platypus leverages **a single unified architecture** to effectively recognize text in **various forms**, maintaining high accuracy and efficiency. We also introduce a **new dataset [Worms](https://www.modelscope.cn/datasets/yuekun/Worms)** which combines and partially re-labels previous datasets to support the model's development and evaluation. 

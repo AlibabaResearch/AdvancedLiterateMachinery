@@ -1,0 +1,72 @@
+[
+    {
+        "dataset": "Arabic",
+        "base_dir": "data/multi_lan_ocr/Arabic/Arabic",
+        "group": "multi_lan_ocr",
+        "op": "Arabic",
+        "num": 150
+    },
+    {
+        "dataset": "French",
+        "base_dir": "data/multi_lan_ocr/French/French",
+        "group": "multi_lan_ocr",
+        "op": "French",
+        "num": 150
+    },
+    {
+        "dataset": "German",
+        "base_dir": "data/multi_lan_ocr/German/German",
+        "group": "multi_lan_ocr",
+        "op": "German",
+        "num": 150
+    },
+    {
+        "dataset": "Italian",
+        "base_dir": "data/multi_lan_ocr/Italian/Italian",
+        "group": "multi_lan_ocr",
+        "op": "Italian",
+        "num": 150
+    },
+    {
+        "dataset": "Japanese",
+        "base_dir": "data/multi_lan_ocr/Japanese/Japanese",
+        "group": "multi_lan_ocr",
+        "op": "Japanese",
+        "num": 150
+    },
+    {
+        "dataset": "Korean",
+        "base_dir": "data/multi_lan_ocr/Korean/Korean",
+        "group": "multi_lan_ocr",
+        "op": "Korean",
+        "num": 150
+    },
+    {
+        "dataset": "Portuguese",
+        "base_dir": "data/multi_lan_ocr/Portuguese/Portuguese",
+        "group": "multi_lan_ocr",
+        "op": "Portuguese",
+        "num": 150
+    },
+    {
+        "dataset": "Russian",
+        "base_dir": "data/multi_lan_ocr/Russian/Russian",
+        "group": "multi_lan_ocr",
+        "op": "Russian",
+        "num": 150
+    },
+    {
+        "dataset": "Spanish",
+        "base_dir": "data/multi_lan_ocr/Spanish/Spanish",
+        "group": "multi_lan_ocr",
+        "op": "Spanish",
+        "num": 150
+    },
+    {
+        "dataset": "Vietnamese",
+        "base_dir": "data/multi_lan_ocr/Vietnamese/Vietnamese",
+        "group": "multi_lan_ocr",
+        "op": "Vietnamese",
+        "num": 150
+    }
+]

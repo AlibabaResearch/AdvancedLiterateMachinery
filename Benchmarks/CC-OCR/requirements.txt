@@ -1,0 +1,12 @@
+apted
+filetype
+httpx
+lxml
+nltk
+retry
+rich
+tabulate
+tiktoken
+tqdm
+zss
+dashscope

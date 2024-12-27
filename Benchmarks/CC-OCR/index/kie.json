@@ -1,0 +1,44 @@
+[
+    {
+        "dataset": "sroie2019_word",
+        "base_dir": "data/kie/constrained_category/sroie2019_word",
+        "group": "kie",
+        "op": "constrained_category",
+        "num": 347
+    },
+    {
+        "dataset": "CORD",
+        "base_dir": "data/kie/constrained_category/CORD",
+        "group": "kie",
+        "op": "constrained_category",
+        "num": 100
+    },
+    {
+        "dataset": "EPHOIE_SCUT",
+        "base_dir": "data/kie/constrained_category/EPHOIE_SCUT",
+        "group": "kie",
+        "op": "constrained_category",
+        "num": 311
+    },
+    {
+        "dataset": "POIE",
+        "base_dir": "data/kie/constrained_category/POIE",
+        "group": "kie",
+        "op": "constrained_category",
+        "num": 250
+    },
+    {
+        "dataset": "COLD_SIBR",
+        "base_dir": "data/kie/open_category/COLD_SIBR",
+        "group": "kie",
+        "op": "open_category",
+        "num": 400
+    },
+    {
+        "dataset": "COLD_CELL",
+        "base_dir": "data/kie/open_category/COLD_CELL",
+        "group": "kie",
+        "op": "open_category",
+        "num": 600
+    }
+]

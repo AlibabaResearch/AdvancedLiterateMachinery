@@ -1,0 +1,93 @@
+[
+    {
+        "dataset": "TotalText",
+        "base_dir": "data/multi_scene_ocr/scene_text/TotalText",
+        "group": "multi_scene_ocr",
+        "op": "scene_text",
+        "num": 300
+    },
+    {
+        "dataset": "IC15",
+        "base_dir": "data/multi_scene_ocr/scene_text/IC15",
+        "group": "multi_scene_ocr",
+        "op": "scene_text",
+        "num": 500
+    },
+    {
+        "dataset": "InverseText",
+        "base_dir": "data/multi_scene_ocr/scene_text/InverseText",
+        "group": "multi_scene_ocr",
+        "op": "scene_text",
+        "num": 500
+    },
+    {
+        "dataset": "Hieragent",
+        "base_dir": "data/multi_scene_ocr/scene_text/Hieragent",
+        "group": "multi_scene_ocr",
+        "op": "scene_text",
+        "num": 100
+    },
+    {
+        "dataset": "zh_scene",
+        "base_dir": "data/multi_scene_ocr/scene_text/zh_scene",
+        "group": "multi_scene_ocr",
+        "op": "scene_text",
+        "num": 450
+    },
+    {
+        "dataset": "FUNSD",
+        "base_dir": "data/multi_scene_ocr/document_text/FUNSD",
+        "group": "multi_scene_ocr",
+        "op": "document_text",
+        "num": 50
+    },
+    {
+        "dataset": "CORD",
+        "base_dir": "data/multi_scene_ocr/document_text/CORD",
+        "group": "multi_scene_ocr",
+        "op": "document_text",
+        "num": 100
+    },
+    {
+        "dataset": "IAM",
+        "base_dir": "data/multi_scene_ocr/document_text/IAM",
+        "group": "multi_scene_ocr",
+        "op": "document_text",
+        "num": 50
+    },
+    {
+        "dataset": "zh_doc",
+        "base_dir": "data/multi_scene_ocr/document_text/zh_doc",
+        "group": "multi_scene_ocr",
+        "op": "document_text",
+        "num": 100
+    },
+    {
+        "dataset": "zh_handwriting",
+        "base_dir": "data/multi_scene_ocr/document_text/zh_handwriting",
+        "group": "multi_scene_ocr",
+        "op": "document_text",
+        "num": 50
+    },
+    {
+        "dataset": "ugc_laion",
+        "base_dir": "data/multi_scene_ocr/ugc_text/ugc_laion",
+        "group": "multi_scene_ocr",
+        "op": "ugc_text",
+        "num": 400
+    },
+    {
+        "dataset": "zh_vertical",
+        "base_dir": "data/multi_scene_ocr/ugc_text/zh_vertical",
+        "group": "multi_scene_ocr",
+        "op": "ugc_text",
+        "num": 100
+    },
+    {
+        "dataset": "zh_dense",
+        "base_dir": "data/multi_scene_ocr/ugc_text/zh_dense",
+        "group": "multi_scene_ocr",
+        "op": "ugc_text",
+        "num": 50
+    }
+]
