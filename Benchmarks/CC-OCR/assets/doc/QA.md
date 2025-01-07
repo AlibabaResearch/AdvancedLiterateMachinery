@@ -15,6 +15,8 @@ A1: 二者的重点不一样，本仓库包含了图像原始数据和评测代�
 modelscope 或 huggingface 存储的是 VLMEvalKit 所需的 `TSV` 格式, 二者的数据完全相同，
 主要面向不同的地区的用户，我们将 URL 记录在了 VLMEvalKit 仓库中，用户使用时可以自行选择合适的配置；
 
+**Q2: Vlmevalkit还支持CC-OCR吗，好像已经没有CC-OCR的分支了？**
+
 
 
 
