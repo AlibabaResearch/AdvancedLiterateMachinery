@@ -4,9 +4,10 @@ from tqdm import tqdm
 from collections import deque
 from apted.helpers import Tree
 from apted import APTED, Config
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
 # local import
-from .common import BaseMetric
+from .common import BaseMetric, convert_to_halfwidth
 
 
 # 移除指定的LaTeX命令
@@ -19,6 +20,32 @@ patterns = [
     r'\\end\{document\}',
     r'\\noindent'
 ]
+
+
+def extract_and_clean_tables(text):
+    if '</table>' not in text:
+        text += '</table>'
+
+    # Use regular expressions to find all table parts
+    tables = re.findall(r'<table.*?>.*?</table>', text, re.DOTALL)
+
+    clean_tables = []
+    for table in tables:
+        # Remove extra information from the table header, keeping only <table>...</table>.
+        table_content = re.sub(r'<table.*?>', '<table>', table)
+
+        # Remove line breaks and excessive spaces between tags without affecting the information inside the tags, such as attributes.
+        table_content = re.sub(r'>\s+<', '><', table_content)
+
+        # Eliminate line breaks and redundant spaces within tags (i.e., between '>' and '<').
+        table_content = re.sub(r'>(.*?)<', lambda m: '>' + m.group(1).replace('\n', '').replace(' ', '') + '<', table_content, flags=re.DOTALL)
+
+        # Flatten the table content by removing all line breaks.
+        table_content = table_content.replace('\n', '').strip()
+        clean_tables.append(table_content)
+
+    flat_table = ''.join(clean_tables)
+    return flat_table
 
 
 class TableTree(Tree):
@@ -175,80 +202,79 @@ class ParsingEvaluator(BaseMetric):
         eval_info = {"summary": {"score": score}}
         return eval_info
 
-    def eval_doc(self, response_info, gt_info):
+    def parallel_process(self, response_info, gt_info, eval_func, op_name='formula'):
         results = []
-        for img_name, gt in tqdm(gt_info.items()):
-            if img_name not in response_info:
-                results.append(0)
-                continue
+        with ProcessPoolExecutor() as executor:
+            futures = []
+            for img_name, gt in gt_info.items():
+                if img_name not in response_info:
+                    results.append(0)
+                    continue
 
-            pred = response_info[img_name]
-            for pattern in patterns:
-                pred = re.sub(pattern, '', pred)
+                pred = response_info[img_name]
+                futures.append(executor.submit(eval_func, gt, pred, op_name=op_name))
 
-            try:
-                pred = pred.split('```')[1]
-            except:
-                pass
+            for future in tqdm(as_completed(futures), total=len(futures), desc="Evaluating"):
+                results.append(future.result())
 
-            pred = pred.replace('```latex', '')
-            pred = pred.replace('```', '')
-
-            pred = pred.replace(' ', '').replace('\n', '')
-            gt = gt.replace(' ', '').replace('\n', '')
-
-            edit_dist = nltk.edit_distance(pred, gt) / max(len(pred), len(gt))
-            results.append(1 - edit_dist)
-
-        score = sum(results) / len(results)
+        score = sum(results) / len(results) if results else 0
         return score
+
+    def evaluate_single_doc_sample(self, gt, pred, op_name=''):
+        for pattern in patterns:
+            pred = re.sub(pattern, '', pred)
+
+        try:
+            pattern = r'```latex(.+?)```'
+            pred = re.search(pattern, pred, re.DOTALL).group(1)
+        except:
+            if '```latex' in pred:
+                pred = pred.split('```latex')[1]
+
+        pred = pred.replace(' ', '').replace('\n', '')
+        gt = gt.replace(' ', '').replace('\n', '')
+
+        edit_dist = nltk.edit_distance(pred, gt) / max(len(pred), len(gt))
+        return 1 - edit_dist
+
+    def eval_doc(self, response_info, gt_info):
+        score = self.parallel_process(response_info, gt_info, self.evaluate_single_doc_sample)
+        return score
+
+    def evaluate_single_table_sample(self, gt, pred, op_name=''):
+        teds = TEDS(structure_only=False, n_jobs=1)
+        try:
+            pattern = r'```html(.+?)```'
+            pred = re.search(pattern, pred, re.DOTALL).group(1)
+        except:
+            if '```html' in pred:
+                pred = pred.split('```html')[1]
+
+        pred = extract_and_clean_tables(pred)
+        pred = convert_to_halfwidth(pred)
+        gt = extract_and_clean_tables(gt)
+        gt = convert_to_halfwidth(gt)
+
+        pred_html = '<html><body>{}</body></html>'.format(pred)
+        gt_html = '<html><body>{}</body></html>'.format(gt)
+        return teds.evaluate(pred_html, gt_html)
 
     def eval_table(self, response_info, gt_info):
-        teds = TEDS(structure_only=False, n_jobs=1)
-        results = []
-        for img_name, gt in tqdm(gt_info.items()):
-            if img_name not in response_info:
-                results.append(0)
-                continue
-
-            pred = response_info[img_name]
-            for pattern in patterns:
-                pred = re.sub(pattern, '', pred)
-
-            try:
-                pred = pred.split('```html')[1]
-            except:
-                pass
-
-            pred = pred.replace('```', '')
-            pred = pred.replace(' ', '').replace('\n', '').replace('，', ',')
-            gt = gt.replace(' ', '').replace('\n', '')
-
-            pred_html = '<html><body>{}</body></html>'.format(pred)
-            gt_html = '<html><body>{}</body></html>'.format(gt)
-            results.append(teds.evaluate(pred_html, gt_html))
-
-        score = sum(results) / len(results)
+        score = self.parallel_process(response_info, gt_info, self.evaluate_single_table_sample)
         return score
 
+    def evaluate_single_formula_sample(self, gt, pred, op_name='formula'):
+        if op_name == 'formula':
+            pred = pred.replace("\n", " ").replace("```latex", "").replace("```", "").replace("\t", " ").replace(" ", "")
+            gt = gt.replace(" ", "")
+        elif op_name == 'molecular':
+            pred = pred.replace("\n", "").replace(" ", "").replace("<smiles>", "").replace("</smiles>", "")
+            gt = gt.replace(" ", "")
+        edit_dist = nltk.edit_distance(pred, gt) / max(len(pred), len(gt))
+        return 1 - edit_dist
+
     def eval_formula(self, response_info, gt_info, op_name='formula'):
-        results = []
-        for img_name, gt in tqdm(gt_info.items()):
-            if img_name not in response_info:
-                results.append(0)
-                continue
-
-            pred = response_info[img_name]
-
-            if op_name == 'formula':
-                pred = pred.replace("\n", " ").replace("```latex", "").replace("```", "").replace("\t", " ").replace(" ", "")
-                gt = gt.replace(" ", "")
-            elif op_name == 'molecular':
-                pred = pred.replace("\n", "").replace(" ", "").replace("<smiles>", "").replace("</smiles>", "")
-                gt = gt.replace(" ", "")
-            edit_dist = nltk.edit_distance(pred, gt) / max(len(pred), len(gt))
-            results.append(1 - edit_dist)
-        score = sum(results) / len(results)
+        score = self.parallel_process(response_info, gt_info, self.evaluate_single_formula_sample, op_name=op_name)
         return score
 
 

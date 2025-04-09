@@ -10,6 +10,7 @@ Dataset and evaluation code for the Paper "CC-OCR: A Comprehensive and Challengi
 </p>
 
 ## News
+* 2025-04-09 🌟 The table extraction code in doc_parsing [evaluation](evaluation/evaluator/doc_parsing_evaluator.py) has been updated to handle more scenarios.
 * 2024-12-27 🚀 CC-OCR is in the PR stage of [VLMEvalKit](https://github.com/open-compass/VLMEvalKit). Please refer to the document ([zh](assets/doc/VLMEvalKit_zh.md) & [en](assets/doc/VLMEvalKit_en.md)) for usage.
 * 2024-12-26 🔥 We release CC-OCR, including both data and evaluation script!
 

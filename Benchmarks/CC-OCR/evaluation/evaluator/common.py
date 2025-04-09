@@ -68,7 +68,6 @@ def load_response_from_dir(res_dir):
 
 class BaseMetric(object):
     """ BaseMetric """
-    """ OCRMetric """
     def __init__(self, group_name, **kwargs):
         self.group_name = group_name
         self.kwargs = kwargs
@@ -207,6 +206,17 @@ def summary_multi_exp(exp_dir_base, dataset_list=None, is_weighted_sum=False):
     with open(summary_path, "w") as f:
         f.write("\n\n".join(all_table_md))
     return summary_path
+
+
+def convert_to_halfwidth(text):
+    # 定义全角字符到半角字符的映射
+    halfwidth_chars = str.maketrans(
+        '！＂＃＄％＆＇（）＊＋，－．／０１２３４５６７８９：；＜＝＞？＠ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ［＼］＾＿｀ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ｛｜｝～',
+        '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'
+    )
+
+    # 使用str.translate方法进行转换
+    return text.translate(halfwidth_chars)
 
 
 if __name__ == '__main__':
