@@ -52,15 +52,19 @@ class TextDetection(object):
         # perform text detection
         if self.text_detector is not None:
             # run the text detector
-            det_result = self.text_detector(image)
-            det_result = det_result['polygons']
-        
-            # sort detection result with coord
-            det_result_list = det_result.tolist()
-            det_result_list = sorted(det_result_list, key=lambda x: 0.01*sum(x[::2])/4+sum(x[1::2])/4)     
-        
-            result = np.array(det_result_list)
+            try:
+                det_result = self.text_detector(image)
+                det_result = det_result['polygons']
+                
+                # sort detection result with coord
+                det_result_list = det_result.tolist()
+                det_result_list = sorted(det_result_list, key=lambda x: 0.01*sum(x[::2])/4+sum(x[1::2])/4)
 
+            except:
+                # tiny polygons to pass into recognition
+                det_result_list = [(1, 1, 3, 1, 3, 3, 1, 3), (10, 10, 30, 10, 30, 30, 10, 30)]
+
+            result = np.array(det_result_list)
         return result
 
     def release(self):
