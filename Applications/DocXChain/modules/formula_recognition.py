@@ -6,7 +6,7 @@
 import sys
 import numpy as np
 
-from rapid_latex_ocr import LatexOCR
+from rapid_latex_ocr import LaTeXOCR
 
 class FormulaRecognition(object):
     """
@@ -31,7 +31,7 @@ class FormulaRecognition(object):
             encoder_path = configs['encoder_path']
             decoder_path = configs['decoder_path']
             tokenizer_json = configs['tokenizer_json']
-            self.formula_recognizer = LatexOCR(image_resizer_path = image_resizer_path, encoder_path = encoder_path, decoder_path = decoder_path, tokenizer_json = tokenizer_json)
+            self.formula_recognizer = LaTeXOCR(image_resizer_path = image_resizer_path, encoder_path = encoder_path, decoder_path = decoder_path, tokenizer_json = tokenizer_json)
 
     def __call__(self, image):
         """
