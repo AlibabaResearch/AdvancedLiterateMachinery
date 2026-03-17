@@ -49,3 +49,8 @@ Visit our [读光-Du Guang Portal](https://duguang.aliyun.com/) and [DocMaster](
 **2022.9 Release**
   - [**MGP-STR**](./OCR/MGP-STR/) (*Multi-Granularity Prediction for Scene Text Recognition,* ECCV 2022. [paper](https://arxiv.org/abs/2209.03592)): Based on [ViT](https://arxiv.org/abs/2010.11929) and a tailored Adaptive Addressing and Aggregation module, we explore an implicit way for incorporating linguistic knowledge by introducing subword representations to facilitate **multi-granularity** prediction and fusion in scene text recognition.
   - [**LevOCR**](./OCR/LevOCR/) (*Levenshtein OCR,* ECCV 2022. [paper](https://arxiv.org/abs/2209.03594)): Inspired by [Levenshtein Transformer](https://arxiv.org/abs/1905.11006), we cast the problem of scene text recognition as an iterative sequence refinement process, which allows for **parallel decoding, dynamic length change and good interpretability**.
+
+## Awards
+
+Announcement of the Scientific and Technological Progress Award
+![Logo](./resources/关于参与申报2026年度湖北省科学技术奖项目公示情况的说明.jpg)
