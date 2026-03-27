@@ -13,11 +13,10 @@ from utils import get_class_names
 class VIEDataset(Dataset):
     def __init__(
         self,
-        dataset,
+        dataset_root_path,
         task,
         backbone_type,
         model_head,
-        dataset_root_path,
         tokenizer,
         max_seq_length=512,
         max_block_num=256,
@@ -25,12 +24,11 @@ class VIEDataset(Dataset):
         img_w=768,
         mode=None,
     ):
-        self.dataset = dataset
+        self.dataset_root_path = dataset_root_path
         self.task = task
         self.backbone_type = backbone_type
         self.model_head = model_head
 
-        self.dataset_root_path = dataset_root_path
         self.tokenizer = tokenizer
         self.max_seq_length = max_seq_length
         self.max_block_num = max_block_num
