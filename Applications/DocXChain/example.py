@@ -94,10 +94,10 @@ def formula_recognition_example(image):
 
     formula_recognition_configs = dict()
     formula_recognition_configs['from_modelscope_flag'] = False
-    formula_recognition_configs['image_resizer_path'] = '/home/LaTeX-OCR_image_resizer.onnx'
-    formula_recognition_configs['encoder_path'] = '/home/LaTeX-OCR_encoder.onnx'
-    formula_recognition_configs['decoder_path'] = '/home/LaTeX-OCR_decoder.onnx'
-    formula_recognition_configs['tokenizer_json'] = '/home/LaTeX-OCR_tokenizer.json'
+    formula_recognition_configs['image_resizer_path'] = 'home/LaTeX-OCR_image_resizer.onnx'
+    formula_recognition_configs['encoder_path'] = 'home/LaTeX-OCR_encoder.onnx'
+    formula_recognition_configs['decoder_path'] = 'home/LaTeX-OCR_decoder.onnx'
+    formula_recognition_configs['tokenizer_json'] = 'home/LaTeX-OCR_tokenizer.json'
     configs['formula_recognition_configs'] = formula_recognition_configs
 
     # initialize
@@ -123,7 +123,7 @@ def document_structurization_example(image):
     
     layout_analysis_configs = dict()
     layout_analysis_configs['from_modelscope_flag'] = False
-    layout_analysis_configs['model_path'] = '/home/DocXLayout_231012.pth'  # note that: currently the layout analysis model is NOT from modelscope
+    layout_analysis_configs['model_path'] = 'home/DocXLayout_231012.pth'  # note that: currently the layout analysis model is NOT from modelscope
     configs['layout_analysis_configs'] = layout_analysis_configs
     
     text_detection_configs = dict()
@@ -138,10 +138,10 @@ def document_structurization_example(image):
 
     formula_recognition_configs = dict()
     formula_recognition_configs['from_modelscope_flag'] = False
-    formula_recognition_configs['image_resizer_path'] = '/home/LaTeX-OCR_image_resizer.onnx'
-    formula_recognition_configs['encoder_path'] = '/home/LaTeX-OCR_encoder.onnx'
-    formula_recognition_configs['decoder_path'] = '/home/LaTeX-OCR_decoder.onnx'
-    formula_recognition_configs['tokenizer_json'] = '/home/LaTeX-OCR_tokenizer.json'
+    formula_recognition_configs['image_resizer_path'] = 'home/LaTeX-OCR_image_resizer.onnx'
+    formula_recognition_configs['encoder_path'] = 'home/LaTeX-OCR_encoder.onnx'
+    formula_recognition_configs['decoder_path'] = 'home/LaTeX-OCR_decoder.onnx'
+    formula_recognition_configs['tokenizer_json'] = 'home/LaTeX-OCR_tokenizer.json'
     configs['formula_recognition_configs'] = formula_recognition_configs
 
     # initialize
@@ -168,7 +168,7 @@ def whole_pdf_conversion_example(image_list):
     
     layout_analysis_configs = dict()
     layout_analysis_configs['from_modelscope_flag'] = False
-    layout_analysis_configs['model_path'] = '/home/DocXLayout_231012.pth'  # note that: currently the layout analysis model is NOT from modelscope
+    layout_analysis_configs['model_path'] = 'home/DocXLayout_231012.pth'  # note that: currently the layout analysis model is NOT from modelscope
     configs['layout_analysis_configs'] = layout_analysis_configs
     
     text_detection_configs = dict()
@@ -183,10 +183,10 @@ def whole_pdf_conversion_example(image_list):
 
     formula_recognition_configs = dict()
     formula_recognition_configs['from_modelscope_flag'] = False
-    formula_recognition_configs['image_resizer_path'] = '/home/LaTeX-OCR_image_resizer.onnx'
-    formula_recognition_configs['encoder_path'] = '/home/LaTeX-OCR_encoder.onnx'
-    formula_recognition_configs['decoder_path'] = '/home/LaTeX-OCR_decoder.onnx'
-    formula_recognition_configs['tokenizer_json'] = '/home/LaTeX-OCR_tokenizer.json'
+    formula_recognition_configs['image_resizer_path'] = 'home/LaTeX-OCR_image_resizer.onnx'
+    formula_recognition_configs['encoder_path'] = 'home/LaTeX-OCR_encoder.onnx'
+    formula_recognition_configs['decoder_path'] = 'home/LaTeX-OCR_decoder.onnx'
+    formula_recognition_configs['tokenizer_json'] = 'home/LaTeX-OCR_tokenizer.json'
     configs['formula_recognition_configs'] = formula_recognition_configs
 
     # initialize
@@ -262,9 +262,10 @@ def main():
 
     # dump
     name = args.output_path.lower()
-    if name.endswith('.png'):
+    if name.endswith('.png') or name.endswith('.jpg'):
         if output_image is not None:
             cv2.imwrite(args.output_path, output_image)
+
     elif name.endswith('.json'):
         if final_result is not None:
             with open(args.output_path, 'w') as json_file:
