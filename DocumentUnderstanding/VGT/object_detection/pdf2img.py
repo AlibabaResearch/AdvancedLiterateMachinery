@@ -34,6 +34,6 @@ if __name__ == "__main__":
     for i, image in enumerate(images):
         image.save(
             os.path.join(
-                args.output, f"page_{i}.png"))
+                args.output, f"page_{i}.{args.format}"))
 
     logging.info(f"PDF converted to images and saved at {args.output}")
